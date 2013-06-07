@@ -6,7 +6,7 @@ Sets the registry view affected by registry commands. On Windows x64 there are t
 
 Affects [`DeleteRegKey`][1], [`DeleteRegValue`][2], [`EnumRegKey`][3], [`EnumRegValue`][4], [`ReadRegDWORD`][5], [`ReadRegStr`][6], [`WriteRegBin`][7], [`WriteRegDWORD`][8], [`WriteRegStr`][9] and [`WriteRegExpandStr`][10].
 
-Does not affect [`InstallDirRegKey`][11]. Instead, the registry can be read using [`ReadRegStr`][6] in `.onInit`.
+Does not affect [`InstallDirRegKey`][11]. Instead, the registry can be read using [`ReadRegStr`][6] in [`.onInit`][12].
 
 ## Parameters:
 
@@ -44,3 +44,4 @@ Added in NSIS v2.26
 [9]: WriteRegStr.md
 [10]: WriteRegExpandStr.md
 [11]: InstallDirRegKey.md
+[12]: ../Functions/.onInit.md

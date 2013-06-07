@@ -15,5 +15,5 @@ Added in NSIS v1.70
 
 ---
 
-[1]: http://nsis.sourceforge.net/Reference/.onRebootFailed
+[1]: ../Functions/.onRebootFailed.md
 [2]: Quit.md

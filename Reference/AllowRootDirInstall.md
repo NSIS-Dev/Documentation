@@ -14,4 +14,4 @@ Added in NSIS v1.80
 
 ---
 
-[1]: http://nsis.sourceforge.net/Reference/.onVerifyInstDir
+[1]: ../Functions/.onVerifyInstDir.md
