@@ -22,4 +22,4 @@ Language strings and variables cannot be used with `InstallDirRegKey`.
 ---
 
 [1]: InstallDir.md
-[2]: ../Functions/.onInit.md
+[2]: ../Functions/onInit.md
