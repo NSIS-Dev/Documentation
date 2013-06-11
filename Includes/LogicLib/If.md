@@ -8,7 +8,7 @@ Conditionally executes a block of statements, depending on the value of an expre
 
 	${If} expression
 
-	The following "expressions" are available:
+The following "expressions" are available:
 
 	Standard (built-in) string tests (which are case-insensitive):
 	 	a == b; a != b
