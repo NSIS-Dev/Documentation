@@ -16,4 +16,4 @@ Added in NSIS v2.0 Alpha 2
 
 [1]: AddBrandingImage.md
 [2]: File.md
-[3]: ../Functions/onInit.md
+[3]: ../Functions/.onInit.md

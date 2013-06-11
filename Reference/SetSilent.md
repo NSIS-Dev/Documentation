@@ -15,4 +15,4 @@ Added in NSIS v2.0 Beta 4
 ---
 
 [1]: SilentInstall.md
-[2]: ../Functions/onInit.md
+[2]: ../Functions/.onInit.md

@@ -44,4 +44,4 @@ Added in NSIS v2.26
 [9]: WriteRegStr.md
 [10]: WriteRegExpandStr.md
 [11]: InstallDirRegKey.md
-[12]: ../Functions/onInit.md
+[12]: ../Functions/.onInit.md

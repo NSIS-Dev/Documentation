@@ -26,5 +26,5 @@ If you have ampersands in the name and use a [`LangString`][2] for the name, you
 
 ---
 
-[1]: ../Functions/onInit.md
+[1]: ../Functions/.onInit.md
 [2]: LangString.md

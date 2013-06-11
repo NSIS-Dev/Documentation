@@ -16,5 +16,5 @@ Added in NSIS v2.0 Beta 0
 
 ---
 
-[1]: ../Functions/onInit.md
+[1]: ../Functions/.onInit.md
 [2]: File.md

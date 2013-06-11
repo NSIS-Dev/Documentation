@@ -26,4 +26,4 @@ Added in NSIS v1.2f
 
 [1]: PageEx.md
 [2]: Name.md
-[3]: ../Functions/onInit.md
+[3]: ../Functions/.onInit.md

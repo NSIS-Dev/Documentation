@@ -15,4 +15,4 @@ Added in NSIS v1.60
 
 ---
 
-[1]: ../Functions/onInit.md
+[1]: ../Functions/.onInit.md
