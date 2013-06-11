@@ -97,7 +97,7 @@ Trim string path for banner.
 
 ## Credits:
 
-Written by [Instructor](1)
+Written by [Instructor][1]
 
 ---
 

@@ -17,7 +17,7 @@ Get last part from directory path.
 
 ## Credits:
 
-Written by [Instructor](1)
+Written by [Instructor][1]
 
 ---
 

@@ -17,7 +17,7 @@ After changing file associations, you can call this function to refresh the shel
 
 ## Credits:
 
-Written by [Instructor](1)
+Written by [Instructor][1]
 
 ---
 

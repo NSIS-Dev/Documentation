@@ -17,7 +17,7 @@ Get installer pathname ($EXEDIR with valid case for Windows 98/Me).
 
 ## Credits:
 
-Written by [Instructor](1)
+Written by [Instructor][1]
 
 ---
 

@@ -17,7 +17,7 @@ Get extension of file.
 
 ## Credits:
 
-Written by [Instructor](1)
+Written by [Instructor][1]
 
 ---
 

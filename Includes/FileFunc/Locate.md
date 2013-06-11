@@ -53,7 +53,7 @@ Note:
 
 - Error flag if disk or directory isn't exist 
 - Error flag if syntax error 
-- See also [Locate plugin](1)
+- See also [Locate plugin][1]
 
 ## Examples:
 
@@ -264,7 +264,7 @@ Note:
 
 ## Credits:
 
-Written by [Instructor](2)
+Written by [Instructor][2]
 
 ---
 

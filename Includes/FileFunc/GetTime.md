@@ -32,7 +32,7 @@ Note:
 
 - Error flag if file isn't exist 
 - Error flag if syntax error 
-- See also [Time plugin](1)
+- See also [Time plugin][1]
 
 ## Examples:
 
@@ -103,7 +103,7 @@ Note:
 
 ## Credits:
 
-Written by [Instructor](2)
+Written by [Instructor][2]
 
 ---
 

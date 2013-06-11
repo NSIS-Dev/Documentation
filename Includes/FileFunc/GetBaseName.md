@@ -17,7 +17,7 @@ Get file name without extension.
 
 ## Credits:
 
-Written by [Instructor](1)
+Written by [Instructor][1]
 
 ---
 

@@ -77,7 +77,7 @@ Find all available drives in the system.
 
 ## Credits:
 
-Written by [Instructor](1)
+Written by [Instructor][1]
 
 ---
 

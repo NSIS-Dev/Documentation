@@ -23,7 +23,7 @@ Check directory full, empty or not exist.
 
 ## Credits:
 
-Written by [Instructor](1)
+Written by [Instructor][1]
 
 ---
 

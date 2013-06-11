@@ -17,7 +17,7 @@ Get parent directory.
 
 ## Credits:
 
-Written by [Instructor](1)
+Written by [Instructor][1]
 
 ---
 

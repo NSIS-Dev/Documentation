@@ -17,7 +17,7 @@ Get command line parameters.
 
 ## Credits:
 
-Written by [Instructor](1)
+Written by [Instructor][1]
 
 ---
 
