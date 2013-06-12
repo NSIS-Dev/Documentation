@@ -2,7 +2,7 @@
 
 ---
 
-Conditionally executes a block of statements, depending on the value of an expression. Requires opening condition [`${If}`][1] or [`${IfNot}`][2]
+Conditionally executes a block of statements, depending on the value of an expression. Requires opening condition [`${If}`][1] or [`${IfNot}`][2].
 
 ## Syntax:
 

@@ -1,12 +1,12 @@
-# ElseUnless
+# LoopUntil
 
 ---
 
-Conditionally executes a block of statements, depending on the value of an expression. [`${ElseIfNot}`][1] and `${ElseUnless}` are equivalent and interchangeable, as are [`${IfNot}`][2] and [`${Unless}`][3]. Requires opening condition [`${If}`][4] or [`${IfNot}`][5].
+Loops a block of statements started by [`${Do}`][1], depending on the value of an expression.
 
 ## Syntax:
 
-	${ElseUnless} expression
+	${LoopUntil} expression
 
 The following "expressions" are available:
 
@@ -36,13 +36,11 @@ The following "expressions" are available:
 
 ## Example:
 
-	StrCpy $0 true
+	StrCpy $0 10
 
-	${Unless} $0 == true
-		MessageBox MB_OK "$$0 is true"
-	${ElseUnless} $0 == false
-		MessageBox MB_OK "$$0 isn't false"
-	${EndUnless}
+	${Do}
+		IntOp $0 $0 - 1
+	${LoopUntil} $0 == 0
 
 ## Credits:
 
@@ -50,8 +48,4 @@ Written by dselkirk and eccles
 
 ---
 
-[1]: ElseIfNot.md
-[2]: IfNot.md
-[3]: Unless.md
-[4]: If.md
-[5]: IfNot.md
+[1]: Do.md

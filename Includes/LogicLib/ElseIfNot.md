@@ -2,7 +2,7 @@
 
 ---
 
-Conditionally executes a block of statements, depending on the value of an expression. `${ElseIfNot}` and [`${ElseUnless}`][1] are equivalent and interchangeable, as are [`${IfNot}`][2] and [`${Unless}`][3]. Requires opening condition [`${If}`][4] or [`${IfNot}`][5]
+Conditionally executes a block of statements, depending on the value of an expression. `${ElseIfNot}` and [`${ElseUnless}`][1] are equivalent and interchangeable, as are [`${IfNot}`][2] and [`${Unless}`][3]. Requires opening condition [`${If}`][4] or [`${IfNot}`][5].
 
 ## Syntax:
 
