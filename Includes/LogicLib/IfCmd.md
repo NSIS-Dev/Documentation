@@ -1,12 +1,12 @@
-# ElseIfNot
+# IfCmd
 
 ---
 
-Conditionally executes a block of statements, depending on the value of an expression. `${ElseIfNot}` and [`${ElseUnless}`][1] are equivalent and interchangeable, as are [`${IfNot}`][2] and [`${Unless}`][3]. Requires opening condition [`${If}`][4] or [`${IfNot}`][5]
+Conditionally executes an inline statement, depending on a true value of the provided NSIS function.
 
 ## Syntax:
 
-	${ElseIfNot} expression
+	${IfCmd} expression statement
 
 The following "expressions" are available:
 
@@ -34,30 +34,19 @@ The following "expressions" are available:
 		${SectionIsReadOnly} a; ${SectionIsExpanded} a;
 		${SectionIsPartiallySelected} a
 
-## Examples:
+## Example:
 
-### Check if condition is met
+	StrCpy $R2 ""
 
-	StrCpy $0 true
+	${IfCmd} MessageBox MB_YESNO "Please click Yes" IDYES ${||} StrCpy $R2 $R2A ${|}
+	${Unless} ${Cmd} `MessageBox MB_YESNO|MB_DEFBUTTON2 "Please click No" IDYES`
+		StrCpy $R2 $R2B
+	${EndUnless}
 
-	${IfNot} $0 == true
-		MessageBox MB_OK "$$0 is true"
-	${ElseIfNot} $0 == false
-		MessageBox MB_OK "$$0 isn't false"
-	${EndIf}
-
-### File conditions
-
-	${IfNot} ${FileExists} $SYSDIR\notepad.exe
-	${AndIf} ${FileExists} $EXEDIR\notepad.exe
-		; we found a copy in $EXEDIR
-		Exec $EXEDIR\notepad.exe
-	${ElseIfNot} ${FileExists} $SYSDIR\notepad.exe
-	${AndIfNot} ${FileExists} $EXEDIR\notepad.exe
-		MessageBox MB_OK "Could not find any notepad.exe"
-	${ElseIf} ${FileExists} $SYSDIR\notepad.exe
-		; we should've done that in the first place!
-		Exec $SYSDIR\notepad.exe
+	${If} $R2 == "AB"
+		MessageBox "You clicked Yes"
+	${Else}
+		MessageBox "You clicked No"
 	${EndIf}
 
 ## Credits:
@@ -65,9 +54,3 @@ The following "expressions" are available:
 Written by dselkirk and eccles
 
 ---
-
-[1]: ElseUnless.md
-[2]: IfNot.md
-[3]: Unless.md
-[4]: If.md
-[5]: IfNot.md

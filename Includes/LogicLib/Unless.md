@@ -42,17 +42,17 @@ The following "expressions" are available:
 
 	${Unless} $0 == true
 		MessageBox MB_OK "It's false"
-	${EndIf}
+	${EndUnless}
 
-	${IfNot} $0 != true
-		MessageBox MB_OK "It's true (but I'd use ${If} $0 == true)"
-	${EndIf}
+	${Unless} $0 != true
+		MessageBox MB_OK "It's true (but I'd use $${If} $$0 == true)"
+	${EndUnless}
 
 ### Integer tests
 
 	${Unless} 1 > 0
 		MessageBox MB_OK "This is never true"
-	${EndIf}
+	${EndUnless}
 
 ### File conditions
 
@@ -60,11 +60,11 @@ The following "expressions" are available:
 		MessageBox MB_OK "Could not find notepad.exe"
 	${Else}
 		Exec $SYSDIR\notepad.exe
-	${EndIf}
+	${EndUnless}
 
 	${Unless} ${FileExists} $PROGAMFILES\*.*
 		MessageBox MB_OK "Directory $$PROGRAMFILES doesn't exist"
-	${EndIf}
+	${EndUnless}
 
 ### Section test
 
@@ -73,7 +73,7 @@ The following "expressions" are available:
 
 		${Unless} ${SectionIsSelected} ${mySection}
 			MessageBox MB_OK "This will never show, dummy!"
-		${EndIf}
+		${EndUnless}
 	SectionEnd
 
 ## Credits:

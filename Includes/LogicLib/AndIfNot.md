@@ -1,12 +1,12 @@
-# ElseIfNot
+# AndIfNot
 
 ---
 
-Conditionally executes a block of statements, depending on the value of an expression. `${ElseIfNot}` and [`${ElseUnless}`][1] are equivalent and interchangeable, as are [`${IfNot}`][2] and [`${Unless}`][3]. Requires opening condition [`${If}`][4] or [`${IfNot}`][5]
+Adds any number of extra conditions to [`If`][1], [`IfNot`][2], [`Unless`][3], [`ElseIf`][4], [`ElseIfNot`][5] and [`ElseUnless`][6] statements. `${AndIfNot}` and [`${AndUnless}`][7] are equivalent and interchangeable.
 
 ## Syntax:
 
-	${ElseIfNot} expression
+	${AndIfNot} expression
 
 The following "expressions" are available:
 
@@ -39,25 +39,25 @@ The following "expressions" are available:
 ### Check if condition is met
 
 	StrCpy $0 true
+	StrCpy $1 true
 
-	${IfNot} $0 == true
-		MessageBox MB_OK "$$0 is true"
-	${ElseIfNot} $0 == false
-		MessageBox MB_OK "$$0 isn't false"
+	${If} $0 == true
+	${AndIfNot} $1 == false
+		MessageBox MB_OK "Everything's true"
+	${EndIf}
+
+### Integer tests
+
+	${If} 2 > 1
+	${AndIfNot} 2 < 1
+		MessageBox MB_OK "2 is always greater than 1"
 	${EndIf}
 
 ### File conditions
 
-	${IfNot} ${FileExists} $SYSDIR\notepad.exe
-	${AndIf} ${FileExists} $EXEDIR\notepad.exe
-		; we found a copy in $EXEDIR
-		Exec $EXEDIR\notepad.exe
-	${ElseIfNot} ${FileExists} $SYSDIR\notepad.exe
-	${AndIfNot} ${FileExists} $EXEDIR\notepad.exe
-		MessageBox MB_OK "Could not find any notepad.exe"
-	${ElseIf} ${FileExists} $SYSDIR\notepad.exe
-		; we should've done that in the first place!
-		Exec $SYSDIR\notepad.exe
+	${IfNot} ${FileExists} $SYSDIR\calc.exe
+	${AndIfNot} ${FileExists} $SYSDIR\notepad.exe
+		MessageBox MB_OK "We have neither"
 	${EndIf}
 
 ## Credits:
@@ -66,8 +66,10 @@ Written by dselkirk and eccles
 
 ---
 
-[1]: ElseUnless.md
+[1]: If.md
 [2]: IfNot.md
 [3]: Unless.md
-[4]: If.md
-[5]: IfNot.md
+[4]: ElseIf.md
+[5]: ElseIfNot.md
+[6]: ElseUnless.md
+[7]: AndUnless.md

@@ -1,12 +1,12 @@
-# ElseIfNot
+# IfThen
 
 ---
 
-Conditionally executes a block of statements, depending on the value of an expression. `${ElseIfNot}` and [`${ElseUnless}`][1] are equivalent and interchangeable, as are [`${IfNot}`][2] and [`${Unless}`][3]. Requires opening condition [`${If}`][4] or [`${IfNot}`][5]
+Conditionally executes an inline statement, depending on the value of an expression.
 
 ## Syntax:
 
-	${ElseIfNot} expression
+	${IfThen} expression statement
 
 The following "expressions" are available:
 
@@ -34,30 +34,12 @@ The following "expressions" are available:
 		${SectionIsReadOnly} a; ${SectionIsExpanded} a;
 		${SectionIsPartiallySelected} a
 
-## Examples:
-
-### Check if condition is met
+## Example:
 
 	StrCpy $0 true
 
-	${IfNot} $0 == true
-		MessageBox MB_OK "$$0 is true"
-	${ElseIfNot} $0 == false
-		MessageBox MB_OK "$$0 isn't false"
-	${EndIf}
-
-### File conditions
-
-	${IfNot} ${FileExists} $SYSDIR\notepad.exe
-	${AndIf} ${FileExists} $EXEDIR\notepad.exe
-		; we found a copy in $EXEDIR
-		Exec $EXEDIR\notepad.exe
-	${ElseIfNot} ${FileExists} $SYSDIR\notepad.exe
-	${AndIfNot} ${FileExists} $EXEDIR\notepad.exe
-		MessageBox MB_OK "Could not find any notepad.exe"
-	${ElseIf} ${FileExists} $SYSDIR\notepad.exe
-		; we should've done that in the first place!
-		Exec $SYSDIR\notepad.exe
+	${IfThen} $0 == true ${|} StrCpy $1 false ${|}
+		MessageBox MB_OK "Whenever $$0 is true, $$1 is false"
 	${EndIf}
 
 ## Credits:
@@ -65,9 +47,3 @@ The following "expressions" are available:
 Written by dselkirk and eccles
 
 ---
-
-[1]: ElseUnless.md
-[2]: IfNot.md
-[3]: Unless.md
-[4]: If.md
-[5]: IfNot.md

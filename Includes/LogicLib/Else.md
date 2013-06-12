@@ -15,9 +15,9 @@ Conditionally executes a block of statements, depending on the value of an expre
 	StrCpy $0 true
 
 	${If} $0 == true
-		MessageBox MB_OK "$0 is always true"
+		MessageBox MB_OK "$$0 is always true"
 	${Else}
-		MessageBox MB_OK "$0 is never false"
+		MessageBox MB_OK "$$0 is never false"
 	${EndIf}
 
 ### Integer tests

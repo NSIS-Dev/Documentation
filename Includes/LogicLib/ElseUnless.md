@@ -34,17 +34,15 @@ The following "expressions" are available:
 		${SectionIsReadOnly} a; ${SectionIsExpanded} a;
 		${SectionIsPartiallySelected} a
 
-## Examples:
-
-### Check if condition is met
+## Example:
 
 	StrCpy $0 true
 
 	${Unless} $0 == true
-		MessageBox MB_OK "$0 is true"
+		MessageBox MB_OK "$$0 is true"
 	${ElseUnless} $0 == false
-		MessageBox MB_OK "$0 isn't false"
-	${EndIf}
+		MessageBox MB_OK "$$0 isn't false"
+	${EndUnless}
 
 ## Credits:
 

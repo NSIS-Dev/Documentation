@@ -45,7 +45,7 @@ The following "expressions" are available:
 	${EndIf}
 
 	${IfNot} $0 != true
-		MessageBox MB_OK "It's true (but I'd use ${If} $0 == true)"
+		MessageBox MB_OK "It's true (but I'd use $${If} $$0 == true)"
 	${EndIf}
 
 ### Integer tests

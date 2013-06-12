@@ -85,4 +85,4 @@ Written by dselkirk and eccles
 ---
 
 [1]: If.md
-[2]: IfNotmd
+[2]: IfNot.md

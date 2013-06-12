@@ -2,15 +2,13 @@
 
 ---
 
-Ends and open condition started by [`${If}`][1] or [`${IfNot}`][2].
+Ends an open condition started by [`${If}`][1] or [`${IfNot}`][2].
 
 ## Syntax:
 
 	${EndIf}
 
-## Examples:
-
-### Check if condition is met
+## Example:
 
 	StrCpy $0 true
 

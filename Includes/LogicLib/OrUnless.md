@@ -1,12 +1,12 @@
-# ElseIfNot
+# OrUnless
 
 ---
 
-Conditionally executes a block of statements, depending on the value of an expression. `${ElseIfNot}` and [`${ElseUnless}`][1] are equivalent and interchangeable, as are [`${IfNot}`][2] and [`${Unless}`][3]. Requires opening condition [`${If}`][4] or [`${IfNot}`][5]
+Adds any number of extra conditions to [`If`][1], [`IfNot`][2], [`Unless`][3], [`ElseIf`][4], [`ElseIfNot`][5] and [`ElseUnless`][6] statements. [`${OrIfNot}`][7] and `${OrUnless}` are equivalent and interchangeable.
 
 ## Syntax:
 
-	${ElseIfNot} expression
+	${OrUnless} expression
 
 The following "expressions" are available:
 
@@ -34,31 +34,15 @@ The following "expressions" are available:
 		${SectionIsReadOnly} a; ${SectionIsExpanded} a;
 		${SectionIsPartiallySelected} a
 
-## Examples:
+## Example:
 
-### Check if condition is met
+	StrCpy $0 false
+	StrCpy $1 false
 
-	StrCpy $0 true
-
-	${IfNot} $0 == true
-		MessageBox MB_OK "$$0 is true"
-	${ElseIfNot} $0 == false
-		MessageBox MB_OK "$$0 isn't false"
-	${EndIf}
-
-### File conditions
-
-	${IfNot} ${FileExists} $SYSDIR\notepad.exe
-	${AndIf} ${FileExists} $EXEDIR\notepad.exe
-		; we found a copy in $EXEDIR
-		Exec $EXEDIR\notepad.exe
-	${ElseIfNot} ${FileExists} $SYSDIR\notepad.exe
-	${AndIfNot} ${FileExists} $EXEDIR\notepad.exe
-		MessageBox MB_OK "Could not find any notepad.exe"
-	${ElseIf} ${FileExists} $SYSDIR\notepad.exe
-		; we should've done that in the first place!
-		Exec $SYSDIR\notepad.exe
-	${EndIf}
+	${Unless} $0 == true
+	${OrUnless} $1 == true
+		MessageBox MB_OK "Something's not true"
+	${EndUnless}
 
 ## Credits:
 
@@ -66,8 +50,10 @@ Written by dselkirk and eccles
 
 ---
 
-[1]: ElseUnless.md
+[1]: If.md
 [2]: IfNot.md
 [3]: Unless.md
-[4]: If.md
-[5]: IfNot.md
+[4]: ElseIf.md
+[5]: ElseIfNot.md
+[6]: ElseUnless.md
+[7]: OrIfNot.md
