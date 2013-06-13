@@ -10,4 +10,4 @@ zlib/libpng license
 
 ## Donate
 
-[<img src="https://raw.github.com/balupton/flattr-buttons/master/badge-89x18.gif" />](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/NSIS-Handbook/Documentation/&title=NSIS-Handbook&description=A%20new%20Markdown-based%20documentation%20for%20Nullsoft%20Scriptable%20Install%20System%20(NSIS).&language=en_GB&tags=nsis,documentation,manual,scripting%20reference,syntax,commands,markdown&hidden=0&category=software)
+[<img src="https://raw.github.com/balupton/flattr-buttons/master/badge-89x18.gif" />](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/NSIS-Handbook/Documentation/&title=NSIS-Handbook&description=A%20new%20Markdown-based%20documentation%20for%20Nullsoft%20Scriptable%20Install%20System&language=en_GB&tags=nsis,documentation,manual,scripting%20reference,syntax,commands,markdown&hidden=0&category=software)
