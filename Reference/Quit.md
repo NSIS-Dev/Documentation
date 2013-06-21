@@ -6,6 +6,6 @@ Causes the installer to exit as soon as possible. After `Quit` is called, the in
 
 ## History:
 
-Added in NSIS v1.90
+Added in NSIS v1.90b2
 
 ---
