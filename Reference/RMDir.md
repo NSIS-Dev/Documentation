@@ -30,7 +30,7 @@ The next example will succeed in deleting the directory.
 
 ## History:
 
-*not documented*
+Added in NSIS 1.0f
 
 ---
 

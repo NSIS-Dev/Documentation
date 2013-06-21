@@ -16,6 +16,6 @@ Writes entry_name=value into [section_name] of ini_filename. The error flag is s
 
 ## History:
 
-*not documented*
+Added in NSIS 1.0f
 
 ---

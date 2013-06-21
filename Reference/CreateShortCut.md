@@ -14,7 +14,7 @@ Creates a shortcut 'link.lnk' that links to 'target.file', with optional paramet
 
 ## History:
 
-*not documented*
+Added in NSIS 1.0f
 
 ---
 

@@ -14,6 +14,6 @@ This command writes a block of binary data to the registry. Valid values for roo
 
 ## History:
 
-*not documented*
+Added in NSIS 1.0f
 
 ---

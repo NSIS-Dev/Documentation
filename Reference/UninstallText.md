@@ -15,6 +15,6 @@ Accepts variables. If variables are used, they must be initialized before the un
 
 ## History:
 
-*not documented*
+Added in NSIS 1.0f
 
 ---

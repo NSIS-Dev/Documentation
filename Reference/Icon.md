@@ -10,7 +10,7 @@ Sets the icon of the installer. Every icon in the icon file will be included in 
 
 ## History:
 
-*not documented*
+Added in NSIS 1.0f
 
 ---
 

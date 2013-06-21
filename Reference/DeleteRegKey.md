@@ -15,7 +15,7 @@ Deletes a registry key. If `/ifempty` is specified, the registry key will only b
 
 ## History:
 
-*not documented*
+Added in NSIS 1.0f
 
 ---
 

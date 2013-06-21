@@ -14,7 +14,7 @@ Write a string to the registry. See [`WriteRegExpandStr`][1] for more details.
 
 ## History:
 
-*not documented*
+Added in NSIS 1.0f
 
 ---
 

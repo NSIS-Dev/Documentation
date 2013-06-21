@@ -22,7 +22,7 @@ If you have ampersands in the name and use a [`LangString`][2] for the name, you
 
 ## History:
 
-*not documented*
+Added in NSIS 1.0f
 
 ---
 

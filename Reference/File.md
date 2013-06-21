@@ -55,7 +55,7 @@ When adding \*.*, it will be used as the matching condition and something will b
 
 ## History:
 
-*not documented*
+Added in NSIS 1.0f
 
 ---
 

@@ -16,7 +16,7 @@ This command sets the overwrite flag which is used by the [`File`][1] command to
 
 ## History:
 
-*not documented*
+Added in NSIS 1.0f
 
 ---
 

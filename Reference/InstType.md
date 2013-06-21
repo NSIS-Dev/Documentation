@@ -12,7 +12,7 @@ Accepts variables for type names. If variables are used, they must be initialize
 
 ## History:
 
-*not documented*
+Added in NSIS 1.0f
 
 ---
 
