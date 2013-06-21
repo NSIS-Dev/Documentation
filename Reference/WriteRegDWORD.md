@@ -14,7 +14,7 @@ This command writes a dword (32 bit integer) to the registry (a user variable ca
 
 ## History:
 
-Added in NSIS 1.0f
+Added in NSIS v1.0f
 
 ---
 

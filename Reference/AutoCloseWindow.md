@@ -10,7 +10,7 @@ Sets whether or not the install window automatically closes when completed. This
 
 ## History:
 
-*not documented*
+Added in NSIS v1.1a
 
 ---
 

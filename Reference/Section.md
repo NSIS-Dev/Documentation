@@ -53,7 +53,7 @@ To access the section index, curly brackets must be used and the code must be lo
 
 ## History:
 
-Added in NSIS 1.0f
+Added in NSIS v1.0f
 
 ---
 

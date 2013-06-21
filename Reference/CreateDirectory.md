@@ -15,6 +15,6 @@ You should always specify an absolute path.
 
 ## History:
 
-*not documented*
+Added in NSIS v1.1a
 
 ---

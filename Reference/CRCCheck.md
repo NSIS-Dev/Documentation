@@ -10,6 +10,6 @@ Specifies whether or not the installer will perform a CRC on itself before allow
 
 ## History:
 
-Added in NSIS 1.0f
+Added in NSIS v1.0f
 
 ---

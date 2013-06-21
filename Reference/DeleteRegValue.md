@@ -14,7 +14,7 @@ Deletes a registry value. Valid values for root_key are listed under [`WriteRegS
 
 ## History:
 
-Added in NSIS 1.0f
+Added in NSIS v1.0f
 
 ---
 

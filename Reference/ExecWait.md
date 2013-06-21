@@ -16,7 +16,7 @@ Execute the specified program and wait for the executed process to quit. See [`E
 
 ## History:
 
-*not documented*
+Added in NSIS v1.0i
 
 ---
 

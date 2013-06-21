@@ -8,6 +8,6 @@ Recent Windows versions restrict the setting of foreground windows. If the user 
 
 ## History:
 
-*not documented*
+Added in NSIS v1.1a
 
 ---

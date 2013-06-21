@@ -14,6 +14,6 @@ Delete file (which can be a file or wildcard, but should be specified with a ful
 
 ## History:
 
-Added in NSIS 1.0f
+Added in NSIS v1.0f
 
 ---

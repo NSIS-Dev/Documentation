@@ -23,7 +23,7 @@ This command specifies which install types (see [`InstType'][1]) the current sec
 
 ## History:
 
-Added in NSIS 1.0f
+Added in NSIS v1.0f
 
 ---
 

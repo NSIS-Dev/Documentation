@@ -17,6 +17,6 @@ The error flag is set if the process could not be launched. Note, if the command
 
 ## History:
 
-Added in NSIS 1.0f
+Added in NSIS v1.0f
 
 ---

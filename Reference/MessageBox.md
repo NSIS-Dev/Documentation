@@ -60,7 +60,7 @@ Use the `/SD` parameter with one of the return_check values above to specify the
 
 ## History:
 
-Added in NSIS 1.0f
+Added in NSIS v1.0f
 
 ---
 

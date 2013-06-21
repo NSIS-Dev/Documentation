@@ -16,6 +16,6 @@ Execute the specified program using ShellExecute. Note that action is usually "o
 
 ## History:
 
-*not documented*
+Added in NSIS v1.1b
 
 ---

@@ -16,6 +16,6 @@ Pauses execution in the installer for sleeptime_in_ms milliseconds. sleeptime_in
 
 ## History:
 
-*not documented*
+Added in NSIS v1.1a
 
 ---

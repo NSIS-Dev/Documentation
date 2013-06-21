@@ -10,6 +10,6 @@ Specifies the output file that the MakeNSIS should write the installer to. This 
 
 ## History:
 
-Added in NSIS 1.0f
+Added in NSIS v1.0f
 
 ---

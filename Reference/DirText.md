@@ -23,6 +23,6 @@ Accepts variables. If variables are used, they must be initialized before the di
 
 ## History:
 
-Added in NSIS 1.0f
+Added in NSIS v1.0f
 
 ---

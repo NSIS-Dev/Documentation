@@ -17,6 +17,6 @@ Fully-qualified path names should always be used with this instruction. Using re
 
 ## History:
 
-*not documented*
+Added in NSIS v1.1a
 
 ---

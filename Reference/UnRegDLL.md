@@ -10,6 +10,6 @@ Loads the specified DLL and calls DllUnregisterServer. The error flag is set if 
 
 ## History:
 
-*not documented*
+Added in NSIS v1.0i
 
 ---

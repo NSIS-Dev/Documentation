@@ -15,7 +15,7 @@ Searches for a window. Behaves like the win32 FindWindowEx(). Searches by window
 
 ## History:
 
-Added in NSIS 1.0f
+Added in NSIS v1.0f
 
 ---
 

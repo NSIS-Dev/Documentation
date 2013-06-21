@@ -6,6 +6,6 @@ Hides the installer.
 
 ## History:
 
-*not documented*
+Added in NSIS v1.1b
 
 ---

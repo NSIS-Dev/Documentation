@@ -8,7 +8,7 @@ Use [`LicenseLangString`][1] to show a different license for every language.
 
 ## History:
 
-Added in NSIS 1.0f
+Added in NSIS v1.0f
 
 ---
 

@@ -10,6 +10,6 @@ Sets the icon of the uninstaller.
 
 ## History:
 
-Added in NSIS 1.0f
+Added in NSIS v1.0f
 
 ---

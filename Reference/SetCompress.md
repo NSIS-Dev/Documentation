@@ -12,6 +12,6 @@ Note that this option has no effect when solid compression is used.
 
 ## History:
 
-Added in NSIS 1.0f
+Added in NSIS v1.0f
 
 ---

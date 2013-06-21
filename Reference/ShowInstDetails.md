@@ -10,7 +10,7 @@ Sets whether or not the details of the install are shown. Can be 'hide' to hide 
 
 ## History:
 
-*not documented*
+Added in NSIS v1.1a
 
 ---
 
