@@ -12,6 +12,6 @@ Sets the error flag.
 
 ## History:
 
-*not documented*
+Added in NSIS v1.2g
 
 ---

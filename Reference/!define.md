@@ -23,6 +23,6 @@ If `/file` is used, the entire text file specified (including whitespace and new
 
 ## History:
 
-*not documented*
+Added in NSIS v1.1f
 
 ---

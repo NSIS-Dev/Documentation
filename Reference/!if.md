@@ -16,7 +16,7 @@ This command, when paired with an [`!endif`][1] command, will tell the compiler 
 
 ## History:
 
-*not documented*
+Added in NSIS v2.15
 
 ---
 

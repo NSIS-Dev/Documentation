@@ -10,6 +10,6 @@ This command sets the size of the compiler's internal file buffers. This command
 
 ## History:
 
-*not documented*
+Added in NSIS v2.0 Beta 4
 
 ---

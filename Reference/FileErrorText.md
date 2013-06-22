@@ -12,7 +12,7 @@ Accepts variables. If variables are used, they must be initialized before [`File
 
 ## History:
 
-*not documented*
+Added in NSIS v1.63beta
 
 ---
 

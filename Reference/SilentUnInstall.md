@@ -12,7 +12,7 @@ Note: see also [`LogSet`][2].
 
 ## History:
 
-*not documented*
+Added in NSIS v1.7b2
 
 ---
 
