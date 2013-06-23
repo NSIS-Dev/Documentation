@@ -15,7 +15,7 @@ On POSIX platforms, `!execute` will use system() just like [!system][1].
 
 ## History:
 
-*not documented*
+Added in NSIS v3.0a0
 
 ---
 
