@@ -20,5 +20,5 @@ Written by [kichik][2]
 
 ---
 
-[1]: ../../Functions/.onInstSuccess.md
+[1]: ../../Callbacks/.onInstSuccess.md
 [2]: http://nsis.sourceforge.net/User:Kichik

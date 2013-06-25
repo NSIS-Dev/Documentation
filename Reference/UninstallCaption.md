@@ -17,4 +17,4 @@ Added in NSIS v1.56
 ---
 
 [1]: Name.md
-[2]: ../Functions/un.onInit.md
+[2]: ../Callbacks/un.onInit.md

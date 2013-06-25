@@ -22,4 +22,4 @@ Added in NSIS v1.0f
 ---
 
 [1]: InstallDir.md
-[2]: ../Functions/.onInit.md
+[2]: ../Callbacks/.onInit.md

@@ -20,5 +20,5 @@ Written by [kichik][2]
 
 ---
 
-[1]: ../../Functions/.onInit.md
+[1]: ../../Callbacks/.onInit.md
 [2]: http://nsis.sourceforge.net/User:Kichik
