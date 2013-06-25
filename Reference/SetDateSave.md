@@ -10,6 +10,6 @@ This command sets the file date/time saving flag which is used by the File comma
 
 ## History:
 
-*not documented*
+Added in NSIS v1.1a
 
 ---
