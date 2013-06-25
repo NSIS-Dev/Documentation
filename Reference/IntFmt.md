@@ -15,6 +15,6 @@ Formats the number in "numberstring" using the format "format", and sets the out
 
 ## History:
 
-*not documented*
+Added in NSIS v1.60b
 
 ---
