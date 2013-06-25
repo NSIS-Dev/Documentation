@@ -12,6 +12,6 @@ Accepts variables. If variables are used, they must be initialized before the co
 
 ## History:
 
-*not documented*
+Added in NSIS v2.0 Alpha 0
 
 ---
