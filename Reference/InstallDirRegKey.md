@@ -22,5 +22,5 @@ Added in NSIS v1.0f
 ---
 
 [1]: InstallDir.md
-[2]: ../Variables/$INSTDIR.md
-[3]: ../Callbacks/.onInit.md
+[2]: ../Variables/INSTDIR.md
+[3]: ../Callbacks/onInit.md

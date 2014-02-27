@@ -18,5 +18,5 @@ Added in NSIS v1.0f
 
 ---
 
-[1]: ../Variables/$OUTDIR.md
+[1]: ../Variables/OUTDIR.md
 [2]: SetOutPath.md

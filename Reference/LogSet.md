@@ -16,5 +16,5 @@ Added in NSIS v1.98
 
 ---
 
-[1]: ../Variables/$INSTDIR.md
+[1]: ../Variables/INSTDIR.md
 [2]: http://nsis.sourceforge.net/Docs//AppendixG.html#G

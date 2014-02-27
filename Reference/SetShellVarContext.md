@@ -24,4 +24,4 @@ Added in NSIS v1.98
 
 ---
 
-[1]: ../Variables/$SMPROGRAMS
+[1]: ../Variables/SMPROGRAMS

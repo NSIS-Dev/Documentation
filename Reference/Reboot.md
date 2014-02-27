@@ -15,5 +15,5 @@ Added in NSIS v1.70
 
 ---
 
-[1]: ../Callbacks/.onRebootFailed.md
+[1]: ../Callbacks/onRebootFailed.md
 [2]: Quit.md

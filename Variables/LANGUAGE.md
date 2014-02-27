@@ -10,4 +10,4 @@ Added in NSIS 2.0 Alpha 3
 
 ---
 
-[1]: ../Callbacks/.onInit.md
+[1]: ../Callbacks/onInit.md
