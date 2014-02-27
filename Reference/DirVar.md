@@ -2,7 +2,7 @@
 
 ---
 
-Specifies which variable is to be used to contain the directory selected. This variable should contain the default value too. This allows to easily create two different directory pages that will not require you to move values in and out of `$INSTDIR`. The default variable is `$INSTDIR`. This can only be used in [`PageEx`][1] and for directory and uninstConfirm pages.
+Specifies which variable is to be used to contain the directory selected. This variable should contain the default value too. This allows to easily create two different directory pages that will not require you to move values in and out of [`$INSTDIR`][1]. The default variable is [`$INSTDIR`][1]. This can only be used in [`PageEx`][2] and for directory and uninstConfirm pages.
 
 ## Parameters:
 
@@ -28,4 +28,5 @@ Added in NSIS v2.0 Beta 4
 
 ---
 
-[1]: PageEx.md
+[1]: ../Variables/$INSTDIR.md
+[2]: PageEx.md

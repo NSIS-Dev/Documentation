@@ -2,7 +2,7 @@
 
 ---
 
-Execute the specified program using ShellExecute. Note that action is usually "open", "print", etc, but can be an empty string to use the default action. Parameters and the show type are optional. `$OUTDIR` is used for the working directory. The error flag is set if the process could not be launched.
+Execute the specified program using ShellExecute. Note that action is usually "open", "print", etc, but can be an empty string to use the default action. Parameters and the show type are optional. [`$OUTDIR`][1] is used for the working directory. The error flag is set if the process could not be launched.
 
 ## Parameters:
 
@@ -19,3 +19,5 @@ Execute the specified program using ShellExecute. Note that action is usually "o
 Added in NSIS v1.1b
 
 ---
+
+[1]: ../Variables/$OUTDIR.md

@@ -2,7 +2,7 @@
 
 ---
 
-This callback will be called when the uninstaller is nearly finished initializing. If the `un.onInit` function calls [`Abort`][1], the uninstaller will quit instantly. Note that this function can verify and/or modify `$INSTDIR` if necessary.
+This callback will be called when the uninstaller is nearly finished initializing. If the [`un.onInit`][1] function calls [`Abort`][2], the uninstaller will quit instantly. Note that this function can verify and/or modify [`$INSTDIR`][3] if necessary.
 
 ## Example:
 
@@ -23,4 +23,6 @@ or:
 
 ---
 
-[1]: ../Reference/Abort.md
+[1]: ../Callbacks/un.onInit.md
+[2]: ../Reference/Abort.md
+[2]: ../Variables/$INSTDIR.md

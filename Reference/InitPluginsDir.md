@@ -2,7 +2,7 @@
 
 ---
 
-Initializes the plug-ins directory `$PLUGINSDIR` if not already initialized.
+Initializes the plug-ins directory [`$PLUGINSDIR`][1] if not already initialized.
 
 ## Example:
 
@@ -14,3 +14,5 @@ Initializes the plug-ins directory `$PLUGINSDIR` if not already initialized.
 Added in NSIS v2.0 Beta 0
 
 ---
+
+[1]: ../Variables/$PLUGINSDIR.md
