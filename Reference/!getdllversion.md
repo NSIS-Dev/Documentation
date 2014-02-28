@@ -2,7 +2,7 @@
 
 ---
 
-This is similar to [GetDLLVersionLocal][1], only it stores the version number in defines and can therefore be used anywhere, not just inside functions and sections.
+This is similar to [`GetDLLVersionLocal`][1], only it stores the version number in defines and can therefore be used anywhere, not just inside functions and sections.
 
 ## Parameters:
 

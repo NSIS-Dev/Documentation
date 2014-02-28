@@ -9,7 +9,7 @@ Each language string has a name that identifies it and a value for each language
 Notes:
 
 * Unlike defines that use curly braces - {}, language strings use parenthesis - ().
-* If you change the language in the .onInit function, note that language strings in [`.onInit][1] will still use the detected language based on the user's default Windows language, because the language is initialized after .onInit.
+* If you change the language in the [`.onInit`][1] function, note that language strings in [`.onInit`][1] will still use the detected language based on the user's default Windows language, because the language is initialized after [`.onInit`][1].
 * Always set language strings for every language in your script.
 * If you set the language ID to 0 the last used language by `LangString` or [`LoadLanguageFile`][2] will be used.
 

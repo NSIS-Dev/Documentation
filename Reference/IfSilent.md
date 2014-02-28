@@ -2,7 +2,7 @@
 
 ---
 
-Checks the silent flag, and jumps to jump_if_silent if the installer is silent, otherwise jumps to jump_if_not. The silent flag can be set by [`SilentInstall`][1], [`SilentUninstall`][2], [`SetSilent`][3] and by the user passing `/S on the command line.
+Checks the silent flag, and jumps to `jump_if_silent` if the installer is silent, otherwise jumps to `jump_if_not`. The silent flag can be set by [`SilentInstall`][1], [`SilentUninstall`][2], [`SetSilent`][3] and by the user passing `/S` on the command line.
 
 ## Parameters:
 

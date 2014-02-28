@@ -3,6 +3,7 @@
 ---
 
 Adds file(s) to be extracted to the current output path ([`$OUTDIR`][1]).
+
 * Note that the output file name is $OUTDIR\filename_portion_of_file.
 * Use `/oname=X` switch to change the output name. X may contain variables and can be a fully qualified path or a relative path in which case it will be appended to [`$OUTDIR`][1] set by [`SetOutPath`][2]. When using this switch, only one file can be specified. If the output name contains spaces, quote the entire parameter, including /oname, as shown in the examples below.
 * Wildcards are supported.

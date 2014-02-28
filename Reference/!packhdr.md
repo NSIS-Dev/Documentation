@@ -2,7 +2,7 @@
 
 ---
 
-This option makes the compiler use an external EXE packer (such as Petite or UPX) to compress the executable header. Specify a temporary file name (such as "temp.dat") and a command line (such as "C:\program files\upx\upx -9 temp.dat") to compress the header.
+This option makes the compiler use an external EXE packer (such as [Petite][1] or [UPX][2]) to compress the executable header. Specify a temporary file name (such as "temp.dat") and a command line (such as "C:\program files\upx\upx -9 temp.dat") to compress the header.
 
 ## Parameters:
 
@@ -17,3 +17,6 @@ This option makes the compiler use an external EXE packer (such as Petite or UPX
 Added in NSIS v1.32
 
 ---
+
+[1]: http://www.un4seen.com/petite/
+[2]: http://upx.sourceforge.net/
