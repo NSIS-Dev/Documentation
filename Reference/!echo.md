@@ -10,9 +10,7 @@ This command will echo a message to the user compiling the script.
 
 ## Example:
 
-    !tempfile FILE
-	!delfile "${FILE}"
-	!undef FILE
+    !echo "hello world"
 
 ## History:
 
