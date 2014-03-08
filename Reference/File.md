@@ -4,7 +4,7 @@
 
 Adds file(s) to be extracted to the current output path ([`$OUTDIR`][1]).
 
-* Note that the output file name is $OUTDIR\filename_portion_of_file.
+* Note that the output file name is $OUTDIR\filename\_portion\_of\_file.
 * Use `/oname=X` switch to change the output name. X may contain variables and can be a fully qualified path or a relative path in which case it will be appended to [`$OUTDIR`][1] set by [`SetOutPath`][2]. When using this switch, only one file can be specified. If the output name contains spaces, quote the entire parameter, including /oname, as shown in the examples below.
 * Wildcards are supported.
 * If the `/r` switch is used, matching files and directories are recursively searched for in subdirectories. If just one path segment is specified (e.g. File /r something), the current directory will be recursively searched. If more than one segment is specified (e.g. File /r something\*.*), the last path segment will be used as the matching condition and the rest for the directory to search recursively. If a directory name matches, all of its contents is added recursively. Directory structure is preserved.

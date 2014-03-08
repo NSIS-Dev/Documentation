@@ -2,7 +2,7 @@
 
 ---
 
-Continues a search began with [`FindFirst`][1]. handle should be the handle_output_variable returned by [`FindFirst`][1]. If the search is completed (there are no more files), filename_output is set to empty, and the error flag is set. Note that the filename output is without path.
+Continues a search began with [`FindFirst`][1]. handle should be the handle\_output\_variable returned by [`FindFirst`][1]. If the search is completed (there are no more files), filename\_output is set to empty, and the error flag is set. Note that the filename output is without path.
 
 ## Parameters:
 

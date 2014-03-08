@@ -2,7 +2,7 @@
 
 ---
 
-Compares (case insensitively) str1 to str2. If str1 and str2 are equal, [`Goto`][1] jump_if_equal, otherwise [`Goto`][1] jump_if_not_equal.
+Compares (case insensitively) str1 to str2. If str1 and str2 are equal, [`Goto`][1] jump\_if\_equal, otherwise [`Goto`][1] jump\_if\_not\_equal.
 
 ## Parameters:
 

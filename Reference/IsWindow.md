@@ -2,7 +2,7 @@
 
 ---
 
-If HWND is a window, [`Goto`][1] jump_if_window, otherwise, [`Goto`][1] jump_if_not_window (if specified).
+If HWND is a window, [`Goto`][1] jump\_if\_window, otherwise, [`Goto`][1] jump\_if\_not_window (if specified).
 
 ## Parameters:
 

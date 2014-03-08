@@ -2,7 +2,7 @@
 
 ---
 
-Reads from entry_name in [section_name] of ini_filename and stores the value into user variable $x. The error flag will be set and $x will be assigned to an empty string if the entry is not found.
+Reads from entry\_name in [section\_name] of ini\_filename and stores the value into user variable $x. The error flag will be set and $x will be assigned to an empty string if the entry is not found.
 
 ## Parameters:
 

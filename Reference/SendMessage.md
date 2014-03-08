@@ -12,7 +12,7 @@ Include WinMessages.nsh to have all of Windows messages defined in your script.
 
 To send a string param, put STR: before the parameter, for example: "STR:Some string".
 
-Use /TIMEOUT=time_in_ms to specify the duration, in milliseconds, of the time-out period.
+Use /TIMEOUT=time\_in\_ms to specify the duration, in milliseconds, of the time-out period.
 
 ## Parameters:
 

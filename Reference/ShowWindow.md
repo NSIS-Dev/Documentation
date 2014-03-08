@@ -2,7 +2,7 @@
 
 ---
 
-Sets the visibility of a window. Possible show_states are the same as [Windows ShowWindow][1] function. SW_* constants are defined in [Include\WinMessages.nsh][2].
+Sets the visibility of a window. Possible show\_states are the same as [Windows ShowWindow][1] function. SW\_* constants are defined in [Include\WinMessages.nsh][2].
 
 ## Parameters:
 

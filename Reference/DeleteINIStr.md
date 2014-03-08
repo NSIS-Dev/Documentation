@@ -2,7 +2,7 @@
 
 ---
 
-Deletes the string str_name from section [section_name] from ini_filename. If the string could not be removed from the ini file, the error flag is set. It does not set the error flag if the string could not be found.
+Deletes the string str\_name from section [section\_name] from ini\_filename. If the string could not be removed from the ini file, the error flag is set. It does not set the error flag if the string could not be found.
 
 ## Parameters:
 

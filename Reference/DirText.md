@@ -14,8 +14,8 @@ Accepts variables. If variables are used, they must be initialized before the di
 
 * text: Text above the controls, to the right of the installation icon.
 * subtext: Text on the directory selection frame.
-* browse_button_text: Text on the Browse button.
-* browse_dlg_text: Text on the "Browse For Folder" dialog, appears after clicking on "Browse" button.
+* browse\_button\_text: Text on the Browse button.
+* browse\_dlg\_text: Text on the "Browse For Folder" dialog, appears after clicking on "Browse" button.
 
 ## Example:
 

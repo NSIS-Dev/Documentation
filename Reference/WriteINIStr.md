@@ -2,7 +2,7 @@
 
 ---
 
-Writes entry_name=value into [section_name] of ini_filename. The error flag is set if the string could not be written to the ini file.
+Writes entry\_name=value into [section\_name] of ini\_filename. The error flag is set if the string could not be written to the ini file.
 
 ## Parameters:
 

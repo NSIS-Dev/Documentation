@@ -2,7 +2,7 @@
 
 ---
 
-Sets the install types the section specified by section_index defaults to the enabled state in. Note that the section index starts with zero. Every bit of inst_types is a flag that tells if the section is in that install type or not. For example, if you have 3 install types and you want the first section to be included in install types 1 and 3, then the command should look like this:
+Sets the install types the section specified by section\_index defaults to the enabled state in. Note that the section index starts with zero. Every bit of inst\_types is a flag that tells if the section is in that install type or not. For example, if you have 3 install types and you want the first section to be included in install types 1 and 3, then the command should look like this:
 
 ## Parameters:
 

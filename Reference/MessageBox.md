@@ -2,7 +2,7 @@
 
 ---
 
-Displays a `MessageBox` containing the text "messagebox_text". mb_option_list must be one or more of the following, delimited by |s (e.g. MB_YESNO|MB_ICONSTOP).
+Displays a `MessageBox` containing the text "messagebox\_text". mb\_option\_list must be one or more of the following, delimited by |s (e.g. MB\_YESNO|MB\_ICONSTOP).
 
 * MB_OK - Display with an OK button
 * MB_OKCANCEL - Display with an OK and a cancel button
