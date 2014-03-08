@@ -4,13 +4,13 @@
 
 Write a string to the registry. root_key must be one of:
 
-* HKCR or HKEY_CLASSES_ROOT
-* HKLM or HKEY_LOCAL_MACHINE
-* HKCU or HKEY_CURRENT_USER
+* HKCR or HKEY\_CLASSES\_ROOT
+* HKLM or HKEY\_LOCAL\_MACHINE
+* HKCU or HKEY\_CURRENT\_USER
 * HKU or HKEY_USERS
-* HKCC or HKEY_CURRENT_CONFIG
-* HKDD or HKEY_DYN_DATA
-* HKPD or HKEY_PERFORMANCE_DATA
+* HKCC or HKEY\_CURRENT\_CONFIG
+* HKDD or HKEY\_DYN\_DATA
+* HKPD or HKEY\_PERFORMANCE\_DATA
 * SHCTX or SHELL_CONTEXT
 
 If root_key is SHCTX or SHELL_CONTEXT, it will be replaced with HKLM if [`SetShellVarContext`][1] is set to all and with HKCU if [`SetShellVarContext`][1] is set to current.
