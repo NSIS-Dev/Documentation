@@ -2,12 +2,12 @@
 
 The Banner plug-in shows a banner with customizable text. It uses the `IDD_VERIFY` dialog of the UI.
 
-There are three functions - show, getWindow and destroy.
+There are three functions - `show`, `getWindow` and `destroy`.
 
 ## Usage
 
     Banner::show "Text to show"
-    Banner::getWindow ; optional
+    Banner::getWindow
     Banner::destroy
 
 ### Modern UI
@@ -18,7 +18,7 @@ The Modern UI has two labels on the `IDD_VERIFY` dialog. To change all the texts
 
 ### Custom UI
 
-If you have more labels on your `IDD_VERIFY` dialog, you can use multiple /set parameters to change the texts.
+If you have more labels on your `IDD_VERIFY` dialog, you can use multiple `/set` parameters to change the texts.
 
 Example:
 
