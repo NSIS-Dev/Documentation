@@ -56,8 +56,9 @@ Transparent with sound:
 
 ## Credits:
 
-Written by Justin Frankel and [Amir Szekely][2]. Fading and transparency by [Nik Medved][3].
+Written by [Justin Frankel](https://en.wikipedia.org/wiki/Justin_Frankel) and [Amir Szekely][3]. Fading and transparency by [Nik Medved][4].
 
 [1]: ../Callbacks/onInit.markdown
-[2]: http://nsis.sourceforge.net/User:Kichik
-[3]: http://nsis.sourceforge.net/User:Brainsucker
+[2]: https://en.wikipedia.org/wiki/Justin_Frankel
+[3]: http://nsis.sourceforge.net/User:Kichik
+[4]: http://nsis.sourceforge.net/User:Brainsucker
