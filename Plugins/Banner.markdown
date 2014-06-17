@@ -2,7 +2,7 @@
 
 The Banner plug-in shows a banner with customizable text. It uses the `IDD_VERIFY` dialog of the UI.
 
-There are three functions - `show`, `getWindow` and `destroy`.
+There are three functions – `show`, `getWindow` and `destroy`.
 
 ## Usage
 
@@ -24,7 +24,7 @@ Example:
 
     Banner::show /set 76 "bah #1" /set 54 "bah #2" "Normal text"
 
-The second parameter for /set is the ID of the control.
+The second parameter for `/set is the ID of the control.
 
 ## Example:
 
