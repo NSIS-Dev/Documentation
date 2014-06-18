@@ -65,5 +65,10 @@ The second parameter for `/set is the ID of the control.
 
 Written by [Nik Medved][1] and [Amir Szekely][2] in honor of the messages dropped during the battle
 
+## License
+
+As part of the NSIS distribution, this plug-in is licensed under [zlib/libpng][3]
+
 [1]: http://nsis.sourceforge.net/User:Brainsucker
 [2]: http://nsis.sourceforge.net/User:Kichik
+[3]: http://opensource.org/licenses/Zlib
