@@ -151,9 +151,9 @@ Default value is off because all of the possible errors are either things you sh
             FindClose $0
 
         skipSound:
-        # change the background image to Mike, tiled
-        BgImage::SetBg /TILED $PLUGINSDIR\1.bmp
-        !insertmacro GetReturnValue
+            # change the background image to Mike, tiled
+            BgImage::SetBg /TILED $PLUGINSDIR\1.bmp
+            !insertmacro GetReturnValue
 
         # we have to redraw to reflect the changes
         BgImage::Redraw
