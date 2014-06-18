@@ -186,15 +186,15 @@ Default value is off because all of the possible errors are either things you sh
 
 ## Credits:
 
-Written by [Amir Szekely][3] with contributions by [Ximon Eighteen][4], [iceman_k][6], Lajos Molnar and Jason Reis
+Written by [Amir Szekely][3] with contributions by [Ximon Eighteen][4], [iceman_k][5], Lajos Molnar and Jason Reis
 
 ## License
 
-As part of the NSIS distribution, this plug-in is licensed under [zlib/libpng][3]
+As part of the NSIS distribution, this plug-in is licensed under [zlib/libpng][6]
 
 [1]: ../Callbacks/onInit.markdown
 [2]: ../Reference/CreateFont.markdown
 [3]: http://nsis.sourceforge.net/User:Kichik
 [4]: http://nsis.sourceforge.net/User:Sunjammer
 [5]: http://nsis.sourceforge.net/User:Iceman_K
-[3]: http://opensource.org/licenses/Zlib
+[6]: http://opensource.org/licenses/Zlib
