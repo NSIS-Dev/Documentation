@@ -21,6 +21,6 @@ Added in NSIS v1.70
 
 ---
 
-[1]: Delete.markdown
-[2]: Rename.markdown
-[3]: SetRebootFlag.markdown
+[1]: Delete.md
+[2]: Rename.md
+[3]: SetRebootFlag.md

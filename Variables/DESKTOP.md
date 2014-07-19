@@ -10,4 +10,4 @@ Not documented
 
 ---
 
-[1]: ../Reference/SetShellVarContext.markdown
+[1]: ../Reference/SetShellVarContext.md

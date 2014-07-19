@@ -27,6 +27,6 @@ Added in NSIS v1.6beta2
 
 ---
 
-[1]: SetShellVarContext.markdown
-[2]: WriteRegStr.markdown
-[3]: WriteRegExpandStr.markdown
+[1]: SetShellVarContext.md
+[2]: WriteRegStr.md
+[3]: WriteRegExpandStr.md

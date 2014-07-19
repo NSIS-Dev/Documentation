@@ -15,4 +15,4 @@ Added in NSIS v1.3
 
 ---
 
-[1]: Section.markdown
+[1]: Section.md

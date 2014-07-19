@@ -22,4 +22,4 @@ Added in NSIS v1.51
 
 ---
 
-[1]: Goto.markdown
+[1]: Goto.md

@@ -32,7 +32,7 @@ Added in NSIS v1.3
 
 ---
 
-[1]: GetCurrentAddress.markdown
-[2]: GetFunctionAddress.markdown
-[3]: GetLabelAddress.markdown
-[4]: Return.markdown
+[1]: GetCurrentAddress.md
+[2]: GetFunctionAddress.md
+[3]: GetLabelAddress.md
+[4]: Return.md

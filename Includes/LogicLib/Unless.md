@@ -82,6 +82,6 @@ Written by dselkirk and eccles
 
 ---
 
-[1]: IfNot.markdown
-[2]: ElseIfNot.markdown
-[3]: ElseUnless.markdown
+[1]: IfNot.md
+[2]: ElseIfNot.md
+[3]: ElseUnless.md

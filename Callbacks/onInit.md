@@ -24,4 +24,4 @@ or:
 
 ---
 
-[1]: ../Reference/Abort.markdown
+[1]: ../Reference/Abort.md

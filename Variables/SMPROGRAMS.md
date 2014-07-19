@@ -10,4 +10,4 @@ Added in NSIS v1.0i
 
 ---
 
-[1]: ../Reference/SetShellVarContext.markdown
+[1]: ../Reference/SetShellVarContext.md

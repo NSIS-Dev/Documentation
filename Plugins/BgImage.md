@@ -192,8 +192,8 @@ Written by [Amir Szekely][3] with contributions by [Ximon Eighteen][4], [iceman_
 
 As part of the NSIS distribution, this plug-in is licensed under [zlib/libpng][6]
 
-[1]: ../Callbacks/onInit.markdown
-[2]: ../Reference/CreateFont.markdown
+[1]: ../Callbacks/onInit.md
+[2]: ../Reference/CreateFont.md
 [3]: http://nsis.sourceforge.net/User:Kichik
 [4]: http://nsis.sourceforge.net/User:Sunjammer
 [5]: http://nsis.sourceforge.net/User:Iceman_K

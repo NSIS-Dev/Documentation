@@ -21,5 +21,5 @@ Added in NSIS v2.0 Beta 4
 
 ---
 
-[1]: LangString.markdown
-[2]: LicenseData.markdown
+[1]: LangString.md
+[2]: LicenseData.md

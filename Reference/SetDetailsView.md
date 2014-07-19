@@ -14,4 +14,4 @@ Added in NSIS v1.1t
 
 ---
 
-[1]: ShowInstDetails.markdown
+[1]: ShowInstDetails.md

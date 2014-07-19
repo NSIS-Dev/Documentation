@@ -18,4 +18,4 @@ Added in NSIS v1.50
 
 ---
 
-[1]: Pop.markdown
+[1]: Pop.md

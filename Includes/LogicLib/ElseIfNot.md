@@ -66,8 +66,8 @@ Written by dselkirk and eccles
 
 ---
 
-[1]: ElseUnless.markdown
-[2]: IfNot.markdown
-[3]: Unless.markdown
-[4]: If.markdown
-[5]: IfNot.markdown
+[1]: ElseUnless.md
+[2]: IfNot.md
+[3]: Unless.md
+[4]: If.md
+[5]: IfNot.md

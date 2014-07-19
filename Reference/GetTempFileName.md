@@ -21,4 +21,4 @@ Added in NSIS v1.90
 
 ---
 
-[1]: Delete.markdown
+[1]: Delete.md

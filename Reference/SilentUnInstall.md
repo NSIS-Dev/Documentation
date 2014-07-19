@@ -16,5 +16,5 @@ Added in NSIS v1.7b2
 
 ---
 
-[1]: MessageBox.markdown
-[2]: LogSet.markdown
+[1]: MessageBox.md
+[2]: LogSet.md

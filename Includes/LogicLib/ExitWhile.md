@@ -27,4 +27,4 @@ Written by dselkirk and eccles
 
 ---
 
-[1]: DoWhile.markdown
+[1]: DoWhile.md

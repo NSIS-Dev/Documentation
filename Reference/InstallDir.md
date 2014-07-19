@@ -14,4 +14,4 @@ Added in NSIS v1.0f
 
 ---
 
-[1]: ../Variables/PROGRAMFILES.markdown
+[1]: ../Variables/PROGRAMFILES.md

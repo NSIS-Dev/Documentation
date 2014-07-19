@@ -25,4 +25,4 @@ Added in NSIS v1.60
 
 ---
 
-[1]: FindFirst.markdown
+[1]: FindFirst.md

@@ -12,4 +12,4 @@ This callback is called when the user hits the 'cancel' button after the uninsta
 
 ---
 
-[1]: ../Reference/Abort.markdown
+[1]: ../Reference/Abort.md

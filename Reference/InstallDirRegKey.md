@@ -21,6 +21,6 @@ Added in NSIS v1.0f
 
 ---
 
-[1]: InstallDir.markdown
-[2]: ../Variables/INSTDIR.markdown
-[3]: ../Callbacks/onInit.markdown
+[1]: InstallDir.md
+[2]: ../Variables/INSTDIR.md
+[3]: ../Callbacks/onInit.md

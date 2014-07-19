@@ -19,5 +19,5 @@ Added in NSIS v1.0f
 
 ---
 
-[1]: ../Variables/OUTDIR.markdown
-[2]: ../Variables/INSTDIR.markdown
+[1]: ../Variables/OUTDIR.md
+[2]: ../Variables/INSTDIR.md

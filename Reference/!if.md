@@ -24,4 +24,4 @@ Added in NSIS v2.15
 
 ---
 
-[1]: !endif.markdown
+[1]: !endif.md

@@ -59,8 +59,8 @@ Written by [kichik][5]
 
 ---
 
-[1]: ../../Reference/Section.markdown
-[2]: ../../Reference/SectionEnd.markdown
-[3]: MementoSectionEnd.markdown
-[4]: MementoUnselectedSection.markdown
+[1]: ../../Reference/Section.md
+[2]: ../../Reference/SectionEnd.md
+[3]: MementoSectionEnd.md
+[4]: MementoUnselectedSection.md
 [5]: http://nsis.sourceforge.net/User:Kichik

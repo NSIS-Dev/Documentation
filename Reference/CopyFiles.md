@@ -21,4 +21,4 @@ Added in NSIS v1.1a
 
 ---
 
-[1]: ../Variables/EXEDIR.markdown
+[1]: ../Variables/EXEDIR.md

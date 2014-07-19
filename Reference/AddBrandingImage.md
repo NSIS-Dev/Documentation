@@ -26,5 +26,5 @@ Added in NSIS v2.0 Alpha 2
 
 ---
 
-[1]: SetFont.markdown
-[2]: SetBrandingImage.markdown
+[1]: SetFont.md
+[2]: SetBrandingImage.md

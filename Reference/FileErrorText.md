@@ -16,4 +16,4 @@ Added in NSIS v1.63beta
 
 ---
 
-[1]: File.markdown
+[1]: File.md

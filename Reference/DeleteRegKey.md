@@ -19,4 +19,4 @@ Added in NSIS v1.0f
 
 ---
 
-[1]: WriteRegStr.markdown
+[1]: WriteRegStr.md

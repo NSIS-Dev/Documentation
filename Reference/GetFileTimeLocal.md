@@ -14,5 +14,5 @@ Added in NSIS v1.60
 
 ---
 
-[1]: GetFileTime.markdown
-[2]: StrCpy.markdown
+[1]: GetFileTime.md
+[2]: StrCpy.md

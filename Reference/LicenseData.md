@@ -12,4 +12,4 @@ Added in NSIS v1.0f
 
 ---
 
-[1]: LicenseLangString.markdown
+[1]: LicenseLangString.md

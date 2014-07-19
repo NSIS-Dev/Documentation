@@ -8,5 +8,5 @@ Selection changes include both section selection and installation type change.
 
 ---
 
-[1]: ../Reference/SectionSetFlags.markdown
-[2]: ../Reference/SectionGetFlags.markdown
+[1]: ../Reference/SectionSetFlags.md
+[2]: ../Reference/SectionGetFlags.md

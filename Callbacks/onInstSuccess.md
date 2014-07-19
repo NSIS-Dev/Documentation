@@ -14,5 +14,5 @@ This callback is called when the install was successful, right before the instal
 
 ---
 
-[1]: ../Reference/AutoCloseWindow.markdown
-[2]: ../Reference/SetAutoClose.markdown
+[1]: ../Reference/AutoCloseWindow.md
+[2]: ../Reference/SetAutoClose.md

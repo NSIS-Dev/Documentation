@@ -22,4 +22,4 @@ Added in NSIS v1.1d
 
 ---
 
-[1]: !addincludedir.markdown
+[1]: !addincludedir.md

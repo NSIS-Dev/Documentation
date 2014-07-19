@@ -25,6 +25,6 @@ Written by dselkirk and eccles
 
 ---
 
-[1]: Do.markdown
-[2]: DoUntil.markdown
-[3]: DoWhile.markdown
+[1]: Do.md
+[2]: DoUntil.md
+[3]: DoWhile.md

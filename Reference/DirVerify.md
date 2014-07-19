@@ -21,4 +21,4 @@ Added in NSIS v2.0 Release Candidate 1
 
 ---
 
-[1]: GetInstDirError.markdown
+[1]: GetInstDirError.md

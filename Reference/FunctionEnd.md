@@ -20,4 +20,4 @@ Added in NSIS v1.3
 
 ---
 
-[1]: Function.markdown
+[1]: Function.md

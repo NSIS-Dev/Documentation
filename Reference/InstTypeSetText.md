@@ -28,7 +28,7 @@ Added in NSIS v2.0
 
 ---
 
-[1]: InstType.markdown
-[2]: Section.markdown
-[3]: SectionSetInstTypes.markdown
-[4]: SectionIn.markdown
+[1]: InstType.md
+[2]: Section.md
+[3]: SectionSetInstTypes.md
+[4]: SectionIn.md

@@ -12,4 +12,4 @@ This callback is called when the uninstall was successful, right before the inst
 
 ---
 
-[1]: ../Reference/SetAutoClose.markdown
+[1]: ../Reference/SetAutoClose.md

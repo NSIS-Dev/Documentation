@@ -25,4 +25,4 @@ Added in NSIS v1.4 Beta
 
 ---
 
-[1]: GetLabelAddress.markdown
+[1]: GetLabelAddress.md

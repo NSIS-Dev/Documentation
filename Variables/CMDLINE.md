@@ -14,4 +14,4 @@ Added in NSIS v1.65
 
 ---
 
-[1]: ../Reference/GetParameters.markdown
+[1]: ../Reference/GetParameters.md

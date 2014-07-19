@@ -23,4 +23,4 @@ Added in NSIS v1.0i
 
 ---
 
-[1]: SetOutPath.markdown
+[1]: SetOutPath.md

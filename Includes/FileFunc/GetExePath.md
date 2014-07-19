@@ -21,5 +21,5 @@ Written by [Instructor][2]
 
 ---
 
-[1]: ../Variables/EXEDIR.markdown
+[1]: ../Variables/EXEDIR.md
 [2]: http://nsis.sourceforge.net/User:Instructor

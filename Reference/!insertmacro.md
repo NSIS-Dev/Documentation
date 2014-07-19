@@ -22,4 +22,4 @@ Added in NSIS v1.8b3
 
 ---
 
-[1]: !macro.markdown
+[1]: !macro.md

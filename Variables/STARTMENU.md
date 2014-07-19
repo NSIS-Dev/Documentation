@@ -10,5 +10,5 @@ Not documented
 
 ---
 
-[1]: ../Reference/CreateShortCut.markdown
-[2]: ../Reference/SetShellVarContext.markdown
+[1]: ../Reference/CreateShortCut.md
+[2]: ../Reference/SetShellVarContext.md

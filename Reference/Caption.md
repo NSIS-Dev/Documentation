@@ -24,6 +24,6 @@ Added in NSIS v1.2f
 
 ---
 
-[1]: PageEx.markdown
-[2]: Name.markdown
-[3]: ../Callbacks/onInit.markdown
+[1]: PageEx.md
+[2]: Name.md
+[3]: ../Callbacks/onInit.md

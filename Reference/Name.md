@@ -26,5 +26,5 @@ Added in NSIS v1.0f
 
 ---
 
-[1]: ../Callbacks/onInit.markdown
-[2]: LangString.markdown
+[1]: ../Callbacks/onInit.md
+[2]: LangString.md

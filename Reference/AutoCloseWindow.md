@@ -14,4 +14,4 @@ Added in NSIS v1.1a
 
 ---
 
-[1]: SetAutoClose.markdown
+[1]: SetAutoClose.md

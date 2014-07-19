@@ -16,4 +16,4 @@ Added in NSIS v1.0f
 
 ---
 
-[1]: InstTypeSetText.markdown
+[1]: InstTypeSetText.md

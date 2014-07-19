@@ -20,4 +20,4 @@ Added in NSIS v2.0 Beta 0
 
 ---
 
-[1]: PageEx.markdown
+[1]: PageEx.md

@@ -27,4 +27,4 @@ Written by dselkirk and eccles
 
 ---
 
-[1]: CaseElse.markdown
+[1]: CaseElse.md

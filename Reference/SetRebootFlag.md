@@ -20,4 +20,4 @@ Added in NSIS v1.70
 
 ---
 
-[1]: IfRebootFlag.markdown
+[1]: IfRebootFlag.md

@@ -14,4 +14,4 @@ Added in NSIS v1.0f
 
 ---
 
-[1]: UninstallIcon.markdown
+[1]: UninstallIcon.md

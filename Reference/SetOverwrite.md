@@ -20,5 +20,5 @@ Added in NSIS v1.0f
 
 ---
 
-[1]: File.markdown
-[2]: SetDateSave.markdown
+[1]: File.md
+[2]: SetDateSave.md

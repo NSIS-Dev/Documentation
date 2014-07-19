@@ -84,5 +84,5 @@ Written by dselkirk and eccles
 
 ---
 
-[1]: If.markdown
-[2]: IfNot.markdown
+[1]: If.md
+[2]: IfNot.md

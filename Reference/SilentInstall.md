@@ -16,6 +16,6 @@ Added in NSIS v1.0f
 
 ---
 
-[1]: SectionSetFlags.markdown
-[2]: MessageBox.markdown
-[3]: LogSet.markdown
+[1]: SectionSetFlags.md
+[2]: MessageBox.md
+[3]: LogSet.md

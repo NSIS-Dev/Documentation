@@ -24,6 +24,6 @@ Added in NSIS v2.05
 
 ---
 
-[1]: SectionGroupEnd.markdown
-[2]: !define.markdown
-[3]: SectionSetText.markdown
+[1]: SectionGroupEnd.md
+[2]: !define.md
+[3]: SectionSetText.md

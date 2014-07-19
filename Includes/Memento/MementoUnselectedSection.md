@@ -43,8 +43,8 @@ Written by [kichik][5]
 
 ---
 
-[1]: ../../Reference/Section.markdown
-[2]: MementoSection.markdown
-[3]: ../../Reference/SectionEnd.markdown
-[4]: MementoSectionEnd.markdown
+[1]: ../../Reference/Section.md
+[2]: MementoSection.md
+[3]: ../../Reference/SectionEnd.md
+[4]: MementoSectionEnd.md
 [5]: http://nsis.sourceforge.net/User:Kichik

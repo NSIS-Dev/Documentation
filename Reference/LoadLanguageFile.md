@@ -15,7 +15,7 @@ Added in NSIS v2.0 Alpha 3
 
 ---
 
-[1]: LangString.markdown
-[2]: LicenseLangString.markdown
-[3]: LangDLL.markdown
-[4]: VIAddVersionKey.markdown
+[1]: LangString.md
+[2]: LicenseLangString.md
+[3]: LangDLL.md
+[4]: VIAddVersionKey.md

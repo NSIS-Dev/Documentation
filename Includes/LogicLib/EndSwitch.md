@@ -29,4 +29,4 @@ Written by dselkirk and eccles
 
 ---
 
-[1]: Switch.markdown
+[1]: Switch.md

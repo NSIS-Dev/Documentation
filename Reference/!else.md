@@ -22,5 +22,5 @@ Added in NSIS v1.1f
 
 ---
 
-[1]: !ifdef.markdown
-[2]: !endif.markdown
+[1]: !ifdef.md
+[2]: !endif.md

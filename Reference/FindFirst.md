@@ -25,5 +25,5 @@ Added in NSIS v1.60
 
 ---
 
-[1]: FindNext.markdown
-[2]: FileClose.markdown
+[1]: FindNext.md
+[2]: FileClose.md

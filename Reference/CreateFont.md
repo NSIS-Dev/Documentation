@@ -20,4 +20,4 @@ Added in NSIS v2.0 Alpha 7
 ---
 
 [1]: http://msdn.microsoft.com/library/default.asp?url=/library/en-us/gdi/fontext_8fp0.asp
-[2]: LangString.markdown
+[2]: LangString.md

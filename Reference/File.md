@@ -60,5 +60,5 @@ Added in NSIS v1.0f
 
 ---
 
-[1]: ../Variables/OUTDIR.markdown
-[2]: SetOutPath.markdown
+[1]: ../Variables/OUTDIR.md
+[2]: SetOutPath.md

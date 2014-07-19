@@ -2,7 +2,7 @@
 
 ---
 
-Adds another include directory to the include directories list. This list is searched when [`!include`](!include.markdown) is used. This list's initial value is `${NSISDIR}\Include` alone.
+Adds another include directory to the include directories list. This list is searched when [`!include`](!include.md) is used. This list's initial value is `${NSISDIR}\Include` alone.
 
 ## Parameters:
 

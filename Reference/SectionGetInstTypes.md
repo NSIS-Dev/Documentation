@@ -26,4 +26,4 @@ Added in NSIS v2.0 Beta 3
 
 ---
 
-[1]: SectionSetInstTypes.markdown
+[1]: SectionSetInstTypes.md

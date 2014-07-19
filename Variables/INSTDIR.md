@@ -12,9 +12,9 @@ Added in NSIS v1.0
 
 ---
 
-[1]: ../Variables/INSTDIR.markdown
-[2]: ../Reference/StrCpy.markdown
-[3]: ../Reference/ReadRegStr.markdown
-[4]: ../Reference/ReadINIStr.markdown
-[5]: ../Callbacks/onInit.markdown
-[6]: $WINDIR.markdown
+[1]: ../Variables/INSTDIR.md
+[2]: ../Reference/StrCpy.md
+[3]: ../Reference/ReadRegStr.md
+[4]: ../Reference/ReadINIStr.md
+[5]: ../Callbacks/onInit.md
+[6]: $WINDIR.md

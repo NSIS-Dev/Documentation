@@ -16,5 +16,5 @@ Added in NSIS v3.0a0
 
 ---
 
-[1]: RequestExecutionLevel.markdown
+[1]: RequestExecutionLevel.md
 [2]: http://msdn.microsoft.com/en-us/library/windows/desktop/hh848036

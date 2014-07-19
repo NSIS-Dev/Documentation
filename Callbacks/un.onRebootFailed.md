@@ -12,7 +12,7 @@ This callback is called if [`Reboot`][1] fails. [`WriteUninstaller`][2], plug-in
 
 ---
 
-[1]: ../Reference/Reboot.markdown
-[2]: ../Reference/WriteUninstaller.markdown
-[3]: ../Reference/File.markdown
-[4]: ../Reference/WriteRegBin.markdown
+[1]: ../Reference/Reboot.md
+[2]: ../Reference/WriteUninstaller.md
+[3]: ../Reference/File.md
+[4]: ../Reference/WriteRegBin.md

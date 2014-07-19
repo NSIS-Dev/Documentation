@@ -20,4 +20,4 @@ Added in NSIS v2.05
 
 ---
 
-[1]: SectionGroup.markdown
+[1]: SectionGroup.md

@@ -10,5 +10,5 @@ Not documented
 
 ---
 
-[1]: ../Reference/InitPluginsDir.markdown
+[1]: ../Reference/InitPluginsDir.md
 [2]: http://nsis.sourceforge.net/Docs/InstallOptions/Readme.html

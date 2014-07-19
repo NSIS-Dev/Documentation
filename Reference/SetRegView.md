@@ -33,15 +33,15 @@ Added in NSIS v2.26
 
 ---
 
-[1]: DeleteRegKey.markdown
-[2]: DeleteRegValue.markdown
-[3]: EnumRegKey.markdown
-[4]: EnumRegValue.markdown
-[5]: ReadRegDWORD.markdown
-[6]: ReadRegStr.markdown
-[7]: WriteRegBin.markdown
-[8]: WriteRegDWORD.markdown
-[9]: WriteRegStr.markdown
-[10]: WriteRegExpandStr.markdown
-[11]: InstallDirRegKey.markdown
-[12]: ../Callbacks/onInit.markdown
+[1]: DeleteRegKey.md
+[2]: DeleteRegValue.md
+[3]: EnumRegKey.md
+[4]: EnumRegValue.md
+[5]: ReadRegDWORD.md
+[6]: ReadRegStr.md
+[7]: WriteRegBin.md
+[8]: WriteRegDWORD.md
+[9]: WriteRegStr.md
+[10]: WriteRegExpandStr.md
+[11]: InstallDirRegKey.md
+[12]: ../Callbacks/onInit.md

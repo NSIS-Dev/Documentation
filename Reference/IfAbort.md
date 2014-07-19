@@ -23,4 +23,4 @@ Added in NSIS v2.0
 
 ---
 
-[1]: Abort.markdown
+[1]: Abort.md

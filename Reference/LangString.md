@@ -31,5 +31,5 @@ Added in NSIS v2.0 Release Candidate 2
 
 ---
 
-[1]: ../Callbacks/onInit.markdown
-[2]: LoadLanguageFile.markdown
+[1]: ../Callbacks/onInit.md
+[2]: LoadLanguageFile.md

@@ -22,6 +22,6 @@ Added in NSIS v1.8b3
 
 ---
 
-[1]: !macroend.markdown
-[2]: !insertmacro.markdown
-[3]: !define.markdown
+[1]: !macroend.md
+[2]: !insertmacro.md
+[3]: !define.md

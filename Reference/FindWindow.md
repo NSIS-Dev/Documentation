@@ -19,4 +19,4 @@ Added in NSIS v1.0f
 
 ---
 
-[1]: SendMessage.markdown
+[1]: SendMessage.md

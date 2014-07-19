@@ -27,4 +27,4 @@ Written by dselkirk and eccles
 
 ---
 
-[1]: Default.markdown
+[1]: Default.md

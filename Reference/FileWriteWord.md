@@ -24,4 +24,4 @@ Added in NSIS v3.0a0
 ---
 
 [1]: http://nsis.sourceforge.net/Docs/Chapter1.html#1.4
-[2]: FileOpen.markdown
+[2]: FileOpen.md

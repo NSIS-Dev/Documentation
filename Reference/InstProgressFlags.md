@@ -22,5 +22,5 @@ Added in NSIS v1.60
 
 ---
 
-[1]: InstallColors.markdown
-[2]: XPStyle.markdown
+[1]: InstallColors.md
+[2]: XPStyle.md

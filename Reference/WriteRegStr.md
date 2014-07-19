@@ -18,4 +18,4 @@ Added in NSIS v1.0f
 
 ---
 
-[1]: WriteRegExpandStr.markdown
+[1]: WriteRegExpandStr.md

@@ -50,10 +50,10 @@ Written by dselkirk and eccles
 
 ---
 
-[1]: If.markdown
-[2]: IfNot.markdown
-[3]: Unless.markdown
-[4]: ElseIf.markdown
-[5]: ElseIfNot.markdown
-[6]: ElseUnless.markdown
-[7]: OrIfNot.markdown
+[1]: If.md
+[2]: IfNot.md
+[3]: Unless.md
+[4]: ElseIf.md
+[5]: ElseIfNot.md
+[6]: ElseUnless.md
+[7]: OrIfNot.md

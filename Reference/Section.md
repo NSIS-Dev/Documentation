@@ -57,5 +57,5 @@ Added in NSIS v1.0f
 
 ---
 
-[1]: !define.markdown
-[2]: SectionSetText.markdown
+[1]: !define.md
+[2]: SectionSetText.md

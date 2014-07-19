@@ -20,4 +20,4 @@ Added in NSIS v2.02
 
 ---
 
-[1]: SetErrorLevel.markdown
+[1]: SetErrorLevel.md

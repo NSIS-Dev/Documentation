@@ -22,5 +22,5 @@ Added in NSIS v2.0 Release Candidate 2
 
 ---
 
-[1]: GetDlgItem.markdown
-[2]: XPStyle.markdown
+[1]: GetDlgItem.md
+[2]: XPStyle.md

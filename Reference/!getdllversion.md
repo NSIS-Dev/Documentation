@@ -19,4 +19,4 @@ Added in NSIS v3.0a0
 
 ---
 
-[1]: GetDLLVersionLocal.markdown
+[1]: GetDLLVersionLocal.md

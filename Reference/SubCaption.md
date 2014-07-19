@@ -18,5 +18,5 @@ Added in NSIS v1.56
 
 ---
 
-[1]: Caption.markdown
-[2]: PageEx.markdown
+[1]: Caption.md
+[2]: PageEx.md

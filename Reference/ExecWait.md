@@ -20,4 +20,4 @@ Added in NSIS v1.0i
 
 ---
 
-[1]: Exec.markdown
+[1]: Exec.md

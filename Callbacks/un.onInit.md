@@ -23,6 +23,6 @@ or:
 
 ---
 
-[1]: ../Callbacks/un.onInit.markdown
-[2]: ../Reference/Abort.markdown
-[2]: ../Variables/INSTDIR.markdown
+[1]: ../Callbacks/un.onInit.md
+[2]: ../Reference/Abort.md
+[2]: ../Variables/INSTDIR.md

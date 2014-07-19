@@ -20,4 +20,4 @@ Added in NSIS v1.1b
 
 ---
 
-[1]: ../Variables/OUTDIR.markdown
+[1]: ../Variables/OUTDIR.md

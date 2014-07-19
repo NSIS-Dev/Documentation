@@ -24,8 +24,8 @@ Added in NSIS v1.1f
 
 ---
 
-[1]: !if.markdown
-[2]: !ifdef.markdown
-[3]: !ifndef.markdown
-[4]: !ifmacrodef.markdown
-[5]: !ifmacrondef.markdown
+[1]: !if.md
+[2]: !ifdef.md
+[3]: !ifndef.md
+[4]: !ifmacrodef.md
+[5]: !ifmacrondef.md

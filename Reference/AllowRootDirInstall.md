@@ -14,4 +14,4 @@ Added in NSIS v1.80
 
 ---
 
-[1]: ../Callbacks/onVerifyInstDir.markdown
+[1]: ../Callbacks/onVerifyInstDir.md

@@ -14,5 +14,5 @@ Added in NSIS v1.60
 
 ---
 
-[1]: GetDLLVersion.markdown
-[2]: StrCpy.markdown
+[1]: GetDLLVersion.md
+[2]: StrCpy.md

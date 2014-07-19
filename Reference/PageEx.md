@@ -26,7 +26,7 @@ Added in NSIS v2.0 Beta 4
 
 ---
 
-[1]: PageExEnd.markdown
-[2]: Caption.markdown
-[3]: SubCaption.markdown
-[4]: PageCallbacks.markdown
+[1]: PageExEnd.md
+[2]: Caption.md
+[3]: SubCaption.md
+[4]: PageCallbacks.md

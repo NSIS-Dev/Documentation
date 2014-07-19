@@ -14,6 +14,6 @@ Added in NSIS v2.0 Alpha 2
 
 ---
 
-[1]: AddBrandingImage.markdown
-[2]: File.markdown
-[3]: ../Callbacks/onInit.markdown
+[1]: AddBrandingImage.md
+[2]: File.md
+[3]: ../Callbacks/onInit.md

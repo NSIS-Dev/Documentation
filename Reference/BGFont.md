@@ -14,4 +14,4 @@ Added in NSIS v2.01
 
 ---
 
-[1]: BGGradient.markdown
+[1]: BGGradient.md

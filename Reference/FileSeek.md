@@ -25,4 +25,4 @@ Added in NSIS v1.60
 
 ---
 
-[1]: FileOpen.markdown
+[1]: FileOpen.md

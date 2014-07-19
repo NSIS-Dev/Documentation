@@ -34,5 +34,5 @@ Added in NSIS v1.0f
 
 ---
 
-[1]: SetOutPath.markdown
+[1]: SetOutPath.md
 [2]: http://nsis.sourceforge.net/Uninstall_only_installed_files

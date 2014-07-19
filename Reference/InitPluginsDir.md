@@ -15,4 +15,4 @@ Added in NSIS v2.0 Beta 0
 
 ---
 
-[1]: ../Variables/PLUGINSDIR.markdown
+[1]: ../Variables/PLUGINSDIR.md

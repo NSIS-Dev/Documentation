@@ -40,7 +40,7 @@ Written by [kichik][4]
 
 ---
 
-[1]: ../../Reference/Section.markdown
-[2]: ../../Reference/SectionEnd.markdown
-[3]: MementoSectionEnd.markdown
+[1]: ../../Reference/Section.md
+[2]: ../../Reference/SectionEnd.md
+[3]: MementoSectionEnd.md
 [4]: http://nsis.sourceforge.net/User:Kichik

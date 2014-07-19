@@ -19,4 +19,4 @@ Added in NSIS v2.01
 
 ---
 
-[1]: !system.markdown
+[1]: !system.md

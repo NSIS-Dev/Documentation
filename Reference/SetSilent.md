@@ -14,5 +14,5 @@ Added in NSIS v2.0 Beta 4
 
 ---
 
-[1]: SilentInstall.markdown
-[2]: ../Callbacks/onInit.markdown
+[1]: SilentInstall.md
+[2]: ../Callbacks/onInit.md

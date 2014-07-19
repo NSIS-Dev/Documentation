@@ -22,5 +22,5 @@ Added in NSIS v2.0
 
 ---
 
-[1]: Call.markdown
-[2]: Goto.markdown
+[1]: Call.md
+[2]: Goto.md

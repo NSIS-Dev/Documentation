@@ -23,5 +23,5 @@ Added in NSIS v1.80
 
 ---
 
-[1]: Function.markdown
-[2]: Section.markdown
+[1]: Function.md
+[2]: Section.md

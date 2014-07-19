@@ -27,4 +27,4 @@ Added in NSIS v1.0f
 
 ---
 
-[1]: InstType.markdown
+[1]: InstType.md

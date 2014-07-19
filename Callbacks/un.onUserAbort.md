@@ -14,4 +14,4 @@ This callback is called when the user hits the 'cancel' button and the uninstall
 
 ---
 
-[1]: ../Reference/Abort.markdown
+[1]: ../Reference/Abort.md

@@ -14,6 +14,6 @@ Example:
 
 ---
 
-[1]: ../Reference/MessageBox.markdown
-[2]: ../Reference/Abort.markdown
-[3]: ../Variables/INSTDIR.markdown
+[1]: ../Reference/MessageBox.md
+[2]: ../Reference/Abort.md
+[3]: ../Variables/INSTDIR.md

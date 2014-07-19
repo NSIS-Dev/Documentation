@@ -48,4 +48,4 @@ Written by dselkirk and eccles
 
 ---
 
-[1]: While.markdown
+[1]: While.md

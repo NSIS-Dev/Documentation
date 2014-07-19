@@ -28,5 +28,5 @@ Added in NSIS v2.0 Beta 4
 
 ---
 
-[1]: ../Variables/INSTDIR.markdown
-[2]: PageEx.markdown
+[1]: ../Variables/INSTDIR.md
+[2]: PageEx.md

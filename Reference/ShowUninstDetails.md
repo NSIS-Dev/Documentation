@@ -14,4 +14,4 @@ Added in NSIS v1.60
 
 ---
 
-[1]: SetDetailsView.markdown
+[1]: SetDetailsView.md

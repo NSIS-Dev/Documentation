@@ -64,5 +64,5 @@ Added in NSIS v1.0f
 
 ---
 
-[1]: Goto.markdown
+[1]: Goto.md
 [2]: http://nsis.sourceforge.net/Docs//Chapter4.html#4.12

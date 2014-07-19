@@ -10,7 +10,7 @@ Added in NSIS v1.4 Beta
 
 ---
 
-[1]: ../Reference/SetOutPath.markdown
-[2]: ../Reference/StrCpy.markdown
-[3]: ../Reference/ReadRegStr.markdown
-[4]: ../Reference/ReadINIStr.markdown
+[1]: ../Reference/SetOutPath.md
+[2]: ../Reference/StrCpy.md
+[3]: ../Reference/ReadRegStr.md
+[4]: ../Reference/ReadINIStr.md
