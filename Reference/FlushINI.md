@@ -20,6 +20,6 @@ Added in NSIS v2.0 Beta 3
 
 ---
 
-[1]: WriteINIStr.markdown
-[2]: DeleteINISec.markdown
-[3]: DeleteINStr.markdown
+[1]: WriteINIStr.md
+[2]: DeleteINISec.md
+[3]: DeleteINIStr.md
