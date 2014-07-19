@@ -14,4 +14,4 @@ Added in NSIS v1.65
 
 ---
 
-[1]: ../Reference/GetParameters.md
+[1]: ../Includes/FileFunc/GetParameters.md
