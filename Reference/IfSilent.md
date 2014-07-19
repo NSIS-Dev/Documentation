@@ -20,5 +20,5 @@ Added in NSIS v2.0 Beta 4
 ---
 
 [1]: SilentInstall.md
-[2]: SilentUninstall.md
+[2]: SilentUnInstall.md
 [3]: SetSilent.md
