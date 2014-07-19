@@ -10,4 +10,4 @@ Added in NSIS v1.0i
 
 ---
 
-[1]: $TEMP.md
+[1]: TEMP.md
