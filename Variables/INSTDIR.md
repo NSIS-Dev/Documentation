@@ -16,4 +16,4 @@ Added in NSIS v1.0
 [2]: ../Reference/ReadRegStr.md
 [3]: ../Reference/ReadINIStr.md
 [4]: ../Callbacks/onInit.md
-[5]: $WINDIR.md
+[5]: WINDIR.md
