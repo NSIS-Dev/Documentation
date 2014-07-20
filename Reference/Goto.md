@@ -8,18 +8,18 @@ If `+offset` or `-offset` is specified, jump is relative by offset instructions.
 
 If a user variable is specified, jumps to absolute address (generally you will want to get this value from a function like [`GetLabelAddress`][1]). Compiler flag commands and SectionIn aren't instructions so jumping over them has no effect.
 
-## Parameters:
+## Parameters
 
     label_to_jump_to | +offset| -offset| user_var(target)
 
-## Example:
+## Example
 
 	Goto label
 	Goto +2
 	Goto -2
 	Goto $0
 
-## History:
+## History
 
 Added in NSIS v1.4 Beta
 

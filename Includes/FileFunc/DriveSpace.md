@@ -4,7 +4,7 @@
 
 Get total, occupied or free space of the drive.
 
-## Syntax:
+## Syntax
 
 	${DriveSpace} "[Drive]" "[Options]" $var
 
@@ -27,14 +27,14 @@ Note:
 - Error flag if disk isn't exist or not ready 
 - Error flag if syntax error
 
-## Example:
+## Example
 
 	Section
 		${DriveSpace} "C:\" "/D=F /S=M" $R0
 		; $R0="2530"   megabytes free on drive C:
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

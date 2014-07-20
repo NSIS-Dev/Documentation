@@ -8,11 +8,11 @@ Affects [`DeleteRegKey`][1], [`DeleteRegValue`][2], [`EnumRegKey`][3], [`EnumReg
 
 Does not affect [`InstallDirRegKey`][11]. Instead, the registry can be read using [`ReadRegStr`][6] in [`.onInit`][12].
 
-## Parameters:
+## Parameters
 
     32|64|lastused
 
-## Example:
+## Example
 
 	SetRegView 32
 	ReadRegStr $0 HKLM Software\Microsoft\Windows\CurrentVersion ProgramFilesDir
@@ -27,7 +27,7 @@ Does not affect [`InstallDirRegKey`][11]. Instead, the registry can be read usin
 		SetRegView 32
 	FunctionEnd
 
-## History:
+## History
 
 Added in NSIS v2.26
 

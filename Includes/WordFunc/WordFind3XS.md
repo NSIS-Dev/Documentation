@@ -4,7 +4,7 @@
 
 Find a word that contains a string, between two delimiters, case sensitive.
 
-## Syntax:
+## Syntax
 
 	${WordFind3XS} "[string]" "[delimiter1]" "[center]" "[delimiter2]" "[E][options]" $var
 
@@ -47,7 +47,7 @@ Find a word that contains a string, between two delimiters, case sensitive.
 	                   ;
 	$var               ;output (result)
 
-## Examples:
+## Examples
 
 ### Example 1
 
@@ -106,7 +106,7 @@ Find a word that contains a string, between two delimiters, case sensitive.
 		end:
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

@@ -4,7 +4,7 @@
 
 Get attributes of file or directory.
 
-## Syntax:
+## Syntax
 
 	${GetFileAttributes} "[File]" "[Attributes]" $var
 
@@ -27,7 +27,7 @@ Note:
 
 - Error flag if file doesn't exist
 
-## Examples:
+## Examples
 
 ### Get all file attributes
 
@@ -50,7 +50,7 @@ Note:
 		; $R0=0
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

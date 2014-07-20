@@ -6,18 +6,18 @@ Loads the specified DLL and calls DllRegisterServer (or entrypoint\_name if spec
 
 Use [`SetOutPath`][1] to set the current directory for DLLs that depend on other DLLs that are now in the path or in the Windows directory
 
-## Parameters:
+## Parameters
 
     dllfile [entrypoint_name]
 
-## Example:
+## Example
 
 If foo.dll depends on bar.dll which is located in $INSTDIR use:
 
 	SetOutPath $INSTDIR
 	RegDLL $INSTDIR\foo.dll
 
-## History:
+## History
 
 Added in NSIS v1.0i
 

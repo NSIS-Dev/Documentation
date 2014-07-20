@@ -4,11 +4,11 @@
 
 Checks if the installer is running on Windows ME.
 
-## Syntax:
+## Syntax
 
 	logic_lib_statement ${AtLeastWinME}
 
-## Example:
+## Example
 
 	${If} ${AtLeastWinME}
 		DetailPrint "Windows ME or higher"
@@ -16,7 +16,7 @@ Checks if the installer is running on Windows ME.
 		DetailPrint "Older than Windows ME"
 	${EndIf}
 
-## Credits:
+## Credits
 
 *unknown*
 

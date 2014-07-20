@@ -4,11 +4,11 @@
 
 Gets the Size of the section specified by section_index and stores the value in the given User Variable. Note that the Index starts with Zero.
 
-## Parameters:
+## Parameters
 
     section_index user_var
 
-## Example:
+## Example
 
 	Section test test_section_id
 	SectionEnd
@@ -20,7 +20,7 @@ Gets the Size of the section specified by section_index and stores the value in 
 		SectionSetSize ${test_section_id} $0
 	FunctionEnd
 
-## History:
+## History
 
 Added in NSIS v2.0 Beta 4
 

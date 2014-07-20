@@ -4,11 +4,11 @@
 
 Use `${MementoSectionDone}` after the last [`${MementoSection}`][1].
 
-## Syntax:
+## Syntax
 
     ${MementoSectionRestore}
 
-## Example:
+## Example
 
 	!include Memento.nsh
 
@@ -29,7 +29,7 @@ Use `${MementoSectionDone}` after the last [`${MementoSection}`][1].
 
 	${MementoSectionDone}
 
-## Credits:
+## Credits
 
 Written by [kichik][2]
 

@@ -6,11 +6,11 @@ Remove the specified directory (fully qualified path with no wildcards). Without
 
 **Warning:** using RMDir /r $INSTDIR in the uninstaller is not safe. Though it is unlikely, the user might select to install to the Program Files folder and so this command will wipe out the entire Program Files folder, including other programs that has nothing to do with the uninstaller. The user can also put other files but the program's files and would expect them to get deleted with the program. Solutions are [available][2] for easily uninstalling only files which were installed by the installer.
 
-## Parameters:
+## Parameters
 
     [/r] [/REBOOTOK] directory_name
 
-## Example:
+## Example
 
 	RMDir $INSTDIR
 	RMDir $INSTDIR\data
@@ -28,7 +28,7 @@ The next example will succeed in deleting the directory.
 	SetOutPath $TEMP
 	RMDir $TEMP\dir
 
-## History:
+## History
 
 Added in NSIS v1.0f
 

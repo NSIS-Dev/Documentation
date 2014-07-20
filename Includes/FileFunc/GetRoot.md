@@ -4,11 +4,11 @@
 
 Get root directory.
 
-## Syntax:
+## Syntax
 
 	${GetRoot} "[FullPath]" $var
 
-## Examples:
+## Examples
 
 ### Get root of local folder
 
@@ -24,7 +24,7 @@ Get root directory.
 		; $R0="\\SuperPimp\NSIS"
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

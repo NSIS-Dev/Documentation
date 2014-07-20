@@ -6,16 +6,16 @@ This attribute tells the installer to check a string in the registry, and use it
 
 Language strings and variables cannot be used with `InstallDirRegKey`.
 
-## Parameters:
+## Parameters
 
     root_key subkey key_name
 
-## Example:
+## Example
 
 	InstallDirRegKey HKLM Software\NSIS ""
 	InstallDirRegKey HKLM Software\ACME\Thingy InstallLocation
 
-## History:
+## History
 
 Added in NSIS v1.0f
 

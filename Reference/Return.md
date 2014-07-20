@@ -4,7 +4,7 @@
 
 Returns from a [`Function`][1] or [`Section`][2].
 
-## Example:
+## Example
 
 	Function func
 		StrCmp $0 "return now" 0 +2
@@ -17,7 +17,7 @@ Returns from a [`Function`][1] or [`Section`][2].
 		;"Return" will return here
 	SectionEnd
 
-## History:
+## History
 
 Added in NSIS v1.80
 

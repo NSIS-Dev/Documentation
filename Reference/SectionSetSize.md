@@ -4,11 +4,11 @@
 
 Sets the Size of the section specified by section_index. Note that the Index starts with Zero. The Value for Size must be entered in KiloByte and supports only whole numbers.
 
-## Parameters:
+## Parameters
 
     section_index new_size
 
-## Example:
+## Example
 
 	Section test test_section_id
 	SectionEnd
@@ -18,7 +18,7 @@ Sets the Size of the section specified by section_index. Note that the Index sta
 		SectionSetSize ${test_section_id} 100
 	FunctionEnd
 
-## History:
+## History
 
 Added in NSIS v2.0 Beta 4
 

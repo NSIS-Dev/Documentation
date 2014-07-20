@@ -4,11 +4,11 @@
 
 Checks if the installer is running on Windows 8.
 
-## Syntax:
+## Syntax
 
 	logic_lib_statement ${AtLeastWin8}
 
-## Example:
+## Example
 
 	${If} ${AtLeastWin8}
 		DetailPrint "Windows 8 or higher"
@@ -16,7 +16,7 @@ Checks if the installer is running on Windows 8.
 		DetailPrint "Older than Windows 8"
 	${EndIf}
 
-## Credits:
+## Credits
 
 *unknown*
 

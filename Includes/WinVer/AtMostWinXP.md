@@ -4,11 +4,11 @@
 
 Checks if the installer is running on Windows XP at most.
 
-## Syntax:
+## Syntax
 
 	logic_lib_statement ${AtMostWinXP}
 
-## Example:
+## Example
 
 	${If} ${AtMostWinXP}
 		DetailPrint "Windows XP or lower"
@@ -16,7 +16,7 @@ Checks if the installer is running on Windows XP at most.
 		DetailPrint "Windows version is higher"
 	${EndIf}
 
-## Credits:
+## Credits
 
 *unknown*
 

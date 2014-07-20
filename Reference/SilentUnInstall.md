@@ -6,11 +6,11 @@ Specifies whether or not the uninstaller should be silent. If it is 'silent' or 
 
 Note: see also [`LogSet`][2].
 
-## Parameters:
+## Parameters
 
     normal|silent
 
-## History:
+## History
 
 Added in NSIS v1.7b2
 

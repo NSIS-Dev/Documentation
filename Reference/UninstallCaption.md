@@ -6,11 +6,11 @@ Sets what the titlebars of the uninstaller will display. By default, it is 'Name
 
 Accepts variables. If variables are used, they must be initialized in [`un.onInit`][2].
 
-## Parameters:
+## Parameters
 
     caption
 
-## History:
+## History
 
 Added in NSIS v1.56
 

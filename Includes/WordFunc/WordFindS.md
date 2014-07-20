@@ -4,7 +4,7 @@
 
 Multi-features string function, case sensitive
 
-## Syntax:
+## Syntax
 
 	${WordFindS} "[string]" "[delimiter]" "[E][options]" $var
 
@@ -56,7 +56,7 @@ Notes:
 
 - Accepted numbers 1,01,001,...
 
-## Examples:
+## Examples
 
 ### Find word by number
 
@@ -218,7 +218,7 @@ Notes:
 		; $R0="OneWord"
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

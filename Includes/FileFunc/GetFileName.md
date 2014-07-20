@@ -4,18 +4,18 @@
 
 Get last part from directory path.
 
-## Syntax:
+## Syntax
 
 	${GetFileName} "[PathString]" $var
 
-## Example:
+## Example
 
 	Section
 		${GetFileName} "C:\Program Files\Winamp\uninstwa.exe" $R0
 		; $R0="uninstwa.exe"
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

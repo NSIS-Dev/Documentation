@@ -6,7 +6,7 @@ The directory that contains shortcuts to the user's favorite websites, documents
 
 This constant is not available on Windows 95 with Internet Explorer 4 not installed.
 
-## History:
+## History
 
 Not documented
 

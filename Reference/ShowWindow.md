@@ -4,11 +4,11 @@
 
 Sets the visibility of a window. Possible show\_states are the same as [Windows ShowWindow][1] function. SW\_* constants are defined in [Include\WinMessages.nsh][2].
 
-## Parameters:
+## Parameters
 
     hwnd show_state
 
-## Example:
+## Example
 
 	!include WinMessages.nsh
 	GetDlgItem $0 $HWNDPARENT 1
@@ -16,7 +16,7 @@ Sets the visibility of a window. Possible show\_states are the same as [Windows 
 	Sleep 1000
 	ShowWindow $0 ${SW_SHOW}
 
-## History:
+## History
 
 Added in NSIS v2.0
 

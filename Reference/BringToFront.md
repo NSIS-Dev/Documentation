@@ -6,7 +6,7 @@ Makes the installer window visible and brings it to the top of the window list. 
 
 Recent Windows versions restrict the setting of foreground windows. If the user is working with another application during installation, the user may be notified using a different method.
 
-## History:
+## History
 
 Added in NSIS v1.1a
 

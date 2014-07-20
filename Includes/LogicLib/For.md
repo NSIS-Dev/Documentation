@@ -4,11 +4,11 @@
 
 Repeats a block of statements varying the value of a variable.
 
-## Syntax:
+## Syntax
 
 	${For} expression
 
-## Example:
+## Example
 
 	StrCpy $0 ""
 
@@ -18,7 +18,7 @@ Repeats a block of statements varying the value of a variable.
 
 	; $0 = 12345
 
-## Credits:
+## Credits
 
 Written by dselkirk and eccles
 

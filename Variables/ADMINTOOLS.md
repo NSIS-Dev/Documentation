@@ -6,7 +6,7 @@ A directory where administrative tools are kept. The context of this constant (A
 
 This constant is available on Windows 2000, ME and above.
 
-## History:
+## History
 
 Not documented
 

@@ -4,7 +4,7 @@
 
 Trim string path for banner.
 
-## Syntax:
+## Syntax
 
 	${BannerTrimPath} "[PathString]" "[Option]" $var
 
@@ -27,7 +27,7 @@ Trim string path for banner.
 	                  ;
 	$var              ; Result:  Trimmed path
 
-## Examples:
+## Examples
 
 ### Trim center path to 35 characters max
 
@@ -95,7 +95,7 @@ Trim string path for banner.
 		Push $0
 	FunctionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

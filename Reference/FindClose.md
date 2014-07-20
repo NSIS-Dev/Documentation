@@ -4,11 +4,11 @@
 
 Closes a search opened with [`FindFirst`][1].
 
-## Parameters:
+## Parameters
 
     handle
 
-## Example:
+## Example
 
 	FindFirst $0 $1 $INSTDIR\*.txt
 	loop:
@@ -19,7 +19,7 @@ Closes a search opened with [`FindFirst`][1].
 	done:
 	FindClose $0
 
-## History:
+## History
 
 Added in NSIS v1.60
 

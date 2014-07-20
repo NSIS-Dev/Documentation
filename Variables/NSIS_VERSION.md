@@ -4,7 +4,7 @@
 
 NSIS version used to build the script.
 
-## History:
+## History
 
 Not documented
 

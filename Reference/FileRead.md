@@ -6,11 +6,11 @@ Reads a string (ANSI characters) from a file opened with [`FileOpen`][1]. The st
 
 (If you are building a [Unicode installer][2], the function reads an ANSI string and makes the adequate conversion)
 
-## Parameters:
+## Parameters
 
     handle user_var(output) [maxlen]
 
-## Example:
+## Example
 
 	ClearErrors
 	FileOpen $0 $INSTDIR\file.dat r
@@ -20,7 +20,7 @@ Reads a string (ANSI characters) from a file opened with [`FileOpen`][1]. The st
 	FileClose $0
 	done:
 
-## History:
+## History
 
 Added in NSIS v1.60
 

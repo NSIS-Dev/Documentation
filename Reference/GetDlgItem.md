@@ -8,15 +8,15 @@ Retrieves the handle of a control identified by item_id in the specified dialog 
 
 to get the handle of the inner dialog.
 
-## Parameters:
+## Parameters
 
     user_var(output) dialog item_id
 
-## Example:
+## Example
 
 	GetDlgItem $0 $HWNDPARENT 1 # next/install button
 
-## History:
+## History
 
 Added in NSIS v2.0
 

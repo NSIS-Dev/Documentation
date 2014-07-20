@@ -4,7 +4,7 @@
 
 Recode text file from DOS to Windows format and vice-versa.
 
-## Syntax:
+## Syntax
 
 	${FileRecode} "[File]" "[Format]"
 
@@ -18,13 +18,13 @@ Note:
 - Error flag if file doesn't exist 
 - Error flag if syntax error
 
-## Example:
+## Example
 
 	Section
 		${FileRecode} "C:\SCANDISK.LOG" "CharToOem"
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

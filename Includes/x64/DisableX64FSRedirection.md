@@ -4,17 +4,17 @@
 
 Disables file system redirection.
 
-## Syntax:
+## Syntax
 
 	${DisableX64FSRedirection}
 
-## Example:
+## Example
 
 	SetOutPath $SYSDIR
 	${DisableX64FSRedirection}
 	File some.dll # extracts to C:\Windows\System32
 
-## Credits:
+## Credits
 
 *unknown*
 

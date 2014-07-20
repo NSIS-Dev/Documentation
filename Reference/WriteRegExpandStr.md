@@ -17,11 +17,11 @@ If root\_key is SHCTX or SHELL\_CONTEXT, it will be replaced with HKLM if [`SetS
 
 The error flag is set if the string could not be written to the registry. The type of the string will be REG\_SZ for [`WriteRegStr`][2], or REG\_EXPAND\_STR for [`WriteRegExpandStr`][3]. If the registry key doesn't exist it will be created.
 
-## Parameters:
+## Parameters
 
     root_key subkey key_name value
 
-## History:
+## History
 
 Added in NSIS v1.6beta2
 

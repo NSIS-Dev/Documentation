@@ -8,17 +8,17 @@ When used inside a [`PageEx`][1] block: Sets the subcaption of the current page.
 
 Accepts variables. If variables are used, they must be initialized on [`.onInit`][3].
 
-## Parameters:
+## Parameters
 
     caption
 
-## Example:
+## Example
 
 	PageEx license
 		Caption "This is a license page"
 	PageExEnd
 
-## History:
+## History
 
 Added in NSIS v1.2f
 

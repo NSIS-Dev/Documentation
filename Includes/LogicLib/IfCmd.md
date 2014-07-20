@@ -4,7 +4,7 @@
 
 Conditionally executes an inline statement, depending on a true value of the provided NSIS function.
 
-## Syntax:
+## Syntax
 
 	${IfCmd} expression statement
 
@@ -34,7 +34,7 @@ The following "expressions" are available:
 		${SectionIsReadOnly} a; ${SectionIsExpanded} a;
 		${SectionIsPartiallySelected} a
 
-## Example:
+## Example
 
 	StrCpy $R2 ""
 
@@ -49,7 +49,7 @@ The following "expressions" are available:
 		MessageBox "You clicked No"
 	${EndIf}
 
-## Credits:
+## Credits
 
 Written by dselkirk and eccles
 

@@ -4,7 +4,7 @@
 
 Adds any number of extra conditions to [`If`][1], [`IfNot`][2], [`Unless`][3], [`ElseIf`][4], [`ElseIfNot`][5] and [`ElseUnless`][6] statements. `${OrIfNot}` and [`${OrUnless}`][7] are equivalent and interchangeable.
 
-## Syntax:
+## Syntax
 
 	${OrIfNot} expression
 
@@ -34,7 +34,7 @@ The following "expressions" are available:
 		${SectionIsReadOnly} a; ${SectionIsExpanded} a;
 		${SectionIsPartiallySelected} a
 
-## Example:
+## Example
 
 	StrCpy $0 false
 	StrCpy $1 false
@@ -44,7 +44,7 @@ The following "expressions" are available:
 		MessageBox MB_OK "Something's not true"
 	${EndIf}
 
-## Credits:
+## Credits
 
 Written by dselkirk and eccles
 

@@ -8,7 +8,7 @@ The default string will be used if a string is empty ("").
 
 Accepts variables. If variables are used, they must be initialized before the components page is created.
 
-## Parameters:
+## Parameters
 
     [text [subtext] [subtext2]]
 
@@ -16,7 +16,7 @@ Accepts variables. If variables are used, they must be initialized before the co
 * subtext: Text next to the installation type selection.
 * subtext2: Text to the left of the components list and below the installation type.
 
-## History:
+## History
 
 Added in NSIS v1.0f
 

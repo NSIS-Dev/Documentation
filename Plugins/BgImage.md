@@ -71,7 +71,7 @@ Enable return values from `SetBg`, `AddImage` and `AddText`
 
 Default value is off because all of the possible errors are either things you should handle when debugging your script such as "can't load bitmap" or errors you can do nothing about such as "memory allocation error"
 
-## Example:
+## Example
 
     Name "BgImage.dll test"
     OutFile "BgImage Test.exe"
@@ -184,7 +184,7 @@ Default value is off because all of the possible errors are either things you sh
         # Destroy doesn't return any value
     FunctionEnd
 
-## Credits:
+## Credits
 
 Written by [Amir Szekely][3] with contributions by [Ximon Eighteen][4], [iceman_k][5], Lajos Molnar and Jason Reis
 

@@ -4,11 +4,11 @@
 
 Specifies the output file that the MakeNSIS should write the installer to. This is just the file that MakeNSIS writes, it doesn't affect the contents of the installer.
 
-## Parameters:
+## Parameters
 
     [path\]install.exe
 
-## History:
+## History
 
 Added in NSIS v1.0f
 

@@ -6,11 +6,11 @@ Sets the name of the installer. The name is usually simply the product name such
 
 Accepts variables. If variables are used, they must be initialized in [`.onInit`][1].
 
-## Parameters:
+## Parameters
 
     name [name_doubled_ampersands]
 
-## Example:
+## Example
 
 	Name "Foobar"
 
@@ -20,7 +20,7 @@ If your product's name is "Foo & Bar", use:
 
 If you have ampersands in the name and use a [`LangString`][2] for the name, you will have to create another one with doubled ampersands to use as the second parameter.
 
-## History:
+## History
 
 Added in NSIS v1.0f
 

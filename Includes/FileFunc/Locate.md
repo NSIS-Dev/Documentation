@@ -4,7 +4,7 @@
 
 Find files, directories and empty directories with mask and size options.
 
-## Syntax:
+## Syntax
 
 	${Locate} "[Path]" "[Options]" "Function"
 
@@ -55,7 +55,7 @@ Note:
 - Error flag if syntax error 
 - See also [Locate plugin][1]
 
-## Examples:
+## Examples
 
 ### Find one file
 
@@ -262,7 +262,7 @@ Note:
 		Push $0
 	FunctionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][2]
 

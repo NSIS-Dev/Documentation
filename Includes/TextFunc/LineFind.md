@@ -4,7 +4,7 @@
 
 Find specified lines in text file, and edit or view these lines in callback function.
 
-## Syntax:
+## Syntax
 
 	${LineFind} "[File1]" "[File2|/NUL]" "[LineNumbers]" "Function"
 
@@ -203,7 +203,7 @@ Note:
 		Push $0
 	FunctionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

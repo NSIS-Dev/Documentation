@@ -6,11 +6,11 @@ This function is only available when building a [Unicode installer][1].
 
 Writes a Unicode (UTF-16LE) string to a file opened with [`FileOpen`][2]. If an error occurs writing, the error flag will be set.
 
-## Parameters:
+## Parameters
 
     handle string
 
-## Example:
+## Example
 
 	ClearErrors
 	FileOpen $0 $INSTDIR\file.dat w
@@ -19,7 +19,7 @@ Writes a Unicode (UTF-16LE) string to a file opened with [`FileOpen`][2]. If an 
 	FileClose $0
 	done:
 
-## History:
+## History
 
 Added in NSIS v3.0a0
 

@@ -6,11 +6,11 @@ Writes an ANSI string to a file opened with [`FileOpen`][1]. If an error occurs 
 
 (If you are building a [Unicode installer][2], the function makes the adequate conversion and writes an ANSI string)
 
-## Parameters:
+## Parameters
 
     handle string
 
-## Example:
+## Example
 
 	ClearErrors
 	FileOpen $0 $INSTDIR\file.dat w
@@ -19,7 +19,7 @@ Writes an ANSI string to a file opened with [`FileOpen`][1]. If an error occurs 
 	FileClose $0
 	done:
 
-## History:
+## History
 
 Added in NSIS v1.60
 

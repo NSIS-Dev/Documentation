@@ -4,11 +4,11 @@
 
 Ends an open condition started by [`${If}`][1] or [`${IfNot}`][2].
 
-## Syntax:
+## Syntax
 
 	${EndIf}
 
-## Example:
+## Example
 
 	StrCpy $0 true
 
@@ -16,7 +16,7 @@ Ends an open condition started by [`${If}`][1] or [`${IfNot}`][2].
 		MessageBox MB_OK "It's true"
 	${EndIf}
 
-## Credits:
+## Credits
 
 Written by dselkirk and eccles
 

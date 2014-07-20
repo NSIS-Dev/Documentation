@@ -4,15 +4,15 @@
 
 This command will echo a message to the user compiling the script.
 
-## Parameters:
+## Parameters
 
     message
 
-## Example:
+## Example
 
     !echo "hello world"
 
-## History:
+## History
 
 Added in NSIS v2.0 Alpha 2
 

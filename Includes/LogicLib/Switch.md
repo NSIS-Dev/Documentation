@@ -4,11 +4,11 @@
 
 Jumps to one of several labels, depending on the value of an expression.
 
-## Syntax:
+## Syntax
 
 	${Switch} expression
 
-## Example:
+## Example
 
 	{For} $0 1 10
 		${Switch} $0
@@ -23,7 +23,7 @@ Jumps to one of several labels, depending on the value of an expression.
 		${EndSwitch}
 	${Next}
 
-## Credits:
+## Credits
 
 Written by dselkirk and eccles
 

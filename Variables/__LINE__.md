@@ -4,7 +4,7 @@
 
 Current line number.
 
-## History:
+## History
 
 Added in NSIS v2.0 Beta 4
 

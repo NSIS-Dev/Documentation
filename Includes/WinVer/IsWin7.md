@@ -4,11 +4,11 @@
 
 Checks if the installer is running on Windows 7 exactly as specified.
 
-## Syntax:
+## Syntax
 
 	logic_lib_statement ${IsWin7}
 
-## Example:
+## Example
 
 	${If} ${IsWin7}
 		DetailPrint "Windows 7 or higher"
@@ -16,7 +16,7 @@ Checks if the installer is running on Windows 7 exactly as specified.
 		DetailPrint "Older than Windows 7"
 	${EndIf}
 
-## Credits:
+## Credits
 
 *unknown*
 

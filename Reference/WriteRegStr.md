@@ -4,15 +4,15 @@
 
 Write a string to the registry. See [`WriteRegExpandStr`][1] for more details.
 
-## Parameters:
+## Parameters
 
     root_key subkey key_name value
 
-## Example:
+## Example
 
 	WriteRegStr HKLM "Software\My Company\My Software" "String Value" "dead beef"
 
-## History:
+## History
 
 Added in NSIS v1.0f
 

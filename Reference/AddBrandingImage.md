@@ -8,11 +8,11 @@ Adds a branding image on the top, bottom, left, or right of the installer. Its s
 
 `AddBrandingImage` only adds a placeholder for an image. To set the image itself on runtime, use [`SetBrandingImage`][2].
 
-## Parameters:
+## Parameters
 
     (left|right|top|bottom) (width|height) [padding]
 
-## Example:
+## Example
 
 	AddBrandingImage left 100
 	AddBrandingImage right 50
@@ -20,7 +20,7 @@ Adds a branding image on the top, bottom, left, or right of the installer. Its s
 	AddBrandingImage bottom 35
 	AddBrandingImage left 100 5
 
-## History:
+## History
 
 Added in NSIS v2.0 Alpha 2
 

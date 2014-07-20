@@ -4,11 +4,11 @@
 
 Checks if the installer is running on Windows Server 2008 at most.
 
-## Syntax:
+## Syntax
 
 	logic_lib_statement ${AtMostWin2008}
 
-## Example:
+## Example
 
 	${If} ${AtMostWin2008}
 		DetailPrint "Windows Server 2008 or lower"
@@ -16,7 +16,7 @@ Checks if the installer is running on Windows Server 2008 at most.
 		DetailPrint "Windows version is higher"
 	${EndIf}
 
-## Credits:
+## Credits
 
 *unknown*
 

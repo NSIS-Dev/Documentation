@@ -4,11 +4,11 @@
 
 Checks if the installer is running on Windows 98 at most.
 
-## Syntax:
+## Syntax
 
 	logic_lib_statement ${AtMostWin98}
 
-## Example:
+## Example
 
 	${If} ${AtMostWin98}
 		DetailPrint "Windows 98 or lower"
@@ -16,7 +16,7 @@ Checks if the installer is running on Windows 98 at most.
 		DetailPrint "Windows version is higher"
 	${EndIf}
 
-## Credits:
+## Credits
 
 *unknown*
 

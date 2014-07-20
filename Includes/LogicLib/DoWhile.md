@@ -4,7 +4,7 @@
 
 Repeats a block of statements until stopped, or depending on the value of an expression.  `${DoWhile}` and [`${While}`][1] are equivalent and interchangeable.
 
-## Syntax:
+## Syntax
 
 	${DoWhile} expression
 
@@ -34,7 +34,7 @@ The following "expressions" are available:
 		${SectionIsReadOnly} a; ${SectionIsExpanded} a;
 		${SectionIsPartiallySelected} a
 
-## Example:
+## Example
 
 	StrCpy $0 0
 
@@ -42,7 +42,7 @@ The following "expressions" are available:
 		IntOp $0 $0 + 1
 	${EndWhile}
 
-## Credits:
+## Credits
 
 Written by dselkirk and eccles
 

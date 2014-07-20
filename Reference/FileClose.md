@@ -4,16 +4,16 @@
 
 Closes a file handle opened with [`FileOpen`][1].
 
-## Parameters:
+## Parameters
 
     handle
 
-## Example:
+## Example
 
 	FileOpen $0 $INSTDIR\file.dat r
 	FileClose $0
 
-## History:
+## History
 
 Added in NSIS v1.60
 

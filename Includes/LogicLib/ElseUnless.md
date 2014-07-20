@@ -4,7 +4,7 @@
 
 Conditionally executes a block of statements, depending on the value of an expression. [`${ElseIfNot}`][1] and `${ElseUnless}` are equivalent and interchangeable, as are [`${IfNot}`][2] and [`${Unless}`][3]. Requires opening condition [`${If}`][4] or [`${IfNot}`][5].
 
-## Syntax:
+## Syntax
 
 	${ElseUnless} expression
 
@@ -34,7 +34,7 @@ The following "expressions" are available:
 		${SectionIsReadOnly} a; ${SectionIsExpanded} a;
 		${SectionIsPartiallySelected} a
 
-## Example:
+## Example
 
 	StrCpy $0 true
 
@@ -44,7 +44,7 @@ The following "expressions" are available:
 		MessageBox MB_OK "$$0 isn't false"
 	${EndUnless}
 
-## Credits:
+## Credits
 
 Written by dselkirk and eccles
 

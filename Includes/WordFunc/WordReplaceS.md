@@ -4,7 +4,7 @@
 
 Replace or delete word from string, case sensitive.
 
-## Syntax:
+## Syntax
 
 	${WordReplaceS} "[string]" "[word1]" "[word2]" "[E][options]" $var
 
@@ -46,7 +46,7 @@ Replace or delete word from string, case sensitive.
 	                   ;
 	$var               ;output (result)
 
-## Examples:
+## Examples
 
 ### replace
 
@@ -99,7 +99,7 @@ Replace or delete word from string, case sensitive.
 		end:
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

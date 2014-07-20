@@ -4,11 +4,11 @@
 
 Executes one of several blocks of statements, depending on the value of an expression. `${CaseElse}` and [`${Default}`][1] are equivalent and interchangeable.
 
-## Syntax:
+## Syntax
 
 	${CaseElse}
 
-## Example:
+## Example
 
 	StrCpy $0 1
 
@@ -21,7 +21,7 @@ Executes one of several blocks of statements, depending on the value of an expre
 			MessageBox MB_OK "$$0 isn't anything else"
 	${EndSelect}
 
-## Credits:
+## Credits
 
 Written by dselkirk and eccles
 

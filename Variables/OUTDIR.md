@@ -4,7 +4,7 @@
 
 The current output directory (set implicitly via [`SetOutPath`][1] or explicitly via [`StrCpy`][2], [`ReadRegStr`][3], [`ReadINIStr`][4], etc)
 
-## History:
+## History
 
 Added in NSIS v1.4 Beta
 

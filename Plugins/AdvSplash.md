@@ -18,7 +18,7 @@ Parameter | Description
 `keyColor`| alpha key RGB values (e.g. `0xffff00 for yellow), use -1 when no transparency is used
 `fileName`| Bitmap file-name (without `.bmp` extension). The file name of the optional audio must match (e.g. `mySplash.bmp` and `mySplash.wav`)
 
-## Example:
+## Example
 
 Simple splash:
 
@@ -54,7 +54,7 @@ Transparent with sound:
       Delete "$TEMP\spltmp.wav"
     FunctionEnd
 
-## Credits:
+## Credits
 
 Written by [Justin Frankel](https://en.wikipedia.org/wiki/Justin_Frankel) and [Amir Szekely][3]. Fading and transparency by [Nik Medved][4].
 

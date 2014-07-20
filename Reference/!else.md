@@ -4,11 +4,11 @@
 
 This command allows to easily insert different code when different defines or macros are set. You can create blocks like [`!ifdef`][1]/`!else`/[`!endif`][2], [`!ifdef`][1]/`!else` [`!ifdef`][1]/`!else`/[`!endif`][2] etc.
 
-## Parameters:
+## Parameters
 
     [if|ifdef|ifndef|ifmacrodef|ifmacrondef [...]]
 
-## Example:
+## Example
 
 	!ifdef VERSION
 		OutFile installer-${VERSION}.exe
@@ -16,7 +16,7 @@ This command allows to easily insert different code when different defines or ma
 		sOutFile installer.exe
 	!endif
 
-## History:
+## History
 
 Added in NSIS v1.1f
 

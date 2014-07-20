@@ -4,11 +4,11 @@
 
 Exits a block of statements until started by [`${DoWhile}`][1].
 
-## Syntax:
+## Syntax
 
 	${ExitWhile}
 
-## Example:
+## Example
 
 	StrCpy $0 0
 	ClearErrors
@@ -21,7 +21,7 @@ Exits a block of statements until started by [`${DoWhile}`][1].
 		${EndIf}
 	${Loop}
 
-## Credits:
+## Credits
 
 Written by dselkirk and eccles
 

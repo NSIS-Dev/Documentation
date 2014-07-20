@@ -26,7 +26,7 @@ Example:
 
 The second parameter for `/set is the ID of the control.
 
-## Example:
+## Example
 
     Name "Banner.dll test"
     OutFile "Banner Test.exe"
@@ -61,7 +61,7 @@ The second parameter for `/set is the ID of the control.
         DetailPrint ""
     SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Nik Medved][1] and [Amir Szekely][2] in honor of the messages dropped during the battle
 

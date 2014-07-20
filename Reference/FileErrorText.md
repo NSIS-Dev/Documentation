@@ -6,11 +6,11 @@ Replaces the default text that comes up when a file cannot be written to. This s
 
 Accepts variables. If variables are used, they must be initialized before [`File`][1] is used.
 
-## Parameters:
+## Parameters
 
     text
 
-## History:
+## History
 
 Added in NSIS v1.63beta
 

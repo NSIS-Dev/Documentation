@@ -4,7 +4,7 @@
 
 Get sum of lines in text file.
 
-## Syntax:
+## Syntax
 
 	${LineSum} "[File]" $var
 
@@ -15,14 +15,14 @@ Note:
 
 - Error flag if input file doesn't exist
 
-## Example: 
+## Example 
 
 	Section
 		${LineSum} "C:\a.log" $R0
 		; $R0="54"
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

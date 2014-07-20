@@ -8,7 +8,7 @@ The default string will be used if a string is empty ("").
 
 Accepts variables. If variables are used, they must be initialized before the directory page is created.
 
-## Parameters:
+## Parameters
 
     [text] [subtext] [browse_button_text] [browse_dlg_text]
 
@@ -17,11 +17,11 @@ Accepts variables. If variables are used, they must be initialized before the di
 * browse\_button\_text: Text on the Browse button.
 * browse\_dlg\_text: Text on the "Browse For Folder" dialog, appears after clicking on "Browse" button.
 
-## Example:
+## Example
 
 	DetailPrint "this message will show on the installation window"
 
-## History:
+## History
 
 Added in NSIS v1.0f
 

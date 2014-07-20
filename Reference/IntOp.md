@@ -19,11 +19,11 @@ Combines value1 and (depending on OP) value2 into the specified user variable (u
 * "||" LOGICALLY ORs value1 and value2
 * "&&" LOGICALLY ANDs value1 and value2
 
-## Parameters:
+## Parameters
 
     user_var(output) value1 OP [value2]
 
-## Example:
+## Example
 
 	IntOp $0 1 + 1
 	IntOp $0 $0 + 1
@@ -31,7 +31,7 @@ Combines value1 and (depending on OP) value2 into the specified user variable (u
 	IntOp $0 $0 ~
 	IntOp $0 $0 & 0xF
 
-## History:
+## History
 
 Added in NSIS v1.50
 

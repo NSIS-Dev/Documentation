@@ -4,11 +4,11 @@
 
 If [`Abort`][1] is called it will "return" true. This can happen if the user chose abort on a file that failed to create (or overwrite) or if the user aborted by hand. This function can only be called from the leave function of the instfiles page.
 
-## Parameters:
+## Parameters
 
     label_to_goto_if_abort [label_to_goto_if_no_abort]
 
-## Example:
+## Example
 
 	Page instfiles "" "" instfilesLeave
 	 
@@ -17,7 +17,7 @@ If [`Abort`][1] is called it will "return" true. This can happen if the user cho
 		MessageBox MB_OK "user aborted"
 	FunctionEnd
 
-## History:
+## History
 
 Added in NSIS v2.0
 

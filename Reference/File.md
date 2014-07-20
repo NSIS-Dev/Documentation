@@ -13,11 +13,11 @@ Adds file(s) to be extracted to the current output path ([`$OUTDIR`][1]).
 * The `File` command sets the error flag if overwrite mode is set to 'try' and the file could not be overwritten, or if the overwrite mode is set to 'on' and the file could not be overwritten and the user selects ignore.
 * If the /nonfatal switch is used and no files are found, a warning will be issued instead of an error.
 
-## Parameters:
+## Parameters
 
     [/nonfatal] [/a] ([/r] [/x file|wildcard [...]] (file|wildcard) [...] | /oname=file.dat infile.dat)
 
-## Example:
+## Example
 
 	File something.exe
 	File /a something.exe
@@ -54,7 +54,7 @@ will match the directory named something on the root directory, the file named s
 
 When adding \*.*, it will be used as the matching condition and something will be used as the directory to search. When only something is specified, the current directory will be recursively searched for every and directory named something and another\something will be matched.
 
-## History:
+## History
 
 Added in NSIS v1.0f
 

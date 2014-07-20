@@ -5,7 +5,7 @@
 * Get local or system time.
 * Get file time (access, creation and modification).
 
-## Syntax:
+## Syntax
 
 	${GetTime} "[File]" "[Option]" $var1 $var2 $var3 $var4 $var5 $var6 $var7
 	"[File]"        ; Ignored if "L" or "LS"
@@ -34,7 +34,7 @@ Note:
 - Error flag if syntax error 
 - See also [Time plugin][1]
 
-## Examples:
+## Examples
 
 ### Get local time
 
@@ -101,7 +101,7 @@ Note:
 		MessageBox MB_OK 'Date=$0/$1/$2 ($3)$\nTime=$4:$5:$6 $7'
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][2]
 

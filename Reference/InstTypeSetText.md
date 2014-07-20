@@ -6,11 +6,11 @@ Sets the Text of the specified [`InstType`][1]. If the Text is empty than the [`
 
 Gets the Text of the specified [`InstType`][1].
 
-## Parameters:
+## Parameters
 
     inst_type_idx text
 
-## Example:
+## Example
 
 	InstType a
 	InstType b
@@ -22,7 +22,7 @@ Gets the Text of the specified [`InstType`][1].
 		DetailPrint $0 # prints 'b'
 	FunctionEnd
 
-## History:
+## History
 
 Added in NSIS v2.0
 

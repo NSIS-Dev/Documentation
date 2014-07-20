@@ -12,11 +12,11 @@ Sections that don't already have an identifier must be assigned one.
 
 Section identifiers must stay the same across 
 
-## Syntax:
+## Syntax
 
     ${MementoUnselectedSection} [section_name] [section_index_output]
 
-## Example:
+## Example
 
 	!include Memento.nsh
 
@@ -37,7 +37,7 @@ Section identifiers must stay the same across
 
 	${MementoSectionDone}
 
-## Credits:
+## Credits
 
 Written by [kichik][5]
 

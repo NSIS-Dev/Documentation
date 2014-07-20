@@ -37,11 +37,11 @@ Return_check can be 0 (or empty, or left off), or one of the following:
 If the return value of the `MessageBox` is return_check, the installer will [`Goto`][1] jumpto.
 Use the `/SD` parameter with one of the return_check values above to specify the option that will be used when the installer is silent. See section [4.12][2] for more information.
 
-## Parameters:
+## Parameters
 
     mb_option_list messagebox_text [/SD return] [return_check jumpto] [return_check_2 jumpto_2]
 
-## Example:
+## Example
 
 	MessageBox MB_OK "simple message box"
 	MessageBox MB_YESNO "is it true?" IDYES true IDNO false
@@ -58,7 +58,7 @@ Use the `/SD` parameter with one of the return_check values above to specify the
 	  DetailPrint "it's false"
 	next2:
 
-## History:
+## History
 
 Added in NSIS v1.0f
 

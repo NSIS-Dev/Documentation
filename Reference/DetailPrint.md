@@ -4,15 +4,15 @@
 
 Adds the string "user_message" to the details view of the installer.
 
-## Parameters:
+## Parameters
 
     user_message
 
-## Example:
+## Example
 
 	DetailPrint "this message will show on the installation window"
 
-## History:
+## History
 
 Added in NSIS v1.32
 

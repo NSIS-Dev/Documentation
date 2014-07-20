@@ -6,7 +6,7 @@ The application data directory. Detection of the current user path requires Inte
 
 This constant is not available on Windows 95 with Internet Explorer 4 and Active Desktop not installed.
 
-## History:
+## History
 
 Not documented
 

@@ -6,11 +6,11 @@ Changes the text of the button that by default says "Uninstall" in the uninstall
 
 Accepts variables. If variables are used, they must be initialized before the uninstall button shows.
 
-## Parameters:
+## Parameters
 
     text
 
-## History:
+## History
 
 Added in NSIS v1.60
 

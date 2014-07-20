@@ -4,11 +4,11 @@
 
 Appends text to file.
 
-## Parameters:
+## Parameters
 
     file text
 
-## Example:
+## Example
 
     !tempfile FILE
 	!appendfile "${FILE}" "XPStyle on$\n"
@@ -17,7 +17,7 @@ Appends text to file.
 	!delfile "${FILE}"
 	!undef FILE
 
-## History:
+## History
 
 Added in NSIS v2.11
 

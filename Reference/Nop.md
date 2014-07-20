@@ -4,7 +4,7 @@
 
 Does nothing.
 
-## History:
+## History
 
 Added in NSIS v1.1n
 

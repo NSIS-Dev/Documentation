@@ -6,11 +6,11 @@ Replaces the default text ("Completed") that is printed at the end of the instal
 
 Accepts variables. If variables are used, they must be initialized before the message is printed.
 
-## Parameters:
+## Parameters
 
     text
 
-## History:
+## History
 
 Added in NSIS v1.60
 

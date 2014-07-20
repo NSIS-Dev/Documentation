@@ -4,15 +4,15 @@
 
 Sets user variable $x with the length of str.
 
-## Parameters:
+## Parameters
 
     user_var(length output) str
 
-## Example:
+## Example
 
 	StrLen $0 "123456" # = 6
 
-## History:
+## History
 
 Added in NSIS v1.60
 

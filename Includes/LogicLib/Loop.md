@@ -4,11 +4,11 @@
 
 Loops a block of statements started by [`${Do}`][1], [`${DoUntil}`][2] or [`${DoWhile}`][3].
 
-## Syntax:
+## Syntax
 
 	${Loop}
 
-## Example:
+## Example
 
 	StrCpy $0 0
 
@@ -19,7 +19,7 @@ Loops a block of statements started by [`${Do}`][1], [`${DoUntil}`][2] or [`${Do
 		${EndIf}
 	${Loop}
 
-## Credits:
+## Credits
 
 Written by dselkirk and eccles
 

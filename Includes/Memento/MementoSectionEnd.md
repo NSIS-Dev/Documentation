@@ -5,11 +5,11 @@
 Replace [`Section`][1] with `${MementoSection}` and [`SectionEnd`][2] with [`${MementoSectionEnd}`][3]
 for sections that whose state should be remembered by Memento.
 
-## Syntax:
+## Syntax
 
     ${MementoSectionEnd}
 
-## Example:
+## Example
 
 	!include Memento.nsh
 
@@ -34,7 +34,7 @@ for sections that whose state should be remembered by Memento.
 
 	${MementoSectionDone}
 
-## Credits:
+## Credits
 
 Written by [kichik][4]
 

@@ -16,11 +16,11 @@ If `/FINAL` is used, subsequent calls to SetCompressor will be ignored.
 
 If `/SOLID` is used, all of the installer data is compressed in one block. This results in greater compression ratios.
 
-## Parameters:
+## Parameters
 
     [/SOLID] [/FINAL] zlib|bzip2|lzma
 
-## History:
+## History
 
 Added in NSIS v2.0 Alpha 2
 

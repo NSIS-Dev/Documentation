@@ -4,7 +4,7 @@
 
 Repeats a block of statements until stopped, or depending on the value of an expression.
 
-## Syntax:
+## Syntax
 
 	${DoUntil} expression
 
@@ -34,7 +34,7 @@ The following "expressions" are available:
 		${SectionIsReadOnly} a; ${SectionIsExpanded} a;
 		${SectionIsPartiallySelected} a
 
-## Example:
+## Example
 
 	StrCpy $0 0
 
@@ -42,7 +42,7 @@ The following "expressions" are available:
 		IntOp $0 $0 + 1
 	${Loop}
 
-## Credits:
+## Credits
 
 Written by dselkirk and eccles
 

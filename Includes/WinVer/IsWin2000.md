@@ -4,11 +4,11 @@
 
 Checks if the installer is running on Windows 2000 exactly as specified.
 
-## Syntax:
+## Syntax
 
 	logic_lib_statement ${IsWin2000}
 
-## Example:
+## Example
 
 	${If} ${IsWin2000}
 		DetailPrint "Windows 2000 or higher"
@@ -16,7 +16,7 @@ Checks if the installer is running on Windows 2000 exactly as specified.
 		DetailPrint "Older than Windows 2000"
 	${EndIf}
 
-## Credits:
+## Credits
 
 *unknown*
 

@@ -4,7 +4,7 @@
 
 Find word between two delimiters.
 
-## Syntax:
+## Syntax
 
 	${WordFind2X} "[string]" "[delimiter1]" "[delimiter2]" "[E][options]" $var
 
@@ -45,7 +45,7 @@ Find word between two delimiters.
 	                   ;
 	$var               ;output (result)
 
-## Examples:
+## Examples
 
 ### Example 1
 
@@ -104,7 +104,7 @@ Find word between two delimiters.
 		end:
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

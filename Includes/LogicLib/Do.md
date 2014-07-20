@@ -4,11 +4,11 @@
 
 Repeats a block of statements until stopped, or depending on the value of an expression.
 
-## Syntax:
+## Syntax
 
 	${Do}
 
-## Example:
+## Example
 
 	StrCpy $0 0
 
@@ -19,7 +19,7 @@ Repeats a block of statements until stopped, or depending on the value of an exp
 		${EndIf}
 	${Loop}
 
-## Credits:
+## Credits
 
 Written by dselkirk and eccles
 

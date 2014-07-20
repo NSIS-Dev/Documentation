@@ -4,11 +4,11 @@
 
 Assign to the user variable $x, the full path of the file specified. If the path portion of the parameter is not found, the error flag will be set and $x will be empty. If `/SHORT` is specified, the path is converted to the short filename form. However, if `/SHORT` is not specified, the path isn't converted to its long filename form. To get the long filename, call GetLongPathName using the System plug-in. Note that GetLongPathName is only available on Windows 98, Windows 2000 and above.
 
-## Parameters:
+## Parameters
 
     [/SHORT] user_var(output) path_or_file
 
-## Example:
+## Example
 
 	StrCpy $INSTDIR $PROGRAMFILES\NSIS
 	SetOutPath $INSTDIR
@@ -25,7 +25,7 @@ Using GetLongPathName:
 	StrCpy $0 $1
 	DetailPrint $0 # will print C:\Program Files\NSIS, where supported
 
-## History:
+## History
 
 Added in NSIS v1.70
 

@@ -4,11 +4,11 @@
 
 Checks if the installer is running on Windows 2000 at most.
 
-## Syntax:
+## Syntax
 
 	logic_lib_statement ${AtMostWin2000}
 
-## Example:
+## Example
 
 	${If} ${AtMostWin2000}
 		DetailPrint "Windows 2000 or lower"
@@ -16,7 +16,7 @@ Checks if the installer is running on Windows 2000 at most.
 		DetailPrint "Windows version is higher"
 	${EndIf}
 
-## Credits:
+## Credits
 
 *unknown*
 

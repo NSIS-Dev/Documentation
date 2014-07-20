@@ -4,7 +4,7 @@
 
 Conditionally executes a block of statements, depending on the value of an expression.
 
-## Syntax:
+## Syntax
 
 	${If} expression
 
@@ -34,7 +34,7 @@ The following "expressions" are available:
 		${SectionIsReadOnly} a; ${SectionIsExpanded} a;
 		${SectionIsPartiallySelected} a
 
-## Examples:
+## Examples
 
 ### Check if condition is met
 
@@ -79,7 +79,7 @@ The following "expressions" are available:
 		${EndIf}
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by dselkirk and eccles
 

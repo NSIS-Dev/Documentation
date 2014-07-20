@@ -4,11 +4,11 @@
 
 Checks if the installer is running on Windows NT family (NT4, 2000, XP, etc.)
 
-## Syntax:
+## Syntax
 
 	logic_lib_statement ${IsNT}
 
-## Example:
+## Example
 
 	${If} ${IsNT}
 		DetailPrint "Running on NT. Installing Unicode enabled application."
@@ -16,7 +16,7 @@ Checks if the installer is running on Windows NT family (NT4, 2000, XP, etc.)
 		DetailPrint "Not running on NT. Installing ANSI application."
 	${EndIf}
 
-## Credits:
+## Credits
 
 *unknown*
 

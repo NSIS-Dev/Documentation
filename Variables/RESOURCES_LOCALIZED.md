@@ -6,7 +6,7 @@ The localized resources directory that stores themes and other Windows resources
 
 This constant is available on Windows XP and above.
 
-## History:
+## History
 
 Not documented
 

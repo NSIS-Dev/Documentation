@@ -4,18 +4,18 @@
 
 Get parent directory.
 
-## Syntax:
+## Syntax
 
 	${GetParent} "[PathString]" $var
 
-## Example:
+## Example
 
 	Section
 		${GetParent} "C:\Program Files\Winamp\uninstwa.exe" $R0
 		; $R0="C:\Program Files\Winamp"
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

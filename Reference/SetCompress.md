@@ -6,11 +6,11 @@ This command sets the compress flag which is used by the installer to determine 
 
 Note that this option has no effect when solid compression is used.
 
-## Parameters:
+## Parameters
 
     auto|force|off
 
-## History:
+## History
 
 Added in NSIS v1.0f
 

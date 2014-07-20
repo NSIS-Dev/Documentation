@@ -4,15 +4,15 @@
 
 Pushes a string onto the stack. The string can then be popped off of the stack using the [`Pop`][1] command.
 
-## Parameters:
+## Parameters
 
 	string
 
-## Example:
+## Example
 
 	Push "a string"
 
-## History:
+## History
 
 Added in NSIS v1.50
 

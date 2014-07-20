@@ -6,16 +6,16 @@ Opens a file named "filename", and sets the handle output variable with the hand
 
 If no absolute path is specified the current folder will be used. The current folder is the folder set using the last `SetOutPath` instruction. If you have not used [`SetOutPath`][1] the current folder is [`$EXEDIR`][1].
 
-## Parameters:
+## Parameters
 
     user_var(handle output) filename openmode
 
-## Example:
+## Example
 
 	FileOpen $0 $INSTDIR\file.dat r
 	FileClose $0
 
-## History:
+## History
 
 Added in NSIS v1.60
 

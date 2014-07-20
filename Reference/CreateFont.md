@@ -5,15 +5,15 @@
 Creates a font and puts its handle into user_var. For more information about the different parameters have a look at MSDN's page about the Win32 API function [CreateFont()][1].
 You can get the current font used by NSIS using the ^Font and ^FontSize [`LangString`][2].
 
-## Parameters:
+## Parameters
 
     user_var(handle output) face_name [height] [weight] [/ITALIC] [/UNDERLINE] [/STRIKE]
 
-## Example:
+## Example
 
 	CreateDirectory $INSTDIR\some\directory
 
-## History:
+## History
 
 Added in NSIS v2.0 Alpha 7
 

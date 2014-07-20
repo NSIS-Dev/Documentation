@@ -4,7 +4,7 @@
 
 Compare version numbers.
 
-## Syntax:
+## Syntax
 
 	${VersionCompare} "[Version1]" "[Version2]" $var
 
@@ -15,14 +15,14 @@ Compare version numbers.
 	                    ;    $var=1  Version1 is newer
 	                    ;    $var=2  Version2 is newer
 
-## Example:
+## Example
 
 	Section
 		${VersionCompare} "1.1.1.9" "1.1.1.01" $R0
 		; $R0="1"
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

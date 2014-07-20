@@ -4,11 +4,11 @@
 
 Exits a block of statements until started by [`${Do}`][1], [`${DoUntil}`][2] or [`${DoWhile}`][3].
 
-## Syntax:
+## Syntax
 
 	${ExitDo}
 
-## Example:
+## Example
 
 	StrCpy $0 0
 
@@ -19,7 +19,7 @@ Exits a block of statements until started by [`${Do}`][1], [`${DoUntil}`][2] or 
 		${EndIf}
 	${Loop}
 
-## Credits:
+## Credits
 
 Written by dselkirk and eccles
 

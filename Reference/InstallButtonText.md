@@ -6,11 +6,11 @@ If parameter is specified, overrides the default install button text (of "Instal
 
 Accepts variables. If variables are used, they must be initialized before the install button shows.
 
-## Parameters:
+## Parameters
 
 	text
 
-## History:
+## History
 
 Added in NSIS v1.60
 

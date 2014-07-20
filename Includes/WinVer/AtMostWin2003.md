@@ -4,11 +4,11 @@
 
 Checks if the installer is running on Windows Server 2003 at most.
 
-## Syntax:
+## Syntax
 
 	logic_lib_statement ${AtMostWin2003}
 
-## Example:
+## Example
 
 	${If} ${AtMostWin2003}
 		DetailPrint "Windows Server 2003 or lower"
@@ -16,7 +16,7 @@ Checks if the installer is running on Windows Server 2003 at most.
 		DetailPrint "Windows version is higher"
 	${EndIf}
 
-## Credits:
+## Credits
 
 *unknown*
 

@@ -4,11 +4,11 @@
 
 Executes one of several blocks of statements, depending on the value of an expression.
 
-## Syntax:
+## Syntax
 
 	${Select} expression
 
-## Example:
+## Example
 
 	StrCpy $0 1
 
@@ -23,7 +23,7 @@ Executes one of several blocks of statements, depending on the value of an expre
 			MessageBox MB_OK "$$0 isn't anything else"
 	${EndSelect}
 
-## Credits:
+## Credits
 
 Written by dselkirk and eccles
 

@@ -4,7 +4,7 @@
 
 Current script directory.
 
-## History:
+## History
 
 Not documented
 

@@ -4,17 +4,17 @@
 
 Add a call to `${MementoSectionRestore}` to [`.onInit`][1] to restore the state of all sections from the registry.
 
-## Syntax:
+## Syntax
 
     ${MementoSectionRestore}
 
-## Example:
+## Example
 
 	Function .onInit
 		${MementoSectionRestore}
 	FunctionEnd
 
-## Credits:
+## Credits
 
 Written by [kichik][2]
 

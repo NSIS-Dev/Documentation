@@ -4,11 +4,11 @@
 
 Checks if the installer is running on Windows Vista.
 
-## Syntax:
+## Syntax
 
 	logic_lib_statement ${AtLeastWinVista}
 
-## Example:
+## Example
 
 	${If} ${AtLeastWinVista}
 		DetailPrint "Windows Vista or higher"
@@ -16,7 +16,7 @@ Checks if the installer is running on Windows Vista.
 		DetailPrint "Older than Windows Vista"
 	${EndIf}
 
-## Credits:
+## Credits
 
 *unknown*
 

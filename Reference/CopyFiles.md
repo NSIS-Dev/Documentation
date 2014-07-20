@@ -6,16 +6,16 @@ Copies files from the source to the destination on the installing system. Useful
 
 Fully-qualified path names should always be used with this instruction. Using relative paths will have unpredictable results.
 
-## Parameters:
+## Parameters
 
     [/SILENT] [/FILESONLY] filespec_on_destsys destination_path [size_of_files_in_kb]
 
-## Example:
+## Example
 
 	CreateDirectory $INSTDIR\backup
 	CopyFiles $INSTDIR\*.dat $INSTDIR\backup
 
-## History:
+## History
 
 Added in NSIS v1.1a
 

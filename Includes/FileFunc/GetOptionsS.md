@@ -4,7 +4,7 @@
 
 Get case-sensitive options from command line parameters.
 
-## Syntax:
+## Syntax
 
 	${GetOptionsS} "[Parameters]" "[Option]" $var
 
@@ -19,7 +19,7 @@ Note:
 - Error flag if option not found 
 - First option symbol it is delimiter
 
-## Examples:
+## Examples
 
 ### Example 1
 
@@ -52,7 +52,7 @@ Note:
 		;$R0="C:/Program Files/Common Files"
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

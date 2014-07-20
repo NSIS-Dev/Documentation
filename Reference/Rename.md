@@ -6,15 +6,15 @@ Rename source\_file to dest\_file. You can use it to move a file from anywhere o
 
 If no absolute path is specified the current folder will be used. The current folder is the folder set using the last [`SetOutPath`][1] instruction. If you have not used [`SetOutPath`][1] the current folder is [`$EXEDIR`][1].
 
-## Parameters:
+## Parameters
 
     [/REBOOTOK] source_file dest_file
 
-## Example:
+## Example
 
 	Rename $INSTDIR\file.ext $INSTDIR\file.dat
 
-## History:
+## History
 
 Added in NSIS v1.2
 

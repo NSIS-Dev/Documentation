@@ -6,11 +6,11 @@ If parameters are specified, overrides the space required and space available te
 
 Accepts variables. If variables are used, they must be initialized before the components page is created.
 
-## Parameters:
+## Parameters
 
     [req text [avail text]]
 
-## History:
+## History
 
 Added in NSIS v2.0 Alpha 0
 

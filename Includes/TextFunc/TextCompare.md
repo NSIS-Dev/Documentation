@@ -4,7 +4,7 @@
 
 Compare two text files.
 
-## Syntax:
+## Syntax
 
 	${TextCompare} "[File1]" "[File2]" "[Option]" "Function"
 
@@ -39,7 +39,7 @@ Note:
 - Error flag if File1 or File2 doesn't exist 
 - Error flag if syntax error
 
-## Examples: 
+## Examples 
 
 ### Different or Equal
 
@@ -174,7 +174,7 @@ Note:
 		Push $0
 	FunctionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

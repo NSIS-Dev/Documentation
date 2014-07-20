@@ -14,17 +14,17 @@ To send a string param, put STR: before the parameter, for example: "STR:Some st
 
 Use /TIMEOUT=time\_in\_ms to specify the duration, in milliseconds, of the time-out period.
 
-## Parameters:
+## Parameters
 
     HWND msg wparam lparam [user_var(return value)] [/TIMEOUT=time_in_ms]
 
-## Example:
+## Example
 
 	!include WinMessages.nsh
 	FindWindow $0 "Winamp v1.x"
 	SendMessage $0 ${WM_CLOSE} 0 0
 
-## History:
+## History
 
 Added in NSIS v1.51
 

@@ -4,7 +4,7 @@
 
 This command closes the current open [`Function`][1].
 
-## Example:
+## Example
 
 	Function func
 		# some commands
@@ -14,7 +14,7 @@ This command closes the current open [`Function`][1].
 		Call func
 	SectionEnd
 
-## History:
+## History
 
 Added in NSIS v1.3
 

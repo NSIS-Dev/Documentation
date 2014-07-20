@@ -4,11 +4,11 @@
 
 Stores the text description of the section section_index into the output. If the section is hidden, stores an empty string. The error flag will be set if an out of range section is specified.
 
-## Parameters:
+## Parameters
 
     section_index user_var(output)
 
-## Example:
+## Example
 
 	Function .onInit
 		# append $WINDIR to section's name
@@ -17,7 +17,7 @@ Stores the text description of the section section_index into the output. If the
 		SectionSetText ${test_section_id} $0
 	FunctionEnd
 
-## History:
+## History
 
 Added in NSIS v1.98
 

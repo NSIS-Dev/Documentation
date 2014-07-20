@@ -6,17 +6,17 @@ Valid values for flag are "smooth" (smooth the progress bar) or "colored" (color
 
 Note: neither "smooth" or "colored" work with [`XPStyle`][2] on when the installer runs on Windows XP with a modern theme.
 
-## Parameters:
+## Parameters
 
     [flag [...]]
 
-## Example:
+## Example
 
 	InstProgressFlags #default old-school windows look
 	InstProgressFlags smooth" #new smooth look
 	InstProgressFlags smooth colored #colored smooth look whee
 
-## History:
+## History
 
 Added in NSIS v1.60
 

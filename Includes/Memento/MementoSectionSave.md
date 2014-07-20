@@ -4,17 +4,17 @@
 
 Add a call to `${MementoSectionSave}` to [`.onInstSuccess`][1] to save the stateof all sections to the registry.
 
-## Syntax:
+## Syntax
 
     ${MementoSectionSave}
 
-## Example:
+## Example
 
 	Function .onInstSuccess
 		${MementoSectionSave}
 	FunctionEnd
 
-## Credits:
+## Credits
 
 Written by [kichik][2]
 

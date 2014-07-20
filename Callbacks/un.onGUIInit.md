@@ -4,7 +4,7 @@
 
 This callback will be called just before the first page is loaded and the installer dialog is shown, allowing you to tweak the user interface.
 
-## Example:
+## Example
 
 	!include "WinMessages.nsh"
 

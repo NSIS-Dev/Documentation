@@ -4,7 +4,7 @@
 
 Add words to string1 from string2 if not exist or delete words if exist.
 
-## Syntax:
+## Syntax
 
 	${WordAdd} "[string1]" "[delimiter]" "[E][options]" $var
 
@@ -27,7 +27,7 @@ Add words to string1 from string2 if not exist or delete words if exist.
 	                     ;
 	$var                 ;output (result)
 
-## Examples:
+## Examples
 
 ### add
 
@@ -88,7 +88,7 @@ Add words to string1 from string2 if not exist or delete words if exist.
 		end:
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

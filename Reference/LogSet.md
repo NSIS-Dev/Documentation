@@ -6,11 +6,11 @@ Sets whether install logging to install.log will happen. [`$INSTDIR`][1] must ha
 
 See [Building NSIS][2] for more information about recompiling NSIS.
 
-## Parameters:
+## Parameters
 
     on|off
 
-## History:
+## History
 
 Added in NSIS v1.98
 

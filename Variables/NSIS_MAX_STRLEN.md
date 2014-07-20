@@ -4,7 +4,7 @@
 
 NSIS maximum string length used to build the script. The default is 1024 bytes, the [special build][1]'s string lenght is 8192 bytes.
 
-## History:
+## History
 
 Not documented
 

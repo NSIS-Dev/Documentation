@@ -4,12 +4,12 @@
 
 Initializes the plug-ins directory [`$PLUGINSDIR`][1] if not already initialized.
 
-## Example:
+## Example
 
 	InitPluginsDir
 	File /oname=$PLUGINSDIR\image.bmp image.bmp
 
-## History:
+## History
 
 Added in NSIS v2.0 Beta 0
 

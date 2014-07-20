@@ -6,7 +6,7 @@ The user's video files directory. The context of this constant (All Users or Cur
 
 This constant is available on Windows XP, ME and above.
 
-## History:
+## History
 
 Not documented
 

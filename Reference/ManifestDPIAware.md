@@ -6,11 +6,11 @@ Declare that the installer is DPI-aware. A DPI-aware application is not scaled b
 
 See [MSDN][1] for more information about DPI-aware applications.
 
-## Parameters:
+## Parameters
 
     notset|true|false
 
-## History:
+## History
 
 Added in NSIS v3.0a0
 

@@ -4,7 +4,7 @@
 
 Write value from entry name in config file.
 
-## Syntax:
+## Syntax
 
 	${ConfigWrite} "[File]" "[Entry]" "[Value]" $var
 
@@ -26,7 +26,7 @@ Note:
 - Error flag if file doesn't exist 
 - Error flag if file can't be opened
 
-## Examples:
+## Examples
 
 ### Example 1
 
@@ -49,7 +49,7 @@ Note:
 		;$R0=DELETED
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

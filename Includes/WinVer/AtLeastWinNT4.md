@@ -4,11 +4,11 @@
 
 Checks if the installer is running on Windows NT4.
 
-## Syntax:
+## Syntax
 
 	logic_lib_statement ${AtLeastWinNT4}
 
-## Example:
+## Example
 
 	${If} ${AtLeastWinNT4}
 		DetailPrint "Windows NT 4 or higher"
@@ -16,7 +16,7 @@ Checks if the installer is running on Windows NT4.
 		DetailPrint "Older than Windows NT 4"
 	${EndIf}
 
-## Credits:
+## Credits
 
 *unknown*
 

@@ -13,11 +13,11 @@ Notes:
 * Always set language strings for every language in your script.
 * If you set the language ID to 0 the last used language by `LangString` or [`LoadLanguageFile`][2] will be used.
 
-## Parameters:
+## Parameters
 
     name language_id string
 
-## Example:
+## Example
 
 	LangString message ${LANG_ENGLISH} "English message"
 	LangString message ${LANG_FRENCH} "French message"
@@ -25,7 +25,7 @@ Notes:
 
 	MessageBox MB_OK "A translated message: $(message)"
 
-## History:
+## History
 
 Added in NSIS v2.0 Release Candidate 2
 

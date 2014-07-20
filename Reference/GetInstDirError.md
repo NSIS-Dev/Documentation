@@ -8,11 +8,11 @@ Use in the leave function of a directory page. Reads the flag set if 'DirVerify 
 * 1: Invalid installation directory
 * 2: Not enough space on installation drive
 
-## Parameters:
+## Parameters
 
     user_var(error output)
 
-## Example:
+## Example
 
 	!include LogicLib.nsh
 	PageEx directory
@@ -37,7 +37,7 @@ Use in the leave function of a directory page. Reads the flag set if 'DirVerify 
 		${EndSwitch}
 	FunctionEnd
 
-## History:
+## History
 
 Added in NSIS v2.0 Release Candidate 1
 

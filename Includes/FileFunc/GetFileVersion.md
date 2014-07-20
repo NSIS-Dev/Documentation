@@ -4,7 +4,7 @@
 
 Get version information from executable file.
 
-## Syntax:
+## Syntax
 
 	${GetFileVersion} "[Executable]" $var
 
@@ -16,14 +16,14 @@ Note:
 - Error flag if file doesn't exist 
 - Error flag if file doesn't contain version information
 
-## Example:
+## Example
 
 	Section
 		${GetFileVersion} "C:\ftp\program.exe" $R0
 		; $R0="1.1.0.12"
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

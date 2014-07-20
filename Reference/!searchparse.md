@@ -6,16 +6,16 @@ Parses source\_string\_or\_file (which is treated as a string, or as a filename 
 If `/noerrors` is specified, matching less than the full number of strings is allowed (all OUTPUTSYMBOLx after the not-found substring will be ignored).
 If `/file` is specified, the file is treated as a series of lines. The file is searched until all substrings are matched. If `/noerrors` is specified and not all strings are matched, the first line with the most symbols matched is used.
 
-## Parameters:
+## Parameters
 
     [/ignorecase] [/noerrors] [/file] source_string_or_file substring_start OUTPUTSYMBOL1 [substring [OUTPUTSYMBOL2 [substring ...]]]
 
-## Example:
+## Example
 
 	# search filename.cpp for a line '#define APP_VERSION "2.5"' and set ${VER_MAJOR} to 2, ${VER_MINOR} to 5.
 	!searchparse /file filename.cpp `#define APP_VERSION "` VER_MAJOR `.` VER_MINOR `"`
 
-## History:
+## History
 
 Added in NSIS v2.39
 

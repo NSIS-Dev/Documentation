@@ -4,11 +4,11 @@
 
 Sets the installer to silent mode or normal mode. See [`SilentInstall`][1] for more information about silent installations. Can only be used in [`.onInit`][2].
 
-## Parameters:
+## Parameters
 
 	silent | normal
 
-## History:
+## History
 
 Added in NSIS v2.0 Beta 4
 

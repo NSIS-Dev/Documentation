@@ -4,7 +4,7 @@
 
 Find word between two delimiters, case sensitive
 
-## Syntax:
+## Syntax
 
 	${WordFind2XS} "[string]" "[delimiter1]" "[delimiter2]" "[E][options]" $var
 
@@ -45,7 +45,7 @@ Find word between two delimiters, case sensitive
 	                   ;
 	$var               ;output (result)
 
-## Examples:
+## Examples
 
 ### Example 1
 
@@ -104,7 +104,7 @@ Find word between two delimiters, case sensitive
 		end:
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

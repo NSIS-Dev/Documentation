@@ -4,7 +4,7 @@
 
 Trim newlines in a string.
 
-## Syntax:
+## Syntax
 
 	${TrimNewLines} "[string]" $var
 
@@ -16,14 +16,14 @@ Note:
 - Error flag if file doesn't exist 
 - Error flag if syntax error
 
-## Example:
+## Example
 
 	Section
 		${TrimNewLines} "Text line$\r$\n" $R0
 		; $R0="Text line"
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

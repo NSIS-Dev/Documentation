@@ -4,7 +4,7 @@
 
 Read text file from end line by line.
 
-## Syntax:
+## Syntax
 
 	${FileReadFromEnd} "[File]" "Function"
 
@@ -26,7 +26,7 @@ Note:
 
 - Error flag if input file doesn't exist
 
-## Examples: 
+## Examples 
 
 ### Read and display lines
 
@@ -69,7 +69,7 @@ Note:
 		Push $0
 	FunctionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

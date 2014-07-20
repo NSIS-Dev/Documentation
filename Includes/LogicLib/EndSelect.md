@@ -4,11 +4,11 @@
 
 Ends an open block of statements started by [`${Select}`][1].
 
-## Syntax:
+## Syntax
 
 	${EndSelect}
 
-## Example:
+## Example
 
 	StrCpy $0 1
 
@@ -21,7 +21,7 @@ Ends an open block of statements started by [`${Select}`][1].
 			MessageBox MB_OK "$$0 isn't anything else"
 	${EndSelect}
 
-## Credits:
+## Credits
 
 Written by dselkirk and eccles
 

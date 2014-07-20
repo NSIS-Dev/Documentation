@@ -4,7 +4,7 @@
 
 Read value from entry name in config file, case sensitive
 
-## Syntax:
+## Syntax
 
 	${ConfigReadS} "[File]" "[Entry]" $var
 	"[File]"      ; config file
@@ -18,7 +18,7 @@ Note:
 - Error flag if entry not found 
 - Error flag if file doesn't exist
 
-## Examples:
+## Examples
 
 ### Example 1
 
@@ -34,7 +34,7 @@ Note:
 		;$R0=30
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

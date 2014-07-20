@@ -4,18 +4,18 @@
 
 Get command line parameters.
 
-## Syntax:
+## Syntax
 
 	${GetParameters} $var
 
-## Example:
+## Example
 
 	Section
 		${GetParameters} $R0
 		; $R0="[parameters]"
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

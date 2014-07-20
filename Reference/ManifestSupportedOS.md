@@ -6,11 +6,11 @@ Declare that the installer is compatible with the specified Windows version(s). 
 
 You can read more about the changes in behavior on [MSDN][2].
 
-## Parameters:
+## Parameters
 
     none|all|WinVista|Win7|Win8|{GUID} [...]
 
-## History:
+## History
 
 Added in NSIS v3.0a0
 

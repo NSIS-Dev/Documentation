@@ -7,11 +7,11 @@ If `/date` or `/utcdate` are used, value will be passed into strftime and the re
 If `/math` is used, the result of 'val1 OP val2', where OP may be +,-,*,&,|,^,/ or % , will be used as the value of gflag. Note that val1 AND val2 MUST be integer values!
 If `/file` is used, the entire text file specified (including whitespace and newlines) will be read and stuffed into gflag.
 
-## Parameters:
+## Parameters
 
     [/ifndef | /redef] ([/date|/utcdate] gflag [value]) | (/math gflag val1 OP val2) | (/file gflag filename.txt)
 
-## Example:
+## Example
 
     !define USE_SOMETHING
 	!define VERSION 1.2
@@ -21,7 +21,7 @@ If `/file` is used, the entire text file specified (including whitespace and new
 	!define /file BUNCHASTUFF somesourcefile.cpp
 	!define /redef USE_SOMETHING ${RESULT} ;redefine USE_SOMETHING
 
-## History:
+## History
 
 Added in NSIS v1.1f
 

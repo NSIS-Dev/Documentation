@@ -4,11 +4,11 @@
 
 Shows or hides the details, depending on which parameter you pass. Overrides the default details view, which is set via [`ShowInstDetails`][1].
 
-## Parameters:
+## Parameters
 
     show|hide
 
-## History:
+## History
 
 Added in NSIS v1.1t
 

@@ -4,7 +4,7 @@
 
 Adds an uninstaller page. See the above sections for more information about built-in versus custom pages and about callback functions.
 
-## Parameters:
+## Parameters
 
     custom [creator_function] [leave_function] [caption] [/ENABLECANCEL]
 	internal_page_type [pre_function] [show_function] [leave_function] [/ENABLECANCEL]
@@ -17,7 +17,7 @@ internal_page_type can be:
 * instfiles - installation page where the sections are executed
 * uninstConfirm - uninstall confirmation page
 
-## History:
+## History
 
 Added in NSIS v2.0 Beta 0
 

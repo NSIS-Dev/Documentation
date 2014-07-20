@@ -4,7 +4,7 @@
 
 Find all available drives in the system.
 
-## Syntax:
+## Syntax
 
 	${GetDrives} "[Option]" "Function"
 
@@ -30,7 +30,7 @@ Find all available drives in the system.
 		Push $var    ; If $var="StopGetDrives" Then exit from function
 	FunctionEnd
 
-## Examples:
+## Examples
 
 ### Get floppy and CD-ROM drives
 
@@ -75,7 +75,7 @@ Find all available drives in the system.
 		Push $0
 	FunctionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

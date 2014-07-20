@@ -12,15 +12,15 @@ Replaces dialog (IDD\_LICENSE, IDD\_DIR, IDD\_SELCOM, IDD\_INST, IDD\_INSTFILES,
 * IDD\_UNINST must contain IDC\_EDIT1 (edit box).
 * IDD\_VERIFY must contain IDC\_STR (static).
 
-## Parameters:
+## Parameters
 
     dialog ui_file.exe
 
-## Example:
+## Example
 
 	ChangeUI all "${NSISDIR}\Contrib\UIs\sdbarker_tiny.exe"
 
-## History:
+## History
 
 Added in NSIS v2.0 Alpha 2
 

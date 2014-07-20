@@ -4,7 +4,7 @@
 
 This command closes a block started with [`!if`][1], [`!ifdef`][2], [`!ifndef`][3], [`!ifmacrodef`][4] or [`!ifmacrondef`][5].
 
-## Example:
+## Example
 
 	!ifdef VERSION
 		OutFile installer-${VERSION}.exe
@@ -18,7 +18,7 @@ This command closes a block started with [`!if`][1], [`!ifdef`][2], [`!ifndef`][
 		DetailPrint "Macro not defined" 
 	!endif
 
-## History:
+## History
 
 Added in NSIS v1.1f
 

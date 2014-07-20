@@ -8,11 +8,11 @@ You can also set a subcaption (or override the default) using [`Caption`][1] ins
 
 Accepts variables. If variables are used, they must be initialized before the relevant page is created.
 
-## Parameters:
+## Parameters
 
     [page_number subcaption]
 
-## History:
+## History
 
 Added in NSIS v1.56
 

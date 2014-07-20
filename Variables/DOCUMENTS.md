@@ -6,7 +6,7 @@ The documents directory. A typical path for the current user is `C:\Documents an
 
 This constant is not available on Windows 95 with Internet Explorer 4 not installed.
 
-## History:
+## History
 
 Not documented
 

@@ -4,11 +4,11 @@
 
 This command, when paired with an [`!endif`][1] command, will tell the compiler whether or not to compile the lines in between the two lines. If gflag is globally defined (using [`!define`][2] or the `/D` switch), then the contained lines will be compiled. Otherwise, they will be skipped. 'bcheck' can be specified as `&` (boolean and) or `|` (boolean or) along with more gflags -- precedence is simple, left to right.
 
-## Parameters:
+## Parameters
 
     gflag [bcheck gflag [...]]]
 
-## Example:
+## Example
 
 	!define SOMETHING
 	!ifdef SOMETHING
@@ -20,7 +20,7 @@ This command, when paired with an [`!endif`][1] command, will tell the compiler 
 		!echo "SOMETHING is defined" # will never be printed
 	!endif
 
-## History:
+## History
 
 Added in NSIS v1.1f
 

@@ -4,7 +4,7 @@
 
 Find a word that contains a string, between two delimiters.
 
-## Syntax:
+## Syntax
 
 	${WordFind3X} "[string]" "[delimiter1]" "[center]" "[delimiter2]" "[E][options]" $var
 
@@ -47,7 +47,7 @@ Find a word that contains a string, between two delimiters.
 	                   ;
 	$var               ;output (result)
 
-## Examples:
+## Examples
 
 ### Example 1
 
@@ -106,7 +106,7 @@ Find a word that contains a string, between two delimiters.
 		end:
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

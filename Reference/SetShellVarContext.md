@@ -6,11 +6,11 @@ Sets the context of [`$SMPROGRAMS`][1] and other shell folders. If set to 'curre
 
 Note that, if used in installer code, this will only affect the installer, and if used in uninstaller code, this will only affect the uninstaller. To affect both, it needs to be used in both.
 
-## Parameters:
+## Parameters
 
 	current|all
 
-## Example:
+## Example
 
 	SetShellVarContext current
 	StrCpy $0 $DESKTOP
@@ -18,7 +18,7 @@ Note that, if used in installer code, this will only affect the installer, and i
 	StrCpy $1 $DESKTOP
 	MessageBox MB_OK $0$\n$1
 
-## History:
+## History
 
 Added in NSIS v1.98
 

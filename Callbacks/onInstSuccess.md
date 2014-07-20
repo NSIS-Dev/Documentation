@@ -4,7 +4,7 @@
 
 This callback is called when the install was successful, right before the install window closes (which may be after the user clicks 'Close' if [`AutoCloseWindow`][1] or [`SetAutoClose`][2] is set to false).
 
-## Example:
+## Example
 
 	Function .onInstSuccess
 		MessageBox MB_YESNO "Congrats, it worked. View readme?" IDNO NoReadme

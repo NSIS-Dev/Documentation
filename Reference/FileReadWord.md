@@ -6,11 +6,11 @@ This function is only available when building a [Unicode installer][1].
 
 Reads a word (2-bytes) from a file opened with [`FileOpen`][2]. The word is stored in the output as an integer (0-65535). If the end of file is read and no more data is available, the output will be empty, and the error flag will be set.
 
-## Parameters:
+## Parameters
 
     handle user_var(output)
 
-## Example:
+## Example
 
 	ClearErrors
 	FileOpen $0 $INSTDIR\file.dat r
@@ -21,7 +21,7 @@ Reads a word (2-bytes) from a file opened with [`FileOpen`][2]. The word is stor
 	FileClose $0
 	done:
 
-## History:
+## History
 
 Added in NSIS v3.0a0
 

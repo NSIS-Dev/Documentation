@@ -4,7 +4,7 @@
 
 Ends a macro that was started with [`!macro`][1].
 
-## Example:
+## Example
 
 	!macro SomeMacro parm1 parm2 parm3
 		DetailPrint "${parm1}"
@@ -12,7 +12,7 @@ Ends a macro that was started with [`!macro`][1].
 		File "${parm3}"
 	!macroend
 
-## History:
+## History
 
 Added in NSIS v1.8b3
 

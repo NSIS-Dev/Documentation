@@ -4,7 +4,7 @@
 
 Adds any number of extra conditions to [`If`][1], [`IfNot`][2], [`Unless`][3], [`ElseIf`][4], [`ElseIfNot`][5] and [`ElseUnless`][6] statements.
 
-## Syntax:
+## Syntax
 
 	${AndIf} expression
 
@@ -34,7 +34,7 @@ The following "expressions" are available:
 		${SectionIsReadOnly} a; ${SectionIsExpanded} a;
 		${SectionIsPartiallySelected} a
 
-## Examples:
+## Examples
 
 ### Check if condition is met
 
@@ -60,7 +60,7 @@ The following "expressions" are available:
 		MessageBox MB_OK "We have both"
 	${EndIf}
 
-## Credits:
+## Credits
 
 Written by dselkirk and eccles
 

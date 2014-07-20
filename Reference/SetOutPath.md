@@ -4,16 +4,16 @@
 
 Sets the output path ([`$OUTDIR`][1]) and creates it (recursively if necessary), if it does not exist. Must be a full pathname, usually is just [`$INSTDIR`][2] (you can specify [`$INSTDIR`][2] if you are lazy with a single "-").
 
-## Parameters:
+## Parameters
 
     outpath
 
-## Example:
+## Example
 
 	SetOutPath $INSTDIR
 	File program.exe
 
-## History:
+## History
 
 Added in NSIS v1.0f
 

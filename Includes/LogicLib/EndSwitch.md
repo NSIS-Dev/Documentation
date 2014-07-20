@@ -4,11 +4,11 @@
 
 Ends an open block of labels started by [`${Switch}`][1].
 
-## Syntax:
+## Syntax
 
 	${EndSwitch}
 
-## Example:
+## Example
 
 	{For} $0 1 10
 		${Switch} $0
@@ -23,7 +23,7 @@ Ends an open block of labels started by [`${Switch}`][1].
 		${EndSwitch}
 	${Next}
 
-## Credits:
+## Credits
 
 Written by dselkirk and eccles
 

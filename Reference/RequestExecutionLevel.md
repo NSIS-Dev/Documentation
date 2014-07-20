@@ -8,11 +8,11 @@ It's recommended, at least by Microsoft, that every application will be marked w
 
 More information about this topic can be found at MSDN. Keywords include "UAC", "requested execution level", "vista manifest" and "vista security".
 
-## Parameters:
+## Parameters
 
     none|user|highest|admin
 
-## History:
+## History
 
 Added in NSIS v2.21
 

@@ -4,7 +4,7 @@
 
 This callback is called whenever the mouse position over the sections tree has changed. This allows you to set a description for each section for example. The section id on which the mouse is over currently is stored, temporarily, in $0.
 
-## Example:
+## Example
 
 	Function .onMouseOverSection
 		FindWindow $R0 "#32770" "" $HWNDPARENT

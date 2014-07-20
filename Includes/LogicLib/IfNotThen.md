@@ -4,7 +4,7 @@
 
 Conditionally executes an inline statement, depending on the value of an expression.
 
-## Syntax:
+## Syntax
 
 	${IfNotThen} expression statement
 
@@ -34,7 +34,7 @@ The following "expressions" are available:
 		${SectionIsReadOnly} a; ${SectionIsExpanded} a;
 		${SectionIsPartiallySelected} a
 
-## Example:
+## Example
 
 	StrCpy $0 true
 
@@ -42,7 +42,7 @@ The following "expressions" are available:
 		MessageBox MB_OK "Whenever $$0 is true, $$1 is false"
 	${EndIf}
 
-## Credits:
+## Credits
 
 Written by dselkirk and eccles
 

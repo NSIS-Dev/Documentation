@@ -4,18 +4,18 @@
 
 Get installer pathname ([`$EXEDIR`][1] with valid case for Windows 98/Me).
 
-## Syntax:
+## Syntax
 
 	${GetExePath} $var
 
-## Example:
+## Example
 
 	Section
 		${GetExePath} $R0
 		; $R0="C:\ftp"
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][2]
 

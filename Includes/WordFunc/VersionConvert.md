@@ -4,7 +4,7 @@
 
 Convert version in the numerical format which can be compared.
 
-## Syntax:
+## Syntax
 
 	${VersionConvert} "[Version]" "[CharList]" $var
 
@@ -20,7 +20,7 @@ Note:
 - Converted letters are separated with dot 
 - If character is non-digit and not in list then it will be converted to dot
 
-## Examples:
+## Examples
 
 ### Example 1
 
@@ -61,7 +61,7 @@ Note:
 		; $R2="1"   version1 is newer
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

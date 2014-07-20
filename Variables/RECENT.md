@@ -4,7 +4,7 @@
 
 The directory that contains shortcuts to the user's recently used documents.
 
-## History:
+## History
 
 Not documented
 

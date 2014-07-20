@@ -4,11 +4,11 @@
 
 Checks if the installer is running on Windows service pack version at least as specified.
 
-## Syntax:
+## Syntax
 
 	logic_lib_statement ${AtLeastServicePack} service_pack_version
 
-## Example:
+## Example
 
 	${If} ${IsWinXP}
 	${AndIf} ${AtLeastServicePack} 1
@@ -17,7 +17,7 @@ Checks if the installer is running on Windows service pack version at least as s
 		DetailPrint "Not Windows XP, or no service pack installed"
 	${EndIf}
 
-## Credits:
+## Credits
 
 *unknown*
 

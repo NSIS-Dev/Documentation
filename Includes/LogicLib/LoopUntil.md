@@ -4,7 +4,7 @@
 
 Loops a block of statements started by [`${Do}`][1], depending on the value of an expression.
 
-## Syntax:
+## Syntax
 
 	${LoopUntil} expression
 
@@ -34,7 +34,7 @@ The following "expressions" are available:
 		${SectionIsReadOnly} a; ${SectionIsExpanded} a;
 		${SectionIsPartiallySelected} a
 
-## Example:
+## Example
 
 	StrCpy $0 10
 
@@ -42,7 +42,7 @@ The following "expressions" are available:
 		IntOp $0 $0 - 1
 	${LoopUntil} $0 == 0
 
-## Credits:
+## Credits
 
 Written by dselkirk and eccles
 

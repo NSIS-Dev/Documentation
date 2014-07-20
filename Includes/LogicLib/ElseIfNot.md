@@ -4,7 +4,7 @@
 
 Conditionally executes a block of statements, depending on the value of an expression. `${ElseIfNot}` and [`${ElseUnless}`][1] are equivalent and interchangeable, as are [`${IfNot}`][2] and [`${Unless}`][3]. Requires opening condition [`${If}`][4] or [`${IfNot}`][5].
 
-## Syntax:
+## Syntax
 
 	${ElseIfNot} expression
 
@@ -34,7 +34,7 @@ The following "expressions" are available:
 		${SectionIsReadOnly} a; ${SectionIsExpanded} a;
 		${SectionIsPartiallySelected} a
 
-## Examples:
+## Examples
 
 ### Check if condition is met
 
@@ -60,7 +60,7 @@ The following "expressions" are available:
 		Exec $SYSDIR\notepad.exe
 	${EndIf}
 
-## Credits:
+## Credits
 
 Written by dselkirk and eccles
 

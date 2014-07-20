@@ -6,7 +6,7 @@ The resources directory that stores themes and other Windows resources (usually 
 
 This constant is available on Windows XP and above.
 
-## History:
+## History
 
 Not documented
 

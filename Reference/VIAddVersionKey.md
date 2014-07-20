@@ -20,11 +20,11 @@ Adds a field in the Version Tab of the File Properties. This can either be a fie
 The name of these fields are translated on the target system, whereas user defined fields remain untranslated.
 
 
-## Parameters:
+## Parameters
 
     [/LANG=lang_id] keyname value
 
-## Example:
+## Example
 
 	VIAddVersionKey /LANG=${LANG_ENGLISH} "ProductName" "Test Application"
 	VIAddVersionKey /LANG=${LANG_ENGLISH} "Comments" "A test comment"
@@ -34,7 +34,7 @@ The name of these fields are translated on the target system, whereas user defin
 	VIAddVersionKey /LANG=${LANG_ENGLISH} "FileDescription" "Test Application"
 	VIAddVersionKey /LANG=${LANG_ENGLISH} "FileVersion" "1.2.3"
 
-## History:
+## History
 
 Added in NSIS v2.0 Beta 4
 

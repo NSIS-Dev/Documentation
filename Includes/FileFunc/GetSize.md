@@ -5,7 +5,7 @@
 * Find the size of a file, files mask or directory.
 * Find the sum of the files, directories and subdirectories.
 
-## Syntax:
+## Syntax
 
 	${GetSize} "[Path]" "[Options]" $var1 $var2 $var3
 
@@ -37,7 +37,7 @@ Note:
 - Error flag if syntax error 
 - See also [Locate plugin][1]
 
-## Examples:
+## Examples
 
 ### Find file size in kilobytes
 
@@ -75,7 +75,7 @@ Note:
 		MessageBox MB_OK "Error"
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][2]
 

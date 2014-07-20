@@ -4,12 +4,12 @@
 
 This command closes the current open [`Section`][1].
 
-## Example:
+## Example
 
 	Section "install something" SEC_IDX
 	SectionEnd
 
-## History:
+## History
 
 Added in NSIS v1.3
 

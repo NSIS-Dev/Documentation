@@ -6,11 +6,11 @@ Specifies whether or not the installer should be silent. If it is 'silent' or 's
 
 Note: see also [`LogSet`][3].
 
-## Parameters:
+## Parameters
 
     normal|silent|silentlog
 
-## History:
+## History
 
 Added in NSIS v1.0f
 

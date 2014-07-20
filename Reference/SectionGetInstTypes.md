@@ -4,11 +4,11 @@
 
 Retrieves the install types flags array of a section. See the explanation about [`SectionSetInstTypes`][1] for a description of how to deal with the output. The error flag will be set if the section index specified is out of range.
 
-## Parameters:
+## Parameters
 
     section_index user_var(output)
 
-## Example:
+## Example
 
 	Section test test_section_id
 	SectionEnd
@@ -20,7 +20,7 @@ Retrieves the install types flags array of a section. See the explanation about 
 		SectionSetInstTypes ${test_section_id} $0
 	FunctionEnd
 
-## History:
+## History
 
 Added in NSIS v2.0 Beta 3
 

@@ -4,7 +4,7 @@
 
 This callback will be called when the installer is nearly finished initializing. If the `.onInit` function calls [`Abort`][1], the installer will quit instantly.
 
-## Example:
+## Example
 
 	Function .onInit
 		MessageBox MB_YESNO "This will install. Continue?" IDYES NoAbort

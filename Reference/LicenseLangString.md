@@ -4,18 +4,18 @@
 
 Does the same as [`LangString`][1] only it loads the string from a text/RTF file and defines a special [`LangString`][1] that can be used only by [`LicenseData`][2].
 
-## Parameters:
+## Parameters
 
     name language_id license_path
 
-## Example:
+## Example
 
 	LicenseLangString license ${LANG_ENGLISH} license-english.txt
 	LicenseLangString license ${LANG_FRENCH} license-french.txt
 	LicenseLangString license ${LANG_GERMAN} license-german.txt
 	LicenseData $(license)
 
-## History:
+## History
 
 Added in NSIS v2.0 Beta 4
 

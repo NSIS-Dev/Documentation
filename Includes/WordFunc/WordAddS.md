@@ -4,7 +4,7 @@
 
 Insert word in string.
 
-## Syntax:
+## Syntax
 
 	${WordInsert} "[string]" "[delimiter]" "[word]" "[E][options]" $var
 ---
@@ -30,7 +30,7 @@ Insert word in string.
 	                    ;
 	$var                ;output (result)
 
-## Examples:
+## Examples
 
 ### add
 
@@ -91,7 +91,7 @@ Insert word in string.
 		end:
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

@@ -4,7 +4,7 @@
 
 This callback is called if [`Reboot`][1] fails. [`WriteUninstaller`][2], plug-ins, [`File`][3] and [`WriteRegBin`][4] should not be used in this callback.
 
-## Example:
+## Example
 
 	Function .onRebootFailed
 		MessageBox MB_OK|MB_ICONSTOP "Reboot failed. Please reboot manually." /SD IDOK

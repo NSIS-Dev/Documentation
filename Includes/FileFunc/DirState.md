@@ -4,7 +4,7 @@
 
 Check directory full, empty or not exist.
 
-## Syntax:
+## Syntax
 
 	${DirState} "[path]" $var
 
@@ -14,14 +14,14 @@ Check directory full, empty or not exist.
 	              ;    $var=1  (full)
 	              ;    $var=-1 (directory not found)
 
-## Example:
+## Example
 
 	Section
 		${DirState} "$TEMP" $R0
 		; $R0="1"  directory is full
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

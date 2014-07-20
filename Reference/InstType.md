@@ -6,11 +6,11 @@ Adds an install type to the install type list, or disables the custom install ty
 
 Accepts variables for type names. If variables are used, they must be initialized before the components page is created.
 
-## Parameters:
+## Parameters
 
     install_type_name | /NOCUSTOM | /CUSTOMSTRING=str | /COMPONENTSONLYONCUSTOM
 
-## History:
+## History
 
 Added in NSIS v1.0f
 

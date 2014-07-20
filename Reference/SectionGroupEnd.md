@@ -4,7 +4,7 @@
 
 Closes a section group opened with [`SectionGroup`][1].
 
-## Example:
+## Example
 
 	SectionGroup "some stuff"
 		Section "a section"
@@ -14,7 +14,7 @@ Closes a section group opened with [`SectionGroup`][1].
 		SectionEnd
 	SectionGroupEnd
 
-## History:
+## History
 
 Added in NSIS v2.05
 

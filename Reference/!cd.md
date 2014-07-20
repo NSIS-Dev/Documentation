@@ -4,14 +4,14 @@
 
 This command will change the compiler to the new directory, `new_path`. `new_path` can be relative or absolute.
 
-## Parameters:
+## Parameters
 
     new_path
 
-## Example:
+## Example
     !cd ..\more-scripts\new
 
-## History:
+## History
 
 Added in NSIS v1.4
 

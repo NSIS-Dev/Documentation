@@ -4,11 +4,11 @@
 
 This command creates a temporary file. It puts its path into a define, named symbol.
 
-## Parameters:
+## Parameters
 
     symbol
 
-## Example:
+## Example
 
 	!tempfile PACKHDRTEMP
 	!packhdr "${PACKHDRTEMP}" '"C:\Program Files\UPX\upx.exe" "${PACKHDRTEMP}"'
@@ -20,7 +20,7 @@ This command creates a temporary file. It puts its path into a define, named sym
 	!undef FILE
 	!undef DATE
 
-## History:
+## History
 
 Added in NSIS v2.11
 

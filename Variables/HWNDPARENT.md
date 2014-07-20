@@ -4,7 +4,7 @@
 
 The decimal HWND of the parent window.
 
-## History:
+## History
 
 Not documented
 

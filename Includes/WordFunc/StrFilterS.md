@@ -5,7 +5,7 @@
 * Convert string to uppercase or lowercase.
 * Set symbol filter.
 
-## Syntax:
+## Syntax
 
 	${StrFilterS} "[string]" "[options]" "[symbols1]" "[symbols2]" $var
 
@@ -37,7 +37,7 @@ Note:
 - Error flag if syntax error 
 - Same symbol to include & to exclude = to exclude
 
-## Examples:
+## Examples
 
 ### UpperCase
 
@@ -146,7 +146,7 @@ Note:
 		Exch $R0
 	FunctionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

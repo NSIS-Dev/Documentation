@@ -4,7 +4,7 @@
 
 Conditionally executes a block of statements, depending on the value of an expression. [`${IfNot}`][1] and `${Unless}` are equivalent and interchangeable, as are [`${ElseIfNot}`][2] and [`${ElseUnless}`][3].
 
-## Syntax:
+## Syntax
 
 	${Unless} expression
 
@@ -34,7 +34,7 @@ The following "expressions" are available:
 		${SectionIsReadOnly} a; ${SectionIsExpanded} a;
 		${SectionIsPartiallySelected} a
 
-## Examples:
+## Examples
 
 ### Check if condition is met
 
@@ -76,7 +76,7 @@ The following "expressions" are available:
 		${EndUnless}
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by dselkirk and eccles
 

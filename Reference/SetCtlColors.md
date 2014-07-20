@@ -6,17 +6,17 @@ Sets a background color and the text color for a static control, edit control, b
 
 Warning: setting the background color of check boxes to "transparent" may not function properly when using [`XPStyle`][2] on. The background may be completely black, instead of transparent, when using certain Windows themes.
 
-## Parameters:
+## Parameters
 
     hwnd [/BRANDING] [text_color] [transparent|bg_color]
 
-## Example:
+## Example
 
 	FindWindow $0 "#32770" "" $HWNDPARENT
 	GetDlgItem $0 $0 1006
 	SetCtlColors $0 0xFF0000 0x00FF00
 
-## History:
+## History
 
 Added in NSIS v2.0 Release Candidate 2
 

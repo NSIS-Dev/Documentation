@@ -6,7 +6,7 @@ The installation directory (`$INSTDIR` is modifiable using [`StrCpy`][1], [`Read
 
 Note that in uninstaller code, `$INSTDIR` contains the directory where the uninstaller lies. It does not necessarily contain the same value it contained in the installer. For example, if you write the uninstaller to [`$WINDIR`][5] and the user doesn't move it, `$INSTDIR` will be [`$WINDIR`][5] in the uninstaller. If you write the uninstaller to another location, you should keep the installer's `$INSTDIR` in the registry or an alternative storing facility and read it in the uninstaller.
 
-## History:
+## History
 
 Added in NSIS v1.0
 

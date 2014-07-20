@@ -4,11 +4,11 @@
 
 Retrieves the section's flags. See above for a description of the flag. The error flag will be set if an out of range section is specified.
 
-## Parameters:
+## Parameters
 
     section_index user_var(output)
 
-## Example:
+## Example
 
 	Section test test_section_id
 	SectionEnd
@@ -20,7 +20,7 @@ Retrieves the section's flags. See above for a description of the flag. The erro
 		SectionSetFlags ${test_section_id} $0
 	FunctionEnd
 
-## History:
+## History
 
 Added in NSIS v1.98
 

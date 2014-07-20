@@ -4,16 +4,16 @@
 
 Cancels the install, stops execution of script, and displays user_message in the status display. Note: you can use this from [Callback functions][1] to do special things. [Page callbacks][2] also uses Abort for special purposes.
 
-## Parameters:
+## Parameters
 
 	user_message
 
-## Example:
+## Example
 
 	Abort
 	Abort "can't install"
 
-## History:
+## History
 
 Added in NSIS v1.1t
 

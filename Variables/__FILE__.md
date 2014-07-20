@@ -4,7 +4,7 @@
 
 Current script name.
 
-## History:
+## History
 
 Added in NSIS v2.0 Beta 4
 

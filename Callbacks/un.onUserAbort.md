@@ -4,7 +4,7 @@
 
 This callback is called when the user hits the 'cancel' button and the uninstall hasn't already failed. If this function calls [`Abort`][1], the install will not be aborted.
 
-## Example:
+## Example
 
 	Function un.onUserAbort
 		MessageBox MB_YESNO "Abort uninstall?" IDYES NoCancelAbort

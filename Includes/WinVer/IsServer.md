@@ -4,11 +4,11 @@
 
 Checks if the installer is running on a server version of Windows (NT4, 2003, 2008, etc.)
 
-## Syntax:
+## Syntax
 
 	logic_lib_statement ${IsServer}
 
-## Example:
+## Example
 
 	${If} ${IsServer}
 		DetailPrint "Running on Windows Server."
@@ -16,7 +16,7 @@ Checks if the installer is running on a server version of Windows (NT4, 2003, 20
 		DetailPrint "Not running on Windows Server."
 	${EndIf}
 
-## Credits:
+## Credits
 
 *unknown*
 

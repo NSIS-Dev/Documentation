@@ -4,12 +4,12 @@
 
 Reboots the computer. Be careful with this one. If it fails, [`.onRebootFailed`][1] is called. In any case, this instruction never returns, just like [`Quit`][2].
 
-## Example:
+## Example
 
 	MessageBox MB_YESNO|MB_ICONQUESTION "Do you wish to reboot the system?" IDNO +2
 	Reboot
 
-## History:
+## History
 
 Added in NSIS v1.70
 

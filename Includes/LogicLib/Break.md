@@ -4,11 +4,11 @@
 
 Breaks a block of statements.
 
-## Syntax:
+## Syntax
 
 	${Break}
 
-## Examples:
+## Examples
 
 ### Simple example
 
@@ -23,7 +23,7 @@ Breaks a block of statements.
 		${IfCmd} MessageBox MB_YESNO "We're at $1, continue up to 10?" IDYES ${||} ${Break} ${|}
 	${Next}
 
-## Credits:
+## Credits
 
 Written by dselkirk and eccles
 

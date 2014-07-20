@@ -4,16 +4,16 @@
 
 Adds another include directory to the include directories list. This list is searched when [`!include`](!include.md) is used. This list's initial value is `${NSISDIR}\Include` alone.
 
-## Parameters:
+## Parameters
 
     directory
 
-## Example:
+## Example
 
     !addincludedir ..\include
 	!include something.nsh
 
-## History:
+## History
 
 Added in NSIS v2.0 Beta 1
 

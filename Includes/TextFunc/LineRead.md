@@ -4,7 +4,7 @@
 
 Get line in file specified with number.
 
-## Syntax:
+## Syntax
 
 	${LineRead} "[File]" "[LineNumber]" $var
 
@@ -21,14 +21,14 @@ Note:
 - Error flag if input file doesn't exist 
 - Error flag if line number not found
 
-## Example: 
+## Example 
 
 	Section
 		${LineRead} "C:\a.log" "-1" $R0
 		; $R0="Last line$\r$\n"
 	SectionEnd
 
-## Credits:
+## Credits
 
 Written by [Instructor][1]
 

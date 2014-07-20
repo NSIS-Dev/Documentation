@@ -4,7 +4,7 @@
 
 Hides the installer.
 
-## History:
+## History
 
 Added in NSIS v1.1b
 

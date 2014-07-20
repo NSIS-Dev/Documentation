@@ -6,11 +6,11 @@ Reserves a file in the data block for later use. Files are added to the compress
 
 See [`File`][2] for more information about the parameters.
 
-## Parameters:
+## Parameters
 
     [/nonfatal] [/r] [/x file|wildcard [...]] file [file...]
 
-## History:
+## History
 
 Added in NSIS v2.0 Beta 0
 
