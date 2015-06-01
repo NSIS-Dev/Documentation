@@ -6,7 +6,7 @@
 
 module.exports = function(grunt) {
 
-    var mdfiles = ['**/*.md']
+    var mdfiles = ['**/*.md', '!node_modules/']
 
     grunt.initConfig({
 
