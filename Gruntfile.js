@@ -23,5 +23,5 @@ module.exports = function(grunt) {
     grunt.registerTask('default', 'mdlint');
 
     // task shortcuts
-    grunt.registerTask('lint',   'mdlint');
+    grunt.registerTask('lint', 'mdlint');
  };
