@@ -1,8 +1,8 @@
- /*
-  * NSIS Markdown Documentation
-  * https://github.com/NSIS-Dev/Documentation
-  *
-  */
+/*
+* NSIS Markdown Documentation
+* https://github.com/NSIS-Dev/Documentation
+*
+*/
 
 module.exports = function(grunt) {
 
