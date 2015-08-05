@@ -6,7 +6,7 @@ Appends text to file.
 
 ## Parameters
 
-    file text
+    [/CHARSET=ACP|OEM|CP#|UTF8[SIG]|UTF16<LE|BE>[BOM]] [/RawNL] file text file text
 
 ## Example
 
