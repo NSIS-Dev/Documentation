@@ -1,7 +1,5 @@
 # AtMostWinME
 
----
-
 Checks if the installer is running on Windows ME at most.
 
 ## Syntax
@@ -19,5 +17,3 @@ Checks if the installer is running on Windows ME at most.
 ## Credits
 
 *unknown*
-
----

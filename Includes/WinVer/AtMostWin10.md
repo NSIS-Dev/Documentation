@@ -1,7 +1,5 @@
 # AtMostWin10
 
----
-
 Checks if the installer is running on Windows 10 at most.
 
 ## Syntax
@@ -23,5 +21,3 @@ Checks if the installer is running on Windows 10 at most.
 ## History
 
 Added in NSIS v3.0b2
-
----

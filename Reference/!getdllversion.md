@@ -1,7 +1,5 @@
 # !getdllversion
 
----
-
 This is similar to [`GetDLLVersionLocal`][1], only it stores the version number in defines and can therefore be used anywhere, not just inside functions and sections.
 
 ## Parameters
@@ -16,7 +14,5 @@ This is similar to [`GetDLLVersionLocal`][1], only it stores the version number 
 ## History
 
 Added in NSIS v3.0a0
-
----
 
 [1]: GetDLLVersionLocal.md

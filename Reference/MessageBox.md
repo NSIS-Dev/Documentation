@@ -1,7 +1,5 @@
 # MessageBox
 
----
-
 Displays a `MessageBox` containing the text "messagebox\_text". mb\_option\_list must be one or more of the following, delimited by |s (e.g. MB\_YESNO|MB\_ICONSTOP).
 
 * MB_OK - Display with an OK button
@@ -61,8 +59,6 @@ Use the `/SD` parameter with one of the return_check values above to specify the
 ## History
 
 Added in NSIS v1.0f
-
----
 
 [1]: Goto.md
 [2]: http://nsis.sourceforge.net/Docs//Chapter4.html#4.12

@@ -1,7 +1,5 @@
 # ExitWhile
 
----
-
 Exits a block of statements until started by [`${DoWhile}`][1].
 
 ## Syntax
@@ -24,7 +22,5 @@ Exits a block of statements until started by [`${DoWhile}`][1].
 ## Credits
 
 Written by dselkirk and eccles
-
----
 
 [1]: DoWhile.md

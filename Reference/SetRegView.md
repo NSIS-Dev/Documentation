@@ -1,7 +1,5 @@
 # SetRegView
 
----
-
 Sets the registry view affected by registry commands. On Windows x64 there are two views. One for 32-bit applications and one for x64 applications. By default, 32-bit applications running on x64 systems under WOW64 have access only to the 32-bit view. Using SetRegView 64 allows the installer to access keys in the x64 view of the registry.
 
 Affects [`DeleteRegKey`][1], [`DeleteRegValue`][2], [`EnumRegKey`][3], [`EnumRegValue`][4], [`ReadRegDWORD`][5], [`ReadRegStr`][6], [`WriteRegBin`][7], [`WriteRegDWORD`][8], [`WriteRegStr`][9] and [`WriteRegExpandStr`][10].
@@ -30,8 +28,6 @@ Does not affect [`InstallDirRegKey`][11]. Instead, the registry can be read usin
 ## History
 
 Added in NSIS v2.26
-
----
 
 [1]: DeleteRegKey.md
 [2]: DeleteRegValue.md

@@ -1,7 +1,5 @@
 # IsWin7
 
----
-
 Checks if the installer is running on Windows 7 exactly as specified.
 
 ## Syntax
@@ -19,5 +17,3 @@ Checks if the installer is running on Windows 7 exactly as specified.
 ## Credits
 
 *unknown*
-
----

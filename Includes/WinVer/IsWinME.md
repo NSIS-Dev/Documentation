@@ -1,7 +1,5 @@
 # IsWinME
 
----
-
 Checks if the installer is running on Windows ME exactly as specified.
 
 ## Syntax
@@ -19,5 +17,3 @@ Checks if the installer is running on Windows ME exactly as specified.
 ## Credits
 
 *unknown*
-
----

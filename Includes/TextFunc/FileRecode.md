@@ -1,7 +1,5 @@
 # FileRecode
 
----
-
 Recode text file from DOS to Windows format and vice-versa.
 
 ## Syntax
@@ -27,7 +25,5 @@ Note:
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

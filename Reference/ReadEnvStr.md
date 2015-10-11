@@ -1,7 +1,5 @@
 # ReadEnvStr
 
----
-
 Reads from the environment string "name" and sets the value into the user variable $x. If there is an error reading the string, the user variable is set to empty, and the error flag is set.
 
 ## Parameters
@@ -16,5 +14,3 @@ Reads from the environment string "name" and sets the value into the user variab
 ## History
 
 Added in NSIS v1.58
-
----

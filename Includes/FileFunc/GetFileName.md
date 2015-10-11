@@ -1,7 +1,5 @@
 # GetFileName
 
----
-
 Get last part from directory path.
 
 ## Syntax
@@ -18,7 +16,5 @@ Get last part from directory path.
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

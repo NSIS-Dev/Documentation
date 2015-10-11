@@ -1,7 +1,5 @@
 # Name
 
----
-
 Sets the name of the installer. The name is usually simply the product name such as 'MyApp' or 'CrapSoft MyApp'. If you have one or more ampersands (&) in the name, set the second parameter to the same name, only with doubled ampersands. 
 
 Accepts variables. If variables are used, they must be initialized in [`.onInit`][1].
@@ -23,8 +21,6 @@ If you have ampersands in the name and use a [`LangString`][2] for the name, you
 ## History
 
 Added in NSIS v1.0f
-
----
 
 [1]: ../Callbacks/onInit.md
 [2]: LangString.md

@@ -1,7 +1,5 @@
 # SectionGetInstTypes
 
----
-
 Retrieves the install types flags array of a section. See the explanation about [`SectionSetInstTypes`][1] for a description of how to deal with the output. The error flag will be set if the section index specified is out of range.
 
 ## Parameters
@@ -23,7 +21,5 @@ Retrieves the install types flags array of a section. See the explanation about 
 ## History
 
 Added in NSIS v2.0 Beta 3
-
----
 
 [1]: SectionSetInstTypes.md

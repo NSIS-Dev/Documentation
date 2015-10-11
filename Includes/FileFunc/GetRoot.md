@@ -1,7 +1,5 @@
 # GetRoot
 
----
-
 Get root directory.
 
 ## Syntax
@@ -27,7 +25,5 @@ Get root directory.
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

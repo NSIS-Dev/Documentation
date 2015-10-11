@@ -1,7 +1,5 @@
 # GetSize
 
----
-
 * Find the size of a file, files mask or directory.
 * Find the sum of the files, directories and subdirectories.
 
@@ -78,8 +76,6 @@ Note:
 ## Credits
 
 Written by [Instructor][2]
-
----
 
 [1]: http://nsis.sourceforge.net/Locate_plugin
 [2]: http://nsis.sourceforge.net/User:Instructor

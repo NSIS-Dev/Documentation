@@ -1,7 +1,5 @@
 # EnumRegValue
 
----
-
 Set user variable $x with the name of the 'index'th registry value in root\_key\Subkey. Valid values for root\_key are listed under [`WriteRegStr`][1]. Returns an empty string and sets the error flag if there are no more values or if there is an error.
 
 ## Parameters
@@ -23,7 +21,5 @@ Set user variable $x with the name of the 'index'th registry value in root\_key\
 ## History
 
 Added in NSIS v1.50
-
----
 
 [1]: WriteRegStr.md

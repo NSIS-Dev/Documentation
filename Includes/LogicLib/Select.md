@@ -1,7 +1,5 @@
 # Select
 
----
-
 Executes one of several blocks of statements, depending on the value of an expression.
 
 ## Syntax
@@ -26,5 +24,3 @@ Executes one of several blocks of statements, depending on the value of an expre
 ## Credits
 
 Written by dselkirk and eccles
-
----

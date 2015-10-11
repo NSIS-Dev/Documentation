@@ -1,7 +1,5 @@
 # !macroend
 
----
-
 Ends a macro that was started with [`!macro`][1].
 
 ## Example
@@ -15,7 +13,5 @@ Ends a macro that was started with [`!macro`][1].
 ## History
 
 Added in NSIS v1.8b3
-
----
 
 [1]: !macro.md

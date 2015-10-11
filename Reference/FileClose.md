@@ -1,7 +1,5 @@
 # FileClose
 
----
-
 Closes a file handle opened with [`FileOpen`][1].
 
 ## Parameters
@@ -16,7 +14,5 @@ Closes a file handle opened with [`FileOpen`][1].
 ## History
 
 Added in NSIS v1.60
-
----
 
 [1]: FileOpen.md

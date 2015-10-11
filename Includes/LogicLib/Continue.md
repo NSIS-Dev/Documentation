@@ -1,7 +1,5 @@
 # Continue
 
----
-
 Continues a block of statements.
 
 ## Syntax
@@ -17,5 +15,3 @@ Continues a block of statements.
 ## Credits
 
 Written by dselkirk and eccles
-
----

@@ -1,7 +1,5 @@
 # !error
 
----
-
 This command will issue an error to the script compiler and will stop execution of the script. You can also add a message to this error.
 
 ## Parameters
@@ -17,5 +15,3 @@ This command will issue an error to the script compiler and will stop execution 
 ## History
 
 Added in NSIS v1.1u
-
----

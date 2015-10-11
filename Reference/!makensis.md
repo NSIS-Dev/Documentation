@@ -1,7 +1,5 @@
 # !makensis
 
----
-
 This command will [`!execute`][1] a new instance of MakeNSIS with the parameters you specify.
 
 ## Parameters
@@ -16,7 +14,5 @@ This command will [`!execute`][1] a new instance of MakeNSIS with the parameters
 ## History
 
 Added in NSIS v3.0b1
-
----
 
 [1]: !execute.md

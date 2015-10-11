@@ -1,7 +1,5 @@
 # IsWin2000
 
----
-
 Checks if the installer is running on Windows 2000 exactly as specified.
 
 ## Syntax
@@ -19,5 +17,3 @@ Checks if the installer is running on Windows 2000 exactly as specified.
 ## Credits
 
 *unknown*
-
----

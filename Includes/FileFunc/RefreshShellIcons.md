@@ -1,7 +1,5 @@
 # RefreshShellIcons
 
----
-
 After changing file associations, you can call this function to refresh the shell immediately.
 
 ## Syntax
@@ -18,7 +16,5 @@ After changing file associations, you can call this function to refresh the shel
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

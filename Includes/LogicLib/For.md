@@ -1,7 +1,5 @@
 # For
 
----
-
 Repeats a block of statements varying the value of a variable.
 
 ## Syntax
@@ -21,5 +19,3 @@ Repeats a block of statements varying the value of a variable.
 ## Credits
 
 Written by dselkirk and eccles
-
----

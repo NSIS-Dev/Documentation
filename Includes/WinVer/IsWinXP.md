@@ -1,7 +1,5 @@
 # IsWinXP
 
----
-
 Checks if the installer is running on Windows XP exactly as specified.
 
 ## Syntax
@@ -19,5 +17,3 @@ Checks if the installer is running on Windows XP exactly as specified.
 ## Credits
 
 *unknown*
-
----

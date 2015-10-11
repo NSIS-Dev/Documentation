@@ -1,7 +1,5 @@
 # VersionConvert
 
----
-
 Convert version in the numerical format which can be compared.
 
 ## Syntax
@@ -64,7 +62,5 @@ Note:
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

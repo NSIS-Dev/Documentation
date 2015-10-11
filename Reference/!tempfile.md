@@ -1,7 +1,5 @@
 # !tempfile
 
----
-
 This command creates a temporary file. It puts its path into a define, named symbol.
 
 ## Parameters
@@ -23,5 +21,3 @@ This command creates a temporary file. It puts its path into a define, named sym
 ## History
 
 Added in NSIS v2.11
-
----

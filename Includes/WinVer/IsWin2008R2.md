@@ -1,7 +1,5 @@
 # IsWin2008R2
 
----
-
 Checks if the installer is running on Windows Server 2008 R2 exactly as specified.
 
 ## Syntax
@@ -19,5 +17,3 @@ Checks if the installer is running on Windows Server 2008 R2 exactly as specifie
 ## Credits
 
 *unknown*
-
----

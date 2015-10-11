@@ -1,7 +1,5 @@
 # !searchreplace
 
----
-
 Searches source\_string, looking for searchfor and replacing all instances of it with replacewith. Unlike [`!define`][1], `!searchreplace` allows you to redefine symbol_out without warning or error.
 
 ## Parameters
@@ -16,7 +14,5 @@ Searches source\_string, looking for searchfor and replacing all instances of it
 ## History
 
 Added in NSIS v2.42
-
----
 
 [1]: !define.md

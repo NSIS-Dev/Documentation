@@ -1,7 +1,5 @@
 # AtLeastWin8
 
----
-
 Checks if the installer is running on Windows 8.
 
 ## Syntax
@@ -19,5 +17,3 @@ Checks if the installer is running on Windows 8.
 ## Credits
 
 *unknown*
-
----

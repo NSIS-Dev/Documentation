@@ -1,7 +1,5 @@
 # GetDLLVersion
 
----
-
 Gets the version information from the DLL (or any other executable containing version information) in "filename". Sets the user output variables with the high and low dwords of version information on success; on failure the outputs are empty and the error flag is set. 
 
 ## Parameters
@@ -17,5 +15,3 @@ The following example reads the DLL version and copies a human readable version 
 ## History
 
 Added in NSIS v1.60
-
----

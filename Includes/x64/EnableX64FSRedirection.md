@@ -1,7 +1,5 @@
 # EnableX64FSRedirection
 
----
-
 Enables file system redirection.
 
 ## Syntax
@@ -17,5 +15,3 @@ Enables file system redirection.
 ## Credits
 
 *unknown*
-
----

@@ -1,7 +1,5 @@
 # SetRebootFlag
 
----
-
 Sets the reboot flag to either true or false. The flag's value can be read using [`IfRebootFlag`][1].
 
 ## Parameters
@@ -17,7 +15,5 @@ Sets the reboot flag to either true or false. The flag's value can be read using
 ## History
 
 Added in NSIS v1.70
-
----
 
 [1]: IfRebootFlag.md

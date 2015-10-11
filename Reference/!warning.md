@@ -1,7 +1,5 @@
 # !warning
 
----
-
 This command will issue a warning to the script compiler. You can also add a message to this warning.
 
 ## Parameters
@@ -17,5 +15,3 @@ This command will issue a warning to the script compiler. You can also add a mes
 ## History
 
 Added in NSIS v1.1u
-
----

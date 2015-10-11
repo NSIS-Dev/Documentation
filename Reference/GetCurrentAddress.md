@@ -1,7 +1,5 @@
 # GetCurrentAddress
 
----
-
 Gets the address of the current instruction and stores it in the output user variable. This user variable then can be passed to [`Call`][1] or [`Goto`][2].
 
 ## Parameters
@@ -34,8 +32,6 @@ Gets the address of the current instruction and stores it in the output user var
 ## History
 
 Added in NSIS v1.80
-
----
 
 [1]: Call.md
 [2]: Goto.md

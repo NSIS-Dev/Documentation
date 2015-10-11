@@ -1,7 +1,5 @@
 # LicenseText
 
----
-
 Used to change the default text on the license page.
 
 The default string will be used if a string is empty ("").
@@ -18,5 +16,3 @@ Accepts variables. If variables are used, they must be initialized before the li
 ## History
 
 Added in NSIS v1.0f
-
----

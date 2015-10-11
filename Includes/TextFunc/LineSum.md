@@ -1,7 +1,5 @@
 # LineSum
 
----
-
 Get sum of lines in text file.
 
 ## Syntax
@@ -25,7 +23,5 @@ Note:
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

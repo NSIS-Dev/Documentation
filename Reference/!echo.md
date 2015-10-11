@@ -1,7 +1,5 @@
 # !echo
 
----
-
 This command will echo a message to the user compiling the script.
 
 ## Parameters
@@ -15,5 +13,3 @@ This command will echo a message to the user compiling the script.
 ## History
 
 Added in NSIS v2.0 Alpha 2
-
----

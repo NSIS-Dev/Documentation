@@ -1,7 +1,5 @@
 # EnableWindow
 
----
-
 Enables or disables mouse and keyboard input to the specified window or control. Possible states are 0 (disabled) or 1 (enabled).
 
 ## Parameters
@@ -18,5 +16,3 @@ Enables or disables mouse and keyboard input to the specified window or control.
 ## History
 
 Added in NSIS v2.0
-
----

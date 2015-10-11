@@ -1,7 +1,5 @@
 # If
 
----
-
 Conditionally executes a block of statements, depending on the value of an expression.
 
 ## Syntax
@@ -82,5 +80,3 @@ The following "expressions" are available:
 ## Credits
 
 Written by dselkirk and eccles
-
----

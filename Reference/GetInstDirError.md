@@ -1,7 +1,5 @@
 # GetInstDirError
 
----
-
 Use in the leave function of a directory page. Reads the flag set if 'DirVerify leave' is used. Possible values:
 
 * 0: No error
@@ -40,5 +38,3 @@ Use in the leave function of a directory page. Reads the flag set if 'DirVerify 
 ## History
 
 Added in NSIS v2.0 Release Candidate 1
-
----

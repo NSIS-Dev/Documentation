@@ -1,7 +1,5 @@
 # Default
 
----
-
 Executes one of several blocks of statements, depending on the value of an expression. [`${CaseElse}`][1] and `${Default}` are equivalent and interchangeable.
 
 ## Syntax
@@ -24,7 +22,5 @@ Executes one of several blocks of statements, depending on the value of an expre
 ## Credits
 
 Written by dselkirk and eccles
-
----
 
 [1]: CaseElse.md

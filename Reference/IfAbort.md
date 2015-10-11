@@ -1,7 +1,5 @@
 # IfAbort
 
----
-
 If [`Abort`][1] is called it will "return" true. This can happen if the user chose abort on a file that failed to create (or overwrite) or if the user aborted by hand. This function can only be called from the leave function of the instfiles page.
 
 ## Parameters
@@ -20,7 +18,5 @@ If [`Abort`][1] is called it will "return" true. This can happen if the user cho
 ## History
 
 Added in NSIS v2.0
-
----
 
 [1]: Abort.md

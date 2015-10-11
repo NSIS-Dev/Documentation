@@ -1,7 +1,5 @@
 # ConfigRead
 
----
-
 Read value from entry name in config file.
 
 ## Syntax
@@ -37,7 +35,5 @@ Note:
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

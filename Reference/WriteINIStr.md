@@ -1,7 +1,5 @@
 # WriteINIStr
 
----
-
 Writes entry\_name=value into [section\_name] of ini\_filename. The error flag is set if the string could not be written to the ini file.
 
 ## Parameters
@@ -17,5 +15,3 @@ Writes entry\_name=value into [section\_name] of ini\_filename. The error flag i
 ## History
 
 Added in NSIS v1.0f
-
----

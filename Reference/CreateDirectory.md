@@ -1,7 +1,5 @@
 # CreateDirectory
 
----
-
 Creates (recursively if necessary) the specified directory. The error flag is set if the directory couldn't be created.
 You should always specify an absolute path.
 
@@ -16,5 +14,3 @@ You should always specify an absolute path.
 ## History
 
 Added in NSIS v1.1a
-
----

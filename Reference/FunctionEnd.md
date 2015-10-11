@@ -1,7 +1,5 @@
 # FunctionEnd
 
----
-
 This command closes the current open [`Function`][1].
 
 ## Example
@@ -17,7 +15,5 @@ This command closes the current open [`Function`][1].
 ## History
 
 Added in NSIS v1.3
-
----
 
 [1]: Function.md

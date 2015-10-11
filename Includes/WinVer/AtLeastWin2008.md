@@ -1,7 +1,5 @@
 # AtLeastWin2008
 
----
-
 Checks if the installer is running on Windows Server 2008.
 
 ## Syntax
@@ -19,5 +17,3 @@ Checks if the installer is running on Windows Server 2008.
 ## Credits
 
 *unknown*
-
----

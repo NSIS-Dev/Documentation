@@ -1,7 +1,5 @@
 # IsWin2003
 
----
-
 Checks if the installer is running on Windows Server 2003 exactly as specified.
 
 ## Syntax
@@ -19,5 +17,3 @@ Checks if the installer is running on Windows Server 2003 exactly as specified.
 ## Credits
 
 *unknown*
-
----

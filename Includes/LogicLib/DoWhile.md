@@ -1,7 +1,5 @@
 # DoWhile
 
----
-
 Repeats a block of statements until stopped, or depending on the value of an expression.  `${DoWhile}` and [`${While}`][1] are equivalent and interchangeable.
 
 ## Syntax
@@ -45,7 +43,5 @@ The following "expressions" are available:
 ## Credits
 
 Written by dselkirk and eccles
-
----
 
 [1]: While.md

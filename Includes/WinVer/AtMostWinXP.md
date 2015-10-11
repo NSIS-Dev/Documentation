@@ -1,7 +1,5 @@
 # AtMostWinXP
 
----
-
 Checks if the installer is running on Windows XP at most.
 
 ## Syntax
@@ -19,5 +17,3 @@ Checks if the installer is running on Windows XP at most.
 ## Credits
 
 *unknown*
-
----

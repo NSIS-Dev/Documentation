@@ -1,7 +1,5 @@
 # IntCmp
 
----
-
 Compares two integers val1 and val2. If val1 and val2 are equal, [`Goto`][1] jump\_if\_equal, otherwise if val1 < val2, [`Goto`][1] jump\_if\_val1\_less, otherwise if val1 > val2, [`Goto`][1] jump\_if\_val1_more.
 
 ## Parameters
@@ -25,7 +23,5 @@ Compares two integers val1 and val2. If val1 and val2 are equal, [`Goto`][1] jum
 ## History
 
 Added in NSIS v1.50
-
----
 
 [1]: Goto.md

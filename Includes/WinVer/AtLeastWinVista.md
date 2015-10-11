@@ -1,7 +1,5 @@
 # AtLeastWinVista
 
----
-
 Checks if the installer is running on Windows Vista.
 
 ## Syntax
@@ -19,5 +17,3 @@ Checks if the installer is running on Windows Vista.
 ## Credits
 
 *unknown*
-
----

@@ -1,7 +1,5 @@
 # SectionSetSize
 
----
-
 Sets the Size of the section specified by section_index. Note that the Index starts with Zero. The Value for Size must be entered in KiloByte and supports only whole numbers.
 
 ## Parameters
@@ -21,5 +19,3 @@ Sets the Size of the section specified by section_index. Note that the Index sta
 ## History
 
 Added in NSIS v2.0 Beta 4
-
----

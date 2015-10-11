@@ -1,7 +1,5 @@
 # AtLeastWin2000
 
----
-
 Checks if the installer is running on Windows 2000.
 
 ## Syntax
@@ -19,5 +17,3 @@ Checks if the installer is running on Windows 2000.
 ## Credits
 
 *unknown*
-
----

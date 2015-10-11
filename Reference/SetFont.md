@@ -1,7 +1,5 @@
 # SetFont
 
----
-
 Sets the installer font. Please remember that the font you choose must be present on the user's machine as well. Don't use rare fonts that only you have.
 
 Use the `/LANG` switch if you wish to set a different font for each language.
@@ -20,5 +18,3 @@ There are two LangStrings named ^Font and ^FontSize which contain the font and f
 ## History
 
 Added in NSIS v1.3
-
----

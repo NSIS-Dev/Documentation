@@ -1,7 +1,5 @@
 # GetOptionsS
 
----
-
 Get case-sensitive options from command line parameters.
 
 ## Syntax
@@ -55,7 +53,5 @@ Note:
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

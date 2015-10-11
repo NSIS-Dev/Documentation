@@ -1,7 +1,5 @@
 # VersionCompare
 
----
-
 * Convert string to uppercase or lowercase.
 * Set symbol filter.
 
@@ -149,7 +147,5 @@ Note:
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

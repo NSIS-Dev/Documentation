@@ -1,7 +1,5 @@
 # OutFile
 
----
-
 Specifies the output file that the MakeNSIS should write the installer to. This is just the file that MakeNSIS writes, it doesn't affect the contents of the installer.
 
 ## Parameters
@@ -11,5 +9,3 @@ Specifies the output file that the MakeNSIS should write the installer to. This 
 ## History
 
 Added in NSIS v1.0f
-
----

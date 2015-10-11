@@ -1,7 +1,5 @@
 # FileReadUTF16LE
 
----
-
 This function is only available when building a [Unicode installer][1].
 
 Reads a string (UTF-16LE characters) from a file opened with [`FileOpen`][2]. The string is read until either a newline (or carriage return newline pair) occurs, or until a null wide-character is read, or until maxlen is met (if specified). By default, strings are limited to 1024 characters (a special build with larger NSIS\_MAX\_STRLEN can be compiled or downloaded). If the end of file is read and no more data is available, the output string will be empty, and the error flag will be set.
@@ -24,8 +22,6 @@ Reads a string (UTF-16LE characters) from a file opened with [`FileOpen`][2]. Th
 ## History
 
 Added in NSIS v3.0a0
-
----
 
 [1]: http://nsis.sourceforge.net/Docs/Chapter1.html#1.4
 [2]: FileOpen.md

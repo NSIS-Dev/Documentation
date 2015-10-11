@@ -1,7 +1,5 @@
 # Do
 
----
-
 Repeats a block of statements until stopped, or depending on the value of an expression.
 
 ## Syntax
@@ -22,5 +20,3 @@ Repeats a block of statements until stopped, or depending on the value of an exp
 ## Credits
 
 Written by dselkirk and eccles
-
----

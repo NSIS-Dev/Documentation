@@ -1,7 +1,5 @@
 # WordFind3XS
 
----
-
 Find a word that contains a string, between two delimiters, case sensitive.
 
 ## Syntax
@@ -109,7 +107,5 @@ Find a word that contains a string, between two delimiters, case sensitive.
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

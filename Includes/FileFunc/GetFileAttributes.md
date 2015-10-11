@@ -1,7 +1,5 @@
 # GetFileAttributes
 
----
-
 Get attributes of file or directory.
 
 ## Syntax
@@ -53,7 +51,5 @@ Note:
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

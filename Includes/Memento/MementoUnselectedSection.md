@@ -1,7 +1,5 @@
 # MementoUnselectedSection
 
----
-
 Replace [`Section`][1] with [`${MementoSection}`][2] and [`SectionEnd`][3] with [`${MementoSectionEnd}`][4]
 for sections that whose state should be remembered by Memento.
 
@@ -40,8 +38,6 @@ Section identifiers must stay the same across
 ## Credits
 
 Written by [kichik][5]
-
----
 
 [1]: ../../Reference/Section.md
 [2]: MementoSection.md

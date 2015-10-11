@@ -1,7 +1,5 @@
 # UninstPage
 
----
-
 Adds an uninstaller page. See the above sections for more information about built-in versus custom pages and about callback functions.
 
 ## Parameters
@@ -20,5 +18,3 @@ internal_page_type can be:
 ## History
 
 Added in NSIS v2.0 Beta 0
-
----

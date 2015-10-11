@@ -1,7 +1,5 @@
 # AtLeastWin7
 
----
-
 Checks if the installer is running on Windows 7.
 
 ## Syntax
@@ -19,5 +17,3 @@ Checks if the installer is running on Windows 7.
 ## Credits
 
 *unknown*
-
----

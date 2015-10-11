@@ -1,7 +1,5 @@
 # GetBaseName
 
----
-
 Get file name without extension.
 
 ## Syntax
@@ -18,7 +16,5 @@ Get file name without extension.
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

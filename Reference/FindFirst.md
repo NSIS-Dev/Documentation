@@ -1,7 +1,5 @@
 # FindFirst
 
----
-
 Performs a search for 'filespec', placing the first file found in filename\_output (a user variable). It also puts the handle of the search into handle\_output (also a user variable). If no files are found, both outputs are set to empty, and the error flag is set. Best used with [`FindNext`][1] and [`FileClose`][2]. Note that the filename output is without path.
 
 ## Parameters
@@ -22,8 +20,6 @@ Performs a search for 'filespec', placing the first file found in filename\_outp
 ## History
 
 Added in NSIS v1.60
-
----
 
 [1]: FindNext.md
 [2]: FileClose.md

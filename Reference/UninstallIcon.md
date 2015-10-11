@@ -1,7 +1,5 @@
 # UninstallIcon
 
----
-
 Sets the icon of the uninstaller.
 
 ## Parameters
@@ -11,5 +9,3 @@ Sets the icon of the uninstaller.
 ## History
 
 Added in NSIS v1.0f
-
----

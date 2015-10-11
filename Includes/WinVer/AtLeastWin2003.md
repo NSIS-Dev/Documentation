@@ -1,7 +1,5 @@
 # AtLeastWin2003
 
----
-
 Checks if the installer is running on Windows Server 2003.
 
 ## Syntax
@@ -19,5 +17,3 @@ Checks if the installer is running on Windows Server 2003.
 ## Credits
 
 *unknown*
-
----

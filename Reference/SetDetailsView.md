@@ -1,7 +1,5 @@
 # SetDetailsView
 
----
-
 Shows or hides the details, depending on which parameter you pass. Overrides the default details view, which is set via [`ShowInstDetails`][1].
 
 ## Parameters
@@ -11,7 +9,5 @@ Shows or hides the details, depending on which parameter you pass. Overrides the
 ## History
 
 Added in NSIS v1.1t
-
----
 
 [1]: ShowInstDetails.md

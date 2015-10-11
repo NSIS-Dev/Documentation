@@ -1,7 +1,5 @@
 # WordFind2XS
 
----
-
 Find word between two delimiters, case sensitive
 
 ## Syntax
@@ -107,7 +105,5 @@ Find word between two delimiters, case sensitive
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

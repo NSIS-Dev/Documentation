@@ -1,7 +1,5 @@
 # IsWindow
 
----
-
 If HWND is a window, [`Goto`][1] jump\_if\_window, otherwise, [`Goto`][1] jump\_if\_not_window (if specified).
 
 ## Parameters
@@ -19,7 +17,5 @@ If HWND is a window, [`Goto`][1] jump\_if\_window, otherwise, [`Goto`][1] jump\_
 ## History
 
 Added in NSIS v1.51
-
----
 
 [1]: Goto.md

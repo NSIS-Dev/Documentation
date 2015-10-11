@@ -1,7 +1,5 @@
 # GetExeName
 
----
-
 Get installer filename (with valid case for Windows 98/Me).
 
 ## Syntax
@@ -18,7 +16,5 @@ Get installer filename (with valid case for Windows 98/Me).
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

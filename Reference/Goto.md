@@ -1,7 +1,5 @@
 # Goto
 
----
-
 If label is specified, goto the label 'label_to_jump_to:'.
 
 If `+offset` or `-offset` is specified, jump is relative by offset instructions. Goto +1 goes to the next instruction, Goto -1 goes to the previous instruction, etc.
@@ -22,7 +20,5 @@ If a user variable is specified, jumps to absolute address (generally you will w
 ## History
 
 Added in NSIS v1.4 Beta
-
----
 
 [1]: GetLabelAddress.md

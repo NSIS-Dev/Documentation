@@ -1,7 +1,5 @@
 # Call
 
----
-
 Calls the function named function\_name, the label named label\_name, or a variable that specifies an address. An address is returned by [`GetCurrentAddress`][1], [`GetFunctionAddress`][2] or [`GetLabelAddress`][3]. A call returns when it encounters a [`Return`][4] instruction. Sections and functions are automatically ended with a Return instruction. Uninstall functions cannot be called from installer functions and sections, and vice-versa.
 
 ## Parameters
@@ -29,8 +27,6 @@ Calls the function named function\_name, the label named label\_name, or a varia
 ## History
 
 Added in NSIS v1.3
-
----
 
 [1]: GetCurrentAddress.md
 [2]: GetFunctionAddress.md

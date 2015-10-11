@@ -1,7 +1,5 @@
 # AtMostServicePack
 
----
-
 Checks if the installer is running on Windows service version pack at most as specified.
 
 ## Syntax
@@ -20,5 +18,3 @@ Checks if the installer is running on Windows service version pack at most as sp
 ## Credits
 
 *unknown*
-
----

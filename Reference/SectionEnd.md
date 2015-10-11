@@ -1,7 +1,5 @@
 # SectionEnd
 
----
-
 This command closes the current open [`Section`][1].
 
 ## Example
@@ -12,7 +10,5 @@ This command closes the current open [`Section`][1].
 ## History
 
 Added in NSIS v1.3
-
----
 
 [1]: Section.md

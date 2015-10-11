@@ -1,7 +1,5 @@
 # MementoSectionEnd
 
----
-
 Replace [`Section`][1] with `${MementoSection}` and [`SectionEnd`][2] with [`${MementoSectionEnd}`][3]
 for sections that whose state should be remembered by Memento.
 
@@ -37,8 +35,6 @@ for sections that whose state should be remembered by Memento.
 ## Credits
 
 Written by [kichik][4]
-
----
 
 [1]: ../../Reference/Section.md
 [2]: ../../Reference/SectionEnd.md

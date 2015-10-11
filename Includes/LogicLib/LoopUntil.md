@@ -1,7 +1,5 @@
 # LoopUntil
 
----
-
 Loops a block of statements started by [`${Do}`][1], depending on the value of an expression.
 
 ## Syntax
@@ -45,7 +43,5 @@ The following "expressions" are available:
 ## Credits
 
 Written by dselkirk and eccles
-
----
 
 [1]: Do.md

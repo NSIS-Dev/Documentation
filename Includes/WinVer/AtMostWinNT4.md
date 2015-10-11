@@ -1,7 +1,5 @@
 # AtMostWinNT4
 
----
-
 Checks if the installer is running on Windows NT4 at most.
 
 ## Syntax
@@ -19,5 +17,3 @@ Checks if the installer is running on Windows NT4 at most.
 ## Credits
 
 *unknown*
-
----

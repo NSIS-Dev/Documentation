@@ -1,7 +1,5 @@
 # FileSeek
 
----
-
 Seeks a file opened with [`FileOpen`][1]. If mode is omitted or specified as SET, the file is positioned to "offset", relative to the beginning of the file. If mode is specified as CUR, then the file is positioned to "offset", relative to the current file position. If mode is specified as END, then the file is positioned to "offset", relative to the end of the file. If the final parameter "new position" is specified, the new file position will be stored to that variable.
 
 ## Parameters
@@ -22,7 +20,5 @@ Seeks a file opened with [`FileOpen`][1]. If mode is omitted or specified as SET
 ## History
 
 Added in NSIS v1.60
-
----
 
 [1]: FileOpen.md

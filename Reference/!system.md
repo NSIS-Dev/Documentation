@@ -1,7 +1,5 @@
 # !system
 
----
-
 This command will execute 'command' using a call to system(), and if the return value compared (using 'compare') to 'comparevalue' is false, execution will halt. 'compare' can be '<' or '>' or '<>' or '='.
 
 ## Parameters
@@ -20,5 +18,3 @@ This command will execute 'command' using a call to system(), and if the return 
 ## History
 
 Added in NSIS v1.1d
-
----

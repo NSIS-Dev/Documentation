@@ -1,7 +1,5 @@
 # Page
 
----
-
 Adds an installer page. See the above sections for more information about built-in versus custom pages and about callback functions.
 
 internal_page_type can be:
@@ -23,5 +21,3 @@ The last page of the installer has its cancel button disabled to prevent confusi
 ## History
 
 Added in NSIS v2.0 Beta 0
-
----

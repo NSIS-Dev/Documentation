@@ -1,7 +1,5 @@
 # StrCmpS
 
----
-
 Compares (case sensitively) str1 to str2. If str1 and str2 are equal, [`Goto`][1] jump_if_equal, otherwise [`Goto`][1] jump_if_not_equal.
 
 ## Parameters
@@ -18,7 +16,5 @@ Compares (case sensitively) str1 to str2. If str1 and str2 are equal, [`Goto`][1
 ## History
 
 Added in NSIS v2.13
-
----
 
 [1]: Goto.md

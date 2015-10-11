@@ -1,7 +1,5 @@
 # LogText
 
----
-
 If installer logging is enabled, inserts text "text" into the log file.
 
 ## Parameters
@@ -16,5 +14,3 @@ If installer logging is enabled, inserts text "text" into the log file.
 ## History
 
 Added in NSIS v2.0 Release Candidate 2
-
----

@@ -1,7 +1,5 @@
 # AtMostWin98
 
----
-
 Checks if the installer is running on Windows 98 at most.
 
 ## Syntax
@@ -19,5 +17,3 @@ Checks if the installer is running on Windows 98 at most.
 ## Credits
 
 *unknown*
-
----

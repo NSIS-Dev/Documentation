@@ -1,7 +1,5 @@
 # AtMostWinVista
 
----
-
 Checks if the installer is running on Windows Vista at most.
 
 ## Syntax
@@ -19,5 +17,3 @@ Checks if the installer is running on Windows Vista at most.
 ## Credits
 
 *unknown*
-
----

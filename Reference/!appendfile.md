@@ -1,7 +1,5 @@
 # !appendfile
 
----
-
 Appends text to file. The text is written as ANSI (ACP) unless the file already has a BOM. Using `/CHARSET` will force a specific character encoding. `$\n` will be translated to `$\r$\n` on Windows unless you specify `/RawNL`.
 
 ## Parameters
@@ -20,5 +18,3 @@ Appends text to file. The text is written as ANSI (ACP) unless the file already 
 ## History
 
 Added in NSIS v2.11
-
----

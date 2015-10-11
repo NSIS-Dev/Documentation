@@ -1,7 +1,5 @@
 # ChangeUI
 
----
-
 Replaces dialog (IDD\_LICENSE, IDD\_DIR, IDD\_SELCOM, IDD\_INST, IDD\_INSTFILES, IDD\_UNINST or IDD\_VERIFY) by a dialog with the same resource ID in ui_file.exe. You can also specify 'all' as the dialog if you wish to replace all 7 of the dialogs at once from the same UI file. For some example UIs look at Contrib\UIs under your NSIS directory.
 
 * IDD\_LICENSE must contain IDC\_EDIT1 (RICHEDIT control).
@@ -23,7 +21,5 @@ Replaces dialog (IDD\_LICENSE, IDD\_DIR, IDD\_SELCOM, IDD\_INST, IDD\_INSTFILES,
 ## History
 
 Added in NSIS v2.0 Alpha 2
-
----
 
 [1]: SetBrandingImage.md

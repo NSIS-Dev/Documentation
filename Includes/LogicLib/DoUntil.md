@@ -1,7 +1,5 @@
 # DoUntil
 
----
-
 Repeats a block of statements until stopped, or depending on the value of an expression.
 
 ## Syntax
@@ -45,5 +43,3 @@ The following "expressions" are available:
 ## Credits
 
 Written by dselkirk and eccles
-
----

@@ -1,7 +1,5 @@
 # SetCompressor
 
----
-
 This command sets the compression algorithm used to compress files/data in the installer. It can only be used outside of sections and functions and before any data is compressed. Different compression methods can not be used for different files in the same installer. It is recommended to use it on the very top of the script to avoid compilation errors.
 
 Three compression methods are supported: ZLIB, BZIP2 and LZMA.
@@ -23,5 +21,3 @@ If `/SOLID` is used, all of the installer data is compressed in one block. This 
 ## History
 
 Added in NSIS v2.0 Alpha 2
-
----

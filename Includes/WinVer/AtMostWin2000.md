@@ -1,7 +1,5 @@
 # AtMostWin2000
 
----
-
 Checks if the installer is running on Windows 2000 at most.
 
 ## Syntax
@@ -19,5 +17,3 @@ Checks if the installer is running on Windows 2000 at most.
 ## Credits
 
 *unknown*
-
----

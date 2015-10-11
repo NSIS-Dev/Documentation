@@ -1,7 +1,5 @@
 # .onInit
 
----
-
 This callback will be called when the installer is nearly finished initializing. If the `.onInit` function calls [`Abort`][1], the installer will quit instantly.
 
 ## Example
@@ -21,7 +19,5 @@ or:
 		Abort ; causes installer to quit.
 		NoAbort:
 	FunctionEnd
-
----
 
 [1]: ../Reference/Abort.md

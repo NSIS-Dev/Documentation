@@ -1,7 +1,5 @@
 # Reboot
 
----
-
 Reboots the computer. Be careful with this one. If it fails, [`.onRebootFailed`][1] is called. In any case, this instruction never returns, just like [`Quit`][2].
 
 ## Example
@@ -12,8 +10,6 @@ Reboots the computer. Be careful with this one. If it fails, [`.onRebootFailed`]
 ## History
 
 Added in NSIS v1.70
-
----
 
 [1]: ../Callbacks/onRebootFailed.md
 [2]: Quit.md

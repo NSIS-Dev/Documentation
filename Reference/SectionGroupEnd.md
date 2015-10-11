@@ -1,7 +1,5 @@
 # SectionGroupEnd
 
----
-
 Closes a section group opened with [`SectionGroup`][1].
 
 ## Example
@@ -17,7 +15,5 @@ Closes a section group opened with [`SectionGroup`][1].
 ## History
 
 Added in NSIS v2.05
-
----
 
 [1]: SectionGroup.md

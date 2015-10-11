@@ -1,7 +1,5 @@
 # GetParent
 
----
-
 Get parent directory.
 
 ## Syntax
@@ -18,7 +16,5 @@ Get parent directory.
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

@@ -1,7 +1,5 @@
 # GetParameters
 
----
-
 Get command line parameters.
 
 ## Syntax
@@ -18,7 +16,5 @@ Get command line parameters.
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

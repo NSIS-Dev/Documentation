@@ -1,7 +1,5 @@
 # PageEx
 
----
-
 Ends a [`PageEx`][1] block.
 
 ## Example
@@ -14,7 +12,5 @@ Ends a [`PageEx`][1] block.
 ## History
 
 Added in NSIS v2.0 Beta 4
-
----
 
 [1]: PageEx.md

@@ -1,7 +1,5 @@
 # AtLeastWin98
 
----
-
 Checks if the installer is running on Windows 98.
 
 ## Syntax
@@ -19,5 +17,3 @@ Checks if the installer is running on Windows 98.
 ## Credits
 
 *unknown*
-
----

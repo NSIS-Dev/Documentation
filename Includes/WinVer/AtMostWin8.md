@@ -1,7 +1,5 @@
 # AtMostWin8
 
----
-
 Checks if the installer is running on Windows 8 at most.
 
 ## Syntax
@@ -19,5 +17,3 @@ Checks if the installer is running on Windows 8 at most.
 ## Credits
 
 *unknown*
-
----

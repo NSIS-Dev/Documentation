@@ -1,7 +1,5 @@
 # SetCompressorDictSize
 
----
-
 Sets the dictionary size in megabytes (MB) used by the LZMA compressor (default is 8 MB).
 
 ## Parameters
@@ -11,5 +9,3 @@ Sets the dictionary size in megabytes (MB) used by the LZMA compressor (default 
 ## History
 
 Added in NSIS v2.0
-
----

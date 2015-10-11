@@ -1,7 +1,5 @@
 # SetErrors
 
----
-
 Sets the error flag.
 
 ## Example
@@ -13,5 +11,3 @@ Sets the error flag.
 ## History
 
 Added in NSIS v1.2g
-
----

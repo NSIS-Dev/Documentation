@@ -1,7 +1,5 @@
 # !delfile
 
----
-
 This command deletes a file on compile time.
 
 ## Parameters
@@ -17,5 +15,3 @@ This command deletes a file on compile time.
 ## History
 
 Added in NSIS v2.11
-
----

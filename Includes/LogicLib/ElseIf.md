@@ -1,7 +1,5 @@
 # ElseIf
 
----
-
 Conditionally executes a block of statements, depending on the value of an expression. Requires opening condition [`${If}`][1] or [`${IfNot}`][2].
 
 ## Syntax
@@ -81,8 +79,6 @@ The following "expressions" are available:
 ## Credits
 
 Written by dselkirk and eccles
-
----
 
 [1]: If.md
 [2]: IfNot.md

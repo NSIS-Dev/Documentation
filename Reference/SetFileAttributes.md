@@ -1,7 +1,5 @@
 # SetFileAttributes
 
----
-
 Sets the file attributes of 'filename'. Valid attributes can be combined with | and are:
 
 * NORMAL or FILE_ATTRIBUTE_NORMAL (you can use 0 to abbreviate this)
@@ -21,5 +19,3 @@ The error flag will be set if the file's attributes cannot be set (i.e. the file
 ## History
 
 Added in NSIS v1.2c
-
----

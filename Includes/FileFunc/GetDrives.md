@@ -1,7 +1,5 @@
 # GetDrives
 
----
-
 Find all available drives in the system.
 
 ## Syntax
@@ -78,7 +76,5 @@ Find all available drives in the system.
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

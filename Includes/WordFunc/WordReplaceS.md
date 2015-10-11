@@ -1,7 +1,5 @@
 # WordReplaceS
 
----
-
 Replace or delete word from string, case sensitive.
 
 ## Syntax
@@ -102,7 +100,5 @@ Replace or delete word from string, case sensitive.
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

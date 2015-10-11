@@ -1,7 +1,5 @@
 # IntOp
 
----
-
 Combines value1 and (depending on OP) value2 into the specified user variable (user_var). OP is defined as one of the following:
 
 * "+" ADDs value1 and value2
@@ -34,5 +32,3 @@ Combines value1 and (depending on OP) value2 into the specified user variable (u
 ## History
 
 Added in NSIS v1.50
-
----

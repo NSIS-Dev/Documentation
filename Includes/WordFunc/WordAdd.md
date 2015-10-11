@@ -1,7 +1,5 @@
 # WordAdd
 
----
-
 Add words to string1 from string2 if not exist or delete words if exist.
 
 ## Syntax
@@ -91,7 +89,5 @@ Add words to string1 from string2 if not exist or delete words if exist.
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

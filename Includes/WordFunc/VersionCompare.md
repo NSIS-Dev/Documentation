@@ -1,7 +1,5 @@
 # VersionCompare
 
----
-
 Compare version numbers.
 
 ## Syntax
@@ -25,7 +23,5 @@ Compare version numbers.
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

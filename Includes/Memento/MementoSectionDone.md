@@ -1,7 +1,5 @@
 # MementoSectionDone
 
----
-
 Use `${MementoSectionDone}` after the last [`${MementoSection}`][1].
 
 ## Syntax
@@ -32,8 +30,6 @@ Use `${MementoSectionDone}` after the last [`${MementoSection}`][1].
 ## Credits
 
 Written by [kichik][2]
-
----
 
 [1]: MementoSection.md
 [2]: http://nsis.sourceforge.net/User:Kichik

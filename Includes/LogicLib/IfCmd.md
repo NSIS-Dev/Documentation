@@ -1,7 +1,5 @@
 # IfCmd
 
----
-
 Conditionally executes an inline statement, depending on a true value of the provided NSIS function.
 
 ## Syntax
@@ -52,5 +50,3 @@ The following "expressions" are available:
 ## Credits
 
 Written by dselkirk and eccles
-
----

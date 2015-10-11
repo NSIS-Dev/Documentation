@@ -1,7 +1,5 @@
 # WordFind
 
----
-
 Multi-features string function.
 
 ## Syntax
@@ -221,7 +219,5 @@ Notes:
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

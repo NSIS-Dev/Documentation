@@ -1,7 +1,5 @@
 # WordInsert
 
----
-
 Insert word in string.
 
 ## Syntax
@@ -71,7 +69,5 @@ Insert word in string.
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

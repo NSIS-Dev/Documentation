@@ -1,7 +1,5 @@
 # WriteRegExpandStr
 
----
-
 Write a string to the registry. root\_key must be one of:
 
 * HKCR or HKEY\_CLASSES\_ROOT
@@ -24,8 +22,6 @@ The error flag is set if the string could not be written to the registry. The ty
 ## History
 
 Added in NSIS v1.6beta2
-
----
 
 [1]: SetShellVarContext.md
 [2]: WriteRegStr.md

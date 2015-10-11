@@ -1,7 +1,5 @@
 # Unless
 
----
-
 Conditionally executes a block of statements, depending on the value of an expression. [`${IfNot}`][1] and `${Unless}` are equivalent and interchangeable, as are [`${ElseIfNot}`][2] and [`${ElseUnless}`][3].
 
 ## Syntax
@@ -79,8 +77,6 @@ The following "expressions" are available:
 ## Credits
 
 Written by dselkirk and eccles
-
----
 
 [1]: IfNot.md
 [2]: ElseIfNot.md

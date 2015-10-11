@@ -1,7 +1,5 @@
 # AtMostWin7
 
----
-
 Checks if the installer is running on Windows 7 at most.
 
 ## Syntax
@@ -19,5 +17,3 @@ Checks if the installer is running on Windows 7 at most.
 ## Credits
 
 *unknown*
-
----

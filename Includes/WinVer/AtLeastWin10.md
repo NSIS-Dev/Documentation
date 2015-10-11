@@ -1,7 +1,5 @@
 # AtLeastWin10
 
----
-
 Checks if the installer is running on Windows 10.
 
 ## Syntax
@@ -23,5 +21,3 @@ Checks if the installer is running on Windows 10.
 ## History
 
 Added in NSIS v3.0b2
-
----

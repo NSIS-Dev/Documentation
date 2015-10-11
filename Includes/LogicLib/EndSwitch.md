@@ -1,7 +1,5 @@
 # EndSwitch
 
----
-
 Ends an open block of labels started by [`${Switch}`][1].
 
 ## Syntax
@@ -26,7 +24,5 @@ Ends an open block of labels started by [`${Switch}`][1].
 ## Credits
 
 Written by dselkirk and eccles
-
----
 
 [1]: Switch.md

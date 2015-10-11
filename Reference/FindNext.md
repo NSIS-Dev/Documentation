@@ -1,7 +1,5 @@
 # FindNext
 
----
-
 Continues a search began with [`FindFirst`][1]. handle should be the handle\_output\_variable returned by [`FindFirst`][1]. If the search is completed (there are no more files), filename\_output is set to empty, and the error flag is set. Note that the filename output is without path.
 
 ## Parameters
@@ -22,7 +20,5 @@ Continues a search began with [`FindFirst`][1]. handle should be the handle\_out
 ## History
 
 Added in NSIS v1.60
-
----
 
 [1]: FindFirst.md

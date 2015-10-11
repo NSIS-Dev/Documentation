@@ -1,7 +1,5 @@
 # Locate
 
----
-
 Find files, directories and empty directories with mask and size options.
 
 ## Syntax
@@ -265,8 +263,6 @@ Note:
 ## Credits
 
 Written by [Instructor][2]
-
----
 
 [1]: http://nsis.sourceforge.net/Locate_plugin
 [2]: http://nsis.sourceforge.net/User:Instructor

@@ -1,7 +1,5 @@
 # AtLeastWinME
 
----
-
 Checks if the installer is running on Windows ME.
 
 ## Syntax
@@ -19,5 +17,3 @@ Checks if the installer is running on Windows ME.
 ## Credits
 
 *unknown*
-
----

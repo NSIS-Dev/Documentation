@@ -1,7 +1,5 @@
 # WordReplace
 
----
-
 Replace or delete word from string.
 
 ## Syntax
@@ -102,7 +100,5 @@ Replace or delete word from string.
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

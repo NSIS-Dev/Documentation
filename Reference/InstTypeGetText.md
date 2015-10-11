@@ -1,7 +1,5 @@
 # InstTypeGetText
 
----
-
 Gets the Text of the specified [`InstType`][1].
 
 ## Parameters
@@ -23,7 +21,5 @@ Gets the Text of the specified [`InstType`][1].
 ## History
 
 Added in NSIS v2.0
-
----
 
 [1]: InstType.md

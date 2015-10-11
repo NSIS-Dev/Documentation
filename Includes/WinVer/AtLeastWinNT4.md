@@ -1,7 +1,5 @@
 # AtLeastWinNT4
 
----
-
 Checks if the installer is running on Windows NT4.
 
 ## Syntax
@@ -19,5 +17,3 @@ Checks if the installer is running on Windows NT4.
 ## Credits
 
 *unknown*
-
----

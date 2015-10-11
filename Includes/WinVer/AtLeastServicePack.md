@@ -1,7 +1,5 @@
 # AtLeastServicePack
 
----
-
 Checks if the installer is running on Windows service pack version at least as specified.
 
 ## Syntax
@@ -20,5 +18,3 @@ Checks if the installer is running on Windows service pack version at least as s
 ## Credits
 
 *unknown*
-
----

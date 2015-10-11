@@ -1,7 +1,5 @@
 # $CMDLINE
 
----
-
 The command line of the installer. The format of the command line can be one of the following:
 
 - "full\path to\installer.exe" PARAMETER PARAMETER PARAMETER
@@ -11,7 +9,5 @@ The command line of the installer. The format of the command line can be one of 
 ## History
 
 Added in NSIS v1.65
-
----
 
 [1]: ../Includes/FileFunc/GetParameters.md

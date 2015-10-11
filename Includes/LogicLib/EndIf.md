@@ -1,7 +1,5 @@
 # EndIf
 
----
-
 Ends an open condition started by [`${If}`][1] or [`${IfNot}`][2].
 
 ## Syntax
@@ -19,8 +17,6 @@ Ends an open condition started by [`${If}`][1] or [`${IfNot}`][2].
 ## Credits
 
 Written by dselkirk and eccles
-
----
 
 [1]: If.md
 [2]: IfNot.md

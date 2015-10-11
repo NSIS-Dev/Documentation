@@ -1,7 +1,5 @@
 # DeleteINIStr
 
----
-
 Deletes the string str\_name from section [section\_name] from ini\_filename. If the string could not be removed from the ini file, the error flag is set. It does not set the error flag if the string could not be found.
 
 ## Parameters
@@ -17,5 +15,3 @@ Deletes the string str\_name from section [section\_name] from ini\_filename. If
 ## History
 
 Added in NSIS v1.1u
-
----

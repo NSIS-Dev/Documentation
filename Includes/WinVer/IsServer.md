@@ -1,7 +1,5 @@
 # IsServer
 
----
-
 Checks if the installer is running on a server version of Windows (NT4, 2003, 2008, etc.)
 
 ## Syntax
@@ -19,5 +17,3 @@ Checks if the installer is running on a server version of Windows (NT4, 2003, 20
 ## Credits
 
 *unknown*
-
----

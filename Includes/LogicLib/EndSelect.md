@@ -1,7 +1,5 @@
 # EndSelect
 
----
-
 Ends an open block of statements started by [`${Select}`][1].
 
 ## Syntax
@@ -24,7 +22,5 @@ Ends an open block of statements started by [`${Select}`][1].
 ## Credits
 
 Written by dselkirk and eccles
-
----
 
 [1]: Select.md

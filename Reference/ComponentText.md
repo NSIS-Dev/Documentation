@@ -1,7 +1,5 @@
 # ComponentText
 
----
-
 Used to change the default text on the component page.
 
 The default string will be used if a string is empty ("").
@@ -19,5 +17,3 @@ Accepts variables. If variables are used, they must be initialized before the co
 ## History
 
 Added in NSIS v1.0f
-
----

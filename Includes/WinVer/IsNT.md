@@ -1,7 +1,5 @@
 # IsNT
 
----
-
 Checks if the installer is running on Windows NT family (NT4, 2000, XP, etc.)
 
 ## Syntax
@@ -19,5 +17,3 @@ Checks if the installer is running on Windows NT family (NT4, 2000, XP, etc.)
 ## Credits
 
 *unknown*
-
----

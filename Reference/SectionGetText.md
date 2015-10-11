@@ -1,7 +1,5 @@
 # SectionGetText
 
----
-
 Stores the text description of the section section_index into the output. If the section is hidden, stores an empty string. The error flag will be set if an out of range section is specified.
 
 ## Parameters
@@ -20,5 +18,3 @@ Stores the text description of the section section_index into the output. If the
 ## History
 
 Added in NSIS v1.98
-
----

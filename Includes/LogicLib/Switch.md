@@ -1,7 +1,5 @@
 # Switch
 
----
-
 Jumps to one of several labels, depending on the value of an expression.
 
 ## Syntax
@@ -26,5 +24,3 @@ Jumps to one of several labels, depending on the value of an expression.
 ## Credits
 
 Written by dselkirk and eccles
-
----

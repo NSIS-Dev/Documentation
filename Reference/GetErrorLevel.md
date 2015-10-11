@@ -1,7 +1,5 @@
 # GetErrorLevel
 
----
-
 Returns the last error level set by [`SetErrorLevel`][1] or -1 if it was never used.
 
 ## Parameters
@@ -17,7 +15,5 @@ Returns the last error level set by [`SetErrorLevel`][1] or -1 if it was never u
 ## History
 
 Added in NSIS v2.02
-
----
 
 [1]: SetErrorLevel.md

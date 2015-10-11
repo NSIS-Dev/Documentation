@@ -1,7 +1,5 @@
 # SectionSetText
 
----
-
 Sets the description for the section section_index. If the text is set to "" then the section will be hidden. The error flag will be set if an out of range section is specified.
 
 ## Parameters
@@ -21,5 +19,3 @@ Sets the description for the section section_index. If the text is set to "" the
 ## History
 
 Added in NSIS v1.98
-
----

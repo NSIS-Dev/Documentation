@@ -1,7 +1,5 @@
 # FindClose
 
----
-
 Closes a search opened with [`FindFirst`][1].
 
 ## Parameters
@@ -22,7 +20,5 @@ Closes a search opened with [`FindFirst`][1].
 ## History
 
 Added in NSIS v1.60
-
----
 
 [1]: FindFirst.md

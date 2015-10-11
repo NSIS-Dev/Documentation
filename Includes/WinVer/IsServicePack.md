@@ -1,7 +1,5 @@
 # IsServicePack
 
----
-
 Checks if the installer is running on Windows service pack version exactly as specified.
 
 ## Syntax
@@ -20,5 +18,3 @@ Checks if the installer is running on Windows service pack version exactly as sp
 ## Credits
 
 *unknown*
-
----

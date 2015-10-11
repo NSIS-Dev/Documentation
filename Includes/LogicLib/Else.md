@@ -1,7 +1,5 @@
 # Else
 
----
-
 Conditionally executes a block of statements, depending on the value of an expression. Requires opening condition [`${If}`][1] or [`${IfNot}`][2].
 
 ## Syntax
@@ -51,8 +49,6 @@ Conditionally executes a block of statements, depending on the value of an expre
 ## Credits
 
 Written by dselkirk and eccles
-
----
 
 [1]: If.md
 [2]: IfNot.md

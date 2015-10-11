@@ -1,7 +1,5 @@
 # AtMostWin2008R2
 
----
-
 Checks if the installer is running on Windows Server 2008 R2 at most.
 
 ## Syntax
@@ -19,5 +17,3 @@ Checks if the installer is running on Windows Server 2008 R2 at most.
 ## Credits
 
 *unknown*
-
----

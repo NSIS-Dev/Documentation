@@ -1,7 +1,5 @@
 # VIAddVersionKey
 
----
-
 Adds a field in the Version Tab of the File Properties. This can either be a field provided by the system or a user defined field. The following fields are provided by the System:
 
 * ProductName
@@ -37,5 +35,3 @@ The name of these fields are translated on the target system, whereas user defin
 ## History
 
 Added in NSIS v2.0 Beta 4
-
----

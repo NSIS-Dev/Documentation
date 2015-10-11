@@ -1,7 +1,5 @@
 # !insertmacro
 
----
-
 Inserts the contents of a macro that was created with [`!macro`][1]. If the macro was created with parameters, then you must pass as many parameters to the macro as it requires.
 
 ## Parameters
@@ -19,7 +17,5 @@ Inserts the contents of a macro that was created with [`!macro`][1]. If the macr
 ## History
 
 Added in NSIS v1.8b3
-
----
 
 [1]: !macro.md

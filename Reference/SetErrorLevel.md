@@ -1,7 +1,5 @@
 # SetErrorLevel
 
----
-
 Sets the error level of the installer or uninstaller to error_level. See Error Levels for more information.
 
 ## Parameters
@@ -16,5 +14,3 @@ Sets the error level of the installer or uninstaller to error_level. See Error L
 ## History
 
 Added in NSIS v2.02
-
----

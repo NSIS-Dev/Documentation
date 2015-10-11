@@ -1,7 +1,5 @@
 # VIProductVersion
 
----
-
 Adds the Product Version on top of the Version Tab in the Properties of the file.
 
 ## Parameters
@@ -15,5 +13,3 @@ Adds the Product Version on top of the Version Tab in the Properties of the file
 ## History
 
 Added in NSIS v2.0
-
----

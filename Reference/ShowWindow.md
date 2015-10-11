@@ -1,7 +1,5 @@
 # ShowWindow
 
----
-
 Sets the visibility of a window. Possible show\_states are the same as [Windows ShowWindow][1] function. SW\_* constants are defined in [Include\WinMessages.nsh][2].
 
 ## Parameters
@@ -19,8 +17,6 @@ Sets the visibility of a window. Possible show\_states are the same as [Windows 
 ## History
 
 Added in NSIS v2.0
-
----
 
 [1]: http://msdn2.microsoft.com/en-us/library/ms633548
 [2]: http://nsis.sourceforge.net/Docs/Include/WinMessages.nsh

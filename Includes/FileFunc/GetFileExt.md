@@ -1,7 +1,5 @@
 # GetFileExt
 
----
-
 Get extension of file.
 
 ## Syntax
@@ -18,7 +16,5 @@ Get extension of file.
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

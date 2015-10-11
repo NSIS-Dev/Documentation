@@ -1,7 +1,5 @@
 # WriteRegStr
 
----
-
 Write a string to the registry. See [`WriteRegExpandStr`][1] for more details.
 
 ## Parameters
@@ -15,7 +13,5 @@ Write a string to the registry. See [`WriteRegExpandStr`][1] for more details.
 ## History
 
 Added in NSIS v1.0f
-
----
 
 [1]: WriteRegExpandStr.md

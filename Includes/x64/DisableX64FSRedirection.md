@@ -1,7 +1,5 @@
 # DisableX64FSRedirection
 
----
-
 Disables file system redirection.
 
 ## Syntax
@@ -17,5 +15,3 @@ Disables file system redirection.
 ## Credits
 
 *unknown*
-
----

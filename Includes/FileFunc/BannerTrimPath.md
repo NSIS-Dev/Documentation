@@ -1,7 +1,5 @@
 # BannerTrimPath
 
----
-
 Trim string path for banner.
 
 ## Syntax
@@ -98,7 +96,5 @@ Trim string path for banner.
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

@@ -1,7 +1,5 @@
 # FileReadFromEnd
 
----
-
 Read text file from end line by line.
 
 ## Syntax
@@ -72,7 +70,5 @@ Note:
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

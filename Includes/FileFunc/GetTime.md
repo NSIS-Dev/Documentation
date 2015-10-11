@@ -1,7 +1,5 @@
 # GetTime
 
----
-
 * Get local or system time.
 * Get file time (access, creation and modification).
 
@@ -104,8 +102,6 @@ Note:
 ## Credits
 
 Written by [Instructor][2]
-
----
 
 [1]: http://nsis.sourceforge.net/Time_plugin
 [2]: http://nsis.sourceforge.net/User:Instructor

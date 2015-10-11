@@ -1,7 +1,5 @@
 # SectionGetFlags
 
----
-
 Retrieves the section's flags. See above for a description of the flag. The error flag will be set if an out of range section is specified.
 
 ## Parameters
@@ -23,5 +21,3 @@ Retrieves the section's flags. See above for a description of the flag. The erro
 ## History
 
 Added in NSIS v1.98
-
----

@@ -1,7 +1,5 @@
 # RunningX64
 
----
-
 Checks if the installer is running on x64. Requires [LogicLib][1].
 
 ## Syntax
@@ -17,7 +15,5 @@ Checks if the installer is running on x64. Requires [LogicLib][1].
 ## Credits
 
 *unknown*
-
----
 
 [1]: https://github.com/NSIS-Handbook/Documentation/tree/master/Includes/LogicLib

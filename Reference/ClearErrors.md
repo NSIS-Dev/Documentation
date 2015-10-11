@@ -1,7 +1,5 @@
 # ClearErrors
 
----
-
 Clears the error flag.
 
 ## Example
@@ -13,5 +11,3 @@ Clears the error flag.
 ## History
 
 Added in NSIS v1.2g
-
----

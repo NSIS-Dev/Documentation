@@ -1,7 +1,5 @@
 # AndIfNot
 
----
-
 Adds any number of extra conditions to [`If`][1], [`IfNot`][2], [`Unless`][3], [`ElseIf`][4], [`ElseIfNot`][5] and [`ElseUnless`][6] statements. `${AndIfNot}` and [`${AndUnless}`][7] are equivalent and interchangeable.
 
 ## Syntax
@@ -63,8 +61,6 @@ The following "expressions" are available:
 ## Credits
 
 Written by dselkirk and eccles
-
----
 
 [1]: If.md
 [2]: IfNot.md

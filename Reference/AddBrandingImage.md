@@ -1,7 +1,5 @@
 # AddBrandingImage
 
----
-
 Adds a branding image on the top, bottom, left, or right of the installer. Its size will be set according to the width/height specified, the installer width/height and the installer font. The final size will not always be what you requested; have a look at the output of the command for the actual size. Because this depends on the installer font, you should use [`SetFont`][1] before 
 
 `AddBrandingImage`. The default padding value is 2.
@@ -23,8 +21,6 @@ Adds a branding image on the top, bottom, left, or right of the installer. Its s
 ## History
 
 Added in NSIS v2.0 Alpha 2
-
----
 
 [1]: SetFont.md
 [2]: SetBrandingImage.md

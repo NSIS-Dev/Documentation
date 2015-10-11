@@ -1,7 +1,5 @@
 # un.onGUIInit
 
----
-
 This callback will be called just before the first page is loaded and the installer dialog is shown, allowing you to tweak the user interface.
 
 ## Example
@@ -16,5 +14,3 @@ This callback will be called just before the first page is loaded and the instal
 		# set background color to white and text color to red
 		SetCtlColors $R0 FFFFFF FF0000
 	FunctionEnd
-
----

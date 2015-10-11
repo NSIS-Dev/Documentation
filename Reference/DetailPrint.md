@@ -1,7 +1,5 @@
 # DetailPrint
 
----
-
 Adds the string "user_message" to the details view of the installer.
 
 ## Parameters
@@ -15,5 +13,3 @@ Adds the string "user_message" to the details view of the installer.
 ## History
 
 Added in NSIS v1.32
-
----

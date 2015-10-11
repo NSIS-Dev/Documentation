@@ -1,7 +1,5 @@
 # !endif
 
----
-
 This command closes a block started with [`!if`][1], [`!ifdef`][2], [`!ifndef`][3], [`!ifmacrodef`][4] or [`!ifmacrondef`][5].
 
 ## Example
@@ -21,8 +19,6 @@ This command closes a block started with [`!if`][1], [`!ifdef`][2], [`!ifndef`][
 ## History
 
 Added in NSIS v1.1f
-
----
 
 [1]: !if.md
 [2]: !ifdef.md

@@ -1,7 +1,5 @@
 # LineFind
 
----
-
 Find specified lines in text file, and edit or view these lines in callback function.
 
 ## Syntax
@@ -206,7 +204,5 @@ Note:
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

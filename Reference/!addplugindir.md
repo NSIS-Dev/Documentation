@@ -1,7 +1,5 @@
 # !addplugindir
 
----
-
 Causes the NSIS compiler to scan the given directory for plug-in DLLs.
 
 ## Parameters
@@ -16,5 +14,3 @@ Causes the NSIS compiler to scan the given directory for plug-in DLLs.
 ## History
 
 Added in NSIS v2.0 Beta 1
-
----

@@ -1,7 +1,5 @@
 # TextCompareS
 
----
-
 Compare two text files, case sensitive
 
 ## Syntax
@@ -177,7 +175,5 @@ Note:
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

@@ -1,7 +1,5 @@
 # StrLen
 
----
-
 Sets user variable $x with the length of str.
 
 ## Parameters
@@ -15,5 +13,3 @@ Sets user variable $x with the length of str.
 ## History
 
 Added in NSIS v1.60
-
----

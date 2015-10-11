@@ -1,7 +1,5 @@
 # WindowIcon
 
----
-
 Sets whether or not the installer's icon is being displayed.
 
 ## Parameters
@@ -11,5 +9,3 @@ Sets whether or not the installer's icon is being displayed.
 ## History
 
 Added in NSIS v1.70
-
----

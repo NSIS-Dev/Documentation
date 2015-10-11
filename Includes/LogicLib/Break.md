@@ -1,7 +1,5 @@
 # Break
 
----
-
 Breaks a block of statements.
 
 ## Syntax
@@ -26,5 +24,3 @@ Breaks a block of statements.
 ## Credits
 
 Written by dselkirk and eccles
-
----

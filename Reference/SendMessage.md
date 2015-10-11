@@ -1,7 +1,5 @@
 # SendMessage
 
----
-
 Sends a message to HWND. If a user variable $x is specified as the last parameter (or one before the last if you use `/TIMEOUT`), the return value of `SendMessage` will be stored to it. Note that when specifying 'msg' you must just use the integer value of the message. If you wish to send strings use "STR:a string" as wParam or lParam where needed.
 
 WM_CLOSE 16
@@ -27,5 +25,3 @@ Use /TIMEOUT=time\_in\_ms to specify the duration, in milliseconds, of the time-
 ## History
 
 Added in NSIS v1.51
-
----

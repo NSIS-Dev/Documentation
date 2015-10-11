@@ -1,7 +1,5 @@
 # DirState
 
----
-
 Check directory full, empty or not exist.
 
 ## Syntax
@@ -24,7 +22,5 @@ Check directory full, empty or not exist.
 ## Credits
 
 Written by [Instructor][1]
-
----
 
 [1]: http://nsis.sourceforge.net/User:Instructor

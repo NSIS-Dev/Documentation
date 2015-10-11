@@ -1,7 +1,5 @@
 # PageCallbacks
 
----
-
 Sets the callback functions for a page defined using [`PageEx`][1]. Can only be used inside a [`PageEx`][1] block. See the above sections for more information about callback functions.
 
 ## Parameters
@@ -17,7 +15,5 @@ Sets the callback functions for a page defined using [`PageEx`][1]. Can only be 
 ## History
 
 Added in NSIS v2.0 Beta 0
-
----
 
 [1]: PageEx.md

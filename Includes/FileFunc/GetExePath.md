@@ -1,7 +1,5 @@
 # GetExePath
 
----
-
 Get installer pathname ([`$EXEDIR`][1] with valid case for Windows 98/Me).
 
 ## Syntax
@@ -18,8 +16,6 @@ Get installer pathname ([`$EXEDIR`][1] with valid case for Windows 98/Me).
 ## Credits
 
 Written by [Instructor][2]
-
----
 
 [1]: ../../Variables/EXEDIR.md
 [2]: http://nsis.sourceforge.net/User:Instructor

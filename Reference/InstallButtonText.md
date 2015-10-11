@@ -1,7 +1,5 @@
 # InstallButtonText
 
----
-
 If parameter is specified, overrides the default install button text (of "Install") with the specified text.
 
 Accepts variables. If variables are used, they must be initialized before the install button shows.
@@ -13,5 +11,3 @@ Accepts variables. If variables are used, they must be initialized before the in
 ## History
 
 Added in NSIS v1.60
-
----
