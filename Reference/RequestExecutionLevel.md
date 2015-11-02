@@ -4,7 +4,7 @@ Specifies the requested execution level for Windows Vista and Windows 7. The val
 
 It's recommended, at least by Microsoft, that every application will be marked with the required execution level. Unmarked installers are subject to compatibility mode. Workarounds of this mode include automatically moving any shortcuts created in the user's start menu to all users' start menu. Installers that need not install anything into system folders or write to the local machine registry (HKLM) should specify user execution level.
 
-More information about this topic can be found at MSDN. Keywords include "UAC", "requested execution level", "vista manifest" and "vista security".
+More information about this topic can be found at [MSDN][1]. Keywords include "UAC", "requested execution level", "vista manifest" and "vista security".
 
 ## Parameters
 
@@ -13,3 +13,5 @@ More information about this topic can be found at MSDN. Keywords include "UAC", 
 ## History
 
 Added in NSIS v2.21
+
+[1]: http://msdn.microsoft.com/en-us/library/bb756929
