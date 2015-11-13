@@ -9,7 +9,7 @@ Adds file(s) to be extracted to the current output path ([`$OUTDIR`][1]).
 * Use the `/x `switch to exclude files or directories.
 * If the `/a` switch is used, the attributes of the file(s) added will be preserved.
 * The `File` command sets the error flag if overwrite mode is set to 'try' and the file could not be overwritten, or if the overwrite mode is set to 'on' and the file could not be overwritten and the user selects ignore.
-* If the /nonfatal switch is used and no files are found, a warning will be issued instead of an error.
+* If the `/nonfatal` switch is used and no files are found, a warning will be issued instead of an error.
 
 ## Parameters
 
