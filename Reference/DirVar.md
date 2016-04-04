@@ -1,6 +1,6 @@
 # DirVar
 
-Specifies which variable is to be used to contain the directory selected. This variable should contain the default value too. This allows to easily create two different directory pages that will not require you to move values in and out of [`$INSTDIR`][1]. The default variable is [`$INSTDIR`][1]. This can only be used in [`PageEx`][2] and for directory and uninstConfirm pages.
+Specifies which variable is to be used to contain the directory selected. This variable should be initialized with a default value. This allows you to easily create two different directory pages that will not require you to move values in and out of [`$INSTDIR`][1]. The default variable is [`$INSTDIR`][1]. This can only be used in [`PageEx`][2] and for directory and uninstConfirm pages.
 
 ## Parameters
 

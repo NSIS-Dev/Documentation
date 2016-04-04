@@ -1,6 +1,6 @@
 # UninstallButtonText
 
-Changes the text of the button that by default says "Uninstall" in the uninstaller. If no parameter is specified, the default text is used. See also [`WriteUninstaller`][1] (replaces UninstallEXEName).
+Changes the text of the button that by default says "Uninstall" in the uninstaller. If no parameter is specified, the default text is used.
 
 Accepts variables. If variables are used, they must be initialized before the uninstall button shows.
 

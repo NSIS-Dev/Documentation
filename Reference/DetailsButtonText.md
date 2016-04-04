@@ -5,7 +5,7 @@ Accepts variables. If variables are used, they must be initialized before the in
 
 ## Parameters
 
-    text
+    show_details_text
 
 ## Example
 

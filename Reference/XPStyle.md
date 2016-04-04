@@ -1,6 +1,6 @@
 # XPStyle
 
-Sets whether or not an XP manifest will be added to the installer. An XP manifest makes the installer controls use the new XP style when running on Windows XP. This affects the uninstaller too.
+Sets whether or not a XP visual style manifest will be added to the installer. This manifest makes the installers controls use the new visual styles when running on Windows XP and later. This affects the uninstaller too.
 
 ## Parameters
 

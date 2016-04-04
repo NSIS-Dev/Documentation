@@ -1,6 +1,6 @@
 # BGFont
 
-Specifies the font used to show the text on the background gradient. To set the color use [`BGGradient`][1]. If no parameters are specified, the default font will be used. The default font is bold and italic Times New Roman.
+Specifies the font used to show the text on the background gradient. To set the color use [`BGGradient`][1]. The default font will be used if no parameters are specified. The default font is bold and italic Times New Roman.
 
 ## Parameters
 

@@ -1,6 +1,6 @@
 # LicenseForceSelection
 
-Specifies if the displayed license must be accept explicit or not. This can be done either by a checkbox or by radiobuttons. By default the "next button" is disabled and will only be enabled if the checkbox is enabled or the right radio button is selected. If off is specified the "next button" is enabled by default.
+Specifies if the displayed license must be accept explicit or not. This can be done either by a checkbox or by radiobuttons. By default the "next button" is disabled and will only be enabled if the checkbox is enabled or the correct radio button is selected. If off is specified the "next button" is enabled by default.
 
 ## Parameters
 

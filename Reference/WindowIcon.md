@@ -1,6 +1,6 @@
 # WindowIcon
 
-Sets whether or not the installer's icon is being displayed.
+Sets whether or not the installer's icon is displayed on certain pages.
 
 ## Parameters
 

@@ -1,6 +1,6 @@
 # Caption
 
-When used outside a [`PageEx`][1] block: Sets the text for the titlebar of the installer. By default, it is 'Name Setup', where [`Name`][2] is specified with the [`Name`][2] instruction. You can, however, override it with 'MyApp Installer' or whatever. If you specify an empty string (""), the default will be used (you can however specify " " to achieve a blank string).
+When used outside a [`PageEx`][1] block: Sets the text for the titlebar of the installer. By default, it is '$(^Name) Setup', where [`Name`][2] is specified by the [`Name`][2] instruction. You can, however, override it with 'MyApp Installer' or whatever. If you specify an empty string (""), the default will be used (you can however specify " " to simulate an empty string).
 
 When used inside a [`PageEx`][1] block: Sets the subcaption of the current page.
 
