@@ -4,7 +4,7 @@ Use `${MementoSectionDone}` after the last [`${MementoSection}`][1].
 
 ## Syntax
 
-    ${MementoSectionRestore}
+    ${MementoSectionDone}
 
 ## Example
 
