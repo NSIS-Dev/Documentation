@@ -6,7 +6,7 @@ Makes an action with the clipboard depending on value of parameter "Action".  Us
 
     ResultVar String Action(|>|<|<>)
 
-## Parameters:
+## Parameters
 
     String
     If "Action" = ">" or "<>" - String to put on the clipboard.
