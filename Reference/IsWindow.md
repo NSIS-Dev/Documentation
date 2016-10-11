@@ -8,11 +8,11 @@ If HWND is a window, [`Goto`][1] jump\_if\_window, otherwise, [`Goto`][1] jump\_
 
 ## Example
 
-	GetDlgItem $0 $HWNDPARENT 1
-	IsWindow $0 0 +3
-	MessageBox MB_OK "found a window"
-	Goto +2
-	MessageBox MB_OK "no window"
+    GetDlgItem $0 $HWNDPARENT 1
+    IsWindow $0 0 +3
+    MessageBox MB_OK "found a window"
+    Goto +2
+    MessageBox MB_OK "no window"
 
 ## History
 

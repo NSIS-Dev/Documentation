@@ -10,15 +10,15 @@ Gets the Text of the specified [`InstType`][1].
 
 ## Example
 
-	InstType a
-	InstType b
-	 
-	Function .onInit
-		InstTypeGetText 0 $0
-		DetailPrint $0 # prints 'a'
-		InstTypeGetText 1 $0
-		DetailPrint $0 # prints 'b'
-	FunctionEnd
+    InstType a
+    InstType b
+     
+    Function .onInit
+        InstTypeGetText 0 $0
+        DetailPrint $0 # prints 'a'
+        InstTypeGetText 1 $0
+        DetailPrint $0 # prints 'b'
+    FunctionEnd
 
 ## History
 

@@ -8,8 +8,8 @@ Checks the silent flag, and jumps to jump\_if\_silent if the installer is silent
 
 ## Example
 
-	IfSilent +2
-	ExecWait '"$INSTDIR\nonsilentprogram.exe"'
+    IfSilent +2
+    ExecWait '"$INSTDIR\nonsilentprogram.exe"'
 
 ## History
 

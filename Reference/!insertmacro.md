@@ -8,11 +8,11 @@ Inserts the contents of a macro that was created with [`!macro`][1]. If the macr
 
 ## Example
 
-	!macro Print text
-		DetailPrint "${text}"
-	!macroend
-	!insertmacro Print "some text"
-	!insertmacro Print "some more text"
+    !macro Print text
+        DetailPrint "${text}"
+    !macroend
+    !insertmacro Print "some text"
+    !insertmacro Print "some more text"
 
 ## History
 

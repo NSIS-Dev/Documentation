@@ -8,9 +8,9 @@ Deletes the string str\_name from section [section\_name] from ini\_filename. If
 
 ## Example
 
-	WriteINIStr $TEMP\something.ini section1 something 123
-	WriteINIStr $TEMP\something.ini section1 somethingelse 1234
-	DeleteINIStr $TEMP\something.ini section1 somethingelse
+    WriteINIStr $TEMP\something.ini section1 something 123
+    WriteINIStr $TEMP\something.ini section1 somethingelse 1234
+    DeleteINIStr $TEMP\something.ini section1 somethingelse
 
 ## History
 

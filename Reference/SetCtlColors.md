@@ -10,9 +10,9 @@ Warning: setting the background color of check boxes to "transparent" may not fu
 
 ## Example
 
-	FindWindow $0 "#32770" "" $HWNDPARENT
-	GetDlgItem $0 $0 1006
-	SetCtlColors $0 0xFF0000 0x00FF00
+    FindWindow $0 "#32770" "" $HWNDPARENT
+    GetDlgItem $0 $0 1006
+    SetCtlColors $0 0xFF0000 0x00FF00
 
 ## History
 

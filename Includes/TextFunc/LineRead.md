@@ -1,18 +1,18 @@
-# LineRead
+# ${LineRead}
 
 Get line in file specified with number.
 
 ## Syntax
 
-	${LineRead} "[File]" "[LineNumber]" $var
+    ${LineRead} "[File]" "[LineNumber]" $var
 
-	"[File]"         ; Input text file
-	                 ;
-	"[LineNumber]"   ; [No|-No]
-	                 ;   3    line number from start
-	                 ;   -5   line number from end
-	                 ;
-	$var             ; Result: Line
+    "[File]"         ; Input text file
+                     ;
+    "[LineNumber]"   ; [No|-No]
+                     ;   3    line number from start
+                     ;   -5   line number from end
+                     ;
+    $var             ; Result: Line
 
 Note:
 
@@ -21,10 +21,10 @@ Note:
 
 ## Example 
 
-	Section
-		${LineRead} "C:\a.log" "-1" $R0
-		; $R0="Last line$\r$\n"
-	SectionEnd
+    Section
+        ${LineRead} "C:\a.log" "-1" $R0
+        ; $R0="Last line$\r$\n"
+    SectionEnd
 
 ## Credits
 

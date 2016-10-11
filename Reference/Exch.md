@@ -8,19 +8,19 @@ When no parameter is specified, exchanges the top two elements of the stack. Whe
 
 ## Example
 
-	Push 1
-	Push 2
-	Exch
-	Pop $0 # = 1
-	Push 1
-	Push 2
-	Push 3
-	Exch 2
-	Pop $0 # = 1
-	StrCpy $0 1
-	Push 2
-	Exch $0 # = 2
-	Pop $1 # = 1
+    Push 1
+    Push 2
+    Exch
+    Pop $0 # = 1
+    Push 1
+    Push 2
+    Push 3
+    Exch 2
+    Pop $0 # = 1
+    StrCpy $0 1
+    Push 2
+    Exch $0 # = 2
+    Pop $1 # = 1
 
 ## History
 

@@ -6,7 +6,7 @@ Accepts variables. If variables are used, they must be initialized before the in
 
 ## Parameters
 
-	install_button_text
+    install_button_text
 
 ## History
 

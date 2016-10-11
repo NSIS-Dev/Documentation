@@ -8,16 +8,16 @@ This command specifies which install types (see [`InstType`][1]) the current sec
 
 ## Example
 
-	InstType "full"
-	InstType "minimal"
-	 
-	Section "a section"
-		SectionIn 1 2
-	SectionEnd
-	 
-	Section "another section"
-		SectionIn 1
-	SectionEnd
+    InstType "full"
+    InstType "minimal"
+     
+    Section "a section"
+        SectionIn 1 2
+    SectionEnd
+     
+    Section "another section"
+        SectionIn 1
+    SectionEnd
 
 ## History
 

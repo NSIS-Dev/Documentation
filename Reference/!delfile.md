@@ -9,8 +9,8 @@ This command deletes a file on compile time.
 ## Example
 
     !tempfile FILE
-	!delfile "${FILE}"
-	!undef FILE
+    !delfile "${FILE}"
+    !undef FILE
 
 ## History
 

@@ -1,4 +1,4 @@
-# MementoSection
+# ${MementoSection}
 
 Replace [`Section`][1] with `${MementoSection}` and [`SectionEnd`][2] with [`${MementoSectionEnd}`][3]
 for sections that whose state should be remembered by Memento.
@@ -16,40 +16,40 @@ Section identifiers must stay the same across
 
 ## Example
 
-	!include Memento.nsh
+    !include Memento.nsh
 
-	!define MEMENTO_REGISTRY_ROOT HKLM
-	!define MEMENTO_REGISTRY_KEY Software\Microsoft\Windows\CurrentVersion\Uninstall\MyProgram
+    !define MEMENTO_REGISTRY_ROOT HKLM
+    !define MEMENTO_REGISTRY_KEY Software\Microsoft\Windows\CurrentVersion\Uninstall\MyProgram
 
-	Function .onInit
-		${MementoSectionRestore}
-	FunctionEnd
+    Function .onInit
+        ${MementoSectionRestore}
+    FunctionEnd
 
-	Function .onInstSuccess
-		${MementoSectionSave}
-	FunctionEnd
+    Function .onInstSuccess
+        ${MementoSectionSave}
+    FunctionEnd
 
-	${MementoSection} "name" "some_id"
-		; some code...
-	${MementoSectionEnd}
+    ${MementoSection} "name" "some_id"
+        ; some code...
+    ${MementoSectionEnd}
 
-	SectionGroup /e group
+    SectionGroup /e group
 
-		${MementoSection} croc sec_croc
-			; some code...
-		${MementoSectionEnd}
+        ${MementoSection} croc sec_croc
+            ; some code...
+        ${MementoSectionEnd}
 
-		${MementoSection} cow sec_cow
-			; some code...
-		${MementoSectionEnd}
+        ${MementoSection} cow sec_cow
+            ; some code...
+        ${MementoSectionEnd}
 
-	SectionGroupEnd
+    SectionGroupEnd
 
-	${MementoUnselectedSection} dinosaur sec_dinosaur
-		; some code...
-	${MementoSectionEnd}
+    ${MementoUnselectedSection} dinosaur sec_dinosaur
+        ; some code...
+    ${MementoSectionEnd}
 
-	${MementoSectionDone}
+    ${MementoSectionDone}
 
 ## Credits
 

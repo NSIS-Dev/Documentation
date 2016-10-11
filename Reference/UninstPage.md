@@ -5,7 +5,7 @@ Adds an uninstaller page. See the above sections for more information about buil
 ## Parameters
 
     custom [creator_function] [leave_function] [caption] [/ENABLECANCEL]
-	internal_page_type [pre_function] [show_function] [leave_function] [/ENABLECANCEL]
+    internal_page_type [pre_function] [show_function] [leave_function] [/ENABLECANCEL]
 
 internal_page_type can be:
 

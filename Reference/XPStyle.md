@@ -8,7 +8,7 @@ Sets whether or not a XP visual style manifest will be added to the installer. T
 
 ## Example
 
-	WriteUninstaller $INSTDIR\uninstaller.exe
+    WriteUninstaller $INSTDIR\uninstaller.exe
 
 ## History
 

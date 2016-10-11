@@ -8,9 +8,9 @@ This command sets the overwrite flag which is used by the [`File`][1] command to
 
 ## Example
 
-	SetOverwrite off
-	File program.cfg # config file we don't want to overwrite
-	SetOverwrite on
+    SetOverwrite off
+    File program.cfg # config file we don't want to overwrite
+    SetOverwrite on
 
 ## History
 

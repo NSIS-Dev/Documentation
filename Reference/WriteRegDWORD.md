@@ -8,7 +8,7 @@ This command writes a dword (32 bit integer) to the registry (a user variable ca
 
 ## Example
 
-	WriteRegDWORD HKLM "Software\My Company\My Software" "DWORD Value" 0xDEADBEEF
+    WriteRegDWORD HKLM "Software\My Company\My Software" "DWORD Value" 0xDEADBEEF
 
 ## History
 

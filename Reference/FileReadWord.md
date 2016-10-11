@@ -10,14 +10,14 @@ Reads a word (2-bytes) from a file opened with [`FileOpen`][2]. The word is stor
 
 ## Example
 
-	ClearErrors
-	FileOpen $0 $INSTDIR\file.dat r
-	IfErrors done
-	FileReadWord $0 $1
-	FileReadWord $0 $2
-	DetailPrint "$1 $2"
-	FileClose $0
-	done:
+    ClearErrors
+    FileOpen $0 $INSTDIR\file.dat r
+    IfErrors done
+    FileReadWord $0 $1
+    FileReadWord $0 $2
+    DetailPrint "$1 $2"
+    FileClose $0
+    done:
 
 ## History
 

@@ -8,9 +8,9 @@ Calls a function named function_name inside a NSIS extension DLL, a plug-in. See
 
 ## Example
 
-	Push "a parameter"
-	Push "another parameter"
-	CallInstDLL $INSTDIR\somedll.dll somefunction
+    Push "a parameter"
+    Push "another parameter"
+    CallInstDLL $INSTDIR\somedll.dll somefunction
 
 ## History
 

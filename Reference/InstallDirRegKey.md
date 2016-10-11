@@ -10,8 +10,8 @@ Language strings and variables cannot be used with `InstallDirRegKey`.
 
 ## Example
 
-	InstallDirRegKey HKLM Software\NSIS ""
-	InstallDirRegKey HKLM Software\ACME\Thingy InstallLocation
+    InstallDirRegKey HKLM Software\NSIS ""
+    InstallDirRegKey HKLM Software\ACME\Thingy InstallLocation
 
 ## History
 

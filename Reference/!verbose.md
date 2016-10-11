@@ -10,10 +10,10 @@ Passing push will cause `!verbose` to push the current verbosity level on a spec
 
 ## Example
 
-	!verbose push
-	!verbose 1
-	!include WinMessages.nsh
-	!verbose pop
+    !verbose push
+    !verbose 1
+    !include WinMessages.nsh
+    !verbose pop
 
 ## History
 

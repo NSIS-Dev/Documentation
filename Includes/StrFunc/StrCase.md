@@ -1,4 +1,4 @@
-# StrCase
+# ${StrCase}
 
 Converts "String" to "Type" Case. Uses [LogicLib][1].
 

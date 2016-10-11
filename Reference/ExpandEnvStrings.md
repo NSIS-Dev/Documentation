@@ -8,7 +8,7 @@ Expands environment variables in string into the user variable $x. If an environ
 
 ## Example
 
-	ExpandEnvStrings $0 "WINDIR=%WINDIR%$\nTEMP=%TEMP%"
+    ExpandEnvStrings $0 "WINDIR=%WINDIR%$\nTEMP=%TEMP%"
 
 ## History
 

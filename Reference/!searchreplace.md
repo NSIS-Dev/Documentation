@@ -8,8 +8,8 @@ Searches source\_string, looking for searchfor and replacing all instances of it
 
 ## Example
 
-	# defines ${blah} to "i like ponies"
-	!searchreplace blah "i love ponies" "love" "like"
+    # defines ${blah} to "i like ponies"
+    !searchreplace blah "i love ponies" "love" "like"
 
 ## History
 

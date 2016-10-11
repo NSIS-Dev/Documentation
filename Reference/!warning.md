@@ -8,9 +8,9 @@ This command will issue a warning to the script compiler. You can also add a mes
 
 ## Example
 
-	!ifdef USE_DANGEROUS_STUFF
-		!warning "using dangerous stuff"
-	!endif
+    !ifdef USE_DANGEROUS_STUFF
+        !warning "using dangerous stuff"
+    !endif
 
 ## History
 

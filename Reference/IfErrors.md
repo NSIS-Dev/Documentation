@@ -8,10 +8,10 @@ Checks and clears the error flag, and if it is set, it will [`Goto`][1] jumpto\_
 
 ## Example
 
-	ClearErrors
-	File file.dat
-	IfErrors 0 +2
-	Call ErrorHandler
+    ClearErrors
+    File file.dat
+    IfErrors 0 +2
+    Call ErrorHandler
 
 ## History
 

@@ -8,14 +8,14 @@ Seeks a file opened with [`FileOpen`][1]. If mode is omitted or specified as SET
 
 ## Example
 
-	ClearErrors
-	FileOpen $0 $INSTDIR\file.dat r
-	IfErrors done
-	FileSeek $0 -5 END
-	FileRead $0 $1
-	DetailPrint $1
-	FileClose $0
-	done:
+    ClearErrors
+    FileOpen $0 $INSTDIR\file.dat r
+    IfErrors done
+    FileSeek $0 -5 END
+    FileRead $0 $1
+    DetailPrint $1
+    FileClose $0
+    done:
 
 ## History
 

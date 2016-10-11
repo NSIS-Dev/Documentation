@@ -4,6 +4,6 @@ This callback is called when the user hits the 'cancel' button after the install
 
 ## Example
 
-	Function .onInstFailed
-		MessageBox MB_OK "Better luck next time."
-	FunctionEnd
+    Function .onInstFailed
+        MessageBox MB_OK "Better luck next time."
+    FunctionEnd

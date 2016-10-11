@@ -1,4 +1,4 @@
-# StrClb
+# ${StrClb}
 
 Makes an action with the clipboard depending on value of parameter "Action".  Uses [LogicLib][1].
 

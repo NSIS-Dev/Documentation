@@ -8,8 +8,8 @@ This is similar to [`GetDLLVersionLocal`][1], only it stores the version number 
 
 ## Example
 
-	!getdllversion "$%windir%\explorer.exe" expv_
-	!echo "Explorer.exe version is ${expv_1}.${expv_2}.${expv_3}.${expv_4}"
+    !getdllversion "$%windir%\explorer.exe" expv_
+    !echo "Explorer.exe version is ${expv_1}.${expv_2}.${expv_3}.${expv_4}"
 
 ## History
 

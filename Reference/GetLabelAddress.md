@@ -8,28 +8,28 @@ Gets the address of the label and stores it in the output user variable. This us
 
 ## Example
 
-	!include LogicLib.nsh
-	PageEx directory
-		DirVerify leave
-		PageCallbacks "" "" dirLeave
-	PageExEnd
-	 
-	Function dirLeave
-		GetInstDirError $0
-		${Switch} $0
-			${Case} 0
-				MessageBox MB_OK "valid installation directory"
-				${Break}
-			${Case} 1
-				MessageBox MB_OK "invalid installation directory!"
-				Abort
-				${Break}
-			${Case} 2
-				MessageBox MB_OK "not enough free space!"
-				Abort
-				${Break}
-		${EndSwitch}
-	FunctionEnd
+    !include LogicLib.nsh
+    PageEx directory
+        DirVerify leave
+        PageCallbacks "" "" dirLeave
+    PageExEnd
+     
+    Function dirLeave
+        GetInstDirError $0
+        ${Switch} $0
+            ${Case} 0
+                MessageBox MB_OK "valid installation directory"
+                ${Break}
+            ${Case} 1
+                MessageBox MB_OK "invalid installation directory!"
+                Abort
+                ${Break}
+            ${Case} 2
+                MessageBox MB_OK "not enough free space!"
+                Abort
+                ${Break}
+        ${EndSwitch}
+    FunctionEnd
 
 ## History
 

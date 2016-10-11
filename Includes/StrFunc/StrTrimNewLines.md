@@ -1,4 +1,4 @@
-# StrTrimNewLines
+# ${StrTrimNewLines}
 
 Deletes unnecessary new lines at end of "String".
 

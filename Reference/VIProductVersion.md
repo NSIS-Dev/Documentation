@@ -8,7 +8,7 @@ Adds the Product Version on top of the Version Tab in the Properties of the file
 
 ## Example
 
-	VIProductVersion "1.2.3.4"
+    VIProductVersion "1.2.3.4"
 
 ## History
 

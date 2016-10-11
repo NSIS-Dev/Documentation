@@ -8,7 +8,7 @@ Write a string to the registry. See [`WriteRegExpandStr`][1] for more details.
 
 ## Example
 
-	WriteRegStr HKLM "Software\My Company\My Software" "String Value" "dead beef"
+    WriteRegStr HKLM "Software\My Company\My Software" "String Value" "dead beef"
 
 ## History
 

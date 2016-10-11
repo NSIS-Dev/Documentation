@@ -8,12 +8,12 @@ Stores the text description of the section section_index into the output. If the
 
 ## Example
 
-	Function .onInit
-		# append $WINDIR to section's name
-		SectionGetText ${test_section_id} $0
-		StrCpy $0 "$0 - $WINDIR"
-		SectionSetText ${test_section_id} $0
-	FunctionEnd
+    Function .onInit
+        # append $WINDIR to section's name
+        SectionGetText ${test_section_id} $0
+        StrCpy $0 "$0 - $WINDIR"
+        SectionSetText ${test_section_id} $0
+    FunctionEnd
 
 ## History
 

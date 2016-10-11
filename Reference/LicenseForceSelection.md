@@ -8,13 +8,13 @@ Specifies if the displayed license must be accept explicit or not. This can be d
 
 ## Example
 
-	LicenseForceSelection checkbox
-	LicenseForceSelection checkbox "i accept"
-	LicenseForceSelection radiobuttons
-	LicenseForceSelection radiobuttons "i accept"
-	LicenseForceSelection radiobuttons "i accept" "i decline"
-	LicenseForceSelection radiobuttons "" "i decline"
-	LicenseForceSelection off
+    LicenseForceSelection checkbox
+    LicenseForceSelection checkbox "i accept"
+    LicenseForceSelection radiobuttons
+    LicenseForceSelection radiobuttons "i accept"
+    LicenseForceSelection radiobuttons "i accept" "i decline"
+    LicenseForceSelection radiobuttons "" "i decline"
+    LicenseForceSelection off
 
 ## History
 

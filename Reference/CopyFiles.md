@@ -10,8 +10,8 @@ Fully-qualified path names should always be used with this instruction. Using re
 
 ## Example
 
-	CreateDirectory $INSTDIR\backup
-	CopyFiles $INSTDIR\*.dat $INSTDIR\backup
+    CreateDirectory $INSTDIR\backup
+    CopyFiles $INSTDIR\*.dat $INSTDIR\backup
 
 ## History
 

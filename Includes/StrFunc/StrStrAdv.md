@@ -1,4 +1,4 @@
-# StrStrAdv
+# ${StrStrAdv}
 
 Searches for "StrToSearchFor" in "String" in the direction specified by "SearchDirection" and looping "Loops" times.
 

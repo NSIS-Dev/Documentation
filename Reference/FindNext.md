@@ -8,14 +8,14 @@ Continues a search began with [`FindFirst`][1]. handle should be the handle\_out
 
 ## Example
 
-	FindFirst $0 $1 $INSTDIR\*.txt
-	loop:
-	  StrCmp $1 "" done
-	  DetailPrint $1
-	  FindNext $0 $1
-	  Goto loop
-	done:
-	FindClose $0
+    FindFirst $0 $1 $INSTDIR\*.txt
+    loop:
+      StrCmp $1 "" done
+      DetailPrint $1
+      FindNext $0 $1
+      Goto loop
+    done:
+    FindClose $0
 
 ## History
 

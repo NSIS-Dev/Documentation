@@ -1,4 +1,4 @@
-# StrIOToNSIS
+# ${StrIOToNSIS}
 
 Convert "String" from Install Options plugin to be supported by NSIS. Escape, back-slash, carriage return, line feed and tab characters are converted.
 

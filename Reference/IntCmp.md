@@ -8,17 +8,17 @@ Compares two integers val1 and val2. If val1 and val2 are equal, [`Goto`][1] jum
 
 ## Example
 
-	IntCmp $0 5 is5 lessthan5 morethan5
-	is5:
-	  DetailPrint "$$0 == 5"
-	  Goto done
-	lessthan5:
-	  DetailPrint "$$0 < 5"
-	  Goto done
-	morethan5:
-	  DetailPrint "$$0 > 5"
-	  Goto done
-	done:
+    IntCmp $0 5 is5 lessthan5 morethan5
+    is5:
+      DetailPrint "$$0 == 5"
+      Goto done
+    lessthan5:
+      DetailPrint "$$0 < 5"
+      Goto done
+    morethan5:
+      DetailPrint "$$0 > 5"
+      Goto done
+    done:
 
 ## History
 

@@ -10,11 +10,11 @@ Adds a branding image on the top, bottom, left, or right of the installer. Its s
 
 ## Example
 
-	AddBrandingImage left 100
-	AddBrandingImage right 50
-	AddBrandingImage top 20
-	AddBrandingImage bottom 35
-	AddBrandingImage left 100 5
+    AddBrandingImage left 100
+    AddBrandingImage right 50
+    AddBrandingImage top 20
+    AddBrandingImage bottom 35
+    AddBrandingImage left 100 5
 
 ## History
 

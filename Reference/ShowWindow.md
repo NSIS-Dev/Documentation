@@ -8,11 +8,11 @@ Sets the visibility of a window. Possible show\_states are the same as [Windows 
 
 ## Example
 
-	!include WinMessages.nsh
-	GetDlgItem $0 $HWNDPARENT 1
-	ShowWindow $0 ${SW_HIDE}
-	Sleep 1000
-	ShowWindow $0 ${SW_SHOW}
+    !include WinMessages.nsh
+    GetDlgItem $0 $HWNDPARENT 1
+    ShowWindow $0 ${SW_HIDE}
+    Sleep 1000
+    ShowWindow $0 ${SW_SHOW}
 
 ## History
 

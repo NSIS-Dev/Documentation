@@ -8,9 +8,9 @@ Execute the specified program using ShellExecute. Note that action is usually "o
 
 ## Example
 
-	ExecShell "open" "http://nsis.sf.net/"
-	ExecShell "open" "$INSTDIR\readme.txt"
-	ExecShell "print" "$INSTDIR\readme.txt"
+    ExecShell "open" "http://nsis.sf.net/"
+    ExecShell "open" "$INSTDIR\readme.txt"
+    ExecShell "print" "$INSTDIR\readme.txt"
 
 ## History
 

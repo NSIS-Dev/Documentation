@@ -2,7 +2,7 @@
 
 Retrieves the handle of a control identified by item_id in the specified dialog box dialog. If you want to get the handle of a control on the inner dialog, first use
 
-	FindWindow user_var(output) "#32770" "" `$HWNDPARENT
+    FindWindow user_var(output) "#32770" "" `$HWNDPARENT
 
 to get the handle of the inner dialog.
 
@@ -12,7 +12,7 @@ to get the handle of the inner dialog.
 
 ## Example
 
-	GetDlgItem $0 $HWNDPARENT 1 # next/install button
+    GetDlgItem $0 $HWNDPARENT 1 # next/install button
 
 ## History
 

@@ -12,8 +12,8 @@ Use [`SetOutPath`][1] to set the current directory for DLLs that depend on other
 
 If foo.dll depends on bar.dll which is located in $INSTDIR use:
 
-	SetOutPath $INSTDIR
-	RegDLL $INSTDIR\foo.dll
+    SetOutPath $INSTDIR
+    RegDLL $INSTDIR\foo.dll
 
 ## History
 

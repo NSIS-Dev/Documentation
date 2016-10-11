@@ -8,21 +8,21 @@ Calls the function named function\_name, the label named label\_name, or a varia
 
 ## Example
 
-	Function func
-		  Call :label
-		  DetailPrint "#1: This will only appear 1 time."
-		label:
-		  DetailPrint "#2: This will appear before and after message #1."
-		  Call :.global_label
-	FunctionEnd
-	 
-	Section
-		  Call func
-		  Return
-		 
-		.global_label:
-		  DetailPrint "#3: The global label was called"
-	SectionEnd
+    Function func
+          Call :label
+          DetailPrint "#1: This will only appear 1 time."
+        label:
+          DetailPrint "#2: This will appear before and after message #1."
+          Call :.global_label
+    FunctionEnd
+     
+    Section
+          Call func
+          Return
+         
+        .global_label:
+          DetailPrint "#3: The global label was called"
+    SectionEnd
 
 ## History
 

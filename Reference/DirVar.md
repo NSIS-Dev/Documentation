@@ -8,17 +8,17 @@ Specifies which variable is to be used to contain the directory selected. This v
 
 ## Example
 
-	Var ANOTHER_DIR
-	PageEx directory
-		DirVar $ANOTHER_DIR
-	PageExEnd
-	 
-	Section
-		SetOutPath $INSTDIR
-		File "a file.dat"
-		SetOutPath $ANOTHER_DIR
-		File "another file.dat"
-	SectionEnd
+    Var ANOTHER_DIR
+    PageEx directory
+        DirVar $ANOTHER_DIR
+    PageExEnd
+     
+    Section
+        SetOutPath $INSTDIR
+        File "a file.dat"
+        SetOutPath $ANOTHER_DIR
+        File "another file.dat"
+    SectionEnd
 
 ## History
 

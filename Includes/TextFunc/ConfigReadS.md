@@ -1,15 +1,15 @@
-# ConfigReadS
+# ${ConfigReadS}
 
 Read value from entry name in config file, case sensitive
 
 ## Syntax
 
-	${ConfigReadS} "[File]" "[Entry]" $var
-	"[File]"      ; config file
-	              ;
-	"[Entry]"     ; entry name
-	              ;
-	$var          ; Result:  Value
+    ${ConfigReadS} "[File]" "[Entry]" $var
+    "[File]"      ; config file
+                  ;
+    "[Entry]"     ; entry name
+                  ;
+    $var          ; Result:  Value
 
 Note:
 
@@ -20,17 +20,17 @@ Note:
 
 ### Example 1
 
-	Section
-		${ConfigReadS} "C:\AUTOEXEC.BAT" "SET winbootdir=" $R0
-		;$R0=C:\WINDOWS
-	SectionEnd
+    Section
+        ${ConfigReadS} "C:\AUTOEXEC.BAT" "SET winbootdir=" $R0
+        ;$R0=C:\WINDOWS
+    SectionEnd
 
 ### Example 2
 
-	Section
-		${ConfigReadS} "C:\apache\conf\httpd.conf" "Timeout " $R0
-		;$R0=30
-	SectionEnd
+    Section
+        ${ConfigReadS} "C:\apache\conf\httpd.conf" "Timeout " $R0
+        ;$R0=30
+    SectionEnd
 
 ## Credits
 

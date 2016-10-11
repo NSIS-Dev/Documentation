@@ -8,7 +8,7 @@ Reads a 32 bit DWORD from the registry into the user variable $x. Valid values f
 
 ## Example
 
-	ReadRegDWORD $0 HKLM Software\NSIS VersionBuild
+    ReadRegDWORD $0 HKLM Software\NSIS VersionBuild
 
 ## History
 

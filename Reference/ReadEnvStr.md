@@ -8,8 +8,8 @@ Reads from the environment string "name" and sets the value into the user variab
 
 ## Example
 
-	ReadEnvStr $0 WINDIR
-	ReadEnvStr $1 TEMP
+    ReadEnvStr $0 WINDIR
+    ReadEnvStr $1 TEMP
 
 ## History
 

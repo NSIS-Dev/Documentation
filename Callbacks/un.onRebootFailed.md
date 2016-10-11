@@ -4,9 +4,9 @@ This callback is called if [`Reboot`][1] fails. [`WriteUninstaller`][2], plug-in
 
 ## Example
 
-	Function un.onRebootFailed
-		MessageBox MB_OK|MB_ICONSTOP "Reboot failed. Please reboot manually." /SD IDOK
-	FunctionEnd
+    Function un.onRebootFailed
+        MessageBox MB_OK|MB_ICONSTOP "Reboot failed. Please reboot manually." /SD IDOK
+    FunctionEnd
 
 [1]: ../Reference/Reboot.md
 [2]: ../Reference/WriteUninstaller.md

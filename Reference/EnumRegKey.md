@@ -8,13 +8,13 @@ Set user variable $x with the name of the 'index'th registry key in root\_key\Su
 
 ## Example
 
-	StrCpy $0 0
-	loop:
-	  EnumRegKey $1 HKLM Software $0
-	  StrCmp $1 "" done
-	  IntOp $0 $0 + 1
-	  MessageBox MB_YESNO|MB_ICONQUESTION "$1$\n$\nMore?" IDYES loop
-	done:
+    StrCpy $0 0
+    loop:
+      EnumRegKey $1 HKLM Software $0
+      StrCmp $1 "" done
+      IntOp $0 $0 + 1
+      MessageBox MB_YESNO|MB_ICONQUESTION "$1$\n$\nMore?" IDYES loop
+    done:
 
 ## History
 

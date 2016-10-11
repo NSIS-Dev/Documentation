@@ -8,9 +8,9 @@ Sets the callback functions for a page defined using [`PageEx`][1]. Can only be 
 
 ## Example
 
-	PageEx license
-		PageCallbacks licensePre licenseShow licenseLeave
-	PageExEnd
+    PageEx license
+        PageCallbacks licensePre licenseShow licenseLeave
+    PageExEnd
 
 ## History
 

@@ -1,4 +1,4 @@
-# StrNSISToIO
+# ${StrNSISToIO}
 
 Converts "String" from NSIS to be supported by Install Options plugin. Escape, back-slash, carriage return, line feed and tab characters are converted.
 

@@ -9,7 +9,7 @@ On POSIX platforms, `!execute` will use _system()_ just like [`!system`][1].
 
 ## Example
 
-	!execute '"%WINDIR%\notepad.exe" "${NSISDIR}\license.txt"'
+    !execute '"%WINDIR%\notepad.exe" "${NSISDIR}\license.txt"'
 
 ## History
 

@@ -8,8 +8,8 @@ Removes an item from the global define list. Note that `${SYMBOL}` where SYMBOL 
 
 ## Example
 
-	!define SOMETHING
-	!undef SOMETHING
+    !define SOMETHING
+    !undef SOMETHING
 
 ## History
 

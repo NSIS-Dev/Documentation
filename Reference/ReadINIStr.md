@@ -8,7 +8,7 @@ Reads from entry\_name in [section\_name] of ini\_filename and stores the value 
 
 ## Example
 
-	ReadINIStr $0 $INSTDIR\winamp.ini winamp outname
+    ReadINIStr $0 $INSTDIR\winamp.ini winamp outname
 
 ## History
 

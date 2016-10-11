@@ -4,7 +4,7 @@ Sets the installer to silent mode or normal mode. See [`SilentInstall`][1] for m
 
 ## Parameters
 
-	silent | normal
+    silent | normal
 
 ## History
 

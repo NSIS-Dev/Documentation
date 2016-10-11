@@ -8,9 +8,9 @@ Writes entry\_name=value into [section\_name] of ini\_filename. The error flag i
 
 ## Example
 
-	WriteINIStr $TEMP\something.ini section1 something 123
-	WriteINIStr $TEMP\something.ini section1 somethingelse 1234
-	WriteINIStr $TEMP\something.ini section2 nsis true
+    WriteINIStr $TEMP\something.ini section1 something 123
+    WriteINIStr $TEMP\something.ini section1 somethingelse 1234
+    WriteINIStr $TEMP\something.ini section2 nsis true
 
 ## History
 

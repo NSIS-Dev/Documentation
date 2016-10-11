@@ -8,13 +8,13 @@ Sets the description for the section section_index. If the text is set to "" the
 
 ## Example
 
-	Section "" test_section_id
-	SectionEnd
+    Section "" test_section_id
+    SectionEnd
 
-	Function .onInit
-		# change section's name to $WINDIR
-		SectionSetText ${test_section_id} $WINDIR
-	FunctionEnd
+    Function .onInit
+        # change section's name to $WINDIR
+        SectionSetText ${test_section_id} $WINDIR
+    FunctionEnd
 
 ## History
 

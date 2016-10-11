@@ -8,10 +8,10 @@ Checks the reboot flag, and jumps to jump\_if\_set if the reboot flag is set, ot
 
 ## Example
 
-	IfRebootFlag 0 noreboot
-	MessageBox MB_YESNO "A reboot is required to finish the installation. Do you wish to reboot now?" IDNO noreboot
-	Reboot
-	noreboot:
+    IfRebootFlag 0 noreboot
+    MessageBox MB_YESNO "A reboot is required to finish the installation. Do you wish to reboot now?" IDNO noreboot
+    Reboot
+    noreboot:
 
 ## History
 

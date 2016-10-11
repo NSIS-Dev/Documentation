@@ -8,8 +8,8 @@ Deletes a registry key. If `/ifempty` is specified, the registry key will only b
 
 ## Example
 
-	DeleteRegKey HKLM "Software\My Company\My Software"
-	DeleteRegKey /ifempty HKLM "Software\A key that might have subkeys"
+    DeleteRegKey HKLM "Software\My Company\My Software"
+    DeleteRegKey /ifempty HKLM "Software\A key that might have subkeys"
 
 ## History
 

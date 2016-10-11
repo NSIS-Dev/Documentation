@@ -8,11 +8,11 @@ This command allows to easily insert different code when different defines or ma
 
 ## Example
 
-	!ifdef VERSION
-		OutFile installer-${VERSION}.exe
-	!else
-		sOutFile installer.exe
-	!endif
+    !ifdef VERSION
+        OutFile installer-${VERSION}.exe
+    !else
+        sOutFile installer.exe
+    !endif
 
 ## History
 

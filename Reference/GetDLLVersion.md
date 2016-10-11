@@ -10,7 +10,7 @@ Gets the version information from the DLL (or any other executable containing ve
 
 The following example reads the DLL version and copies a human readable version of it into `$0:
 
-	GetDlgItem $0 $HWNDPARENT 1 # next/install button
+    GetDlgItem $0 $HWNDPARENT 1 # next/install button
 
 ## History
 

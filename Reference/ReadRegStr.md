@@ -8,8 +8,8 @@ Reads from the registry into the user variable $x. Valid values for root\_key ar
 
 ## Example
 
-	ReadRegStr $0 HKLM Software\NSIS ""
-	DetailPrint "NSIS is installed at: $0"
+    ReadRegStr $0 HKLM Software\NSIS ""
+    DetailPrint "NSIS is installed at: $0"
 
 ## History
 

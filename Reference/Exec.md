@@ -10,8 +10,8 @@ The error flag is set if the process could not be launched. Note, if the command
 
 ## Example
 
-	Exec '"$INSTDIR\someprogram.exe"'
-	Exec '"$INSTDIR\someprogram.exe" some parameters'
+    Exec '"$INSTDIR\someprogram.exe"'
+    Exec '"$INSTDIR\someprogram.exe" some parameters'
 
 ## History
 

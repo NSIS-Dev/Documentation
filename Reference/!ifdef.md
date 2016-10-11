@@ -8,15 +8,15 @@ This command, when paired with an [`!endif`][1] command, will tell the compiler 
 
 ## Example
 
-	!define SOMETHING
-	!ifdef SOMETHING
-		!echo "SOMETHING is defined"
-	!endif
+    !define SOMETHING
+    !ifdef SOMETHING
+        !echo "SOMETHING is defined"
+    !endif
 
-	!undef SOMETHING
-	!ifdef SOMETHING
-		!echo "SOMETHING is defined" # will never be printed
-	!endif
+    !undef SOMETHING
+    !ifdef SOMETHING
+        !echo "SOMETHING is defined" # will never be printed
+    !endif
 
 ## History
 

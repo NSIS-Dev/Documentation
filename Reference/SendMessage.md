@@ -18,9 +18,9 @@ Use /TIMEOUT=time\_in\_ms to specify the duration, in milliseconds, of the time-
 
 ## Example
 
-	!include WinMessages.nsh
-	FindWindow $0 "Winamp v1.x"
-	SendMessage $0 ${WM_CLOSE} 0 0
+    !include WinMessages.nsh
+    FindWindow $0 "Winamp v1.x"
+    SendMessage $0 ${WM_CLOSE} 0 0
 
 ## History
 

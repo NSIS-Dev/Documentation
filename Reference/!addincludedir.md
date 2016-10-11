@@ -9,7 +9,7 @@ Adds another include directory to the include directories list. This list is sea
 ## Example
 
     !addincludedir ..\include
-	!include something.nsh
+    !include something.nsh
 
 ## History
 

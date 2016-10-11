@@ -8,7 +8,7 @@ Sets user variable $x with the length of str.
 
 ## Example
 
-	StrLen $0 "123456" # = 6
+    StrLen $0 "123456" # = 6
 
 ## History
 

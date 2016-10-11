@@ -4,13 +4,13 @@ Closes a section group opened with [`SectionGroup`][1].
 
 ## Example
 
-	SectionGroup "some stuff"
-		Section "a section"
-		SectionEnd
+    SectionGroup "some stuff"
+        Section "a section"
+        SectionEnd
 
-		Section "another section"
-		SectionEnd
-	SectionGroupEnd
+        Section "another section"
+        SectionEnd
+    SectionGroupEnd
 
 ## History
 

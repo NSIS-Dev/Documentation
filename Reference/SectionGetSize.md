@@ -8,15 +8,15 @@ Gets the Size of the section specified by section_index and stores the value in 
 
 ## Example
 
-	Section test test_section_id
-	SectionEnd
+    Section test test_section_id
+    SectionEnd
 
-	Function .onInit
-		# increase required size of section 'test' by 100 bytes
-		SectionGetSize ${test_section_id} $0
-		IntOp $0 $0 + 100
-		SectionSetSize ${test_section_id} $0
-	FunctionEnd
+    Function .onInit
+        # increase required size of section 'test' by 100 bytes
+        SectionGetSize ${test_section_id} $0
+        IntOp $0 $0 + 100
+        SectionSetSize ${test_section_id} $0
+    FunctionEnd
 
 ## History
 

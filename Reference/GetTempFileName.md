@@ -8,10 +8,10 @@ Assign to the user variable $x, the name of a temporary file. The file will have
 
 ## Example
 
-	GetTempFileName $0
-	File /oname=$0 something.dat
-	# do something with something.dat
-	Delete $0
+    GetTempFileName $0
+    File /oname=$0 something.dat
+    # do something with something.dat
+    Delete $0
 
 ## History
 

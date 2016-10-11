@@ -1,15 +1,15 @@
-# FileRecode
+# ${FileRecode}
 
 Recode text file from DOS to Windows format and vice-versa.
 
 ## Syntax
 
-	${FileRecode} "[File]" "[Format]"
+    ${FileRecode} "[File]" "[Format]"
 
-	"[File]"        ;
-	                ;
-	"[Format]"      ; OemToChar   -from DOS to Windows
-	                ; CharToOem   -from Windows to DOS
+    "[File]"        ;
+                    ;
+    "[Format]"      ; OemToChar   -from DOS to Windows
+                    ; CharToOem   -from Windows to DOS
 
 Note:
 
@@ -18,9 +18,9 @@ Note:
 
 ## Example
 
-	Section
-		${FileRecode} "C:\SCANDISK.LOG" "CharToOem"
-	SectionEnd
+    Section
+        ${FileRecode} "C:\SCANDISK.LOG" "CharToOem"
+    SectionEnd
 
 ## Credits
 

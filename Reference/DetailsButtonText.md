@@ -9,7 +9,7 @@ Accepts variables. If variables are used, they must be initialized before the in
 
 ## Example
 
-	DetailPrint "this message will show on the installation window"
+    DetailPrint "this message will show on the installation window"
 
 ## History
 

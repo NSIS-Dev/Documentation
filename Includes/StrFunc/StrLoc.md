@@ -1,4 +1,4 @@
-# StrLoc
+# ${StrLoc}
 
 Searches for "StrToSearchFor" in "String" and returns its location, according to "CounterDirection".
 

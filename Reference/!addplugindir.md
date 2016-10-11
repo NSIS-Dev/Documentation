@@ -9,7 +9,7 @@ Causes the NSIS compiler to scan the given directory for plug-in DLLs.
 ## Example
 
     !addplugindir myplugin
-	MyPlugin::SomeFunction
+    MyPlugin::SomeFunction
 
 ## History
 

@@ -8,9 +8,9 @@ This command will issue an error to the script compiler and will stop execution 
 
 ## Example
 
-	!ifdef VERSION & NOVERSION
-		!error "both VERSION and NOVERSION are defined"
-	!endif
+    !ifdef VERSION & NOVERSION
+        !error "both VERSION and NOVERSION are defined"
+    !endif
 
 ## History
 

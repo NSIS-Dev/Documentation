@@ -6,15 +6,15 @@ Note that, if used in installer code, this will only affect the installer, and i
 
 ## Parameters
 
-	current|all
+    current|all
 
 ## Example
 
-	SetShellVarContext current
-	StrCpy $0 $DESKTOP
-	SetShellVarContext all
-	StrCpy $1 $DESKTOP
-	MessageBox MB_OK $0$\n$1
+    SetShellVarContext current
+    StrCpy $0 $DESKTOP
+    SetShellVarContext all
+    StrCpy $1 $DESKTOP
+    MessageBox MB_OK $0$\n$1
 
 ## History
 

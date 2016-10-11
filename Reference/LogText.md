@@ -8,8 +8,8 @@ If installer logging is enabled, inserts text "text" into the log file.
 
 ## Example
 
-	IfFileExists $WINDIR\notepad.exe 0 +2
-	LogText "$$WINDIR\notepad.exe exists"
+    IfFileExists $WINDIR\notepad.exe 0 +2
+    LogText "$$WINDIR\notepad.exe exists"
 
 ## History
 

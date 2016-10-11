@@ -8,7 +8,7 @@ Deletes a registry value. Valid values for root_key are listed under [`WriteRegS
 
 ## Example
 
-	DeleteRegValue HKLM "Software\My Company\My Software" "some value"
+    DeleteRegValue HKLM "Software\My Company\My Software" "some value"
 
 ## History
 

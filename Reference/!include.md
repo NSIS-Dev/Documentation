@@ -8,11 +8,11 @@ This command will include 'file' as if it was part of the original script. Note 
 
 ## Example
 
-	!include WinMessages.nsh
-	!include Library.nsh
-	!include C:\MyConfig.nsi
-	!include ..\MyConfig.nsh
-	!include /NONFATAL file_that_may_exist_or_not.nsh
+    !include WinMessages.nsh
+    !include Library.nsh
+    !include C:\MyConfig.nsi
+    !include ..\MyConfig.nsh
+    !include /NONFATAL file_that_may_exist_or_not.nsh
 
 ## History
 

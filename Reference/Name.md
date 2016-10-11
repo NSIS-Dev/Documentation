@@ -10,11 +10,11 @@ Accepts variables. If variables are used, they must be initialized in [`.onInit`
 
 ## Example
 
-	Name "Foobar"
+    Name "Foobar"
 
 If your product's name is "Foo & Bar", use:
 
-	Name "Foo & Bar" "Foo && Bar"
+    Name "Foo & Bar" "Foo && Bar"
 
 If you have ampersands in the name and use a [`LangString`][2] for the name, you will have to create another one with doubled ampersands to use as the second parameter.
 

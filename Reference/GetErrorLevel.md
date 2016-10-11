@@ -8,9 +8,9 @@ Returns the last error level set by [`SetErrorLevel`][1] or -1 if it was never u
 
 ## Example
 
-	GetErrorLevel $0
-	IntOp $0 $0 + 1
-	SetErrorLevel $0
+    GetErrorLevel $0
+    IntOp $0 $0 + 1
+    SetErrorLevel $0
 
 ## History
 

@@ -8,7 +8,7 @@ This option makes the compiler use an external EXE packer (such as [Petite][1] o
 
 ## Example
 
-	!packhdr "$%TEMP%\exehead.tmp" '"C:\Program Files\UPX\upx.exe" "$%TEMP%\exehead.tmp"'
+    !packhdr "$%TEMP%\exehead.tmp" '"C:\Program Files\UPX\upx.exe" "$%TEMP%\exehead.tmp"'
 
 ## History
 

@@ -8,13 +8,13 @@ This command inserts a section group. The section group must be closed with [`Se
 
 ## Example
 
-	SectionGroup "some stuff"
-		Section "a section"
-		SectionEnd
+    SectionGroup "some stuff"
+        Section "a section"
+        SectionEnd
 
-		Section "another section"
-		SectionEnd
-	SectionGroupEnd
+        Section "another section"
+        SectionEnd
+    SectionGroupEnd
 
 ## History
 

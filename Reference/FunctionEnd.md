@@ -4,13 +4,13 @@ This command closes the current open [`Function`][1].
 
 ## Example
 
-	Function func
-		# some commands
-	FunctionEnd
+    Function func
+        # some commands
+    FunctionEnd
 
-	Section
-		Call func
-	SectionEnd
+    Section
+        Call func
+    SectionEnd
 
 ## History
 

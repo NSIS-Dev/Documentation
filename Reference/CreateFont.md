@@ -9,7 +9,7 @@ You can get the current font used by NSIS using the ^Font and ^FontSize [`LangSt
 
 ## Example
 
-	CreateDirectory $INSTDIR\some\directory
+    CreateDirectory $INSTDIR\some\directory
 
 ## History
 

@@ -1,17 +1,17 @@
-# GetExeName
+# ${GetExeName}
 
 Get installer filename (with valid case for Windows 98/Me).
 
 ## Syntax
 
-	${GetExeName} $var
+    ${GetExeName} $var
 
 ## Example
 
-	Section
-		${GetExeName} $R0
-		; $R0="C:\ftp\program.exe"
-	SectionEnd
+    Section
+        ${GetExeName} $R0
+        ; $R0="C:\ftp\program.exe"
+    SectionEnd
 
 ## Credits
 

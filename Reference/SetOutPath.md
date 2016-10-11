@@ -8,8 +8,8 @@ Sets the output path ([`$OUTDIR`][1]) and creates it (recursively if necessary),
 
 ## Example
 
-	SetOutPath $INSTDIR
-	File program.exe
+    SetOutPath $INSTDIR
+    File program.exe
 
 ## History
 

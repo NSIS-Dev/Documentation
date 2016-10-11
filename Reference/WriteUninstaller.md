@@ -8,7 +8,7 @@ Writes the uninstaller to the filename (and optionally path) specified. Only val
 
 ## Example
 
-	WriteUninstaller $INSTDIR\uninstaller.exe
+    WriteUninstaller $INSTDIR\uninstaller.exe
 
 ## History
 

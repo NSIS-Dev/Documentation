@@ -41,20 +41,20 @@ Use the `/SD` parameter with one of the return_check values above to specify the
 
 ## Example
 
-	MessageBox MB_OK "simple message box"
-	MessageBox MB_YESNO "is it true?" IDYES true IDNO false
-	true:
-	  DetailPrint "it's true!"
-	  Goto next
-	false:
-	  DetailPrint "it's false"
-	next:
-	MessageBox MB_YESNO "is it true? (defaults to yes on silent installations)" /SD IDYES IDNO false2
-	  DetailPrint "it's true (or silent)!"
-	  Goto next2
-	false2:
-	  DetailPrint "it's false"
-	next2:
+    MessageBox MB_OK "simple message box"
+    MessageBox MB_YESNO "is it true?" IDYES true IDNO false
+    true:
+      DetailPrint "it's true!"
+      Goto next
+    false:
+      DetailPrint "it's false"
+    next:
+    MessageBox MB_YESNO "is it true? (defaults to yes on silent installations)" /SD IDYES IDNO false2
+      DetailPrint "it's true (or silent)!"
+      Goto next2
+    false2:
+      DetailPrint "it's false"
+    next2:
 
 ## History
 

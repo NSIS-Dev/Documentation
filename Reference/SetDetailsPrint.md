@@ -8,9 +8,9 @@ Sets mode at which commands print their status. None has commands be quiet, list
 
 ## Example
 
-	SetDetailsPrint none
-	File "secret file.dat"
-	SetDetailsPrint both
+    SetDetailsPrint none
+    File "secret file.dat"
+    SetDetailsPrint both
 
 ## History
 

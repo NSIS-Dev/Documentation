@@ -8,22 +8,22 @@ Checks for existence of file(s) file\_to\_check\_for (which can be a wildcard, o
 
 ## Example
 
-	IfFileExists $WINDIR\notepad.exe 0 +2
-	MessageBox MB_OK "notepad is installed"
+    IfFileExists $WINDIR\notepad.exe 0 +2
+    MessageBox MB_OK "notepad is installed"
 
 You can also use labels, which may help make your code easier to read:
 
-	IfFileExists $INSTDIR\somefile.txt file_found file_not_found
-	
-	file_found:
-	MessageBox MB_OK "somefile.txt was found"
-	Goto done
-	
-	file_not_found:
-	MessageBox MB_OK "somefile.txt was not found"
-	
-	done:
-	; ...
+    IfFileExists $INSTDIR\somefile.txt file_found file_not_found
+    
+    file_found:
+    MessageBox MB_OK "somefile.txt was found"
+    Goto done
+    
+    file_not_found:
+    MessageBox MB_OK "somefile.txt was not found"
+    
+    done:
+    ; ...
 
 ## History
 

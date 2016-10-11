@@ -8,10 +8,10 @@ Compares (case insensitively) str1 to str2. If str1 and str2 are equal, [`Goto`]
 
 ## Example
 
-	StrCmp $0 "a string" 0 +3
-	DetailPrint '$$0 == "a string"'
-	Goto +2
-	DetailPrint '$$0 != "a string"'
+    StrCmp $0 "a string" 0 +3
+    DetailPrint '$$0 == "a string"'
+    Goto +2
+    DetailPrint '$$0 != "a string"'
 
 ## History
 

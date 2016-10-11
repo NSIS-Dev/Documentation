@@ -8,14 +8,14 @@ Gets the address of the function and stores it in the output user variable. This
 
 ## Example
 
-	Function func
-		DetailPrint "function"
-	FunctionEnd
-	 
-	Section
-		GetFunctionAddress $0 func
-		Call $0
-	SectionEnd
+    Function func
+        DetailPrint "function"
+    FunctionEnd
+     
+    Section
+        GetFunctionAddress $0 func
+        Call $0
+    SectionEnd
 
 ## History
 

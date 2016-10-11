@@ -16,7 +16,7 @@ Replaces dialog (IDD\_LICENSE, IDD\_DIR, IDD\_SELCOM, IDD\_INST, IDD\_INSTFILES,
 
 ## Example
 
-	ChangeUI all "${NSISDIR}\Contrib\UIs\sdbarker_tiny.exe"
+    ChangeUI all "${NSISDIR}\Contrib\UIs\sdbarker_tiny.exe"
 
 ## History
 

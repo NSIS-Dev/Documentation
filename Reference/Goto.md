@@ -12,10 +12,10 @@ If a user variable is specified, jumps to absolute address (generally you will w
 
 ## Example
 
-	Goto label
-	Goto +2
-	Goto -2
-	Goto $0
+    Goto label
+    Goto +2
+    Goto -2
+    Goto $0
 
 ## History
 

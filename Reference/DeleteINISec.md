@@ -8,10 +8,10 @@ Delete file (which can be a file or wildcard, but should be specified with a ful
 
 ## Example
 
-	WriteINIStr $TEMP\something.ini section1 something 123
-	WriteINIStr $TEMP\something.ini section1 somethingelse 1234
-	WriteINIStr $TEMP\something.ini section2 nsis true
-	DeleteINISec $TEMP\something.ini section1
+    WriteINIStr $TEMP\something.ini section1 something 123
+    WriteINIStr $TEMP\something.ini section1 somethingelse 1234
+    WriteINIStr $TEMP\something.ini section2 nsis true
+    DeleteINISec $TEMP\something.ini section1
 
 ## History
 

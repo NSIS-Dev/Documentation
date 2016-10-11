@@ -1,17 +1,17 @@
-# GetFileExt
+# ${GetFileExt}
 
 Get extension of file.
 
 ## Syntax
 
-	${GetFileExt} "[FileString]" $var
+    ${GetFileExt} "[FileString]" $var
 
 ## Example
 
-	Section
-		${GetFileExt} "C:\ftp\program.exe" $R0
-		; $R0="exe"
-	SectionEnd
+    Section
+        ${GetFileExt} "C:\ftp\program.exe" $R0
+        ; $R0="exe"
+    SectionEnd
 
 ## Credits
 

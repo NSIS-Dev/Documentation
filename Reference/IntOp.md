@@ -23,11 +23,11 @@ Combines value1 and (depending on OP) value2 into the specified user variable (u
 
 ## Example
 
-	IntOp $0 1 + 1
-	IntOp $0 $0 + 1
-	IntOp $0 $0 << 2
-	IntOp $0 $0 ~
-	IntOp $0 $0 & 0xF
+    IntOp $0 1 + 1
+    IntOp $0 $0 + 1
+    IntOp $0 $0 << 2
+    IntOp $0 $0 ~
+    IntOp $0 $0 & 0xF
 
 ## History
 

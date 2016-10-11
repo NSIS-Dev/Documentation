@@ -8,7 +8,7 @@ Creates a shortcut 'link.lnk' that links to 'target.file', with optional paramet
 
 ## Example
 
-	CreateDirectory $INSTDIR\some\directory
+    CreateDirectory $INSTDIR\some\directory
 
 ## History
 

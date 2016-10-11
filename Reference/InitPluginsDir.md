@@ -4,8 +4,8 @@ Initializes the plug-ins directory [`$PLUGINSDIR`][1] if not already initialized
 
 ## Example
 
-	InitPluginsDir
-	File /oname=$PLUGINSDIR\image.bmp image.bmp
+    InitPluginsDir
+    File /oname=$PLUGINSDIR\image.bmp image.bmp
 
 ## History
 

@@ -16,7 +16,7 @@ The last page of the installer has its cancel button disabled to prevent confusi
 
     custom [creator_function] [leave_function] [caption] [/ENABLECANCEL]
 
-	internal_page_type [pre_function] [show_function] [leave_function] [/ENABLECANCEL]
+    internal_page_type [pre_function] [show_function] [leave_function] [/ENABLECANCEL]
 
 ## History
 

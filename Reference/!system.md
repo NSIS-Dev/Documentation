@@ -8,12 +8,12 @@ This command will execute 'command' using a call to system(), and if the return 
 
 ## Example
 
-	!system '"%WINDIR%\notepad.exe" "${NSISDIR}\license.txt"'
-	!system 'echo !define something > newinclude.nsh'
-	!include newinclude.nsh
-	!ifdef something
-		!echo "something is defined"
-	!endif
+    !system '"%WINDIR%\notepad.exe" "${NSISDIR}\license.txt"'
+    !system 'echo !define something > newinclude.nsh'
+    !include newinclude.nsh
+    !ifdef something
+        !echo "something is defined"
+    !endif
 
 ## History
 

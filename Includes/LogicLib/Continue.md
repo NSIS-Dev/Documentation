@@ -1,16 +1,16 @@
-# Continue
+# ${Continue}
 
 Continues a block of statements.
 
 ## Syntax
 
-	${Continue}
+    ${Continue}
 
 ## Example
 
-	${Do}
-		MessageBox MB_YESNO "Stop this loop?" IDYES ${Break} ID_NO ${Continue}
-	${Loop}
+    ${Do}
+        MessageBox MB_YESNO "Stop this loop?" IDYES ${Break} ID_NO ${Continue}
+    ${Loop}
 
 ## Credits
 

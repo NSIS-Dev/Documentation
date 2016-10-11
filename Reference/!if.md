@@ -8,13 +8,13 @@ This command, when paired with an [`!endif`][1] command, will tell the compiler 
 
 ## Example
 
-	!if 1 < 2
-	  !echo "1 is smaller than 2!!"
-	!else if ! 3.1 > 1.99
-	  !error "this line should never appear"
-	!else
-	  !error "neither should this"
-	!endif
+    !if 1 < 2
+      !echo "1 is smaller than 2!!"
+    !else if ! 3.1 > 1.99
+      !error "this line should never appear"
+    !else
+      !error "neither should this"
+    !endif
 
 ## History
 

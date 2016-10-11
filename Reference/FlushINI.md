@@ -8,9 +8,9 @@ Flushes the INI file's buffers. Windows 9x keeps all changes to the INI file in 
 
 ## Example
 
-	WriteINIStr $TEMP\something.ini test test test
-	FlushINI $TEMP\something.ini
-	Delete $TEMP\something.ini
+    WriteINIStr $TEMP\something.ini test test test
+    FlushINI $TEMP\something.ini
+    Delete $TEMP\something.ini
 
 ## History
 

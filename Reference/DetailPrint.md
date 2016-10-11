@@ -8,7 +8,7 @@ Adds the string "user_message" to the details view of the installer.
 
 ## Example
 
-	DetailPrint "this message will show on the installation window"
+    DetailPrint "this message will show on the installation window"
 
 ## History
 

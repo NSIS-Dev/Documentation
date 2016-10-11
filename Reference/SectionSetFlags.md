@@ -10,26 +10,26 @@ Sets the section's flags. The flag is a 32 bit integer. The first bit (lowest) r
 
 Each flag has a name, prefixed with `SF_`:
 
-	!define SF_SELECTED   1
-	!define SF_SECGRP     2
-	!define SF_SECGRPEND  4
-	!define SF_BOLD       8
-	!define SF_RO         16
-	!define SF_EXPAND     32
-	!define SF_PSELECTED  64
+    !define SF_SELECTED   1
+    !define SF_SECGRP     2
+    !define SF_SECGRPEND  4
+    !define SF_BOLD       8
+    !define SF_RO         16
+    !define SF_EXPAND     32
+    !define SF_PSELECTED  64
 
 For an example of usage please see the [one-section.nsi][1] example.
 
 For more useful macros and definitions, see Include\Sections.nsh.
 
-	Section test test_section_id
-	SectionEnd
-	 
-	Function .onInit
-	  # set section 'test' as selected and read-only
-	  IntOp $0 ${SF_SELECTED} | ${SF_RO}
-	  SectionSetFlags ${test_section_id} $0
-	FunctionEnd
+    Section test test_section_id
+    SectionEnd
+     
+    Function .onInit
+      # set section 'test' as selected and read-only
+      IntOp $0 ${SF_SELECTED} | ${SF_RO}
+      SectionSetFlags ${test_section_id} $0
+    FunctionEnd
 
 ## History
 

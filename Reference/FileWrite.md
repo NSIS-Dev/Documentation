@@ -10,12 +10,12 @@ Writes an ANSI string to a file opened with [`FileOpen`][1]. If an error occurs 
 
 ## Example
 
-	ClearErrors
-	FileOpen $0 $INSTDIR\file.dat w
-	IfErrors done
-	FileWrite $0 "some text"
-	FileClose $0
-	done:
+    ClearErrors
+    FileOpen $0 $INSTDIR\file.dat w
+    IfErrors done
+    FileWrite $0 "some text"
+    FileClose $0
+    done:
 
 ## History
 

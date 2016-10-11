@@ -8,9 +8,9 @@ Execute the specified program and wait for the executed process to quit. See [`E
 
 ## Example
 
-	ExecWait '"$INSTDIR\someprogram.exe"'
-	ExecWait '"$INSTDIR\someprogram.exe"' $0
-	DetailPrint "some program returned $0"
+    ExecWait '"$INSTDIR\someprogram.exe"'
+    ExecWait '"$INSTDIR\someprogram.exe"' $0
+    DetailPrint "some program returned $0"
 
 ## History
 

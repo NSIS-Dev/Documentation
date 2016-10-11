@@ -8,9 +8,9 @@ Tells the installer that the current section needs an additional "size_kb" kilob
 
 ## Example
 
-	Section
-		AddSize 500
-	SectionEnd
+    Section
+        AddSize 500
+    SectionEnd
 
 ## History
 

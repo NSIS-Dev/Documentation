@@ -4,10 +4,10 @@ Ends a [`PageEx`][1] block.
 
 ## Example
 
-	PageEx license
-		LicenseText "Readme"
-		LicenseData readme.rtf
-	PageExEnd
+    PageEx license
+        LicenseText "Readme"
+        LicenseData readme.rtf
+    PageExEnd
 
 ## History
 

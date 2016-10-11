@@ -8,8 +8,8 @@ Closes a file handle opened with [`FileOpen`][1].
 
 ## Example
 
-	FileOpen $0 $INSTDIR\file.dat r
-	FileClose $0
+    FileOpen $0 $INSTDIR\file.dat r
+    FileClose $0
 
 ## History
 

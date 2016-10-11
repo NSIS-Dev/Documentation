@@ -1,4 +1,4 @@
-# StrRep
+# ${StrRep}
 
 Searches for all "StrToReplace" in "String" replacing those with "ReplacementString".
 

@@ -9,7 +9,7 @@ You should always specify an absolute path.
 
 ## Example
 
-	CreateDirectory $INSTDIR\some\directory
+    CreateDirectory $INSTDIR\some\directory
 
 ## History
 

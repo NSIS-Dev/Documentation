@@ -1,4 +1,4 @@
-# StrStr
+# ${StrStr}
 
 Searches for "StrToSearchFor" in "String".
 

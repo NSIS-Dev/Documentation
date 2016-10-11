@@ -1,4 +1,4 @@
-# MementoSectionSave
+# ${MementoSectionSave}
 
 Add a call to `${MementoSectionSave}` to [`.onInstSuccess`][1] to save the stateof all sections to the registry.
 
@@ -8,9 +8,9 @@ Add a call to `${MementoSectionSave}` to [`.onInstSuccess`][1] to save the state
 
 ## Example
 
-	Function .onInstSuccess
-		${MementoSectionSave}
-	FunctionEnd
+    Function .onInstSuccess
+        ${MementoSectionSave}
+    FunctionEnd
 
 ## Credits
 

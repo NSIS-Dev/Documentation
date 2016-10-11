@@ -8,7 +8,7 @@ This command writes a block of binary data to the registry. Valid values for roo
 
 ## Example
 
-	WriteRegBin HKLM "Software\My Company\My Software" "Binary Value" DEADBEEF01223211151
+    WriteRegBin HKLM "Software\My Company\My Software" "Binary Value" DEADBEEF01223211151
 
 ## History
 

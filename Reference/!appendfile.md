@@ -9,11 +9,11 @@ Appends text to file. The text is written as ANSI (ACP) unless the file already 
 ## Example
 
     !tempfile FILE
-	!appendfile "${FILE}" "XPStyle on$\n"
-	!appendfile "${FILE}" "Name 'test'$\n"
-	!include "${FILE}"
-	!delfile "${FILE}"
-	!undef FILE
+    !appendfile "${FILE}" "XPStyle on$\n"
+    !appendfile "${FILE}" "Name 'test'$\n"
+    !include "${FILE}"
+    !delfile "${FILE}"
+    !undef FILE
 
 ## History
 

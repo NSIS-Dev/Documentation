@@ -1,17 +1,17 @@
-# GetParameters
+# ${GetParameters}
 
 Get command line parameters.
 
 ## Syntax
 
-	${GetParameters} $var
+    ${GetParameters} $var
 
 ## Example
 
-	Section
-		${GetParameters} $R0
-		; $R0="[parameters]"
-	SectionEnd
+    Section
+        ${GetParameters} $R0
+        ; $R0="[parameters]"
+    SectionEnd
 
 ## Credits
 

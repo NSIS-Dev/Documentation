@@ -8,10 +8,10 @@ Enables or disables mouse and keyboard input to the specified window or control.
 
 ## Example
 
-	GetDlgItem $0 $HWNDPARENT 1
-	EnableWindow $0 0
-	Sleep 1000
-	EnableWindow $0 1
+    GetDlgItem $0 $HWNDPARENT 1
+    EnableWindow $0 0
+    Sleep 1000
+    EnableWindow $0 1
 
 ## History
 

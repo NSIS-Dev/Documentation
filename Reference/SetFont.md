@@ -12,8 +12,8 @@ There are two LangStrings named ^Font and ^FontSize which contain the font and f
 
 ## Example
 
-	 SetFont /LANG=${LANG_ENGLISH} "English Font" 9
-	 SetFont /LANG=${LANG_FRENCH} "French Font" 10
+     SetFont /LANG=${LANG_ENGLISH} "English Font" 9
+     SetFont /LANG=${LANG_FRENCH} "French Font" 10
 
 ## History
 

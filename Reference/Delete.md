@@ -8,7 +8,7 @@ Delete file (which can be a file or wildcard, but should be specified with a ful
 
 ## Example
 
-	Delete $INSTDIR\somefile.dat
+    Delete $INSTDIR\somefile.dat
 
 ## History
 

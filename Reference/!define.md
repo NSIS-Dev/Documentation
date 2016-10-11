@@ -12,12 +12,12 @@ If `/file` is used, the entire text file specified (including whitespace and new
 ## Example
 
     !define USE_SOMETHING
-	!define VERSION 1.2
-	!define /date NOW "%H:%M:%S %d %b, %Y"
-	!define /math RESULT 3 + 10
-	!define /math REST 15 % ${RESULT}
-	!define /file BUNCHASTUFF somesourcefile.cpp
-	!define /redef USE_SOMETHING ${RESULT} ;redefine USE_SOMETHING
+    !define VERSION 1.2
+    !define /date NOW "%H:%M:%S %d %b, %Y"
+    !define /math RESULT 3 + 10
+    !define /math REST 15 % ${RESULT}
+    !define /file BUNCHASTUFF somesourcefile.cpp
+    !define /redef USE_SOMETHING ${RESULT} ;redefine USE_SOMETHING
 
 ## History
 

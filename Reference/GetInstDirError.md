@@ -12,28 +12,28 @@ Use in the leave function of a directory page. Reads the flag set if 'DirVerify 
 
 ## Example
 
-	!include LogicLib.nsh
-	PageEx directory
-		DirVerify leave
-		PageCallbacks "" "" dirLeave
-	PageExEnd
-	 
-	Function dirLeave
-		GetInstDirError $0
-		${Switch} $0
-			${Case} 0
-				MessageBox MB_OK "valid installation directory"
-				${Break}
-			${Case} 1
-				MessageBox MB_OK "invalid installation directory!"
-				Abort
-				${Break}
-			${Case} 2
-				MessageBox MB_OK "not enough free space!"
-				Abort
-				${Break}
-		${EndSwitch}
-	FunctionEnd
+    !include LogicLib.nsh
+    PageEx directory
+        DirVerify leave
+        PageCallbacks "" "" dirLeave
+    PageExEnd
+     
+    Function dirLeave
+        GetInstDirError $0
+        ${Switch} $0
+            ${Case} 0
+                MessageBox MB_OK "valid installation directory"
+                ${Break}
+            ${Case} 1
+                MessageBox MB_OK "invalid installation directory!"
+                Abort
+                ${Break}
+            ${Case} 2
+                MessageBox MB_OK "not enough free space!"
+                Abort
+                ${Break}
+        ${EndSwitch}
+    FunctionEnd
 
 ## History
 

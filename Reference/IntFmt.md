@@ -8,8 +8,8 @@ Formats the number in "numberstring" using the format "format", and sets the out
 
 ## Example
 
-	IntFmt $0 "0x%08X" 195948557
-	IntFmt $0 "%c" 0x41
+    IntFmt $0 "0x%08X" 195948557
+    IntFmt $0 "%c" 0x41
 
 ## History
 

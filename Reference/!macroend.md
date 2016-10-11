@@ -4,11 +4,11 @@ Ends a macro that was started with [`!macro`][1].
 
 ## Example
 
-	!macro SomeMacro parm1 parm2 parm3
-		DetailPrint "${parm1}"
-		MessageBox MB_OK "${parm2}"
-		File "${parm3}"
-	!macroend
+    !macro SomeMacro parm1 parm2 parm3
+        DetailPrint "${parm1}"
+        MessageBox MB_OK "${parm2}"
+        File "${parm3}"
+    !macroend
 
 ## History
 

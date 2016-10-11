@@ -10,8 +10,8 @@ If no absolute path is specified the current folder will be used. The current fo
 
 ## Example
 
-	FileOpen $0 $INSTDIR\file.dat r
-	FileClose $0
+    FileOpen $0 $INSTDIR\file.dat r
+    FileClose $0
 
 ## History
 

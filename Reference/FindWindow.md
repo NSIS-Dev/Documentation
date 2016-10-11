@@ -8,8 +8,8 @@ Searches for a window. Behaves like the win32 FindWindowEx(). Searches by window
 
 ## Example
 
-	FindWindow $0 "#32770" "" $HWNDPARENT
-	FindWindow $0 "my window class" "my window title"
+    FindWindow $0 "#32770" "" $HWNDPARENT
+    FindWindow $0 "my window class" "my window title"
 
 ## History
 

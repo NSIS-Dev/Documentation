@@ -8,14 +8,14 @@ Declare a user variable. Allowed characters for variables names: [a-z][A-Z][0-9]
 
 ## Example
 
-	Var example
+    Var example
  
-	Function testVar
-		Var /GLOBAL example2
+    Function testVar
+        Var /GLOBAL example2
 
-		StrCpy $example "example value"
-		StrCpy $example2 "another example value"
-	FunctionEnd
+        StrCpy $example "example value"
+        StrCpy $example2 "another example value"
+    FunctionEnd
 
 ## History
 

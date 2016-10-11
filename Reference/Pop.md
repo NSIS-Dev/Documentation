@@ -4,12 +4,12 @@ Pops a string off of the stack into user variable $x. If the stack is empty, the
 
 ## Parameters
 
-	user_var(out)
+    user_var(out)
 
 ## Example
 
-	Push 1
-	Pop $0 # = 1
+    Push 1
+    Pop $0 # = 1
 
 ## History
 

@@ -8,10 +8,10 @@ Does the same as [`LangString`][1] only it loads the string from a text/RTF file
 
 ## Example
 
-	LicenseLangString license ${LANG_ENGLISH} license-english.txt
-	LicenseLangString license ${LANG_FRENCH} license-french.txt
-	LicenseLangString license ${LANG_GERMAN} license-german.txt
-	LicenseData $(license)
+    LicenseLangString license ${LANG_ENGLISH} license-english.txt
+    LicenseLangString license ${LANG_FRENCH} license-french.txt
+    LicenseLangString license ${LANG_GERMAN} license-german.txt
+    LicenseData $(license)
 
 ## History
 

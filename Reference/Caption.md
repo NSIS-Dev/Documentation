@@ -12,9 +12,9 @@ Accepts variables. If variables are used, they must be initialized on [`.onInit`
 
 ## Example
 
-	PageEx license
-		Caption "This is a license page"
-	PageExEnd
+    PageEx license
+        Caption "This is a license page"
+    PageExEnd
 
 ## History
 

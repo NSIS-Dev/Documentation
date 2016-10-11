@@ -1,4 +1,4 @@
-# StrSort
+# ${StrSort}
 
 Searches for "CenterStr" in "String", and returns only the value between "LeftStr" and "RightStr", including or not the "CenterStr" using "IncludeCenterStr" and/or the "LeftStr" using "IncludeLeftStr" and "RightStr" using "IncludeRightStr".
 

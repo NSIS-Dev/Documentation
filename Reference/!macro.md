@@ -4,15 +4,15 @@ Creates a macro named 'macro_name'. All lines between the `!macro` and the [`!ma
 
 ## Parameters
 
-	`macro_name [parameter] [...]`
+    `macro_name [parameter] [...]`
 
 ## Example
 
-	!macro SomeMacro parm1 parm2 parm3
-		DetailPrint "${parm1}"
-		MessageBox MB_OK "${parm2}"
-		File "${parm3}"
-	!macroend
+    !macro SomeMacro parm1 parm2 parm3
+        DetailPrint "${parm1}"
+        MessageBox MB_OK "${parm2}"
+        File "${parm3}"
+    !macroend
 
 ## History
 

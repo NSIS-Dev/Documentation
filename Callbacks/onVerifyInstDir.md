@@ -4,11 +4,11 @@ This callback enables control over whether or not an installation path is valid 
 
 Example:
 
-	Function .onVerifyInstDir
-		IfFileExists $INSTDIR\Winamp.exe PathGood
-		Abort ; if $INSTDIR is not a winamp directory, don't let us install there
-		PathGood:
-	FunctionEnd
+    Function .onVerifyInstDir
+        IfFileExists $INSTDIR\Winamp.exe PathGood
+        Abort ; if $INSTDIR is not a winamp directory, don't let us install there
+        PathGood:
+    FunctionEnd
 
 [1]: ../Reference/MessageBox.md
 [2]: ../Reference/Abort.md

@@ -8,46 +8,46 @@ Begins and opens a new section. If section\_name is empty, omitted, or begins wi
 
 ## Example
 
-	Section "-hidden section"
-	SectionEnd
-	 
-	Section # hidden section
-	SectionEnd
-	 
-	Section "!bold section"
-	SectionEnd
-	 
-	Section /o "optional"
-	SectionEnd
-	 
-	Section "install something" SEC_IDX
-	SectionEnd
+    Section "-hidden section"
+    SectionEnd
+     
+    Section # hidden section
+    SectionEnd
+     
+    Section "!bold section"
+    SectionEnd
+     
+    Section /o "optional"
+    SectionEnd
+     
+    Section "install something" SEC_IDX
+    SectionEnd
 
 To access the section index, curly brackets must be used and the code must be located below the section in the script.
 
-	Section test1 sec1_id
-	SectionEnd
-	 
-	Section test2 sec2_id
-	SectionEnd
-	 
-	Function .onInit
-		SectionGetText ${sec2_id} $0
-		MessageBox MB_OK "name of ${sec2_id}:$\n$0" # will correctly display 'name of 1: test2'
-	FunctionEnd
+    Section test1 sec1_id
+    SectionEnd
+     
+    Section test2 sec2_id
+    SectionEnd
+     
+    Function .onInit
+        SectionGetText ${sec2_id} $0
+        MessageBox MB_OK "name of ${sec2_id}:$\n$0" # will correctly display 'name of 1: test2'
+    FunctionEnd
 
-	Function .onInit
-		SectionGetText ${sec2_id} $0
-		MessageBox MB_OK "name of ${sec2_id}:$\n$0" # will incorrectly display 'name of ${sec2_id}: test1'
-		# plus a warning stating:
-		#   unknown variable/constant "{sec2_id}" detected, ignoring
-	FunctionEnd
-	 
-	Section test1 sec1_id
-	SectionEnd
-	 
-	Section test2 sec2_id
-	SectionEnd
+    Function .onInit
+        SectionGetText ${sec2_id} $0
+        MessageBox MB_OK "name of ${sec2_id}:$\n$0" # will incorrectly display 'name of ${sec2_id}: test1'
+        # plus a warning stating:
+        #   unknown variable/constant "{sec2_id}" detected, ignoring
+    FunctionEnd
+     
+    Section test1 sec1_id
+    SectionEnd
+     
+    Section test2 sec2_id
+    SectionEnd
 
 ## History
 

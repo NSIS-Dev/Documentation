@@ -8,7 +8,7 @@ Sets the File Version in the VS\_FIXEDFILEINFO version information block (You sh
 
 ## Example
 
-	VIFileVersion 1.2.3.4
+    VIFileVersion 1.2.3.4
 
 ## History
 

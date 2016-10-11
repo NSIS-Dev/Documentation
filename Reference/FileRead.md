@@ -10,13 +10,13 @@ Reads a string (ANSI characters) from a file opened with [`FileOpen`][1]. The st
 
 ## Example
 
-	ClearErrors
-	FileOpen $0 $INSTDIR\file.dat r
-	IfErrors done
-	FileRead $0 $1
-	DetailPrint $1
-	FileClose $0
-	done:
+    ClearErrors
+    FileOpen $0 $INSTDIR\file.dat r
+    IfErrors done
+    FileRead $0 $1
+    DetailPrint $1
+    FileClose $0
+    done:
 
 ## History
 

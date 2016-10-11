@@ -10,7 +10,7 @@ If no absolute path is specified the current folder will be used. The current fo
 
 ## Example
 
-	Rename $INSTDIR\file.ext $INSTDIR\file.dat
+    Rename $INSTDIR\file.ext $INSTDIR\file.dat
 
 ## History
 

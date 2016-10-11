@@ -8,12 +8,12 @@ If [`Abort`][1] is called it will "return" true. This can happen if the user cho
 
 ## Example
 
-	Page instfiles "" "" instfilesLeave
-	 
-	Function instfilesLeave
-		IfAbort 0 +2
-		MessageBox MB_OK "user aborted"
-	FunctionEnd
+    Page instfiles "" "" instfilesLeave
+     
+    Function instfilesLeave
+        IfAbort 0 +2
+        MessageBox MB_OK "user aborted"
+    FunctionEnd
 
 ## History
 

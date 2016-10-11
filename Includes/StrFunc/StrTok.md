@@ -1,4 +1,4 @@
-# StrTok
+# ${StrTok}
 
 Returns the part "ResultPart" between two "Separators" inside "String".
 

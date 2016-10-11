@@ -8,15 +8,15 @@ Retrieves the section's flags. See above for a description of the flag. The erro
 
 ## Example
 
-	Section test test_section_id
-	SectionEnd
+    Section test test_section_id
+    SectionEnd
 
-	Function .onSelChange
-		# keep section 'test' selected
-		SectionGetFlags ${test_section_id} $0
-		IntOp $0 $0 | ${SF_SELECTED}
-		SectionSetFlags ${test_section_id} $0
-	FunctionEnd
+    Function .onSelChange
+        # keep section 'test' selected
+        SectionGetFlags ${test_section_id} $0
+        IntOp $0 $0 | ${SF_SELECTED}
+        SectionSetFlags ${test_section_id} $0
+    FunctionEnd
 
 ## History
 
