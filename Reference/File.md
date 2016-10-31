@@ -31,16 +31,16 @@ Adds file(s) to be extracted to the current output path ([`$OUTDIR`][1]).
 
 **Note:** when using the `/r` switch, both matching directories and files will be searched. This is always done with or without the use of wildcards, even if the given path perfectly matches one directory. That means, the following directory structure:
 
-    <DIR> something
-      file.dat
-      another.dat
-    <DIR> dir
-      something
-      <DIR> dir2
-        file2.dat
-    <DIR> another
-      <DIR> something
-        readme.txt
+    something/
+    ├── file.dat
+    └── another.dat
+    dir/
+    ├── something
+    ├── dir2/
+    │   └── file2.dat
+    └── another/
+        └── something/
+            └── readme.txt
 
 with the following `File` usage:
 
