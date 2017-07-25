@@ -4,9 +4,7 @@ The pragma commands allows you to change compiler features and behavior.
 
 ## Parameters
 
-    warning <enable|disable|default> code
-    warning <push|pop>
-
+    /REGEDIT5 root_key subkey key_name value
 
 ## Example
 
