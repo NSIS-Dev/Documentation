@@ -1,6 +1,6 @@
 # ${Case}
 
-Executes one of several blocks of statements, depending on the value of an expression. Use ${Break} to prevent fall-through to the next ${Case} section.
+Executes one of several blocks of statements, depending on the value of an expression. Use [`${Break}`][1] to prevent fall-through to the next `${Case}` section.
 
 ## Syntax
 
@@ -30,3 +30,5 @@ Executes one of several blocks of statements, depending on the value of an expre
 ## Credits
 
 Written by dselkirk and eccles
+
+[1]: Break.md
