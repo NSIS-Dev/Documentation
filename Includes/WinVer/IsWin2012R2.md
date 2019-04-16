@@ -9,9 +9,9 @@ Checks if the installer is running on Windows Server 2012 R2 exactly as specifie
 ## Example
 
     ${If} ${IsWin2012R2}
-        DetailPrint "Windows Server 2012 R2 or higher"
+        DetailPrint "Running on Windows Server 2012 R2"
     ${Else}
-        DetailPrint "Older than Windows Server 2012 R2"
+        DetailPrint "Not running on Windows Server 2012 R2"
     ${EndIf}
 
 ## Credits
