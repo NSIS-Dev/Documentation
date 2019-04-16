@@ -9,9 +9,9 @@ Checks if the installer is running on Windows 98 exactly as specified.
 ## Example
 
     ${If} ${IsWin98}
-        DetailPrint "Windows 98 or higher"
+        DetailPrint "Running on Windows 98"
     ${Else}
-        DetailPrint "Older than Windows 98"
+        DetailPrint "Not running onWindows 98"
     ${EndIf}
 
 ## Credits
