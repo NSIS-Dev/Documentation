@@ -9,9 +9,9 @@ Checks if the installer is running on Windows 95 exactly as specified.
 ## Example
 
     ${If} ${IsWin95}
-        DetailPrint "Windows 95 or higher"
+        DetailPrint "Running on Windows 95"
     ${Else}
-        DetailPrint "Older than Windows 95"
+        DetailPrint "Not running on Windows 95"
     ${EndIf}
 
 ## Credits
