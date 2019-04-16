@@ -9,9 +9,9 @@ Checks if the installer is running on Windows 7 exactly as specified.
 ## Example
 
     ${If} ${IsWin7}
-        DetailPrint "Windows 7 or higher"
+        DetailPrint "Running on Windows 7"
     ${Else}
-        DetailPrint "Older than Windows 7"
+        DetailPrint "Not running on Windows 7"
     ${EndIf}
 
 ## Credits
