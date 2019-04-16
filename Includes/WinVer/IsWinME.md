@@ -9,9 +9,9 @@ Checks if the installer is running on Windows ME exactly as specified.
 ## Example
 
     ${If} ${IsWinME}
-        DetailPrint "Windows ME or higher"
+        DetailPrint "Running on Windows ME"
     ${Else}
-        DetailPrint "Older than Windows ME"
+        DetailPrint "Not running on Windows ME"
     ${EndIf}
 
 ## Credits
