@@ -9,9 +9,9 @@ Checks if the installer is running on Windows XP exactly as specified.
 ## Example
 
     ${If} ${IsWinXP}
-        DetailPrint "Windows XP or higher"
+        DetailPrint "Running Windows XP"
     ${Else}
-        DetailPrint "Older than Windows XP"
+        DetailPrint "Not running  Windows XP"
     ${EndIf}
 
 ## Credits
