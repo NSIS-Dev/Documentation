@@ -9,9 +9,9 @@ Checks if the installer is running on Windows 10 exactly as specified.
 ## Example
 
     ${If} ${IsWin10}
-        DetailPrint "Windows 10 or higher"
+        DetailPrint "Running Windows 10"
     ${Else}
-        DetailPrint "Older than Windows 10"
+        DetailPrint "Not running Windows 10"
     ${EndIf}
 
 ## Credits
