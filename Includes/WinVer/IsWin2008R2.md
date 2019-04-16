@@ -9,9 +9,9 @@ Checks if the installer is running on Windows Server 2008 R2 exactly as specifie
 ## Example
 
     ${If} ${IsWin2008R2}
-        DetailPrint "Running Windows Server 2008 R2"
+        DetailPrint "Running on Windows Server 2008 R2"
     ${Else}
-        DetailPrint "Not running Windows Server 2008 R2"
+        DetailPrint "Not running on Windows Server 2008 R2"
     ${EndIf}
 
 ## Credits

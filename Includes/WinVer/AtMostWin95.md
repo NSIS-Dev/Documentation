@@ -10,8 +10,6 @@ Checks if the installer is running on Windows 95 at most.
 
     ${If} ${AtMostWin95}
         DetailPrint "Windows 95 or lower"
-    ${Else}
-        DetailPrint "Windows version is higher"
     ${EndIf}
 
 ## Credits

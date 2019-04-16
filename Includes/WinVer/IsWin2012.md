@@ -9,9 +9,9 @@ Checks if the installer is running on Windows Server 2012 exactly as specified.
 ## Example
 
     ${If} ${IsWin2012}
-        DetailPrint "Windows Server 2012"
+        DetailPrint "Running on Windows Server 2012"
     ${Else}
-        DetailPrint "Not Windows Server 2012"
+        DetailPrint "Not running on Windows Server 2012"
     ${EndIf}
 
 ## Credits

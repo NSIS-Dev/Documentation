@@ -10,8 +10,6 @@ Checks if the installer is running on Windows XP.
 
     ${If} ${AtLeastWinXP}
         DetailPrint "Windows XP or higher"
-    ${Else}
-        DetailPrint "Older than Windows XP"
     ${EndIf}
 
 ## Credits

@@ -10,8 +10,6 @@ Checks if the installer is running on Windows 8.
 
     ${If} ${AtLeastWin8}
         DetailPrint "Windows 8 or higher"
-    ${Else}
-        DetailPrint "Older than Windows 8"
     ${EndIf}
 
 ## Credits

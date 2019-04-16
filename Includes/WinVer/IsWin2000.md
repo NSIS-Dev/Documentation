@@ -9,9 +9,9 @@ Checks if the installer is running on Windows 2000 exactly as specified.
 ## Example
 
     ${If} ${IsWin2000}
-        DetailPrint "Running Windows 2000"
+        DetailPrint "Running on Windows 2000"
     ${Else}
-        DetailPrint "Not running Windows 2000"
+        DetailPrint "Not running on Windows 2000"
     ${EndIf}
 
 ## Credits

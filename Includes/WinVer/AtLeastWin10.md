@@ -10,8 +10,6 @@ Checks if the installer is running on Windows 10.
 
     ${If} ${AtLeastWin10}
         DetailPrint "Windows 10 or higher"
-    ${Else}
-        DetailPrint "Older than Windows 10"
     ${EndIf}
 
 ## Credits

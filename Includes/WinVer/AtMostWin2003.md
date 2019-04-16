@@ -10,8 +10,6 @@ Checks if the installer is running on Windows Server 2003 at most.
 
     ${If} ${AtMostWin2003}
         DetailPrint "Windows Server 2003 or lower"
-    ${Else}
-        DetailPrint "Windows version is higher"
     ${EndIf}
 
 ## Credits

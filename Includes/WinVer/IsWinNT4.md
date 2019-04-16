@@ -9,9 +9,9 @@ Checks if the installer is running on Windows NT4 exactly as specified.
 ## Example
 
     ${If} ${IsWinNT4}
-        DetailPrint "Windows NT4 or higher"
+        DetailPrint "Running on Windows NT4"
     ${Else}
-        DetailPrint "Older than Windows NT4"
+        DetailPrint "Not running on Windows NT4"
     ${EndIf}
 
 ## Credits

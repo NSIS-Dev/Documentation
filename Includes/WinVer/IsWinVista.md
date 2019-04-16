@@ -9,9 +9,9 @@ Checks if the installer is running on Windows Vista exactly as specified.
 ## Example
 
     ${If} ${IsWinVista}
-        DetailPrint "Windows Vista or higher"
+        DetailPrint "Running on Windows Vista"
     ${Else}
-        DetailPrint "Older than Windows Vista"
+        DetailPrint "Not running on Windows Vista"
     ${EndIf}
 
 ## Credits

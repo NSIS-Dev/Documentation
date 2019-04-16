@@ -10,8 +10,6 @@ Checks if the installer is running on Windows 7 at most.
 
     ${If} ${AtMostWin7}
         DetailPrint "Windows 7 or lower"
-    ${Else}
-        DetailPrint "Windows version is higher"
     ${EndIf}
 
 ## Credits

@@ -10,8 +10,6 @@ Checks if the installer is running on Windows XP at most.
 
     ${If} ${AtMostWinXP}
         DetailPrint "Windows XP or lower"
-    ${Else}
-        DetailPrint "Windows version is higher"
     ${EndIf}
 
 ## Credits

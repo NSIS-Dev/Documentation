@@ -10,8 +10,6 @@ Checks if the installer is running on Windows 2000 at most.
 
     ${If} ${AtMostWin2000}
         DetailPrint "Windows 2000 or lower"
-    ${Else}
-        DetailPrint "Windows version is higher"
     ${EndIf}
 
 ## Credits

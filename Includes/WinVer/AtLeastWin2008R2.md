@@ -10,8 +10,6 @@ Checks if the installer is running on Windows Server 2008 R2.
 
     ${If} ${AtLeastWin2008R2}
         DetailPrint "Windows Server 2008 R2 or higher"
-    ${Else}
-        DetailPrint "Older than Windows Server 2008 R2"
     ${EndIf}
 
 ## Credits

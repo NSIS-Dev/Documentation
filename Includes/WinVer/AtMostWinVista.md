@@ -10,8 +10,6 @@ Checks if the installer is running on Windows Vista at most.
 
     ${If} ${AtMostWinVista}
         DetailPrint "Windows Vista or lower"
-    ${Else}
-        DetailPrint "Windows version is higher"
     ${EndIf}
 
 ## Credits

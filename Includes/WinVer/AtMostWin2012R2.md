@@ -10,8 +10,6 @@ Checks if the installer is running on Windows Server 2012 R2 at most.
 
     ${If} ${AtMostWin2012R2}
         DetailPrint "Windows Server 2012 R2 or lower"
-    ${Else}
-        DetailPrint "Windows version is higher"
     ${EndIf}
 
 ## Credits

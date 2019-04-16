@@ -9,9 +9,9 @@ Checks if the installer is running on Windows Server 2003 exactly as specified.
 ## Example
 
     ${If} ${IsWin2003}
-        DetailPrint "Running Windows Server 2003"
+        DetailPrint "Running on Windows Server 2003"
     ${Else}
-        DetailPrint "Not running Windows Server 2003"
+        DetailPrint "Not running on Windows Server 2003"
     ${EndIf}
 
 ## Credits

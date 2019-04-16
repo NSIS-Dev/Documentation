@@ -10,8 +10,6 @@ Checks if the installer is running on Windows ME at most.
 
     ${If} ${AtMostWinME}
         DetailPrint "Windows ME or lower"
-    ${Else}
-        DetailPrint "Windows version is higher"
     ${EndIf}
 
 ## Credits
