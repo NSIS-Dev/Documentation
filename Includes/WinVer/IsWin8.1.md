@@ -9,9 +9,9 @@ Checks if the installer is running on Windows 8.1 exactly as specified.
 ## Example
 
     ${If} ${IsWin8.1}
-        DetailPrint "Windows 8.1 or higher"
+        DetailPrint "Running on Windows 8.1"
     ${Else}
-        DetailPrint "Older than Windows 8.1"
+        DetailPrint "Not running on Windows 8.1"
     ${EndIf}
 
 ## Credits
