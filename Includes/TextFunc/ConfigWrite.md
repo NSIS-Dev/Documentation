@@ -21,7 +21,7 @@ Write value from entry name in config file.
 
 Note:
 
-- Error flag if file doesn't exist 
+- Error flag if file doesn't exist
 - Error flag if file can't be opened
 
 ## Examples

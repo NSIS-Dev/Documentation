@@ -2,7 +2,6 @@
 
 Removes a resource added with [`PEAddResource`][PEAddResource].
 
-
 ## Parameters
 
     [/NOERRORS] restype resname reslang|ALL

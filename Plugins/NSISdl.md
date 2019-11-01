@@ -57,7 +57,7 @@ To translate `NSISdl` add the following values to the call line:
 `/TRANSLATE2` downloading connecting second minute hour seconds minutes hours progress
 
 Default values are:
- 
+
 - `downloading` - "Downloading %s"
 - `connecting` - "Connecting ..."
 - `second` - " (1 second remaining)"

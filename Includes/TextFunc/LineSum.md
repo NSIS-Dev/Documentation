@@ -13,7 +13,7 @@ Note:
 
 - Error flag if input file doesn't exist
 
-## Example 
+## Example
 
     Section
         ${LineSum} "C:\a.log" $R0

@@ -24,7 +24,7 @@ Note:
 
 - Error flag if input file doesn't exist
 
-## Examples 
+## Examples
 
 ### Read and display lines
 

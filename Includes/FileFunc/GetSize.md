@@ -29,10 +29,10 @@
     $var2         ; Result2: Sum of files
     $var3         ; Result3: Sum of directories
 
-Note: 
+Note:
 
-- Error flag if disk or directory isn't exist 
-- Error flag if syntax error 
+- Error flag if disk or directory isn't exist
+- Error flag if syntax error
 - See also [Locate plugin][1]
 
 ## Examples

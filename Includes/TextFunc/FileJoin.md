@@ -12,10 +12,10 @@ Join two files in one.
 
 Note:
 
-- Error flag if input files don't exist 
+- Error flag if input files don't exist
 - Error flag if output file path doesn't exist
 
-## Examples 
+## Examples
 
 ### Join a.log + b.log = Z.log
 

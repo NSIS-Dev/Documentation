@@ -43,12 +43,12 @@ Find specified lines in text file, and edit or view these lines in callback func
 
 Note:
 
-- Error flag if input file doesn't exist 
-- Error flag if output file path doesn't exist 
-- Ranges must be specified on growth (2 4:5 9:-8 -5:-4 -2:-1) 
+- Error flag if input file doesn't exist
+- Error flag if output file path doesn't exist
+- Ranges must be specified on growth (2 4:5 9:-8 -5:-4 -2:-1)
 - Output file will not be updated if no changes made.
 
-##Examples: 
+## Examples:
 
 ### Delete first two symbols
 

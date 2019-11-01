@@ -47,10 +47,10 @@ Find files, directories and empty directories with mask and size options.
         Push $var    ; If $var="StopLocate" Then exit from function
     FunctionEnd
 
-Note: 
+Note:
 
-- Error flag if disk or directory isn't exist 
-- Error flag if syntax error 
+- Error flag if disk or directory isn't exist
+- Error flag if syntax error
 - See also [Locate plugin][1]
 
 ## Examples

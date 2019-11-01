@@ -11,7 +11,7 @@ Trim newlines in a string.
 
 Note:
 
-- Error flag if file doesn't exist 
+- Error flag if file doesn't exist
 - Error flag if syntax error
 
 ## Example

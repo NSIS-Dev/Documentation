@@ -16,10 +16,10 @@ Get line in file specified with number.
 
 Note:
 
-- Error flag if input file doesn't exist 
+- Error flag if input file doesn't exist
 - Error flag if line number not found
 
-## Example 
+## Example
 
     Section
         ${LineRead} "C:\a.log" "-1" $R0

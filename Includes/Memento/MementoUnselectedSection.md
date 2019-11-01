@@ -8,7 +8,7 @@ brother - `${MementoUnselectedSection}`.
 
 Sections that don't already have an identifier must be assigned one.
 
-Section identifiers must stay the same across 
+Section identifiers must stay the same across
 
 ## Syntax
 

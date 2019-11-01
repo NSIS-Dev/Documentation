@@ -34,10 +34,10 @@ Compare two text files.
 
 Note:
 
-- Error flag if File1 or File2 doesn't exist 
+- Error flag if File1 or File2 doesn't exist
 - Error flag if syntax error
 
-## Examples 
+## Examples
 
 ### Different or Equal
 

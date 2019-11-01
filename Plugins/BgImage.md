@@ -1,4 +1,4 @@
-# BgImage.dll 
+# BgImage.dll
 
 Displays an image or a gradient with user defined texts and/or images behind the NSIS window. Can also play Wave files.
 
@@ -10,7 +10,7 @@ Displays an image or a gradient with user defined texts and/or images behind the
     BgImage::Clear
     BgImage::Destroy
 
-Do not call `SetBg (which creates the window) from a section or a function called by a section. `BgImage` must be run from the GUI thread as the installation thread is not built to handle GUI.
+Do not call `SetBg (which creates the window) from a section or a function called by a section.`BgImage` must be run from the GUI thread as the installation thread is not built to handle GUI.
 
 ### Available Functions
 

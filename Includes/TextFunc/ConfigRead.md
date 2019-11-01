@@ -13,7 +13,7 @@ Read value from entry name in config file.
 
 Note:
 
-- Error flag if entry not found 
+- Error flag if entry not found
 - Error flag if file doesn't exist
 
 ## Examples

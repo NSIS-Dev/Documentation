@@ -6,7 +6,7 @@ Adds file(s) to be extracted to the current output path ([`$OUTDIR`][1]).
 * Use `/oname=X` switch to change the output name. X may contain variables and can be a fully qualified path or a relative path in which case it will be appended to [`$OUTDIR`][1] set by [`SetOutPath`][2]. When using this switch, only one file can be specified. If the output name contains spaces, quote the entire parameter, including /oname, as shown in the examples below.
 * Wildcards are supported.
 * If the `/r` switch is used, matching files and directories are recursively searched for in subdirectories. If just one path segment is specified (e.g. File /r something), the current directory will be recursively searched. If more than one segment is specified (e.g. File /r something\*.*), the last path segment will be used as the matching condition and the rest for the directory to search recursively. If a directory name matches, all of its contents is added recursively. Directory structure is preserved.
-* Use the `/x `switch to exclude files or directories.
+* Use the `/x`switch to exclude files or directories.
 * If the `/a` switch is used, the attributes of the file(s) added will be preserved.
 * The `File` command sets the error flag if overwrite mode is set to 'try' and the file could not be overwritten, or if the overwrite mode is set to 'on' and the file could not be overwritten and the user selects ignore.
 * If the `/nonfatal` switch is used and no files are found, a warning will be issued instead of an error.

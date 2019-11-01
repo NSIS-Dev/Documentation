@@ -1,4 +1,4 @@
-# AdvSplash.dll 
+# AdvSplash.dll
 
 A small (5.5k), simple plug-in that lets you throw up a splash-screen in NSIS installers with cool fading effects (Windows 2000 or later) and transparency.
 
@@ -15,7 +15,7 @@ Parameter | Description
 `delay`   | length to show the screen for (in milliseconds)
 `fadeIn`  | length to show the fadein scene (in milliseconds) (not included in `delay`, Windows 2000 or later)
 `fadeOut` | length to show the fadeout scene (in milliseconds) (not included in `delay`, Windows 2000 or later)
-`keyColor`| alpha key RGB values (e.g. `0xffff00 for yellow), use -1 when no transparency is used
+`keyColor`| alpha key RGB values (e.g. `0xffff00` for yellow), use -1 when no transparency is used
 `fileName`| Bitmap file-name (without `.bmp` extension). The file name of the optional audio must match (e.g. `mySplash.bmp` and `mySplash.wav`)
 
 ## Example

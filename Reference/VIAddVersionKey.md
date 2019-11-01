@@ -17,7 +17,6 @@ Adds a field in the Version Tab of the File Properties. This can either be a fie
 
 The name of these fields are translated on the target system, whereas user defined fields remain untranslated.
 
-
 ## Parameters
 
     [/LANG=lang_id] keyname value

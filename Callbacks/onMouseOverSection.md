@@ -14,4 +14,3 @@ This callback is called whenever the mouse position over the sections tree has c
         StrCmp $0 1 "" +2
         SendMessage $R0 ${WM_SETTEXT} 0 "STR:second section description"
     FunctionEnd
-

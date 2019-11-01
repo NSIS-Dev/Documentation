@@ -44,7 +44,7 @@ Insert word in string.
         ; $R0="C:\io.sys C:\WINDOWS"
     SectionEnd
 
-### Example (3):
+### Example (3)
 
     Section
         ${WordInsertS} "" " " "C:\WINDOWS" "+1" $R0

@@ -20,9 +20,9 @@ Get total, occupied or free space of the drive.
                   ;
     $var          ; Result: Size
 
-Note: 
+Note:
 
-- Error flag if disk isn't exist or not ready 
+- Error flag if disk isn't exist or not ready
 - Error flag if syntax error
 
 ## Example

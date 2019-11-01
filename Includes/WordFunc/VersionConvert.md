@@ -15,7 +15,7 @@ Convert version in the numerical format which can be compared.
 
 Note:
 
-- Converted letters are separated with dot 
+- Converted letters are separated with dot
 - If character is non-digit and not in list then it will be converted to dot
 
 ## Examples

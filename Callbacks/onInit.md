@@ -9,7 +9,7 @@ This callback will be called when the installer is nearly finished initializing.
         Abort ; causes installer to quit.
         NoAbort:
     FunctionEnd
- 
+
 or:
 
     Function .onInit

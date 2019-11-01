@@ -13,7 +13,7 @@ Recode text file from DOS to Windows format and vice-versa.
 
 Note:
 
-- Error flag if file doesn't exist 
+- Error flag if file doesn't exist
 - Error flag if syntax error
 
 ## Example

@@ -11,7 +11,7 @@ Get version information from executable file.
 
 Note:
 
-- Error flag if file doesn't exist 
+- Error flag if file doesn't exist
 - Error flag if file doesn't contain version information
 
 ## Example

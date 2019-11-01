@@ -30,9 +30,9 @@
                      ;
     $var             ;output (result)
 
-Note: 
+Note:
 
-- Error flag if syntax error 
+- Error flag if syntax error
 - Same symbol to include & to exclude = to exclude
 
 ## Examples

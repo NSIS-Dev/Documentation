@@ -20,7 +20,6 @@ Small (4k), simple plugin that lets you throw up a splash screen in NSIS install
     ;  Delete $TEMP\spltmp.wav
     FunctionEnd
 
-
 Note that the first parameter to splash.exe is the length to show the
 screen for (in milliseconds), and the second is the splash bitmap filename (without
 the .bmp). The BMP file used will be this parameter.bmp, and the wave file used
@@ -28,7 +27,7 @@ the .bmp). The BMP file used will be this parameter.bmp, and the wave file used
 
 (If you already have an .onInit function, put that in it)
 
-Note: the return value of splash is 1 if the user closed the splash 
+Note: the return value of splash is 1 if the user closed the splash
 screen early (pop it from the stack)
 
 ## Credits

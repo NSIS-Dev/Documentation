@@ -14,7 +14,7 @@ Get case-sensitive options from command line parameters.
 
 Note:
 
-- Error flag if option not found 
+- Error flag if option not found
 - First option symbol it is delimiter
 
 ## Examples

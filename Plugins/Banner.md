@@ -1,4 +1,4 @@
-# Banner.dll 
+# Banner.dll
 
 The Banner plug-in shows a banner with customizable text. It uses the `IDD_VERIFY` dialog of the UI.
 

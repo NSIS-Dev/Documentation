@@ -7,6 +7,7 @@ This command will change the compiler to the new directory, `new_path`. `new_pat
     new_path
 
 ## Example
+
     !cd ..\more-scripts\new
 
 ## History

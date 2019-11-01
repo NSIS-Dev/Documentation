@@ -28,8 +28,8 @@
 
 Note:
 
-- Error flag if file isn't exist 
-- Error flag if syntax error 
+- Error flag if file isn't exist
+- Error flag if syntax error
 - See also [Time plugin][1]
 
 ## Examples
