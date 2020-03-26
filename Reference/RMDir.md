@@ -12,7 +12,7 @@ Remove the specified directory (fully qualified path with no wildcards). Without
 
     RMDir $INSTDIR
     RMDir $INSTDIR\data
-    RMDir /r /REBOOTOK $INSTDIR
+    RMDir /r /REBOOTOK $INSTDIR\data
     RMDir /REBOOTOK $INSTDIR\DLLs
 
 Note that the current working directory can not be deleted. The current working directory is set by [`SetOutPath`][1]. For example, the following example will not delete the directory.
