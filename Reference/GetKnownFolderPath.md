@@ -1,6 +1,6 @@
 # GetKnownFolderPath
 
-Get the path of a [known folder](Get the path of a known folder. The error flag is set and the output variable is empty if the call fails or the `knownfolderid` guid is not available. This function is only able to resolve known folders on Windows Vista or higher.). The error flag is set and the output variable is empty if the call fails or the `knownfolderid` guid is not available. This function is only able to resolve known folders on Windows Vista or higher.
+Get the path of a [known folder][1]. The error flag is set and the output variable is empty if the call fails or the `knownfolderid` guid is not available. This function is only able to resolve known folders on Windows Vista or higher.
 
 ## Parameters
 
@@ -23,3 +23,5 @@ Get the path of a [known folder](Get the path of a known folder. The error flag 
 ## History
 
 Added in NSIS v3.06
+
+[1]: https://docs.microsoft.com/en-us/windows/win32/shell/knownfolderid
