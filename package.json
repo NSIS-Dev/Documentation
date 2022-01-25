@@ -1,13 +1,19 @@
 {
-  "name": "nsis-docs",
+  "name": "@nsis/docs",
   "version": "0.0.0",
   "author": "Jan T. Sott",
   "license": "MIT",
-  "private": true,
+  "type": "module",
+  "exports": "./index.mjs",
   "devDependencies": {
-    "markdownlint-cli": "^0.19.0"
+    "@rollup/plugin-typescript": "^8.3.0",
+    "markdownlint-cli": "^0.19.0",
+    "rollup": "^2.66.1",
+    "rollup-plugin-string": "^3.0.0"
   },
   "scripts": {
-    "test": "markdownlint **/*.md"
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "markdownlint ./docs/**/*.md"
   }
 }

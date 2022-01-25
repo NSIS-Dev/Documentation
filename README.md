@@ -1,7 +1,7 @@
 # Description
 
 [![zlib/libpng](https://img.shields.io/badge/license-zlib%2Flibpng-orange.svg?style=flat-square)](http://opensource.org/licenses/Zlib)
-[![Travis](https://img.shields.io/travis/NSIS-Dev/Documentation.svg?style=flat-square)](https://travis-ci.org/NSIS-Dev/Documentation)
+[![CI](https://img.shields.io/github/workflow/status/NSIS-Dev/Documentation/CI?style=flat-square)](https://github.com/NSIS-Dev/Documentation/actions)
 [![David](https://img.shields.io/david/dev/NSIS-Dev/Documentation.svg?style=flat-square)](https://david-dm.org/NSIS-Dev/Documentation#info=devDependencies)
 
 A new [Markdown](http://daringfireball.net/projects/markdown/)-based documentation for Nullsoft Scriptable Install System ([NSIS](http://nsis.sourceforge.net)). At this point, this is mostly direct copy of the existing [scripting reference](http://nsis.sourceforge.net/Docs/Chapter4.html#), split up into several files. Over time, the goal is to improve the documentation and add further examples.
