@@ -5,16 +5,20 @@ specifiers:
   markdownlint-cli: ^0.19.0
   rollup: ^2.66.1
   rollup-plugin-string: ^3.0.0
+  tslib: ^2.3.1
+  typescript: ^4.5.5
 
 devDependencies:
-  '@rollup/plugin-typescript': 8.3.0_rollup@2.66.1
+  '@rollup/plugin-typescript': 8.3.0_a652e97aea7ea04fb4c9edbfa5b475e6
   markdownlint-cli: 0.19.0
   rollup: 2.66.1
   rollup-plugin-string: 3.0.0
+  tslib: 2.3.1
+  typescript: 4.5.5
 
 packages:
 
-  /@rollup/plugin-typescript/8.3.0_rollup@2.66.1:
+  /@rollup/plugin-typescript/8.3.0_a652e97aea7ea04fb4c9edbfa5b475e6:
     resolution: {integrity: sha512-I5FpSvLbtAdwJ+naznv+B4sjXZUcIvLLceYpITAn7wAP8W0wqc5noLdGIp9HGVntNhRWXctwPYrSSFQxtl0FPA==}
     engines: {node: '>=8.0.0'}
     peerDependencies:
@@ -25,6 +29,8 @@ packages:
       '@rollup/pluginutils': 3.1.0_rollup@2.66.1
       resolve: 1.22.0
       rollup: 2.66.1
+      tslib: 2.3.1
+      typescript: 4.5.5
     dev: true
 
   /@rollup/pluginutils/3.1.0_rollup@2.66.1:
@@ -310,6 +316,16 @@ packages:
   /supports-preserve-symlinks-flag/1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+    dev: true
+
+  /tslib/2.3.1:
+    resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
+    dev: true
+
+  /typescript/4.5.5:
+    resolution: {integrity: sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
     dev: true
 
   /uc.micro/1.0.6:
