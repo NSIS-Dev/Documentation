@@ -8,6 +8,20 @@ A new [Markdown](http://daringfireball.net/projects/markdown/)-based documentati
 
 Markdown files are easily readable as plain text, but can also be viewed in special online editors such as [Prose](http://prose.io/), [Markable](http://markable.in/) or [Dillinger](http://dillinger.io/). You can converted Markdown into HTML or Wiki (e.g. using [markdown.io](http://markdown.io)), host it online using flat file CMS such as [Jekyll](http://jekyllrb.com/), [Pico](http://pico.dev7studios.com/), [Kirby](http://getkirby.com/) or the [Markdoc](http://markdoc.org) wiki platform.
 
+## Usage
+
+This documentation included in this package can be consumed as EcmaScript Modules.
+
+```js
+import { Callbacks, Commands, Includes, Plugins, Variables } from '@nsis/docs';
+
+console.log(Commands['Function']);
+console.log(Callbacks['.onInit']);
+
+// Omit `$` and curly braces
+console.log(Includes['LogicLib']['If']);
+```
+
 # License
 
 zlib/libpng license
