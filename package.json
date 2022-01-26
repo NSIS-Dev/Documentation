@@ -2,6 +2,7 @@
   "name": "@nsis/docs",
   "version": "0.1.0",
   "author": "Jan T. Sott",
+  "private": false,
   "license": "Zlib",
   "type": "module",
   "exports": "./index.mjs",
