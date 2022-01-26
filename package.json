@@ -5,6 +5,10 @@
   "license": "Zlib",
   "type": "module",
   "exports": "./index.mjs",
+  "files": [
+    "docs/",
+    "index.mjs"
+  ],
   "devDependencies": {
     "@rollup/plugin-typescript": "^8.3.0",
     "markdownlint-cli": "^0.19.0",
