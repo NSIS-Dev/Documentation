@@ -6,6 +6,7 @@
   "license": "Zlib",
   "type": "module",
   "exports": "./index.mjs",
+  "types": "./types",
   "files": [
     "docs/",
     "index.mjs"

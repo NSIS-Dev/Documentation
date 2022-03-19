@@ -3,7 +3,7 @@ declare module '*.md' {
   export default value
 }
 
-interface NSISDocumentation {
+export interface NSISDocumentation {
   [key: string]: {
     name: string;
     content: string;
