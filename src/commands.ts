@@ -108,6 +108,7 @@ import GetInstDirError from '../docs/Commands/GetInstDirError.md';
 import GetKnownFolderPath from '../docs/Commands/GetKnownFolderPath.md';
 import GetLabelAddress from '../docs/Commands/GetLabelAddress.md';
 import GetTempFileName from '../docs/Commands/GetTempFileName.md';
+import GetWinVer from '../docs/Commands/GetWinVer.md';
 import Goto from '../docs/Commands/Goto.md';
 import HideWindow from '../docs/Commands/HideWindow.md';
 import Icon from '../docs/Commands/Icon.md';
@@ -690,6 +691,10 @@ export default {
     GetTempFileName: {
         name: 'GetTempFileName',
         content: GetTempFileName
+    },
+    GetWinVer: {
+        name: 'GetWinVer',
+        content: GetWinVer
     },
     Goto: {
         name: 'Goto',
