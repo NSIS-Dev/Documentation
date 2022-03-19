@@ -13,6 +13,8 @@
   ],
   "devDependencies": {
     "@rollup/plugin-typescript": "^8.3.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.7",
     "markdownlint-cli": "^0.19.0",
     "rollup": "^2.66.1",
     "rollup-plugin-string": "^3.0.0",
@@ -23,5 +25,8 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "test": "markdownlint ./docs/**/*.md"
+  },
+  "lint-staged": {
+    "*.(markdown|md)": "markdownlint"
   }
 }
