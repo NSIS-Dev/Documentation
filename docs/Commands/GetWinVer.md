@@ -9,6 +9,7 @@ Gets the Windows version as reported by GetVersionEx. `WinVer.nsh` is the prefer
 ## Example
 
     GetWinVer $1 Build
+    
 ## History
 
 Added in NSIS v3.08
