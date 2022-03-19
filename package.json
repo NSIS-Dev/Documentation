@@ -38,6 +38,6 @@
   },
   "lint-staged": {
     "*.(json|ts)": "eslint --cache --fix",
-    "*.(markdown|md)": "markdownlint"
+    "*.(markdown|md)": "markdownlint --fix"
   }
 }
