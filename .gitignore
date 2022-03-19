@@ -1,3 +1,16 @@
+# dependencies
 bower_components/
 node_modules/
-npm-debug.log
+vendor/
+
+# package manager files
+npm-debug.log*
+package-lock.json
+yarn-error.log
+yarn.lock
+
+# development
+.eslintcache
+*.map
+*.tsbuildinfo
+tslint-to-eslint-config.log
