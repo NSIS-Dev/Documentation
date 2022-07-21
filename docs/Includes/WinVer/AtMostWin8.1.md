@@ -15,3 +15,8 @@ Checks if the installer is running on Windows 8.1 at most.
 ## Credits
 
 *unknown*
+
+## History
+
+Added in NSIS v3.0a2
+
