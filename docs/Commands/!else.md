@@ -11,7 +11,7 @@ This command allows to easily insert different code when different defines or ma
     !ifdef VERSION
         OutFile installer-${VERSION}.exe
     !else
-        sOutFile installer.exe
+        OutFile installer.exe
     !endif
 
 ## History

@@ -7,7 +7,7 @@ This command closes a block started with [`!if`][1], [`!ifdef`][2], [`!ifndef`][
     !ifdef VERSION
         OutFile installer-${VERSION}.exe
     !else
-        sOutFile installer.exe
+        OutFile installer.exe
     !endif
 
     !ifmacrodef MACRO
