@@ -10,4 +10,4 @@ Example:
         NoCancelAbort:
     FunctionEnd
 
-[1]: ../Reference/Abort.md
+[1]: ../Reference/Commands/Abort.md

@@ -10,4 +10,4 @@ This callback is called when the user hits the 'cancel' button and the uninstall
         NoCancelAbort:
     FunctionEnd
 
-[1]: ../Reference/Abort.md
+[1]: ../Reference/Commands/Abort.md

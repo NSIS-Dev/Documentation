@@ -19,5 +19,5 @@ or:
         found:
     FunctionEnd
 
-[1]: ../Reference/Abort.md
+[1]: ../Reference/Commands/Abort.md
 [2]: ../Variables/INSTDIR.md

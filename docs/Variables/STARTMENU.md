@@ -6,5 +6,5 @@ The start menu folder (useful in adding start menu items using [`CreateShortCut`
 
 Not documented
 
-[1]: ../Reference/CreateShortCut.md
-[2]: ../Reference/SetShellVarContext.md
+[1]: ../Reference/Commands/CreateShortCut.md
+[2]: ../Reference/Commands/SetShellVarContext.md

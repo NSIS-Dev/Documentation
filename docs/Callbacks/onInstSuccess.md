@@ -10,5 +10,5 @@ This callback is called when the install was successful, right before the instal
         NoReadme:
     FunctionEnd
 
-[1]: ../Reference/AutoCloseWindow.md
-[2]: ../Reference/SetAutoClose.md
+[1]: ../Reference/Commands/AutoCloseWindow.md
+[2]: ../Reference/Commands/SetAutoClose.md

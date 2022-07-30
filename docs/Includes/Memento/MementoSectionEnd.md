@@ -36,7 +36,7 @@ for sections that whose state should be remembered by Memento.
 
 Written by [kichik][4]
 
-[1]: ../../Reference/Section.md
-[2]: ../../Reference/SectionEnd.md
+[1]: ../../Reference/Commands/Section.md
+[2]: ../../Reference/Commands/SectionEnd.md
 [3]: MementoSectionEnd.md
 [4]: http://nsis.sourceforge.net/User:Kichik

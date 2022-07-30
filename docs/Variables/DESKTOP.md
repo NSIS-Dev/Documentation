@@ -6,4 +6,4 @@ The Windows desktop directory (usually `C:\Windows\Desktop` but detected at runt
 
 Not documented
 
-[1]: ../Reference/SetShellVarContext.md
+[1]: ../Reference/Commands/SetShellVarContext.md

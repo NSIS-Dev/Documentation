@@ -8,8 +8,8 @@ Note that in uninstaller code, `$INSTDIR` contains the directory where the unins
 
 Added in NSIS v1.0
 
-[1]: ../Reference/StrCpy.md
-[2]: ../Reference/ReadRegStr.md
-[3]: ../Reference/ReadINIStr.md
+[1]: ../Reference/Commands/StrCpy.md
+[2]: ../Reference/Commands/ReadRegStr.md
+[3]: ../Reference/Commands/ReadINIStr.md
 [4]: ../Callbacks/onInit.md
 [5]: WINDIR.md

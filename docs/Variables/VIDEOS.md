@@ -8,4 +8,4 @@ This constant is available on Windows XP, ME and above.
 
 Not documented
 
-[1]: ../Reference/SetShellVarContext.md
+[1]: ../Reference/Commands/SetShellVarContext.md

@@ -10,6 +10,6 @@ Example:
         PathGood:
     FunctionEnd
 
-[1]: ../Reference/MessageBox.md
-[2]: ../Reference/Abort.md
+[1]: ../Reference/Commands/MessageBox.md
+[2]: ../Reference/Commands/Abort.md
 [3]: ../Variables/INSTDIR.md

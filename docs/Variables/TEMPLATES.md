@@ -6,4 +6,4 @@ The document templates directory. The context of this constant (All Users or Cur
 
 Not documented
 
-[1]: ../Reference/SetShellVarContext.md
+[1]: ../Reference/Commands/SetShellVarContext.md

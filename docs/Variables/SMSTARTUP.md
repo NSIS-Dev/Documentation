@@ -6,4 +6,4 @@ The start menu programs / startup folder. The context of this constant (All User
 
 Added in NSIS v1.0i
 
-[1]: ../Reference/SetShellVarContext.md
+[1]: ../Reference/Commands/SetShellVarContext.md
