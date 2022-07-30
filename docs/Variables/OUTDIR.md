@@ -6,7 +6,7 @@ The current output directory (set implicitly via [`SetOutPath`][1] or explicitly
 
 Added in NSIS v1.4 Beta
 
-[1]: ../Reference/Commands/SetOutPath.md
-[2]: ../Reference/Commands/StrCpy.md
-[3]: ../Reference/Commands/ReadRegStr.md
-[4]: ../Reference/Commands/ReadINIStr.md
+[1]: ../Commands/SetOutPath.md
+[2]: ../Commands/StrCpy.md
+[3]: ../Commands/ReadRegStr.md
+[4]: ../Commands/ReadINIStr.md

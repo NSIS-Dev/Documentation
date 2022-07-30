@@ -4,5 +4,5 @@ Called when the selection changes on the component page. Useful for using with [
 
 Selection changes include both section selection and installation type change.
 
-[1]: ../Reference/Commands/SectionSetFlags.md
-[2]: ../Reference/Commands/SectionGetFlags.md
+[1]: ../Commands/SectionSetFlags.md
+[2]: ../Commands/SectionGetFlags.md

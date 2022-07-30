@@ -8,4 +8,4 @@ This callback is called when the user hits the 'cancel' button after the uninsta
         MessageBox MB_OK "Better luck next time."
     FunctionEnd
 
-[1]: ../Reference/Commands/Abort.md
+[1]: ../Commands/Abort.md

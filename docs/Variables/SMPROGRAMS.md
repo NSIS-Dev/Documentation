@@ -6,4 +6,4 @@ The start menu programs folder (use this whenever you want `$STARTMENU\Programs`
 
 Added in NSIS v1.0i
 
-[1]: ../Reference/Commands/SetShellVarContext.md
+[1]: ../Commands/SetShellVarContext.md

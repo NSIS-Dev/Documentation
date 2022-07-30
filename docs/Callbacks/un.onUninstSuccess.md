@@ -8,4 +8,4 @@ This callback is called when the uninstall was successful, right before the inst
         MessageBox MB_OK "Congrats, it's gone."
     FunctionEnd
 
-[1]: ../Reference/Commands/SetAutoClose.md
+[1]: ../Commands/SetAutoClose.md

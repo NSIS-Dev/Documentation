@@ -8,4 +8,4 @@ This constant is not available on Windows 95 with Internet Explorer 4 not instal
 
 Not documented
 
-[1]: ../Reference/Commands/SetShellVarContext.md
+[1]: ../Commands/SetShellVarContext.md

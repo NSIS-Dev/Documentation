@@ -39,8 +39,8 @@ Section identifiers must stay the same across
 
 Written by [kichik][5]
 
-[1]: ../../Reference/Commands/Section.md
+[1]: ../../Commands/Section.md
 [2]: MementoSection.md
-[3]: ../../Reference/Commands/SectionEnd.md
+[3]: ../../Commands/SectionEnd.md
 [4]: MementoSectionEnd.md
 [5]: http://nsis.sourceforge.net/User:Kichik

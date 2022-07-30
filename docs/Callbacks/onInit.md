@@ -20,4 +20,4 @@ or:
         NoAbort:
     FunctionEnd
 
-[1]: ../Reference/Commands/Abort.md
+[1]: ../Commands/Abort.md

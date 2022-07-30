@@ -6,5 +6,5 @@ The path to a temporary folder created upon the first usage of a plug-in or a ca
 
 Not documented
 
-[1]: ../Reference/Commands/InitPluginsDir.md
+[1]: ../Commands/InitPluginsDir.md
 [2]: http://nsis.sourceforge.net/Docs/InstallOptions/Readme.html
