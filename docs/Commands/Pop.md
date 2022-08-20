@@ -1,6 +1,6 @@
 # Pop
 
-Pops a string off of the stack into user variable $x. If the stack is empty, the error flag will be set.
+Pops a string off of the stack into user variable `$var`. If the stack is empty, the error flag will be set.
 
 ## Parameters
 
