@@ -35,16 +35,16 @@ The following "expressions" are available:
 ## Example
 
     StrCpy $R2 ""
-
+    
     ${IfCmd} MessageBox MB_YESNO "Please click Yes" IDYES ${||} StrCpy $R2 $R2A ${|}
     ${Unless} ${Cmd} `MessageBox MB_YESNO|MB_DEFBUTTON2 "Please click No" IDYES`
         StrCpy $R2 $R2B
     ${EndUnless}
-
+    
     ${If} $R2 == "AB"
-        MessageBox "You clicked Yes"
+        DetailPrint "PASSED IfCmd/If Cmd test"
     ${Else}
-        MessageBox "You clicked No"
+        DetailPrint "FAILED IfCmd/If Cmd test"
     ${EndIf}
 
 ## Credits
