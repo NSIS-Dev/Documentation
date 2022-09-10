@@ -35,10 +35,7 @@ The following "expressions" are available:
 ## Example
 
     StrCpy $0 true
-
     ${IfThen} $0 == true ${|} StrCpy $1 false ${|}
-        MessageBox MB_OK "Whenever $$0 is true, $$1 is false"
-    ${EndIf}
 
 ## Credits
 
