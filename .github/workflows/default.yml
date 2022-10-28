@@ -1,8 +1,24 @@
 name: CI
 
 on:
-  - push
-  - pull_request
+  push:
+    branches:
+    - main
+    paths:
+    - 'src/**'
+    - 'index.html'
+    - 'package.json'
+    - 'pnpm-lock.yaml'
+    - 'rollup.config.js'
+  pull_request:
+    branches:
+    - main
+    paths:
+    - 'src/**'
+    - 'index.html'
+    - 'package.json'
+    - 'pnpm-lock.yaml'
+    - 'rollup.config.js'
 
 jobs:
   default:
