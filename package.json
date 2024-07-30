@@ -28,9 +28,9 @@
   "scripts": {
     "build": "tsup",
     "dev": "npm run build -- --watch",
-    "lint:json": "eslint ./*.json --ignore-path .gitignore",
+    "lint:json": "eslint ./*.json --ignore-pattern .gitignore",
     "lint:md": "markdownlint ./docs/**/*.md",
-    "lint:ts": "eslint ./src --ignore-path .gitignore",
+    "lint:ts": "eslint ./src --ignore-pattern .gitignore",
     "lint": "npm-run-all --parallel lint:*",
     "prepack": "npm run build",
     "test": "npm run lint"
