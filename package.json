@@ -32,8 +32,7 @@
     "lint:md": "markdownlint ./docs/**/*.md",
     "lint:ts": "eslint ./src --ignore-pattern .gitignore",
     "lint": "npm-run-all --parallel lint:*",
-    "prepack": "npm run build",
-    "test": "npm run lint"
+    "prepack": "npm run build"
   },
   "lint-staged": {
     "*.(json|ts)": "eslint --cache --fix",
