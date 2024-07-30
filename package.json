@@ -34,7 +34,8 @@
     "lint:ts": "eslint ./src --ignore-pattern .gitignore",
     "lint": "npm-run-all --parallel lint:*",
     "prepack": "npm run build",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "lint-staged": {
     "*.(json|ts)": "eslint --cache --fix",
