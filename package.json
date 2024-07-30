@@ -8,8 +8,8 @@
   "exports": "./dist/index.mjs",
   "types": "./types",
   "files": [
-    "docs/",
-    "index.mjs"
+    "dist/",
+    "docs/"
   ],
   "devDependencies": {
     "@types/node": "^20",
