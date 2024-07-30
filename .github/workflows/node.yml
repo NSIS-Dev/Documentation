@@ -1,0 +1,68 @@
+name: 'Run tests on NodeJS'
+
+on:
+  push:
+    paths:
+    - '.github/workflows/node.yml'
+    - 'docs/**'
+    - 'src/**'
+    - 'types/**'
+    - 'package.json'
+    - 'pnpm-lock.yaml'
+  pull_request:
+    paths:
+    - '.github/workflows/node.yml'
+    - 'docs/**'
+    - 'src/**'
+    - 'types/**'
+    - 'package.json'
+    - 'pnpm-lock.yaml'
+  workflow_dispatch:
+
+jobs:
+  default:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: ['lts/*', '*']
+        vite-version: ['vite@2', 'vite@3', 'vite@4', 'vite@5']
+
+    steps:
+    - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+      with:
+        fetch-depth: 10
+
+    - uses: actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8 # v4.0.1
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Enable Corepack
+      run: corepack enable
+
+    - name: Get pnpm store directory
+      id: pnpm-cache
+      run: |
+        echo "::set-output name=pnpm_store_path::$(pnpm store path)"
+
+    - uses: actions/cache@13aacd865c20de90d75de3b17ebe84f7a17d57d2 # v4.0.0
+      name: Setup pnpm cache
+      with:
+        path: ${{ steps.pnpm-cache.outputs.pnpm_store_path }}
+        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+        restore-keys: |
+          ${{ runner.os }}-pnpm-store-
+
+    - name: Install dependencies
+      run: |
+        pnpm install --frozen-lockfile --strict-peer-dependencies
+        pnpm install ${{ matrix.vite-version }}
+
+    - name: Lint Source
+      run: pnpm run --if-present lint
+
+    - name: Build Source
+      run: pnpm run --if-present build
+
+    - name: Run Tests
+      run: pnpm run --if-present test
