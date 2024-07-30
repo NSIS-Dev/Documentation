@@ -12,18 +12,18 @@
     "index.mjs"
   ],
   "devDependencies": {
-    "@types/node": "^17.0.21",
-    "@typescript-eslint/eslint-plugin": "^5.15.0",
-    "@typescript-eslint/parser": "^5.15.0",
-    "eslint": "^8.11.0",
-    "eslint-plugin-json": "^3.1.0",
+    "@types/node": "^20",
+    "eslint": "^9.7.0",
+    "eslint-plugin-jsonc": "^2.16.0",
+    "eslint-plugin-unicorn": "^54.0.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.7",
     "markdownlint-cli": "^0.19.0",
     "npm-run-all": "^4.1.5",
     "tslib": "^2.3.1",
     "tsup": "^8.2.3",
-    "typescript": "^4.5.5"
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^7.17.0"
   },
   "scripts": {
     "build": "tsup",
@@ -32,7 +32,7 @@
     "lint:md": "markdownlint ./docs/**/*.md",
     "lint:ts": "eslint ./src --ignore-path .gitignore",
     "lint": "npm-run-all --parallel lint:*",
-    "prepack":"npm run build",
+    "prepack": "npm run build",
     "test": "npm run lint"
   },
   "lint-staged": {
