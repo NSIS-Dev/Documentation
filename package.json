@@ -5,11 +5,12 @@
   "private": false,
   "license": "Zlib",
   "type": "module",
-  "exports": "./dist/index.mjs",
+  "exports": "./dist/index.js",
   "types": "./types",
   "files": [
     "dist/",
-    "docs/"
+    "docs/",
+    "README.md"
   ],
   "devDependencies": {
     "@types/node": "^20",
