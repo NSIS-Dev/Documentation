@@ -14,3 +14,6 @@ yarn.lock
 *.map
 *.tsbuildinfo
 tslint-to-eslint-config.log
+
+# build
+dist/
