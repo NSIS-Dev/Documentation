@@ -42,7 +42,7 @@ importers:
         specifier: ^5.5.3
         version: 5.5.4
       typescript-eslint:
-        specifier: ^7.17.0
+        specifier: ^7.18.0
         version: 7.18.0(eslint@9.8.0)(typescript@5.5.4)
 
 packages:
