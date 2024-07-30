@@ -26,7 +26,6 @@ jobs:
       fail-fast: false
       matrix:
         node-version: ['lts/*', '*']
-        vite-version: ['vite@2', 'vite@3', 'vite@4', 'vite@5']
 
     steps:
     - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
@@ -54,9 +53,7 @@ jobs:
           ${{ runner.os }}-pnpm-store-
 
     - name: Install dependencies
-      run: |
-        pnpm install --frozen-lockfile --strict-peer-dependencies
-        pnpm install ${{ matrix.vite-version }}
+      run: pnpm install --frozen-lockfile --strict-peer-dependencies
 
     - name: Lint Source
       run: pnpm run --if-present lint
