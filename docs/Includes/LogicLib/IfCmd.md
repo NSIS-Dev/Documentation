@@ -1,36 +1,25 @@
 # ${IfCmd}
 
-Conditionally executes an inline statement, depending on a true value of the provided NSIS function.
+Conditionally executes an inline statement, depending on a true value of the provided NSIS function. This is short for 
 
 ## Syntax
 
-    ${IfCmd} expression statement
+    ${IfCmd} command ${||} statement ${|}
 
-The following "expressions" are available:
+This is short for
 
-    Standard (built-in) string tests (which are case-insensitive):
-         a == b; a != b
-    Additional case-insensitive string tests (using System.dll):
-         a S< b; a S>= b; a S> b; a S<= b
-    Case-sensitive string tests:
-         a S== b; a S!= b
-    Standard (built-in) signed integer tests:
-         a = b; a <> b; a < b; a >= b; a > b; a <= b
-    Standard (built-in) unsigned integer tests:
-         a U< b; a U>= b; a U> b; a U<= b
-    64-bit integer tests (using System.dll):
-        a L= b; a L<> b; a L< b; a L>= b; a L> b; a L<= b
-    Built-in NSIS flag tests:
-        ${Abort}; ${Errors}; ${RebootFlag}; ${Silent}
-    Built-in NSIS other tests:
-        ${FileExists} a
-    Any conditional NSIS instruction test:
-        ${Cmd} a
-    Section flag tests:
-        ${SectionIsSelected} a; ${SectionIsSectionGroup} a;
-        ${SectionIsSectionGroupEnd} a; ${SectionIsBold} a;
-        ${SectionIsReadOnly} a; ${SectionIsExpanded} a;
-        ${SectionIsPartiallySelected} a
+    ${IfThen} ${Cmd} `command` ${|} statement ${|}
+
+which is short for
+
+    ${If} ${Cmd} `command`
+        statement
+    ${EndIf}
+    
+Notes:
+* the command is terminated by `${||}`, not enclosed by quotes as with `${Cmd}`
+* you can (probably) use any command that accepts a jump target (label etc.) as the last parameter
+* only one jump target is supported
 
 ## Example
 
