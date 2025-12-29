@@ -28,11 +28,11 @@ jobs:
         node-version: ['lts/*', '*']
 
     steps:
-    - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+    - uses: actions/checkout@v5
       with:
         fetch-depth: 10
 
-    - uses: actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8 # v4.0.1
+    - uses: actions/setup-node@v5
       with:
         node-version: ${{ matrix.node-version }}
 
@@ -44,7 +44,7 @@ jobs:
       run: |
         echo "::set-output name=pnpm_store_path::$(pnpm store path)"
 
-    - uses: actions/cache@13aacd865c20de90d75de3b17ebe84f7a17d57d2 # v4.0.0
+    - uses: actions/cache@v5
       name: Setup pnpm cache
       with:
         path: ${{ steps.pnpm-cache.outputs.pnpm_store_path }}
