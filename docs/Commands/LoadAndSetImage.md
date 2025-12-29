@@ -1,14 +1,15 @@
-# PERemoveResource
+# LoadAndSetImage
 
 Removes a resource added with [`PEAddResource`][PEAddResource].
 
 ## Parameters
 
-    [/NOERRORS] restype resname reslang|ALL
+    [/EXERESOURCE] [/STRINGID] [/RESIZETOFIT[WIDTH|HEIGHT]] ctrl imagetype lrflags imageid [user_var(imagehandle)]
 
 ## Example
 
-    PERemoveResource "#Icon" "#200" ALL
+    LoadAndSetImage /EXERESOURCE $hIconStatic 1 0 103
+    LoadAndSetImage /STRINGID /RESIZETOFITWIDTH $hBmpStatic 0 0x10 "$PluginsDir\myimg.bmp"
 
 ## History
 
