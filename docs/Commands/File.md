@@ -29,7 +29,8 @@ Adds file(s) to be extracted to the current output path ([`$OUTDIR`][1]).
     File /r /x CVS myproject\*.*
     File /r /x *.res /x *.obj /x *.pch source\*.*
 
-**Note:** when using the `/r` switch, both matching directories and files will be searched. This is always done with or without the use of wildcards, even if the given path perfectly matches one directory. That means, the following directory structure:
+> [!NOTE]  
+> When using the `/r` switch, both matching directories and files will be searched. This is always done with or without the use of wildcards, even if the given path perfectly matches one directory. That means, the following directory structure:
 
     something/
     ├── file.dat

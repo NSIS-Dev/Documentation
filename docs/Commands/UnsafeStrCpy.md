@@ -1,6 +1,7 @@
 # UnsafeStrCpy
 
-*This command has not yet been officially documented*
+> [!WARNING]
+> This command has not yet been officially documented.
 
 Works the same as [`StrCpy`][1], but allows ovewriting special variables such as [`$PLUGINSDIR`][2]. Use with extreme caution!
 

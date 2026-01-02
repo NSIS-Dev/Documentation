@@ -1,6 +1,7 @@
 # PEDllCharacteristics
 
-*This command has not yet been officially documented*
+> [!WARNING]
+> This command has not yet been officially documented.
 
 ## Parameters
 
