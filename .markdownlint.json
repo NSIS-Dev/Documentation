@@ -1,5 +1,9 @@
 {
     "default": true,
     "line-length": false,
-    "no-emphasis-as-heading": false
+    "no-emphasis-as-heading": false,
+    "code-block-style": {
+        "style": "fenced"
+    },
+    "fenced-code-language": false
 }

@@ -7,9 +7,9 @@
 
 ```nsis
 ${GetTime} "[File]" "[Option]" $var1 $var2 $var3 $var4 $var5 $var6 $var7```
-
 ```
 
+```
 "[File]"        ; Ignored if "L" or "LS"
                 ;
 "[Option]"      ; [Options]
@@ -34,9 +34,9 @@ $var7           ; Result7: seconds
 
 Note:
 
-- Error flag if file isn't exist
-- Error flag if syntax error
-- See also [Time plugin][1]
+* Error flag if file isn't exist
+* Error flag if syntax error
+* See also [Time plugin][1]
 
 ## Examples
 

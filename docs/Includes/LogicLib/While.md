@@ -10,7 +10,7 @@ ${While} expression
 
 The following "expressions" are available:
 
-```sis
+```nsis
 Standard (built-in) string tests (which are case-insensitive):
      a == b; a != b
 Additional case-insensitive string tests (using System.dll):

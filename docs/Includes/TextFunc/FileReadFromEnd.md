@@ -11,6 +11,7 @@ ${FileReadFromEnd} "[File]" "Function"
 ```
 "[File]"      ; Input text file
 "Function"    ; Callback function
+```
 
 ```nsis
 Function "Function"
