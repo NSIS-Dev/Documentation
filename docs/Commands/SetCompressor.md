@@ -16,7 +16,9 @@ If `/SOLID` is used, all of the installer data is compressed in one block. This 
 
 ## Parameters
 
-    [/SOLID] [/FINAL] zlib|bzip2|lzma
+```
+[/SOLID] [/FINAL] zlib|bzip2|lzma
+```
 
 ## History
 

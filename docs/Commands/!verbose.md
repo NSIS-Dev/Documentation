@@ -6,14 +6,18 @@ Passing push will cause `!verbose` to push the current verbosity level on a spec
 
 ## Parameters
 
-    level | push | pop
+```
+level | push | pop
+```
 
 ## Example
 
-    !verbose push
-    !verbose 1
-    !include WinMessages.nsh
-    !verbose pop
+```nsis
+!verbose push
+!verbose 1
+!include WinMessages.nsh
+!verbose pop
+```
 
 ## History
 

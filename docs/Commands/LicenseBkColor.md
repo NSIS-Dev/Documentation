@@ -4,7 +4,9 @@ Sets the background color of the license data. Color is specified using the form
 
 ## Parameters
 
-    color | /gray | /windows
+```
+color | /gray | /windows
+```
 
 ## History
 

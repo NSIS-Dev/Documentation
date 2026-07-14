@@ -5,11 +5,15 @@ You can get the current font used by NSIS using the ^Font and ^FontSize [`LangSt
 
 ## Parameters
 
-    user_var(handle output) face_name [height] [weight] [/ITALIC] [/UNDERLINE] [/STRIKE]
+```
+user_var(handle output) face_name [height] [weight] [/ITALIC] [/UNDERLINE] [/STRIKE]
+```
 
 ## Example
 
-    CreateDirectory $INSTDIR\some\directory
+```nsis
+CreateDirectory $INSTDIR\some\directory
+```
 
 ## History
 

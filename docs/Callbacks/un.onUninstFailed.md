@@ -4,8 +4,10 @@ This callback is called when the user hits the 'cancel' button after the uninsta
 
 ## Example
 
-    Function un.onUninstFailed
-        MessageBox MB_OK "Better luck next time."
-    FunctionEnd
+```nsis
+Function un.onUninstFailed
+    MessageBox MB_OK "Better luck next time."
+FunctionEnd
+```
 
 [1]: ../Commands/Abort.md

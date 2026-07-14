@@ -4,11 +4,15 @@ Writes the uninstaller to the filename (and optionally path) specified. Only val
 
 ## Parameters
 
-    [Path\]exename.exe
+```
+[Path\]exename.exe
+```
 
 ## Example
 
-    WriteUninstaller $INSTDIR\uninstaller.exe
+```nsis
+WriteUninstaller $INSTDIR\uninstaller.exe
+```
 
 ## History
 

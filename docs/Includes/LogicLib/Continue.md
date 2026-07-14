@@ -4,13 +4,17 @@ Continues a block of statements.
 
 ## Syntax
 
-    ${Continue}
+```nsis
+${Continue}
+```
 
 ## Example
 
-    ${Do}
-        MessageBox MB_YESNO "Stop this loop?" IDYES ${Break} ID_NO ${Continue}
-    ${Loop}
+```nsis
+${Do}
+    MessageBox MB_YESNO "Stop this loop?" IDYES ${Break} ID_NO ${Continue}
+${Loop}
+```
 
 ## Credits
 

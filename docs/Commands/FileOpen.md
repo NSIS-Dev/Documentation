@@ -6,12 +6,16 @@ If no absolute path is specified the current folder will be used. The current fo
 
 ## Parameters
 
-    user_var(handle output) filename openmode
+```
+user_var(handle output) filename openmode
+```
 
 ## Example
 
-    FileOpen $0 $INSTDIR\file.dat r
-    FileClose $0
+```nsis
+FileOpen $0 $INSTDIR\file.dat r
+FileClose $0
+```
 
 ## History
 

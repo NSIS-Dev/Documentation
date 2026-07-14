@@ -7,11 +7,15 @@ To connect to the internet, use the Dialer plugin.
 
 ## Usage
 
-    NSISdl::download http://www.domain.com/file localfile.exe
+```nsis
+NSISdl::download http://www.domain.com/file localfile.exe
+```
 
 You can also pass /TIMEOUT to set the timeout in milliseconds:
 
-    NSISdl::download /TIMEOUT=30000 http://www.domain.com/file localfile.exe
+```nsis
+NSISdl::download /TIMEOUT=30000 http://www.domain.com/file localfile.exe
+```
 
 The return value is pushed to the stack:
 
@@ -23,11 +27,13 @@ If you don't want the progress window to appear, use NSISdl::download_quiet.
 
 Example of usage:
 
-    NSISdl::download http://www.domain.com/file localfile.exe
-    Pop $R0 ;Get the return value
-      StrCmp $R0 "success" +3
-        MessageBox MB_OK "Download failed: $R0"
-        Quit
+```nsis
+NSISdl::download http://www.domain.com/file localfile.exe
+Pop $R0 ;Get the return value
+StrCmp $R0 "success" +3
+MessageBox MB_OK "Download failed: $R0"
+Quit
+```
 
 For another example, see waplugin.nsi in the examples directory.
 
@@ -45,10 +51,12 @@ If you don't want `NSISdl` to use Internet Explorer's settings, use the
 
 If you want to specify a proxy on your own, use the `/PROXY` flag.
 
-    NSISdl::download /NOIEPROXY http://www.domain.com/file localfile.exe
-    NSISdl::download /TIMEOUT=30000 /NOIEPROXY http://www.domain.com/file localfile.exe
-    NSISdl::download /PROXY proxy.whatever.com http://www.domain.com/file localfile.exe
-    NSISdl::download /PROXY proxy.whatever.com:8080 http://www.domain.com/file localfile.exe
+```nsis
+NSISdl::download /NOIEPROXY http://www.domain.com/file localfile.exe
+NSISdl::download /TIMEOUT=30000 /NOIEPROXY http://www.domain.com/file localfile.exe
+NSISdl::download /PROXY proxy.whatever.com http://www.domain.com/file localfile.exe
+NSISdl::download /PROXY proxy.whatever.com:8080 http://www.domain.com/file localfile.exe
+```
 
 ### Translate
 

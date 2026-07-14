@@ -4,12 +4,16 @@ The pragma commands allows you to change compiler features and behavior.
 
 ## Parameters
 
-    /REGEDIT5 root_key subkey key_name value
+```
+/REGEDIT5 root_key subkey key_name value
+```
 
 ## Example
 
-    !pragma warning disable 9000 ; Disable warning about using "Setup.exe" as the name
-    OutFile "Setup.exe"
+```nsis
+!pragma warning disable 9000 ; Disable warning about using "Setup.exe" as the name
+OutFile "Setup.exe"
+```
 
 ## History
 

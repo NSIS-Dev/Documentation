@@ -4,12 +4,16 @@ If installer logging is enabled, inserts text "text" into the log file.
 
 ## Parameters
 
-    text
+```
+text
+```
 
 ## Example
 
-    IfFileExists $WINDIR\notepad.exe 0 +2
-    LogText "$$WINDIR\notepad.exe exists"
+```nsis
+IfFileExists $WINDIR\notepad.exe 0 +2
+LogText "$$WINDIR\notepad.exe exists"
+```
 
 ## History
 

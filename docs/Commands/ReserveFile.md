@@ -6,7 +6,9 @@ See [`File`][2] for more information about the parameters.
 
 ## Parameters
 
-    [/nonfatal] [/r] [/x file|wildcard [...]] file [file...]
+```
+[/nonfatal] [/r] [/x file|wildcard [...]] file [file...]
+```
 
 ## History
 

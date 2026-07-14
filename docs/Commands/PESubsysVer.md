@@ -5,11 +5,15 @@
 
 ## Parameters
 
-    major.minor
+```
+major.minor
+```
 
 ## Example
 
-    PESubsysVer 1.2
+```nsis
+PESubsysVer 1.2
+```
 
 ## History
 

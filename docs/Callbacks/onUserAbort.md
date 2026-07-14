@@ -4,10 +4,12 @@ This callback is called when the user hits the 'cancel' button, and the install 
 
 Example:
 
-    Function .onUserAbort
-        MessageBox MB_YESNO "Abort install?" IDYES NoCancelAbort
-        Abort ; causes installer to not quit.
-        NoCancelAbort:
-    FunctionEnd
+```nsis
+Function .onUserAbort
+    MessageBox MB_YESNO "Abort install?" IDYES NoCancelAbort
+    Abort ; causes installer to not quit.
+    NoCancelAbort:
+FunctionEnd
+```
 
 [1]: ../Commands/Abort.md

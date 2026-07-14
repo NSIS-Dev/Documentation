@@ -4,16 +4,20 @@ If [`Abort`][1] is called it will "return" true. This can happen if the user cho
 
 ## Parameters
 
-    label_to_goto_if_abort [label_to_goto_if_no_abort]
+```
+label_to_goto_if_abort [label_to_goto_if_no_abort]
+```
 
 ## Example
 
-    Page instfiles "" "" instfilesLeave
-     
-    Function instfilesLeave
-        IfAbort 0 +2
-        MessageBox MB_OK "user aborted"
-    FunctionEnd
+```nsis
+Page instfiles "" "" instfilesLeave
+
+Function instfilesLeave
+    IfAbort 0 +2
+    MessageBox MB_OK "user aborted"
+FunctionEnd
+```
 
 ## History
 

@@ -4,18 +4,22 @@ Gets the address of the function and stores it in the output user variable. This
 
 ## Parameters
 
-    user_var(output) function_name
+```
+user_var(output) function_name
+```
 
 ## Example
 
-    Function func
-        DetailPrint "function"
-    FunctionEnd
-     
-    Section
-        GetFunctionAddress $0 func
-        Call $0
-    SectionEnd
+```nsis
+Function func
+    DetailPrint "function"
+FunctionEnd
+
+Section
+    GetFunctionAddress $0 func
+    Call $0
+SectionEnd
+```
 
 ## History
 

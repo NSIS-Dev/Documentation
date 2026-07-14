@@ -4,11 +4,15 @@ Expands environment variables in string into the user variable $x. If an environ
 
 ## Parameters
 
-    user_var(output) string
+```
+user_var(output) string
+```
 
 ## Example
 
-    ExpandEnvStrings $0 "WINDIR=%WINDIR%$\nTEMP=%TEMP%"
+```nsis
+ExpandEnvStrings $0 "WINDIR=%WINDIR%$\nTEMP=%TEMP%"
+```
 
 ## History
 

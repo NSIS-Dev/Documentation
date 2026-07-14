@@ -4,11 +4,15 @@ Reads from entry\_name in [section\_name] of ini\_filename and stores the value 
 
 ## Parameters
 
-    user_var(output) ini_filename section_name entry_name
+```
+user_var(output) ini_filename section_name entry_name
+```
 
 ## Example
 
-    ReadINIStr $0 $INSTDIR\winamp.ini winamp outname
+```nsis
+ReadINIStr $0 $INSTDIR\winamp.ini winamp outname
+```
 
 ## History
 

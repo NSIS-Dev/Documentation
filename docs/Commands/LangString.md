@@ -13,15 +13,19 @@ Notes:
 
 ## Parameters
 
-    name language_id string
+```
+name language_id string
+```
 
 ## Example
 
-    LangString message ${LANG_ENGLISH} "English message"
-    LangString message ${LANG_FRENCH} "French message"
-    LangString message ${LANG_KOREAN} "Korean message"
+```nsis
+LangString message ${LANG_ENGLISH} "English message"
+LangString message ${LANG_FRENCH} "French message"
+LangString message ${LANG_KOREAN} "Korean message"
 
-    MessageBox MB_OK "A translated message: $(message)"
+MessageBox MB_OK "A translated message: $(message)"
+```
 
 ## History
 

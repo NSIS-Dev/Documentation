@@ -6,18 +6,22 @@ Reads a string (UTF-16LE characters) from a file opened with [`FileOpen`][2]. Th
 
 ## Parameters
 
-    handle user_var(output)
+```
+handle user_var(output)
+```
 
 ## Example
 
-    ClearErrors
-    FileOpen $0 $INSTDIR\file.dat r
-    IfErrors done
-    FileReadByte $0 $1
-    FileReadByte $0 $2
-    DetailPrint "$1 $2"
-    FileClose $0
-    done:
+```nsis
+ClearErrors
+FileOpen $0 $INSTDIR\file.dat r
+IfErrors done
+FileReadByte $0 $1
+FileReadByte $0 $2
+DetailPrint "$1 $2"
+FileClose $0
+done:
+```
 
 ## History
 

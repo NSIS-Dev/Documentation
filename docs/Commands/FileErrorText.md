@@ -6,7 +6,9 @@ Accepts variables. If variables are used, they must be initialized before [`File
 
 ## Parameters
 
-    text
+```
+text
+```
 
 ## History
 

@@ -4,19 +4,23 @@ Set user variable $x with the name of the 'index'th registry value in root\_key\
 
 ## Parameters
 
-    user_var(output) root_key subkey index
+```
+user_var(output) root_key subkey index
+```
 
 ## Example
 
-    StrCpy $0 0
-    loop:
-      ClearErrors
-      EnumRegValue $1 HKLM Software\Microsoft\Windows\CurrentVersion $0
-      IfErrors done
-      IntOp $0 $0 + 1
-      ReadRegStr $2 HKLM Software\Microsoft\Windows\CurrentVersion $1
-      MessageBox MB_YESNO|MB_ICONQUESTION "$1 = $2$\n$\nMore?" IDYES loop
-    done:
+```nsis
+StrCpy $0 0
+loop:
+  ClearErrors
+  EnumRegValue $1 HKLM Software\Microsoft\Windows\CurrentVersion $0
+  IfErrors done
+  IntOp $0 $0 + 1
+  ReadRegStr $2 HKLM Software\Microsoft\Windows\CurrentVersion $1
+  MessageBox MB_YESNO|MB_ICONQUESTION "$1 = $2$\n$\nMore?" IDYES loop
+done:
+```
 
 ## History
 

@@ -4,13 +4,17 @@ Checks if the installer is running on Windows 8.1.
 
 ## Syntax
 
-    logic_lib_statement ${AtLeastWin8.1}
+```
+logic_lib_statement ${AtLeastWin8.1}
+```
 
 ## Example
 
-    ${If} ${AtLeastWin8.1}
-        DetailPrint "Windows 8.1 or higher"
-    ${EndIf}
+```nsis
+${If} ${AtLeastWin8.1}
+    DetailPrint "Windows 8.1 or higher"
+${EndIf}
+```
 
 ## Credits
 

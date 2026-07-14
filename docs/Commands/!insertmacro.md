@@ -4,15 +4,19 @@ Inserts the contents of a macro that was created with [`!macro`][1]. If the macr
 
 ## Parameters
 
-    macro_name [parameter] [...]
+```
+macro_name [parameter] [...]
+```
 
 ## Example
 
-    !macro Print text
-        DetailPrint "${text}"
-    !macroend
-    !insertmacro Print "some text"
-    !insertmacro Print "some more text"
+```nsis
+!macro Print text
+    DetailPrint "${text}"
+!macroend
+!insertmacro Print "some text"
+!insertmacro Print "some more text"
+```
 
 ## History
 

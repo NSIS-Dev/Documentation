@@ -12,28 +12,32 @@ Section identifiers must stay the same across
 
 ## Syntax
 
-    ${MementoUnselectedSection} [section_name] [section_index_output]
+```nsis
+${MementoUnselectedSection} [section_name] [section_index_output]
+```
 
 ## Example
 
-    !include Memento.nsh
+```nsis
+!include Memento.nsh
 
-    !define MEMENTO_REGISTRY_ROOT HKLM
-    !define MEMENTO_REGISTRY_KEY Software\Microsoft\Windows\CurrentVersion\Uninstall\MyProgram
+!define MEMENTO_REGISTRY_ROOT HKLM
+!define MEMENTO_REGISTRY_KEY Software\Microsoft\Windows\CurrentVersion\Uninstall\MyProgram
 
-    Function .onInit
-        ${MementoSectionRestore}
-    FunctionEnd
+Function .onInit
+    ${MementoSectionRestore}
+FunctionEnd
 
-    Function .onInstSuccess
-        ${MementoSectionSave}
-    FunctionEnd
+Function .onInstSuccess
+    ${MementoSectionSave}
+FunctionEnd
 
-    ${MementoUnselectedSection} dinosaur sec_dinosaur
-        ; some code...
-    ${MementoSectionEnd}
+${MementoUnselectedSection} dinosaur sec_dinosaur
+    ; some code...
+${MementoSectionEnd}
 
-    ${MementoSectionDone}
+${MementoSectionDone}
+```
 
 ## Credits
 

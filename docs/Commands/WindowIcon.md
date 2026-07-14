@@ -4,7 +4,9 @@ Sets whether or not the installer's icon is displayed on certain pages.
 
 ## Parameters
 
-    on|off
+```
+on|off
+```
 
 ## History
 

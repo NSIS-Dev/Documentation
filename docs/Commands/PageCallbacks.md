@@ -4,13 +4,17 @@ Sets the callback functions for a page defined using [`PageEx`][1]. Can only be 
 
 ## Parameters
 
-    ([creator_function] [leave_function]) | ([pre_function] [show_function] [leave_function])
+```
+([creator_function] [leave_function]) | ([pre_function] [show_function] [leave_function])
+```
 
 ## Example
 
-    PageEx license
-        PageCallbacks licensePre licenseShow licenseLeave
-    PageExEnd
+```nsis
+PageEx license
+    PageCallbacks licensePre licenseShow licenseLeave
+PageExEnd
+```
 
 ## History
 

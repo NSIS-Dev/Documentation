@@ -4,13 +4,17 @@ Checks if the installer is running on Windows 8.1 at most.
 
 ## Syntax
 
-    logic_lib_statement ${AtMostWin8.1}
+```
+logic_lib_statement ${AtMostWin8.1}
+```
 
 ## Example
 
-    ${If} ${AtMostWin8.1}
-        DetailPrint "Windows 8.1 or lower"
-    ${EndIf}
+```nsis
+${If} ${AtMostWin8.1}
+    DetailPrint "Windows 8.1 or lower"
+${EndIf}
+```
 
 ## Credits
 
@@ -19,4 +23,3 @@ Checks if the installer is running on Windows 8.1 at most.
 ## History
 
 Added in NSIS v3.0a2
-

@@ -4,8 +4,10 @@ This callback is called when the uninstall was successful, right before the inst
 
 ## Example
 
-    Function un.onUninstSuccess
-        MessageBox MB_OK "Congrats, it's gone."
-    FunctionEnd
+```nsis
+Function un.onUninstSuccess
+    MessageBox MB_OK "Congrats, it's gone."
+FunctionEnd
+```
 
 [1]: ../Commands/SetAutoClose.md

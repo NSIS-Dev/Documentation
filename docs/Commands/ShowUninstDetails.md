@@ -4,7 +4,9 @@ Sets whether or not the details of the uninstall are shown. Can be 'hide' to hid
 
 ## Parameters
 
-    hide|show|nevershow
+```
+hide|show|nevershow
+```
 
 ## History
 

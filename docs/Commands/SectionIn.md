@@ -4,20 +4,24 @@ This command specifies which install types (see [`InstType`][1]) the current sec
 
 ## Parameters
 
-    insttype_index [insttype_index] [RO]
+```
+insttype_index [insttype_index] [RO]
+```
 
 ## Example
 
-    InstType "full"
-    InstType "minimal"
-     
-    Section "a section"
-        SectionIn 1 2
-    SectionEnd
-     
-    Section "another section"
-        SectionIn 1
-    SectionEnd
+```nsis
+InstType "full"
+InstType "minimal"
+
+Section "a section"
+    SectionIn 1 2
+SectionEnd
+
+Section "another section"
+    SectionIn 1
+SectionEnd
+```
 
 ## History
 

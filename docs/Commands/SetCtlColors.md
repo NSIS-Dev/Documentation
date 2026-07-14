@@ -6,13 +6,17 @@ Warning: setting the background color of check boxes to "transparent" may not fu
 
 ## Parameters
 
-    hwnd [/BRANDING] [text_color] [transparent|bg_color]
+```
+hwnd [/BRANDING] [text_color] [transparent|bg_color]
+```
 
 ## Example
 
-    FindWindow $0 "#32770" "" $HWNDPARENT
-    GetDlgItem $0 $0 1006
-    SetCtlColors $0 0xFF0000 0x00FF00
+```nsis
+FindWindow $0 "#32770" "" $HWNDPARENT
+GetDlgItem $0 $0 1006
+SetCtlColors $0 0xFF0000 0x00FF00
+```
 
 ## History
 

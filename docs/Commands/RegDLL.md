@@ -6,14 +6,18 @@ Use [`SetOutPath`][1] to set the current directory for DLLs that depend on other
 
 ## Parameters
 
-    dllfile [entrypoint_name]
+```
+dllfile [entrypoint_name]
+```
 
 ## Example
 
 If foo.dll depends on bar.dll which is located in $INSTDIR use:
 
-    SetOutPath $INSTDIR
-    RegDLL $INSTDIR\foo.dll
+```nsis
+SetOutPath $INSTDIR
+RegDLL $INSTDIR\foo.dll
+```
 
 ## History
 

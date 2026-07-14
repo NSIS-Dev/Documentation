@@ -7,25 +7,33 @@ Remove the specified directory (fully qualified path with no wildcards). Without
 
 ## Parameters
 
-    [/r] [/REBOOTOK] directory_name
+```
+[/r] [/REBOOTOK] directory_name
+```
 
 ## Example
 
-    RMDir $INSTDIR
-    RMDir $INSTDIR\data
-    RMDir /r /REBOOTOK $INSTDIR
-    RMDir /REBOOTOK $INSTDIR\DLLs
+```nsis
+RMDir $INSTDIR
+RMDir $INSTDIR\data
+RMDir /r /REBOOTOK $INSTDIR
+RMDir /REBOOTOK $INSTDIR\DLLs
+```
 
 Note that the current working directory can not be deleted. The current working directory is set by [`SetOutPath`][1]. For example, the following example will not delete the directory.
 
-    SetOutPath $TEMP\dir
-    RMDir $TEMP\dir
+```nsis
+SetOutPath $TEMP\dir
+RMDir $TEMP\dir
+```
 
 The next example will succeed in deleting the directory.
 
-    SetOutPath $TEMP\dir
-    SetOutPath $TEMP
-    RMDir $TEMP\dir
+```nsis
+SetOutPath $TEMP\dir
+SetOutPath $TEMP
+RMDir $TEMP\dir
+```
 
 ## History
 

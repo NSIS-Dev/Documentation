@@ -4,13 +4,17 @@ Tells the installer that the current section needs an additional "size_kb" kilob
 
 ## Parameters
 
-    size_kb
+```
+size_kb
+```
 
 ## Example
 
-    Section
-        AddSize 500
-    SectionEnd
+```nsis
+Section
+    AddSize 500
+SectionEnd
+```
 
 ## History
 

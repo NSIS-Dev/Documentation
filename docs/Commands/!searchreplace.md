@@ -4,12 +4,16 @@ Searches source\_string, looking for searchfor and replacing all instances of it
 
 ## Parameters
 
-    [/ignorecase] symbol_out source_string searchfor replacewith
+```
+[/ignorecase] symbol_out source_string searchfor replacewith
+```
 
 ## Example
 
-    # defines ${blah} to "i like ponies"
-    !searchreplace blah "i love ponies" "love" "like"
+```nsis
+# defines ${blah} to "i like ponies"
+!searchreplace blah "i love ponies" "love" "like"
+```
 
 ## History
 

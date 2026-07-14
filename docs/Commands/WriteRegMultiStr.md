@@ -4,11 +4,15 @@ Writes a multi-string value. The `/REGEDIT5` switch must be used and specifies t
 
 ## Parameters
 
-    root_key subkey key_name value
+```
+root_key subkey key_name value
+```
 
 ## Example
 
-    WriteRegMultiStr HKLM "Software\My Company\My Software" "String Value" "dead beef"
+```nsis
+WriteRegMultiStr HKLM "Software\My Company\My Software" "String Value" "dead beef"
+```
 
 ## History
 

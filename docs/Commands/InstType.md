@@ -6,7 +6,9 @@ Accepts variables for type names. If variables are used, they must be initialize
 
 ## Parameters
 
-    install_type_name | /NOCUSTOM | /CUSTOMSTRING=str | /COMPONENTSONLYONCUSTOM
+```
+install_type_name | /NOCUSTOM | /CUSTOMSTRING=str | /COMPONENTSONLYONCUSTOM
+```
 
 ## History
 

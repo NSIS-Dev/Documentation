@@ -4,13 +4,17 @@ Add a call to `${MementoSectionSave}` to [`.onInstSuccess`][1] to save the state
 
 ## Syntax
 
-    ${MementoSectionSave}
+```nsis
+${MementoSectionSave}
+```
 
 ## Example
 
-    Function .onInstSuccess
-        ${MementoSectionSave}
-    FunctionEnd
+```nsis
+Function .onInstSuccess
+    ${MementoSectionSave}
+FunctionEnd
+```
 
 ## Credits
 

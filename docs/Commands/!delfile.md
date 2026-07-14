@@ -4,13 +4,17 @@ This command deletes a file on compile time.
 
 ## Parameters
 
-    file
+```
+file
+```
 
 ## Example
 
-    !tempfile FILE
-    !delfile "${FILE}"
-    !undef FILE
+```nsis
+!tempfile FILE
+!delfile "${FILE}"
+!undef FILE
+```
 
 ## History
 

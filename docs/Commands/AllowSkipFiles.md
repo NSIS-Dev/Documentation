@@ -4,7 +4,9 @@ This command specifies whether the user should be able to skip a file or not. A 
 
 ## Parameters
 
-    on|off
+```
+on|off
+```
 
 ## History
 

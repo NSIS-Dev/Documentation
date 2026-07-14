@@ -8,7 +8,9 @@ Accepts variables. If variables are used, they must be initialized before the li
 
 ## Parameters
 
-    [text [button_text]]
+```
+[text [button_text]]
+```
 
 * text: Text above the controls, to the right of the installation icon.
 * button_text: Text on the "I Agree" button.

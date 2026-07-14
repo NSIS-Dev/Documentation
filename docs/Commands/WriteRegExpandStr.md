@@ -17,7 +17,9 @@ The error flag is set if the string could not be written to the registry. The ty
 
 ## Parameters
 
-    root_key subkey key_name value
+```
+root_key subkey key_name value
+```
 
 ## History
 

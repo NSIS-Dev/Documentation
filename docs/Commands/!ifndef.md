@@ -4,19 +4,23 @@ The opposite of [`!ifdef`][1]. This command, when paired with an [`!endif`][2] c
 
 ## Parameters
 
-    gflag [bcheck gflag [...]]]
+```
+gflag [bcheck gflag [...]]]
+```
 
 ## Example
 
-    !define SOMETHING
-    !ifdef SOMETHING
-        !echo "SOMETHING is defined"
-    !endif
+```nsis
+!define SOMETHING
+!ifdef SOMETHING
+    !echo "SOMETHING is defined"
+!endif
 
-    !undef SOMETHING
-    !ifndef SOMETHING
-        !echo "SOMETHING is not defined"
-    !endif
+!undef SOMETHING
+!ifndef SOMETHING
+    !echo "SOMETHING is not defined"
+!endif
+```
 
 ## History
 

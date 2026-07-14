@@ -4,17 +4,19 @@ This command closes a block started with [`!if`][1], [`!ifdef`][2], [`!ifndef`][
 
 ## Example
 
-    !ifdef VERSION
-        OutFile installer-${VERSION}.exe
-    !else
-        OutFile installer.exe
-    !endif
+```nsis
+!ifdef VERSION
+    OutFile installer-${VERSION}.exe
+!else
+    OutFile installer.exe
+!endif
 
-    !ifmacrodef MACRO
-        DetailPrint "Macro defined" 
-    !else
-        DetailPrint "Macro not defined" 
-    !endif
+!ifmacrodef MACRO
+    DetailPrint "Macro defined"
+!else
+    DetailPrint "Macro not defined"
+!endif
+```
 
 ## History
 

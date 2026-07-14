@@ -4,10 +4,14 @@ Get version information from executable file.
 
 ## Syntax
 
-    ${GetFileVersion} "[Executable]" $var
+```nsis
+${GetFileVersion} "[Executable]" $var
+```
 
-    "[Executable]"      ; Executable file (*.exe *.dll ...)
-    $var                ; Result: Version number
+```
+"[Executable]"      ; Executable file (*.exe *.dll ...)
+$var                ; Result: Version number
+```
 
 Note:
 
@@ -16,10 +20,12 @@ Note:
 
 ## Example
 
-    Section
-        ${GetFileVersion} "C:\ftp\program.exe" $R0
-        ; $R0="1.1.0.12"
-    SectionEnd
+```nsis
+Section
+    ${GetFileVersion} "C:\ftp\program.exe" $R0
+    ; $R0="1.1.0.12"
+SectionEnd
+```
 
 ## Credits
 

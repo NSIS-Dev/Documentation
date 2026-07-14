@@ -8,12 +8,16 @@ There are two LangStrings named ^Font and ^FontSize which contain the font and f
 
 ## Parameters
 
-    [/LANG=lang_id] font_face_name font_size
+```
+[/LANG=lang_id] font_face_name font_size
+```
 
 ## Example
 
-     SetFont /LANG=${LANG_ENGLISH} "English Font" 9
-     SetFont /LANG=${LANG_FRENCH} "French Font" 10
+```nsis
+ SetFont /LANG=${LANG_ENGLISH} "English Font" 9
+ SetFont /LANG=${LANG_FRENCH} "French Font" 10
+```
 
 ## History
 

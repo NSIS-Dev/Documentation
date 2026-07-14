@@ -13,43 +13,53 @@ Adds file(s) to be extracted to the current output path ([`$OUTDIR`][1]).
 
 ## Parameters
 
-    [/nonfatal] [/a] ([/r] [/x file|wildcard [...]] (file|wildcard) [...] | /oname=file.dat infile.dat)
+```
+[/nonfatal] [/a] ([/r] [/x file|wildcard [...]] (file|wildcard) [...] | /oname=file.dat infile.dat)
+```
 
 ## Example
 
-    File something.exe
-    File /a something.exe
-    File *.exe
-    File /r *.dat
-    File /r data
-    File /oname=temp.dat somefile.ext
-    File /oname=$TEMP\temp.dat somefile.ext
-    File "/oname=$TEMP\name with spaces.dat" somefile.ext
-    File /nonfatal "a file that might not exist"
-    File /r /x CVS myproject\*.*
-    File /r /x *.res /x *.obj /x *.pch source\*.*
+```nsis
+File something.exe
+File /a something.exe
+File *.exe
+File /r *.dat
+File /r data
+File /oname=temp.dat somefile.ext
+File /oname=$TEMP\temp.dat somefile.ext
+File "/oname=$TEMP\name with spaces.dat" somefile.ext
+File /nonfatal "a file that might not exist"
+File /r /x CVS myproject\*.*
+File /r /x *.res /x *.obj /x *.pch source\*.*
+```
 
 > [!NOTE]  
 > When using the `/r` switch, both matching directories and files will be searched. This is always done with or without the use of wildcards, even if the given path perfectly matches one directory. That means, the following directory structure:
 
-    something/
-    ├── file.dat
-    └── another.dat
-    dir/
-    ├── something
-    ├── dir2/
-    │   └── file2.dat
-    └── another/
-        └── something/
-            └── readme.txt
+```
+something/
+├── file.dat
+└── another.dat
+dir/
+├── something
+├── dir2/
+│   └── file2.dat
+└── another/
+    └── something/
+        └── readme.txt
+```
 
 with the following `File` usage:
 
-    File /r something
+```nsis
+File /r something
+```
 
 will match the directory named something on the root directory, the file named something in the directory named dir and the directory named something in the directory named another. To match only the directory named something on the root directory, use the following:
 
-    File /r something\*.*
+```nsis
+File /r something\*.*
+```
 
 When adding \*.*, it will be used as the matching condition and something will be used as the directory to search. When only something is specified, the current directory will be recursively searched for every and directory named something and another\something will be matched.
 

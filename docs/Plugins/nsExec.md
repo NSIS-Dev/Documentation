@@ -5,15 +5,17 @@ without opening a DOS box.
 
 ## Usage
 
-    nsExec::Exec [/OEM] [/TIMEOUT=x] path
-    Pop $0
+```nsis
+nsExec::Exec [/OEM] [/TIMEOUT=x] path
+Pop $0
 
-    nsExec::ExecToLog [/OEM] [/TIMEOUT=x] path
-    Pop $0
+nsExec::ExecToLog [/OEM] [/TIMEOUT=x] path
+Pop $0
 
-    nsExec::ExecToStack [/OEM] [/TIMEOUT=x] path
-    Pop $0 ; Return
-    Pop $1 ; Output
+nsExec::ExecToStack [/OEM] [/TIMEOUT=x] path
+Pop $0 ; Return
+Pop $1 ; Output
+```
 
 All functions are the same except `ExecToLog` will print the output to the log window and `ExecToStack` will push up to `${NSIS_MAX_STRLEN}` characters of output onto the stack after the return value.
 
@@ -23,7 +25,9 @@ The timeout value is optional.  The timeout is the time in milliseconds `nsExec`
 
 To ensure that command are executed without problems on all windows versions, is recommended to use the following syntax:
 
-    nsExec::ExecToStack [OPTIONS] '"PATH" param1 param2 paramN'
+```nsis
+nsExec::ExecToStack [OPTIONS] '"PATH" param1 param2 paramN'
+```
 
 This way the application path may contain non 8.3 paths (with spaces)
 

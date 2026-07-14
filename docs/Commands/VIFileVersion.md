@@ -4,11 +4,15 @@ Sets the File Version in the VS\_FIXEDFILEINFO version information block (You sh
 
 ## Parameters
 
-    [version_string_X.X.X.X]
+```
+[version_string_X.X.X.X]
+```
 
 ## Example
 
-    VIFileVersion 1.2.3.4
+```nsis
+VIFileVersion 1.2.3.4
+```
 
 ## History
 

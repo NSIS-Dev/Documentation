@@ -4,13 +4,17 @@ This command sets the overwrite flag which is used by the [`File`][1] command to
 
 ## Parameters
 
-    on|off|try|ifnewer|ifdiff|lastused
+```
+on|off|try|ifnewer|ifdiff|lastused
+```
 
 ## Example
 
-    SetOverwrite off
-    File program.cfg # config file we don't want to overwrite
-    SetOverwrite on
+```nsis
+SetOverwrite off
+File program.cfg # config file we don't want to overwrite
+SetOverwrite on
+```
 
 ## History
 

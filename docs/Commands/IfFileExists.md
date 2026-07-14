@@ -4,26 +4,32 @@ Checks for existence of file(s) file\_to\_check\_for (which can be a wildcard, o
 
 ## Parameters
 
-    file_to_check_for jump_if_present [jump_otherwise]
+```
+file_to_check_for jump_if_present [jump_otherwise]
+```
 
 ## Example
 
-    IfFileExists $WINDIR\notepad.exe 0 +2
-    MessageBox MB_OK "notepad is installed"
+```nsis
+IfFileExists $WINDIR\notepad.exe 0 +2
+MessageBox MB_OK "notepad is installed"
+```
 
 You can also use labels, which may help make your code easier to read:
 
-    IfFileExists $INSTDIR\somefile.txt file_found file_not_found
-    
-    file_found:
-    MessageBox MB_OK "somefile.txt was found"
-    Goto done
-    
-    file_not_found:
-    MessageBox MB_OK "somefile.txt was not found"
-    
-    done:
-    ; ...
+```nsis
+IfFileExists $INSTDIR\somefile.txt file_found file_not_found
+
+file_found:
+MessageBox MB_OK "somefile.txt was found"
+Goto done
+
+file_not_found:
+MessageBox MB_OK "somefile.txt was not found"
+
+done:
+; ...
+```
 
 ## History
 

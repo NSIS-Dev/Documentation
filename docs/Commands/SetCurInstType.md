@@ -4,7 +4,9 @@ Sets the current [`InstType`][1]. inst\_type\_idx should be between 0 and 31. Th
 
 ## Parameters
 
-    inst_type_idx
+```
+inst_type_idx
+```
 
 ## History
 

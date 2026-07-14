@@ -6,7 +6,9 @@ Accepts variables. If variables are used, they must be initialized before the co
 
 ## Parameters
 
-    [req_text [avail_text]]
+```
+[req_text [avail_text]]
+```
 
 ## History
 

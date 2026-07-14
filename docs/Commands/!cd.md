@@ -4,11 +4,15 @@ This command will change the compiler to the new directory, `new_path`. `new_pat
 
 ## Parameters
 
-    new_path
+```
+new_path
+```
 
 ## Example
 
-    !cd ..\more-scripts\new
+```nsis
+!cd ..\more-scripts\new
+```
 
 ## History
 

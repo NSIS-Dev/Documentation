@@ -6,12 +6,16 @@ Fully-qualified path names should always be used with this instruction. Using re
 
 ## Parameters
 
-    [/SILENT] [/FILESONLY] filespec_on_destsys destination_path [size_of_files_in_kb]
+```
+[/SILENT] [/FILESONLY] filespec_on_destsys destination_path [size_of_files_in_kb]
+```
 
 ## Example
 
-    CreateDirectory $INSTDIR\backup
-    CopyFiles $INSTDIR\*.dat $INSTDIR\backup
+```nsis
+CreateDirectory $INSTDIR\backup
+CopyFiles $INSTDIR\*.dat $INSTDIR\backup
+```
 
 ## History
 

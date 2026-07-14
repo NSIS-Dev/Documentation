@@ -4,7 +4,9 @@ Generate a Unicode installer. It can only be used outside of sections and functi
 
 ## Parameters
 
-    true|false
+```
+true|false
+```
 
 ## History
 

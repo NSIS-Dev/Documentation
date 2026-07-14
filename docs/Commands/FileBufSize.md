@@ -4,7 +4,9 @@ This command sets the size of the compiler's internal file buffers. This command
 
 ## Parameters
 
-    buffer_size_in_mb
+```
+buffer_size_in_mb
+```
 
 ## History
 

@@ -8,14 +8,18 @@ If a user variable is specified, jumps to absolute address (generally you will w
 
 ## Parameters
 
-    label_to_jump_to | +offset| -offset| user_var(target)
+```
+label_to_jump_to | +offset| -offset| user_var(target)
+```
 
 ## Example
 
-    Goto label
-    Goto +2
-    Goto -2
-    Goto $0
+```nsis
+Goto label
+Goto +2
+Goto -2
+Goto $0
+```
 
 ## History
 

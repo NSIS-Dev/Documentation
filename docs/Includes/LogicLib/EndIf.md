@@ -4,15 +4,19 @@ Ends an open condition started by [`${If}`][1] or [`${IfNot}`][2].
 
 ## Syntax
 
-    ${EndIf}
+```nsis
+${EndIf}
+```
 
 ## Example
 
-    StrCpy $0 true
+```nsis
+StrCpy $0 true
 
-    ${If} $0 == true
-        MessageBox MB_OK "It's true"
-    ${EndIf}
+${If} $0 == true
+    MessageBox MB_OK "It's true"
+${EndIf}
+```
 
 ## Credits
 

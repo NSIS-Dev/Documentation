@@ -4,11 +4,16 @@ Join two files in one.
 
 ## Syntax
 
-    ${FileJoin} "[File1]" "[File2]" "[File3]"
-    "[File1]"     ; Input File1
-    "[File2]"     ; Input File2
-    "[File3]"     ; Output File3
-                  ;  If [File3]="" Then add [File2] to [File1]
+```nsis
+${FileJoin} "[File1]" "[File2]" "[File3]"
+```
+
+```
+"[File1]"     ; Input File1
+"[File2]"     ; Input File2
+"[File3]"     ; Output File3
+              ;  If [File3]="" Then add [File2] to [File1]
+```
 
 Note:
 
@@ -19,15 +24,19 @@ Note:
 
 ### Join a.log + b.log = Z.log
 
-    Section
-        ${FileJoin} "C:\a.log" "C:\logs\b.log" "C:\Z.log"
-    SectionEnd
+```nsis
+Section
+    ${FileJoin} "C:\a.log" "C:\logs\b.log" "C:\Z.log"
+SectionEnd
+```
 
 ### Add a.log + b.log = a.log
 
-    Section
-        ${FileJoin} "C:\a.log" "C:\logs\b.log" "C:\a.log"
-    SectionEnd
+```nsis
+Section
+    ${FileJoin} "C:\a.log" "C:\logs\b.log" "C:\a.log"
+SectionEnd
+```
 
 ## Credits
 

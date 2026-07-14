@@ -1,41 +1,50 @@
 # ${IfCmd}
 
-Conditionally executes an inline statement, depending on a true value of the provided NSIS function. This is short for 
+Conditionally executes an inline statement, depending on a true value of the provided NSIS function. This is short for
 
 ## Syntax
 
-    ${IfCmd} command ${||} statement ${|}
+```nsis
+${IfCmd} command ${||} statement ${|}
+```
 
 This is short for
 
-    ${IfThen} ${Cmd} `command` ${|} statement ${|}
+```nsis
+${IfThen} ${Cmd} `command` ${|} statement ${|}
+```
 
 which is short for
 
-    ${If} ${Cmd} `command`
-        statement
-    ${EndIf}
-    
+```nsis
+${If} ${Cmd} `command`
+    statement
+${EndIf}
+```
+
 Notes:
+
 * the command is terminated by `${||}`, not enclosed by quotes as with `${Cmd}`
 * you can (probably) use any command that accepts a jump target (label etc.) as the last parameter
 * only one jump target is supported
 
 ## Example
 
-    StrCpy $R2 ""
-    
-    ${IfCmd} MessageBox MB_YESNO "Please click Yes" IDYES ${||} StrCpy $R2 $R2A ${|}
+```nsis
+StrCpy $R2 ""
 
-    ${Unless} ${Cmd} `MessageBox MB_YESNO|MB_DEFBUTTON2 "Please click No" IDYES`
-        StrCpy $R2 $R2B
-    ${EndUnless}
-    
-    ${If} $R2 == "AB"
-        DetailPrint "PASSED IfCmd/If Cmd test"
-    ${Else}
-        DetailPrint "FAILED IfCmd/If Cmd test"
-    ${EndIf}
+${IfCmd} MessageBox MB_YESNO "Please click Yes" IDYES ${||} StrCpy $R2 $R2A ${|}
+
+${Unless} ${Cmd} `MessageBox MB_YESNO|MB_DEFBUTTON2 "Please click No" IDYES`
+    StrCpy $R2 $R2B
+${EndUnless}
+
+${If} $R2 == "AB"
+    DetailPrint "PASSED IfCmd/If Cmd test"
+${Else}
+    DetailPrint "FAILED IfCmd/If Cmd test"
+${EndIf}
+```
 
 ## Credits
 

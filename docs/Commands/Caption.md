@@ -8,13 +8,17 @@ Accepts variables. If variables are used, they must be initialized on [`.onInit`
 
 ## Parameters
 
-    caption
+```
+caption
+```
 
 ## Example
 
-    PageEx license
-        Caption "This is a license page"
-    PageExEnd
+```nsis
+PageEx license
+    Caption "This is a license page"
+PageExEnd
+```
 
 ## History
 

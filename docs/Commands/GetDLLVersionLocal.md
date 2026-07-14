@@ -4,7 +4,9 @@ This is similar to [`GetDLLVersion`][1], only it acts on the system building the
 
 ## Parameters
 
-    localfilename user_var(high dword output) user_var(low dword output)
+```
+localfilename user_var(high dword output) user_var(low dword output)
+```
 
 ## History
 

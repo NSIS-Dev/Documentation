@@ -5,11 +5,15 @@ Accepts variables. If variables are used, they must be initialized before the in
 
 ## Parameters
 
-    show_details_text
+```
+show_details_text
+```
 
 ## Example
 
-    DetailPrint "this message will show on the installation window"
+```nsis
+DetailPrint "this message will show on the installation window"
+```
 
 ## History
 

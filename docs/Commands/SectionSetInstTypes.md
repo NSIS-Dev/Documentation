@@ -4,20 +4,24 @@ Sets the install types the section specified by section\_index defaults to the e
 
 ## Parameters
 
-    section_index inst_types
+```
+section_index inst_types
+```
 
 ## Example
 
-    SectionSetInstTypes 0 5
-    # because the binary value for 5 is "00000101". The error flag will be set if the section index specified is out of range.
+```nsis
+SectionSetInstTypes 0 5
+# because the binary value for 5 is "00000101". The error flag will be set if the section index specified is out of range.
 
-    Section test test_section_id
-    SectionEnd
+Section test test_section_id
+SectionEnd
 
-    Function .onInit
-        # associate section 'test' with installation types 3 and 4
-        SectionSetInstTypes ${test_section_id} 12
-    FunctionEnd
+Function .onInit
+    # associate section 'test' with installation types 3 and 4
+    SectionSetInstTypes ${test_section_id} 12
+FunctionEnd
+```
 
 ## History
 

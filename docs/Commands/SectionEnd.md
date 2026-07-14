@@ -4,8 +4,10 @@ This command closes the current open [`Section`][1].
 
 ## Example
 
-    Section "install something" SEC_IDX
-    SectionEnd
+```nsis
+Section "install something" SEC_IDX
+SectionEnd
+```
 
 ## History
 

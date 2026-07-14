@@ -6,7 +6,9 @@ You can read more about the changes in behavior on [MSDN][2].
 
 ## Parameters
 
-    none|all|WinVista|Win7|Win8|Win10|{GUID} [...]
+```
+none|all|WinVista|Win7|Win8|Win10|{GUID} [...]
+```
 
 ## History
 

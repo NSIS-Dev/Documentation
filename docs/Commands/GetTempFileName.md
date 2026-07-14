@@ -4,14 +4,18 @@ Assign to the user variable $x, the name of a temporary file. The file will have
 
 ## Parameters
 
-    user_var(output) base_dir
+```
+user_var(output) base_dir
+```
 
 ## Example
 
-    GetTempFileName $0
-    File /oname=$0 something.dat
-    # do something with something.dat
-    Delete $0
+```nsis
+GetTempFileName $0
+File /oname=$0 something.dat
+# do something with something.dat
+Delete $0
+```
 
 ## History
 

@@ -4,13 +4,17 @@ This command will issue a warning to the script compiler. You can also add a mes
 
 ## Parameters
 
-    [message]
+```
+[message]
+```
 
 ## Example
 
-    !ifdef USE_DANGEROUS_STUFF
-        !warning "using dangerous stuff"
-    !endif
+```nsis
+!ifdef USE_DANGEROUS_STUFF
+    !warning "using dangerous stuff"
+!endif
+```
 
 ## History
 

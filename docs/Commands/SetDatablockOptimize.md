@@ -4,7 +4,9 @@ This command tells the compiler whether or not to do datablock optimizations. Da
 
 ## Parameters
 
-    on|off
+```
+on|off
+```
 
 ## History
 

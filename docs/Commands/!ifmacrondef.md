@@ -4,13 +4,17 @@ The opposite of [`!ifmacrodef`][1]. The lines will be compiled when the macro gf
 
 ## Parameters
 
-    gflag [bcheck gflag [...]]]
+```
+gflag [bcheck gflag [...]]]
+```
 
 ## Example
 
-    !ifmacrondef SomeMacro
-        !echo "SomeMacro is not defined"
-    !endif
+```nsis
+!ifmacrondef SomeMacro
+    !echo "SomeMacro is not defined"
+!endif
+```
 
 ## History
 

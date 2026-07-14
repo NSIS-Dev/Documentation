@@ -4,12 +4,16 @@ Sets the output path ([`$OUTDIR`][1]) and creates it (recursively if necessary),
 
 ## Parameters
 
-    outpath
+```
+outpath
+```
 
 ## Example
 
-    SetOutPath $INSTDIR
-    File program.exe
+```nsis
+SetOutPath $INSTDIR
+File program.exe
+```
 
 ## History
 

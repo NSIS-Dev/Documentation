@@ -4,12 +4,16 @@ Cancels the install, stops execution of script, and displays user_message in the
 
 ## Parameters
 
-    user_message
+```
+user_message
+```
 
 ## Example
 
-    Abort
-    Abort "can't install"
+```nsis
+Abort
+Abort "can't install"
+```
 
 ## History
 

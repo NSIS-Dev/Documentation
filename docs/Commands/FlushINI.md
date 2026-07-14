@@ -4,13 +4,17 @@ Flushes the INI file's buffers. Windows 9x keeps all changes to the INI file in 
 
 ## Parameters
 
-    ini_filename
+```
+ini_filename
+```
 
 ## Example
 
-    WriteINIStr $TEMP\something.ini test test test
-    FlushINI $TEMP\something.ini
-    Delete $TEMP\something.ini
+```nsis
+WriteINIStr $TEMP\something.ini test test test
+FlushINI $TEMP\something.ini
+Delete $TEMP\something.ini
+```
 
 ## History
 

@@ -4,16 +4,20 @@ Sets the user variable $x with str. Note that str can contain other variables, o
 
 ## Parameters
 
-    user_var(destination) str [maxlen] [start_offset]
+```
+user_var(destination) str [maxlen] [start_offset]
+```
 
 ## Example
 
-    StrCpy $0 "a string" # = "a string"
-    StrCpy $0 "a string" 3 # = "a s"
-    StrCpy $0 "a string" -1 # = "a strin"
-    StrCpy $0 "a string" "" 2 # = "string"
-    StrCpy $0 "a string" "" -3 # = "ing"
-    StrCpy $0 "a string" 3 -4 # = "rin"
+```nsis
+StrCpy $0 "a string" # = "a string"
+StrCpy $0 "a string" 3 # = "a s"
+StrCpy $0 "a string" -1 # = "a strin"
+StrCpy $0 "a string" "" 2 # = "string"
+StrCpy $0 "a string" "" -3 # = "ing"
+StrCpy $0 "a string" 3 -4 # = "rin"
+```
 
 ## History
 

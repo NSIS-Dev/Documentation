@@ -4,13 +4,17 @@ Checks if the installer is running on Windows 2000.
 
 ## Syntax
 
-    logic_lib_statement ${AtLeastWin2000}
+```
+logic_lib_statement ${AtLeastWin2000}
+```
 
 ## Example
 
-    ${If} ${AtLeastWin2000}
-        DetailPrint "Windows 2000 or higher"
-    ${EndIf}
+```nsis
+${If} ${AtLeastWin2000}
+    DetailPrint "Windows 2000 or higher"
+${EndIf}
+```
 
 ## Credits
 

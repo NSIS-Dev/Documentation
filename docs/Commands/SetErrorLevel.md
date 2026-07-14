@@ -4,12 +4,16 @@ Sets the error level of the installer or uninstaller to error_level. See Error L
 
 ## Parameters
 
-    error_level
+```
+error_level
+```
 
 ## Example
 
-    IfRebootFlag 0 +2
-    SetErrorLevel 4
+```nsis
+IfRebootFlag 0 +2
+SetErrorLevel 4
+```
 
 ## History
 

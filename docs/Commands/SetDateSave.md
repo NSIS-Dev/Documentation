@@ -4,7 +4,9 @@ This command sets the file date/time saving flag which is used by the File comma
 
 ## Parameters
 
-    on|off
+```
+on|off
+```
 
 ## History
 

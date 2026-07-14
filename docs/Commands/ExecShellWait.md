@@ -4,13 +4,17 @@ Execute the specified program and continue immediately. Note that the file speci
 
 ## Parameters
 
-    [/INVOKEIDLIST] action command [parameters] [SW_SHOWDEFAULT | SW_SHOWNORMAL | SW_SHOWMAXIMIZED | SW_SHOWMINIMIZED | SW_HIDE]
+```
+[/INVOKEIDLIST] action command [parameters] [SW_SHOWDEFAULT | SW_SHOWNORMAL | SW_SHOWMAXIMIZED | SW_SHOWMINIMIZED | SW_HIDE]
+```
 
 ## Example
 
-    ExecShellWait "open" "http://nsis.sf.net/"
-    ExecShellWait "open" "$INSTDIR\readme.txt"
-    ExecShellWait "print" "$INSTDIR\readme.txt"
+```nsis
+ExecShellWait "open" "http://nsis.sf.net/"
+ExecShellWait "open" "$INSTDIR\readme.txt"
+ExecShellWait "print" "$INSTDIR\readme.txt"
+```
 
 ## History
 

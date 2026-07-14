@@ -4,12 +4,16 @@ Reads from the registry into the user variable $x. Valid values for root\_key ar
 
 ## Parameters
 
-    user_var(output) root_key sub_key name
+```
+user_var(output) root_key sub_key name
+```
 
 ## Example
 
-    ReadRegStr $0 HKLM Software\NSIS ""
-    DetailPrint "NSIS is installed at: $0"
+```nsis
+ReadRegStr $0 HKLM Software\NSIS ""
+DetailPrint "NSIS is installed at: $0"
+```
 
 ## History
 

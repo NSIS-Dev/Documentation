@@ -4,17 +4,21 @@ Repeats a block of statements varying the value of a variable.
 
 ## Syntax
 
-    ${For} expression
+```nsis
+${For} expression
+```
 
 ## Example
 
-    StrCpy $0 ""
+```nsis
+StrCpy $0 ""
 
-    ${For} $1 1 5
-        StrCpy $0 $0$1
-    ${Next}
+${For} $1 1 5
+    StrCpy $0 $0$1
+${Next}
 
-    ; $0 = 12345
+; $0 = 12345
+```
 
 ## Credits
 

@@ -4,14 +4,18 @@ Checks and clears the error flag, and if it is set, it will [`Goto`][1] jumpto\_
 
 ## Parameters
 
-    jumpto_iferror [jumpto_ifnoerror]
+```
+jumpto_iferror [jumpto_ifnoerror]
+```
 
 ## Example
 
-    ClearErrors
-    File file.dat
-    IfErrors 0 +2
-    Call ErrorHandler
+```nsis
+ClearErrors
+File file.dat
+IfErrors 0 +2
+Call ErrorHandler
+```
 
 ## History
 

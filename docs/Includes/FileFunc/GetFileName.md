@@ -4,14 +4,18 @@ Get last part from directory path.
 
 ## Syntax
 
-    ${GetFileName} "[PathString]" $var
+```nsis
+${GetFileName} "[PathString]" $var
+```
 
 ## Example
 
-    Section
-        ${GetFileName} "C:\Program Files\Winamp\uninstwa.exe" $R0
-        ; $R0="uninstwa.exe"
-    SectionEnd
+```nsis
+Section
+    ${GetFileName} "C:\Program Files\Winamp\uninstwa.exe" $R0
+    ; $R0="uninstwa.exe"
+SectionEnd
+```
 
 ## Credits
 

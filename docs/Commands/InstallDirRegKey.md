@@ -6,12 +6,16 @@ Language strings and variables cannot be used with `InstallDirRegKey`.
 
 ## Parameters
 
-    root_key subkey key_name
+```
+root_key subkey key_name
+```
 
 ## Example
 
-    InstallDirRegKey HKLM Software\NSIS ""
-    InstallDirRegKey HKLM Software\ACME\Thingy InstallLocation
+```nsis
+InstallDirRegKey HKLM Software\NSIS ""
+InstallDirRegKey HKLM Software\ACME\Thingy InstallLocation
+```
 
 ## History
 

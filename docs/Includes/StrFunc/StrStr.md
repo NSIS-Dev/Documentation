@@ -4,23 +4,29 @@ Searches for "StrToSearchFor" in "String".
 
 ## Syntax
 
-    ResultVar String StrToSearchFor
+```
+ResultVar String StrToSearchFor
+```
 
 ## Parameters
 
-    ResultVar
-    Destination where result is returned.
+```
+ResultVar
+Destination where result is returned.
 
-    String
-    String where to search "StrToSearchFor".
+String
+String where to search "StrToSearchFor".
 
-    StrToSearchFor
-    String to search in "String".
+StrToSearchFor
+String to search in "String".
+```
 
 ## Example
 
-    ${StrStr} $0 "This is just an example" "just"
-    $0 = "just an example"
+```nsis
+${StrStr} $0 "This is just an example" "just"
+# $0 = "just an example"
+```
 
 ## Credits
 

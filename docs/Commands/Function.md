@@ -4,17 +4,21 @@ Begins and opens a new function. Function names beginning with "." (e.g. ".Whate
 
 ## Parameters
 
-    [function_name]
+```
+[function_name]
+```
 
 ## Example
 
-    Function func
-        # some commands
-    FunctionEnd
+```nsis
+Function func
+    # some commands
+FunctionEnd
 
-    Section
-        Call func
-    SectionEnd
+Section
+    Call func
+SectionEnd
+```
 
 ## History
 

@@ -6,11 +6,15 @@ Formats the number in "numberstring" using the format "format", and sets the out
 
 ## Parameters
 
-    user_var(output) format numberstring
+```
+user_var(output) format numberstring
+```
 
 ## Example
 
-    Int64Fmt $0 "%I64x" 244837743786702
+```nsis
+Int64Fmt $0 "%I64x" 244837743786702
+```
 
 ## History
 

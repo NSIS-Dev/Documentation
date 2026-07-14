@@ -4,19 +4,23 @@ This command, when paired with an [`!endif`][1] command, will tell the compiler 
 
 ## Parameters
 
-    gflag [bcheck gflag [...]]]
+```
+gflag [bcheck gflag [...]]]
+```
 
 ## Example
 
-    !define SOMETHING
-    !ifdef SOMETHING
-        !echo "SOMETHING is defined"
-    !endif
+```nsis
+!define SOMETHING
+!ifdef SOMETHING
+    !echo "SOMETHING is defined"
+!endif
 
-    !undef SOMETHING
-    !ifdef SOMETHING
-        !echo "SOMETHING is defined" # will never be printed
-    !endif
+!undef SOMETHING
+!ifdef SOMETHING
+    !echo "SOMETHING is defined" # will never be printed
+!endif
+```
 
 ## History
 

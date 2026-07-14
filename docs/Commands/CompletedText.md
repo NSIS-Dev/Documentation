@@ -6,7 +6,9 @@ Accepts variables. If variables are used, they must be initialized before the me
 
 ## Parameters
 
-    text
+```
+text
+```
 
 ## History
 

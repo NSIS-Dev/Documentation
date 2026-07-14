@@ -19,15 +19,19 @@ Combines value1 and (depending on OP) value2 into the specified user variable (u
 
 ## Parameters
 
-    user_var(output) value1 OP [value2]
+```
+user_var(output) value1 OP [value2]
+```
 
 ## Example
 
-    IntOp $0 1 + 1
-    IntOp $0 $0 + 1
-    IntOp $0 $0 << 2
-    IntOp $0 $0 ~
-    IntOp $0 $0 & 0xF
+```nsis
+IntOp $0 1 + 1
+IntOp $0 $0 + 1
+IntOp $0 $0 << 2
+IntOp $0 $0 ~
+IntOp $0 $0 & 0xF
+```
 
 ## History
 

@@ -7,7 +7,9 @@ Checks if active language is a RTL language.
 
 ## Parameters
 
-    jump_if_true [jump_if_false]
+```
+jump_if_true [jump_if_false]
+```
 
 ## History
 

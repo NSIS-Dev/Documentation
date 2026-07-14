@@ -8,6 +8,7 @@ To download files from the internet, use the NSISdl plugin.
 
 Simple example:
 
+```nsis
     ClearErrors           ;Clear the error flag
     Dialer::FunctionName  ;Call Dialer function
     IfErrors "" +3        ;Check for errors
@@ -15,43 +16,46 @@ Simple example:
       Quit
     Pop $R0               ;Get the return value from the stack
     MessageBox MB_OK $R0  ;Display the return value
+```
 
 Example function:
 
-    ; ConnectInternet (uses Dialer plugin)
-    ; Written by Joost Verburg 
-    ;
-    ; This function attempts to make a connection to the internet if there is no
-    ; connection available. If you are not sure that a system using the installer
-    ; has an active internet connection, call this function before downloading
-    ; files with NSISdl.
-    ; 
-    ; The function requires Internet Explorer 3, but asks to connect manually if
-    ; IE3 is not installed.
+```nsis
+; ConnectInternet (uses Dialer plugin)
+; Written by Joost Verburg
+;
+; This function attempts to make a connection to the internet if there is no
+; connection available. If you are not sure that a system using the installer
+; has an active internet connection, call this function before downloading
+; files with NSISdl.
+;
+; The function requires Internet Explorer 3, but asks to connect manually if
+; IE3 is not installed.
 
-    Function ConnectInternet
+Function ConnectInternet
 
-      Push $R0
+    Push $R0
 
-        ClearErrors
-        Dialer::AttemptConnect
-        IfErrors noie3
+    ClearErrors
+    Dialer::AttemptConnect
+    IfErrors noie3
 
-        Pop $R0
-        StrCmp $R0 "online" connected
-          MessageBox MB_OK|MB_ICONSTOP "Cannot connect to the internet."
-          Quit ;Remove to make error not fatal
+    Pop $R0
+    StrCmp $R0 "online" connected
+        MessageBox MB_OK|MB_ICONSTOP "Cannot connect to the internet."
+        Quit ;Remove to make error not fatal
 
-        noie3:
+    noie3:
 
-        ; IE3 not installed
-        MessageBox MB_OK|MB_ICONINFORMATION "Please connect to the internet now."
+    ; IE3 not installed
+    MessageBox MB_OK|MB_ICONINFORMATION "Please connect to the internet now."
 
-        connected:
+    connected:
 
-      Pop $R0
+    Pop $R0
 
-    FunctionEnd
+FunctionEnd
+```
 
 ### Functions
 

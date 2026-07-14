@@ -7,11 +7,15 @@ Works the same as [`StrCpy`][1], but allows ovewriting special variables such as
 
 ## Parameters
 
-    user_var(destination) str [maxlen] [start_offset]
+```
+user_var(destination) str [maxlen] [start_offset]
+```
 
 ## Example
 
-    UnsafeStrCpy $PLUGINSDIR "C:\CustomPluginLocation" 
+```nsis
+UnsafeStrCpy $PLUGINSDIR "C:\CustomPluginLocation"
+```
 
 ## History
 

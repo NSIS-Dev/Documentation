@@ -4,47 +4,57 @@ Conditionally executes a block of statements, depending on the value of an expre
 
 ## Syntax
 
-    ${Else}
+```nsis
+${Else}
+```
 
 ## Examples
 
 ### Check if condition is met
 
-    StrCpy $0 true
+```nsis
+StrCpy $0 true
 
-    ${If} $0 == true
-        MessageBox MB_OK "$$0 is always true"
-    ${Else}
-        MessageBox MB_OK "$$0 is never false"
-    ${EndIf}
+${If} $0 == true
+    MessageBox MB_OK "$$0 is always true"
+${Else}
+    MessageBox MB_OK "$$0 is never false"
+${EndIf}
+```
 
 ### Integer tests
 
-    ${If} 1 > 0
-        MessageBox MB_OK "1 is greater than 0"
-    ${Else}
-        MessageBox MB_OK "Something went wrong!"
-    ${EndIf}
+```nsis
+${If} 1 > 0
+    MessageBox MB_OK "1 is greater than 0"
+${Else}
+    MessageBox MB_OK "Something went wrong!"
+${EndIf}
+```
 
 ### File conditions
 
-    ${IfNot} ${FileExists} $SYSDIR\notepad.exe
-        MessageBox MB_OK "Could not find notepad.exe"
-    ${Else}
-        Exec $SYSDIR\notepad.exe
-    ${EndIf}
+```nsis
+${IfNot} ${FileExists} $SYSDIR\notepad.exe
+    MessageBox MB_OK "Could not find notepad.exe"
+${Else}
+    Exec $SYSDIR\notepad.exe
+${EndIf}
+```
 
 ### Section test
 
-    Section "My Section" mySection
-        MessageBox MB_OK "Section is selected!""
+```nsis
+Section "My Section" mySection
+    MessageBox MB_OK "Section is selected!"
 
-        ${If} ${SectionIsSelected} ${mySection}
-            MessageBox MB_OK "Section is selected (and we knew that already!)"
-        ${Else}
-            MessageBox MB_OK "This will never show, dummy!"
-        ${EndIf}
-    SectionEnd
+    ${If} ${SectionIsSelected} ${mySection}
+        MessageBox MB_OK "Section is selected (and we knew that already!)"
+    ${Else}
+        MessageBox MB_OK "This will never show, dummy!"
+    ${EndIf}
+SectionEnd
+```
 
 ## Credits
 

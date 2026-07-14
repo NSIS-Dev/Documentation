@@ -4,10 +4,12 @@ This callback is called when the user hits the 'cancel' button and the uninstall
 
 ## Example
 
-    Function un.onUserAbort
-        MessageBox MB_YESNO "Abort uninstall?" IDYES NoCancelAbort
-        Abort ; causes uninstaller to not quit.
-        NoCancelAbort:
-    FunctionEnd
+```nsis
+Function un.onUserAbort
+    MessageBox MB_YESNO "Abort uninstall?" IDYES NoCancelAbort
+    Abort ; causes uninstaller to not quit.
+    NoCancelAbort:
+FunctionEnd
+```
 
 [1]: ../Commands/Abort.md

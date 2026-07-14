@@ -4,18 +4,22 @@ Performs a search for 'filespec', placing the first file found in filename\_outp
 
 ## Parameters
 
-    user_var(handle output) user_var(filename output) filespec
+```
+user_var(handle output) user_var(filename output) filespec
+```
 
 ## Example
 
-    FindFirst $0 $1 $INSTDIR\*.txt
-    loop:
-      StrCmp $1 "" done
-      DetailPrint $1
-      FindNext $0 $1
-      Goto loop
-    done:
-    FindClose $0
+```nsis
+FindFirst $0 $1 $INSTDIR\*.txt
+loop:
+  StrCmp $1 "" done
+  DetailPrint $1
+  FindNext $0 $1
+  Goto loop
+done:
+FindClose $0
+```
 
 ## History
 

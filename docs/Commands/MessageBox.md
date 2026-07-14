@@ -37,24 +37,28 @@ Use the `/SD` parameter with one of the return_check values above to specify the
 
 ## Parameters
 
-    mb_option_list messagebox_text [/SD return] [return_check jumpto] [return_check_2 jumpto_2]
+```
+mb_option_list messagebox_text [/SD return] [return_check jumpto] [return_check_2 jumpto_2]
+```
 
 ## Example
 
-    MessageBox MB_OK "simple message box"
-    MessageBox MB_YESNO "is it true?" IDYES true IDNO false
-    true:
-      DetailPrint "it's true!"
-      Goto next
-    false:
-      DetailPrint "it's false"
-    next:
-    MessageBox MB_YESNO "is it true? (defaults to yes on silent installations)" /SD IDYES IDNO false2
-      DetailPrint "it's true (or silent)!"
-      Goto next2
-    false2:
-      DetailPrint "it's false"
-    next2:
+```nsis
+MessageBox MB_OK "simple message box"
+MessageBox MB_YESNO "is it true?" IDYES true IDNO false
+true:
+  DetailPrint "it's true!"
+  Goto next
+false:
+  DetailPrint "it's false"
+next:
+MessageBox MB_YESNO "is it true? (defaults to yes on silent installations)" /SD IDYES IDNO false2
+  DetailPrint "it's true (or silent)!"
+  Goto next2
+false2:
+  DetailPrint "it's false"
+next2:
+```
 
 ## History
 

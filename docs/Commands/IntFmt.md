@@ -4,12 +4,16 @@ Formats the number in "numberstring" using the format "format", and sets the out
 
 ## Parameters
 
-    user_var(output) format numberstring
+```
+user_var(output) format numberstring
+```
 
 ## Example
 
-    IntFmt $0 "0x%08X" 195948557
-    IntFmt $0 "%c" 0x41
+```nsis
+IntFmt $0 "0x%08X" 195948557
+IntFmt $0 "%c" 0x41
+```
 
 ## History
 

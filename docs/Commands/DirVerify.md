@@ -4,14 +4,18 @@ If 'DirVerify leave' is used, the Next button will not be disabled if the instal
 
 ## Parameters
 
-    auto|leave
+```
+auto|leave
+```
 
 ## Example
 
-    PageEx directory
-        DirVerify leave
-        PageCallbacks "" "" dirLeave
-    PageExEnd
+```nsis
+PageEx directory
+    DirVerify leave
+    PageCallbacks "" "" dirLeave
+PageExEnd
+```
 
 ## History
 

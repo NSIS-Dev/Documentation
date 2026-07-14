@@ -8,7 +8,9 @@ VPatch allows to create a patch file to update previous versions of your softwar
 
 Make sure you have the source file (original version) and the target file (version to update to). For example, `DATA.DTA` (currently on user system) and `DATA_20.DTA` (version 2.0 of this data file). Now call the command line tool `GenPat.exe`:
 
-    `GENPAT oldfile.txt newfile.txt patch.pat
+```
+GENPAT oldfile.txt newfile.txt patch.pat
+```
 
 Now, the patch will be generated, this will take some time.
 
@@ -20,7 +22,9 @@ If you have trouble using this command-line utility, you can download a GUI (gra
 
 Use the VPatch plug-in to update a file using a patch file:
 
-`vpatch::vpatchfile "patch.pat" "oldfile.txt" "temporary_newfile.txt"`
+```nsis
+vpatch::vpatchfile "patch.pat" "oldfile.txt" "temporary_newfile.txt"`
+```
 
 The result of the patch operating will be added to the stack and can be one of the following texts:
 

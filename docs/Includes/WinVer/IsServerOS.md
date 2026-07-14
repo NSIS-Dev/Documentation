@@ -4,15 +4,19 @@ Checks if the installer is running on a server version of Windows (NT4, 2003, 20
 
 ## Syntax
 
-    logic_lib_statement ${IsServerOS}
+```
+logic_lib_statement ${IsServerOS}
+```
 
 ## Example
 
-    ${If} ${IsServerOS}
-        DetailPrint "Running on Windows Server."
-    ${Else}
-        DetailPrint "Not running on Windows Server."
-    ${EndIf}
+```nsis
+${If} ${IsServerOS}
+    DetailPrint "Running on Windows Server."
+${Else}
+    DetailPrint "Not running on Windows Server."
+${EndIf}
+```
 
 ## Credits
 

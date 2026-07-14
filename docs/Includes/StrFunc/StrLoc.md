@@ -4,27 +4,33 @@ Searches for "StrToSearchFor" in "String" and returns its location, according to
 
 ## Syntax
 
-    ResultVar String StrToSearchFor CounterDirection(>|<)
+```nsis
+ResultVar String StrToSearchFor CounterDirection(>|<)
+```
 
 ## Parameters
 
-    ResultVar
-    Destination where result is returned.
+```
+ResultVar
+Destination where result is returned.
 
-    String
-    String where to search "StrToSearchFor".
+String
+String where to search "StrToSearchFor".
 
-    StrToSearchFor
-    String to search in "String".
+StrToSearchFor
+String to search in "String".
 
-    CounterDirection(>|<)
-    Direction where the counter increases to. Default is ">".
-    (> = increases from left to right, < = increases from right to left)
+CounterDirection(>|<)
+Direction where the counter increases to. Default is ">".
+(> = increases from left to right, < = increases from right to left)
+```
 
 ## Example
 
-    ${StrLoc} $0 "This is just an example" "just" "<"
-    $0 = "11"
+```nsis
+${StrLoc} $0 "This is just an example" "just" "<"
+# $0 = "11"
+```
 
 ## Credits
 

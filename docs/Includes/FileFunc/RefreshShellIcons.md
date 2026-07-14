@@ -4,14 +4,18 @@ After changing file associations, you can call this function to refresh the shel
 
 ## Syntax
 
-    ${RefreshShellIcons}
+```nsis
+${RefreshShellIcons}
+```
 
 ## Example
 
-    Section
-        WriteRegStr HKCR "Winamp.File\DefaultIcon" "" "$PROGRAMFILES\Winamp\WINAMP.EXE,2"
-        ${RefreshShellIcons}
-    SectionEnd
+```nsis
+Section
+    WriteRegStr HKCR "Winamp.File\DefaultIcon" "" "$PROGRAMFILES\Winamp\WINAMP.EXE,2"
+    ${RefreshShellIcons}
+SectionEnd
+```
 
 ## Credits
 

@@ -4,7 +4,9 @@ Overrides the default auto window-closing flag (specified for the installer usin
 
 ## Parameters
 
-    true|false
+```
+true|false
+```
 
 ## History
 

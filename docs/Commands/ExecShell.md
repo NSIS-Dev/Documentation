@@ -4,13 +4,17 @@ Execute the specified program using ShellExecute. Note that action is usually "o
 
 ## Parameters
 
-    action command [parameters] [SW_SHOWDEFAULT | SW_SHOWNORMAL | SW_SHOWMAXIMIZED | SW_SHOWMINIMIZED | SW_HIDE]
+```
+action command [parameters] [SW_SHOWDEFAULT | SW_SHOWNORMAL | SW_SHOWMAXIMIZED | SW_SHOWMINIMIZED | SW_HIDE]
+```
 
 ## Example
 
-    ExecShell "open" "http://nsis.sf.net/"
-    ExecShell "open" "$INSTDIR\readme.txt"
-    ExecShell "print" "$INSTDIR\readme.txt"
+```nsis
+ExecShell "open" "http://nsis.sf.net/"
+ExecShell "open" "$INSTDIR\readme.txt"
+ExecShell "print" "$INSTDIR\readme.txt"
+```
 
 ## History
 

@@ -5,11 +5,15 @@ You should always specify an absolute path.
 
 ## Parameters
 
-    path_to_create
+```
+path_to_create
+```
 
 ## Example
 
-    CreateDirectory $INSTDIR\some\directory
+```nsis
+CreateDirectory $INSTDIR\some\directory
+```
 
 ## History
 

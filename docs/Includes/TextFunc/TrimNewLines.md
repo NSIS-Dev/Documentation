@@ -4,10 +4,14 @@ Trim newlines in a string.
 
 ## Syntax
 
-    ${TrimNewLines} "[string]" $var
+```nsis
+${TrimNewLines} "[string]" $var
+```
 
-    "[string]"    ; Input string
-    $var          ; Result: String without '$\r' and '$\n' at the end
+```
+"[string]"    ; Input string
+$var          ; Result: String without '$\r' and '$\n' at the end
+```
 
 Note:
 
@@ -16,10 +20,12 @@ Note:
 
 ## Example
 
-    Section
-        ${TrimNewLines} "Text line$\r$\n" $R0
-        ; $R0="Text line"
-    SectionEnd
+```nsis
+Section
+    ${TrimNewLines} "Text line$\r$\n" $R0
+    ; $R0="Text line"
+SectionEnd
+```
 
 ## Credits
 

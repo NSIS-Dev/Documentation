@@ -8,7 +8,9 @@ More information about this topic can be found at [MSDN][1]. Keywords include "U
 
 ## Parameters
 
-    none|user|highest|admin
+```
+none|user|highest|admin
+```
 
 ## History
 

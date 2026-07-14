@@ -4,14 +4,18 @@ Delete file (which can be a file or wildcard, but should be specified with a ful
 
 ## Parameters
 
-    ini_filename section_name
+```
+ini_filename section_name
+```
 
 ## Example
 
-    WriteINIStr $TEMP\something.ini section1 something 123
-    WriteINIStr $TEMP\something.ini section1 somethingelse 1234
-    WriteINIStr $TEMP\something.ini section2 nsis true
-    DeleteINISec $TEMP\something.ini section1
+```nsis
+WriteINIStr $TEMP\something.ini section1 something 123
+WriteINIStr $TEMP\something.ini section1 somethingelse 1234
+WriteINIStr $TEMP\something.ini section2 nsis true
+DeleteINISec $TEMP\something.ini section1
+```
 
 ## History
 

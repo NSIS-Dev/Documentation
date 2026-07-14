@@ -4,13 +4,17 @@ Deletes the string str\_name from section [section\_name] from ini\_filename. If
 
 ## Parameters
 
-    ini_filename section_name str_name
+```
+ini_filename section_name str_name
+```
 
 ## Example
 
-    WriteINIStr $TEMP\something.ini section1 something 123
-    WriteINIStr $TEMP\something.ini section1 somethingelse 1234
-    DeleteINIStr $TEMP\something.ini section1 somethingelse
+```nsis
+WriteINIStr $TEMP\something.ini section1 something 123
+WriteINIStr $TEMP\something.ini section1 somethingelse 1234
+DeleteINIStr $TEMP\something.ini section1 somethingelse
+```
 
 ## History
 

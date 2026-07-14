@@ -4,11 +4,15 @@ Creates a shortcut 'link.lnk' that links to 'target.file', with optional paramet
 
 ## Parameters
 
-    link.lnk target.file [parameters [icon.file [icon_index_number [start_options [keyboard_shortcut [description]]]]]]
+```
+link.lnk target.file [parameters [icon.file [icon_index_number [start_options [keyboard_shortcut [description]]]]]]
+```
 
 ## Example
 
-    CreateDirectory $INSTDIR\some\directory
+```nsis
+CreateDirectory $INSTDIR\some\directory
+```
 
 ## History
 

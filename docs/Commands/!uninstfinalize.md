@@ -5,11 +5,15 @@ On POSIX platforms, `!execute` will use _system()_ just like [`!system`][1].
 
 ## Parameters
 
-    command
+```
+command
+```
 
 ## Example
 
-    !uninstfinalize 'sign.bat "%1" "MyProduct Installer" http://example.com'
+```nsis
+!uninstfinalize 'sign.bat "%1" "MyProduct Installer" http://example.com'
+```
 
 ## History
 

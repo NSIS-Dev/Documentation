@@ -4,15 +4,19 @@ This command, when paired with an [`!endif`][1] command, will tell the compiler 
 
 ## Parameters
 
-    gflag [bcheck gflag [...]]]
+```
+gflag [bcheck gflag [...]]]
+```
 
 ## Example
 
-    !macro SomeMacro
-    !macroend
-    !ifmacrodef SomeMacro
-      !echo "SomeMacro is defined"
-    !endif
+```nsis
+!macro SomeMacro
+!macroend
+!ifmacrodef SomeMacro
+    !echo "SomeMacro is defined"
+!endif
+```
 
 ## History
 

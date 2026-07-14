@@ -4,17 +4,21 @@ This command inserts a section group. The section group must be closed with [`Se
 
 ## Parameters
 
-    [/e] section_group_name [index_output]
+```
+[/e] section_group_name [index_output]
+```
 
 ## Example
 
-    SectionGroup "some stuff"
-        Section "a section"
-        SectionEnd
+```nsis
+SectionGroup "some stuff"
+    Section "a section"
+    SectionEnd
 
-        Section "another section"
-        SectionEnd
-    SectionGroupEnd
+    Section "another section"
+    SectionEnd
+SectionGroupEnd
+```
 
 ## History
 

@@ -4,11 +4,15 @@ Deletes a registry value. Valid values for root_key are listed under [`WriteRegS
 
 ## Parameters
 
-    root_key subkey key_name
+```
+root_key subkey key_name
+```
 
 ## Example
 
-    DeleteRegValue HKLM "Software\My Company\My Software" "some value"
+```nsis
+DeleteRegValue HKLM "Software\My Company\My Software" "some value"
+```
 
 ## History
 

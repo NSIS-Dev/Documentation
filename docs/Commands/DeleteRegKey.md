@@ -4,12 +4,16 @@ Deletes a registry key. If `/ifempty` is specified, the registry key will only b
 
 ## Parameters
 
-    [/ifempty] root_key subkey
+```
+[/ifempty] root_key subkey
+```
 
 ## Example
 
-    DeleteRegKey HKLM "Software\My Company\My Software"
-    DeleteRegKey /ifempty HKLM "Software\A key that might have subkeys"
+```nsis
+DeleteRegKey HKLM "Software\My Company\My Software"
+DeleteRegKey /ifempty HKLM "Software\A key that might have subkeys"
+```
 
 ## History
 

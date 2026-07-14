@@ -4,7 +4,9 @@
 
 ## Parameters
 
-    on|off
+```
+on|off
+```
 
 ## History
 

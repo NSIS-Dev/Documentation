@@ -4,11 +4,15 @@ Removes a resource added with [`PEAddResource`][PEAddResource].
 
 ## Parameters
 
-    [/NOERRORS] restype resname reslang|ALL
+```
+[/NOERRORS] restype resname reslang|ALL
+```
 
 ## Example
 
-    PERemoveResource "#Icon" "#200" ALL
+```nsis
+PERemoveResource "#Icon" "#200" ALL
+```
 
 ## History
 

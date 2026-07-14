@@ -4,12 +4,16 @@ Closes a file handle opened with [`FileOpen`][1].
 
 ## Parameters
 
-    handle
+```
+handle
+```
 
 ## Example
 
-    FileOpen $0 $INSTDIR\file.dat r
-    FileClose $0
+```nsis
+FileOpen $0 $INSTDIR\file.dat r
+FileClose $0
+```
 
 ## History
 

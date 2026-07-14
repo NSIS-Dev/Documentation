@@ -4,15 +4,19 @@ Sets the visibility of a window. Possible show\_states are the same as [Windows 
 
 ## Parameters
 
-    hwnd show_state
+```
+hwnd show_state
+```
 
 ## Example
 
-    !include WinMessages.nsh
-    GetDlgItem $0 $HWNDPARENT 1
-    ShowWindow $0 ${SW_HIDE}
-    Sleep 1000
-    ShowWindow $0 ${SW_SHOW}
+```nsis
+!include WinMessages.nsh
+GetDlgItem $0 $HWNDPARENT 1
+ShowWindow $0 ${SW_HIDE}
+Sleep 1000
+ShowWindow $0 ${SW_SHOW}
+```
 
 ## History
 

@@ -8,7 +8,9 @@ Accepts variables. If variables are used, they must be initialized before the re
 
 ## Parameters
 
-    [page_number subcaption]
+```
+[page_number subcaption]
+```
 
 ## History
 

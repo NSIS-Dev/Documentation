@@ -4,11 +4,15 @@ Sets whether or not a XP visual style manifest will be added to the installer. T
 
 ## Parameters
 
-    on|off
+```
+on|off
+```
 
 ## Example
 
-    WriteUninstaller $INSTDIR\uninstaller.exe
+```nsis
+WriteUninstaller $INSTDIR\uninstaller.exe
+```
 
 ## History
 

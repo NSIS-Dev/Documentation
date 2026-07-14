@@ -8,7 +8,9 @@ Accepts variables. If variables are used, they must be initialized before the co
 
 ## Parameters
 
-    [text [subtext] [subtext2]]
+```
+[text [subtext] [subtext2]]
+```
 
 * text: Text above the controls, to the right of the installation icon.
 * subtext: Text next to the installation type selection.

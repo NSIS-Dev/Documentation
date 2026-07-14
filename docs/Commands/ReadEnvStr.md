@@ -4,12 +4,16 @@ Reads from the environment string "name" and sets the value into the user variab
 
 ## Parameters
 
-    user_var(output) name
+```
+user_var(output) name
+```
 
 ## Example
 
-    ReadEnvStr $0 WINDIR
-    ReadEnvStr $1 TEMP
+```nsis
+ReadEnvStr $0 WINDIR
+ReadEnvStr $1 TEMP
+```
 
 ## History
 

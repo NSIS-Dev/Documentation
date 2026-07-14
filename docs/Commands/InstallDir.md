@@ -4,7 +4,9 @@ Sets the default installation directory. See the variables section for variables
 
 ## Parameters
 
-    definstdir
+```
+definstdir
+```
 
 ## History
 

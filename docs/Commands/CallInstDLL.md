@@ -4,13 +4,17 @@ Calls a function named function_name inside a NSIS extension DLL, a plug-in. See
 
 ## Parameters
 
-    dllfile function_name
+```
+dllfile function_name
+```
 
 ## Example
 
-    Push "a parameter"
-    Push "another parameter"
-    CallInstDLL $INSTDIR\somedll.dll somefunction
+```nsis
+Push "a parameter"
+Push "another parameter"
+CallInstDLL $INSTDIR\somedll.dll somefunction
+```
 
 ## History
 

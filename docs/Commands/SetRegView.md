@@ -8,22 +8,26 @@ Does not affect [`InstallDirRegKey`][11]. Instead, the registry can be read usin
 
 ## Parameters
 
-    32|64|lastused
+```
+32|64|lastused
+```
 
 ## Example
 
-    SetRegView 32
-    ReadRegStr $0 HKLM Software\Microsoft\Windows\CurrentVersion ProgramFilesDir
-    DetailPrint $0 # prints C:\Program Files (x86)
-    SetRegView 64
-    ReadRegStr $0 HKLM Software\Microsoft\Windows\CurrentVersion ProgramFilesDir
-    DetailPrint $0 # prints C:\Program Files
+```nsis
+SetRegView 32
+ReadRegStr $0 HKLM Software\Microsoft\Windows\CurrentVersion ProgramFilesDir
+DetailPrint $0 # prints C:\Program Files (x86)
+SetRegView 64
+ReadRegStr $0 HKLM Software\Microsoft\Windows\CurrentVersion ProgramFilesDir
+DetailPrint $0 # prints C:\Program Files
 
-    Function .onInit
-        SetRegView 64
-        ReadRegStr $INSTDIR HKLM Software\NSIS ""
-        SetRegView 32
-    FunctionEnd
+Function .onInit
+    SetRegView 64
+    ReadRegStr $INSTDIR HKLM Software\NSIS ""
+    SetRegView 32
+FunctionEnd
+```
 
 ## History
 

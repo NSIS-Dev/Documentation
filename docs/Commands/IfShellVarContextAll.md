@@ -6,7 +6,9 @@ Checks if [`SetShellVarContext`][1] is set to all.
 
 ## Parameters
 
-    jump_if_true [jump_if_false]
+```
+jump_if_true [jump_if_false]
+```
 
 ## History
 

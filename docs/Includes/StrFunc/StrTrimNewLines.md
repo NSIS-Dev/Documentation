@@ -4,20 +4,26 @@ Deletes unnecessary new lines at end of "String".
 
 ## Syntax
 
-    ResultVar String
+```
+ResultVar String
+```
 
 ## Parameters
 
-    ResultVar
-    Destination where result is returned.
+```
+ResultVar
+Destination where result is returned.
 
-    String
-    String where to search unnecessary new lines at end of "String".
+String
+String where to search unnecessary new lines at end of "String".
+```
 
 ## Example
 
-    ${StrTrimNewLines} $0 "$\r$\nThis is just an example$\r$\n$\r$\n"
-    $0 = "$\r$\nThis is just an example"
+```nsis
+${StrTrimNewLines} $0 "$\r$\nThis is just an example$\r$\n$\r$\n"
+$0 = "$\r$\nThis is just an example"
+```
 
 ## Credits
 

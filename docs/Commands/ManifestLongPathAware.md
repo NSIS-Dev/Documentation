@@ -7,7 +7,9 @@ Declare that the installer can handle paths longer than `MAX_PATH`. Only support
 
 ## Parameters
 
-    notset|true|false
+```
+notset|true|false
+```
 
 ## History
 

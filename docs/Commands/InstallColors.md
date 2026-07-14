@@ -4,7 +4,9 @@ Sets the colors to use for the install info screen (the default is 00FF00 000000
 
 ## Parameters
 
-    /windows | (foreground_color background_color)
+```
+/windows | (foreground_color background_color)
+```
 
 ## History
 

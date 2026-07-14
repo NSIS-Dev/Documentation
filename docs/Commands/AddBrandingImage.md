@@ -6,15 +6,19 @@ Adds a branding image on the top, bottom, left, or right of the installer. Its s
 
 ## Parameters
 
-    (left|right|top|bottom) (width|height) [padding]
+```
+(left|right|top|bottom) (width|height) [padding]
+```
 
 ## Example
 
-    AddBrandingImage left 100
-    AddBrandingImage right 50
-    AddBrandingImage top 20
-    AddBrandingImage bottom 35
-    AddBrandingImage left 100 5
+```nsis
+AddBrandingImage left 100
+AddBrandingImage right 50
+AddBrandingImage top 20
+AddBrandingImage bottom 35
+AddBrandingImage left 100 5
+```
 
 ## History
 

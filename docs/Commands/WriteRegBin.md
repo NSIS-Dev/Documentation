@@ -4,11 +4,15 @@ This command writes a block of binary data to the registry. Valid values for roo
 
 ## Parameters
 
-    root_key subkey key_name valuedata
+```
+root_key subkey key_name valuedata
+```
 
 ## Example
 
-    WriteRegBin HKLM "Software\My Company\My Software" "Binary Value" DEADBEEF01223211151
+```nsis
+WriteRegBin HKLM "Software\My Company\My Software" "Binary Value" DEADBEEF01223211151
+```
 
 ## History
 

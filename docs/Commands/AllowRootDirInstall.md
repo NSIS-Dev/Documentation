@@ -4,7 +4,9 @@ Controls whether or not installs are allowed in the root directory of a drive, o
 
 ## Parameters
 
-    true|false
+```
+true|false
+```
 
 ## History
 

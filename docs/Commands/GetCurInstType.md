@@ -4,7 +4,9 @@ Get the current [`InstType`][1] and stores it in user\_var. If the first install
 
 ## Parameters
 
-    user_var
+```
+user_var
+```
 
 ## History
 

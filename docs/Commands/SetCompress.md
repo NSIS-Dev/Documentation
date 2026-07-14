@@ -6,7 +6,9 @@ Note that this option has no effect when solid compression is used.
 
 ## Parameters
 
-    auto|force|off
+```
+auto|force|off
+```
 
 ## History
 

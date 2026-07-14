@@ -4,21 +4,25 @@ Specifies which variable is to be used to contain the directory selected. This v
 
 ## Parameters
 
-    user_var(dir input/output)
+```
+user_var(dir input/output)
+```
 
 ## Example
 
-    Var ANOTHER_DIR
-    PageEx directory
-        DirVar $ANOTHER_DIR
-    PageExEnd
-     
-    Section
-        SetOutPath $INSTDIR
-        File "a file.dat"
-        SetOutPath $ANOTHER_DIR
-        File "another file.dat"
-    SectionEnd
+```nsis
+Var ANOTHER_DIR
+PageEx directory
+    DirVar $ANOTHER_DIR
+PageExEnd
+
+Section
+    SetOutPath $INSTDIR
+    File "a file.dat"
+    SetOutPath $ANOTHER_DIR
+    File "another file.dat"
+SectionEnd
+```
 
 ## History
 

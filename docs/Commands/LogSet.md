@@ -6,7 +6,9 @@ See [Building NSIS][2] for more information about recompiling NSIS.
 
 ## Parameters
 
-    on|off
+```
+on|off
+```
 
 ## History
 

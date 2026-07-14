@@ -6,11 +6,15 @@ If no absolute path is specified the current folder will be used. The current fo
 
 ## Parameters
 
-    [/REBOOTOK] source_file dest_file
+```
+[/REBOOTOK] source_file dest_file
+```
 
 ## Example
 
-    Rename $INSTDIR\file.ext $INSTDIR\file.dat
+```nsis
+Rename $INSTDIR\file.ext $INSTDIR\file.dat
+```
 
 ## History
 

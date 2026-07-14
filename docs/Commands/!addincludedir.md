@@ -4,12 +4,16 @@ Adds another include directory to the include directories list. This list is sea
 
 ## Parameters
 
-    directory
+```
+directory
+```
 
 ## Example
 
-    !addincludedir ..\include
-    !include something.nsh
+```nsis
+!addincludedir ..\include
+!include something.nsh
+```
 
 ## History
 

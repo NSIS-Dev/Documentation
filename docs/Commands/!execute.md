@@ -5,11 +5,15 @@ On POSIX platforms, `!execute` will use _system()_ just like [`!system`][1].
 
 ## Parameters
 
-    command
+```
+command
+```
 
 ## Example
 
-    !execute '"%WINDIR%\notepad.exe" "${NSISDIR}\license.txt"'
+```nsis
+!execute '"%WINDIR%\notepad.exe" "${NSISDIR}\license.txt"'
+```
 
 ## History
 

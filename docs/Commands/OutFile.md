@@ -4,7 +4,9 @@ Specifies the output file that the MakeNSIS should write the installer to. This 
 
 ## Parameters
 
-    [path\]install.exe
+```
+[path\]install.exe
+```
 
 ## History
 

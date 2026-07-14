@@ -4,16 +4,20 @@ This command will execute 'command' using a call to system(), and if the return 
 
 ## Parameters
 
-    command [compare comparevalue]
+```
+command [compare comparevalue]
+```
 
 ## Example
 
-    !system '"%WINDIR%\notepad.exe" "${NSISDIR}\license.txt"'
-    !system 'echo !define something > newinclude.nsh'
-    !include newinclude.nsh
-    !ifdef something
-        !echo "something is defined"
-    !endif
+```nsis
+!system '"%WINDIR%\notepad.exe" "${NSISDIR}\license.txt"'
+!system 'echo !define something > newinclude.nsh'
+!include newinclude.nsh
+!ifdef something
+    !echo "something is defined"
+!endif
+```
 
 ## History
 

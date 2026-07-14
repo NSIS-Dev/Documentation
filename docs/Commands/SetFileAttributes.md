@@ -14,7 +14,9 @@ The error flag will be set if the file's attributes cannot be set (i.e. the file
 
 ## Parameters
 
-    filename attribute1|attribute2|...
+```
+filename attribute1|attribute2|...
+```
 
 ## History
 

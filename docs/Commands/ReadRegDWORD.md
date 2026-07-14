@@ -4,11 +4,15 @@ Reads a 32 bit DWORD from the registry into the user variable $x. Valid values f
 
 ## Parameters
 
-    user_var(output) root_key sub_key name
+```
+user_var(output) root_key sub_key name
+```
 
 ## Example
 
-    ReadRegDWORD $0 HKLM Software\NSIS VersionBuild
+```nsis
+ReadRegDWORD $0 HKLM Software\NSIS VersionBuild
+```
 
 ## History
 

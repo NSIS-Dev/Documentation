@@ -4,14 +4,18 @@ Get extension of file.
 
 ## Syntax
 
-    ${GetFileExt} "[FileString]" $var
+```nsis
+${GetFileExt} "[FileString]" $var
+```
 
 ## Example
 
-    Section
-        ${GetFileExt} "C:\ftp\program.exe" $R0
-        ; $R0="exe"
-    SectionEnd
+```nsis
+Section
+    ${GetFileExt} "C:\ftp\program.exe" $R0
+    ; $R0="exe"
+SectionEnd
+```
 
 ## Credits
 

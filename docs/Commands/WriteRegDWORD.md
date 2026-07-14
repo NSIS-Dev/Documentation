@@ -4,11 +4,15 @@ This command writes a dword (32 bit integer) to the registry (a user variable ca
 
 ## Parameters
 
-    root_key subkey key_name value
+```
+root_key subkey key_name value
+```
 
 ## Example
 
-    WriteRegDWORD HKLM "Software\My Company\My Software" "DWORD Value" 0xDEADBEEF
+```nsis
+WriteRegDWORD HKLM "Software\My Company\My Software" "DWORD Value" 0xDEADBEEF
+```
 
 ## History
 

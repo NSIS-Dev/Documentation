@@ -4,11 +4,15 @@ This command will echo a message to the user compiling the script.
 
 ## Parameters
 
-    message
+```
+message
+```
 
 ## Example
 
-    !echo "hello world"
+```nsis
+!echo "hello world"
+```
 
 ## History
 

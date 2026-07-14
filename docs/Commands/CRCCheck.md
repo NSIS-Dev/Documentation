@@ -4,7 +4,9 @@ Specifies whether or not the installer will perform a CRC on itself before allow
 
 ## Parameters
 
-    on|off|force
+```
+on|off|force
+```
 
 ## History
 

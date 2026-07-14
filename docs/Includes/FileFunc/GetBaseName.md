@@ -4,14 +4,18 @@ Get file name without extension.
 
 ## Syntax
 
-    ${GetBaseName} "[FileString]" $var
+```nsis
+${GetBaseName} "[FileString]" $var
+```
 
 ## Example
 
-    Section
-        ${GetBaseName} "C:\ftp\program.exe" $R0
-        ; $R0="program"
-    SectionEnd
+```nsis
+Section
+    ${GetBaseName} "C:\ftp\program.exe" $R0
+    ; $R0="program"
+SectionEnd
+```
 
 ## Credits
 

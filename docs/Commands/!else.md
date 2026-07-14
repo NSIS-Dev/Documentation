@@ -4,15 +4,19 @@ This command allows to easily insert different code when different defines or ma
 
 ## Parameters
 
-    [if|ifdef|ifndef|ifmacrodef|ifmacrondef [...]]
+```
+[if|ifdef|ifndef|ifmacrodef|ifmacrondef [...]]
+```
 
 ## Example
 
-    !ifdef VERSION
-        OutFile installer-${VERSION}.exe
-    !else
-        OutFile installer.exe
-    !endif
+```nsis
+!ifdef VERSION
+    OutFile installer-${VERSION}.exe
+!else
+    OutFile installer.exe
+!endif
+```
 
 ## History
 

@@ -8,7 +8,9 @@ By calling the plug-in in [`.onInit`][1], your splash-screen will be displayed b
 
 ## Parameters
 
-    delay fadeIn fadeOut keyColor fileName
+```
+delay fadeIn fadeOut keyColor fileName
+```
 
 Parameter | Description
 ----------|------------
@@ -22,37 +24,41 @@ Parameter | Description
 
 Simple splash:
 
-    Function .onInit
-      SetOutPath $PLUGINSDIR
-      
-      File /oname=spltmp.bmp "my_splash.bmp"
+```nsis
+Function .onInit
+    SetOutPath $PLUGINSDIR
 
-      AdvSplash::show 1000 600 400 -1 "$TEMP\spltmp"
+    File /oname=spltmp.bmp "my_splash.bmp"
+
+    AdvSplash::show 1000 600 400 -1 "$TEMP\spltmp"
 
     # $0 has '1' if the user closed the splash screen early,
     # '0' if everything closed normally, and '-1' if some error occurred.
-      Pop $0
+    Pop $0
 
-      Delete "$TEMP\spltmp.bmp"
-    FunctionEnd
+    Delete "$TEMP\spltmp.bmp"
+FunctionEnd
+```
 
 Transparent with sound:
 
-    Function .onInit
-      SetOutPath $PLUGINSDIR
-      
-      File /oname=spltmp.bmp "my_splash.bmp"
-      File /oname=spltmp.wav "my_splashshit.wav"
+```nsis
+Function .onInit
+    SetOutPath $PLUGINSDIR
 
-      AdvSplash::show 1000 600 400 0xf00fee "$TEMP\spltmp"
+    File /oname=spltmp.bmp "my_splash.bmp"
+    File /oname=spltmp.wav "my_splashshit.wav"
+
+    AdvSplash::show 1000 600 400 0xf00fee "$TEMP\spltmp"
 
     # $0 has '1' if the user closed the splash screen early,
     # '0' if everything closed normally, and '-1' if some error occurred.
-      Pop $0
+    Pop $0
 
-      Delete "$TEMP\spltmp.bmp"
-      Delete "$TEMP\spltmp.wav"
-    FunctionEnd
+    Delete "$TEMP\spltmp.bmp"
+    Delete "$TEMP\spltmp.wav"
+FunctionEnd
+```
 
 ## Credits
 

@@ -7,17 +7,21 @@ If `/file` is used, the entire text file specified (including whitespace and new
 
 ## Parameters
 
-    [/ifndef | /redef] ([/date|/utcdate] gflag [value]) | (/math gflag val1 OP val2) | (/file gflag filename.txt)
+```
+[/ifndef | /redef] ([/date|/utcdate] gflag [value]) | (/math gflag val1 OP val2) | (/file gflag filename.txt)
+```
 
 ## Example
 
-    !define USE_SOMETHING
-    !define VERSION 1.2
-    !define /date NOW "%H:%M:%S %d %b, %Y"
-    !define /math RESULT 3 + 10
-    !define /math REST 15 % ${RESULT}
-    !define /file BUNCHASTUFF somesourcefile.cpp
-    !define /redef USE_SOMETHING ${RESULT} ;redefine USE_SOMETHING
+```nsis
+!define USE_SOMETHING
+!define VERSION 1.2
+!define /date NOW "%H:%M:%S %d %b, %Y"
+!define /math RESULT 3 + 10
+!define /math REST 15 % ${RESULT}
+!define /file BUNCHASTUFF somesourcefile.cpp
+!define /redef USE_SOMETHING ${RESULT} ;redefine USE_SOMETHING
+```
 
 ## History
 

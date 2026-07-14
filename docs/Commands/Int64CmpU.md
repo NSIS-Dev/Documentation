@@ -6,7 +6,9 @@ Compares two unsigned integers val1 and val2. If val1 and val2 are equal, [`Goto
 
 ## Parameters
 
-    val1 val2 jump_if_equal [jump_if_val1_less] [jump_if_val1_more]
+```
+val1 val2 jump_if_equal [jump_if_val1_less] [jump_if_val1_more]
+```
 
 ## History
 

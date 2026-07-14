@@ -4,15 +4,19 @@ This command will include 'file' as if it was part of the original script. Note 
 
 ## Parameters
 
-    [/NONFATAL] file
+```
+[/NONFATAL] file
+```
 
 ## Example
 
-    !include WinMessages.nsh
-    !include Library.nsh
-    !include C:\MyConfig.nsi
-    !include ..\MyConfig.nsh
-    !include /NONFATAL file_that_may_exist_or_not.nsh
+```nsis
+!include WinMessages.nsh
+!include Library.nsh
+!include C:\MyConfig.nsi
+!include ..\MyConfig.nsh
+!include /NONFATAL file_that_may_exist_or_not.nsh
+```
 
 ## History
 

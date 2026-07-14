@@ -4,19 +4,23 @@ Adds an installer page or an uninstaller page if the un. prefix was used. Every 
 
 ## Parameters
 
-    [un.](custom|uninstConfirm|license|components|directory|instfiles)
+```
+[un.](custom|uninstConfirm|license|components|directory|instfiles)
+```
 
 ## Example
 
-    PageEx license
-        LicenseText "Readme"
-        LicenseData readme.rtf
-    PageExEnd
+```nsis
+PageEx license
+    LicenseText "Readme"
+    LicenseData readme.rtf
+PageExEnd
 
-    PageEx license
-        LicenseData license.txt
-        LicenseForceSelection checkbox
-    PageExEnd
+PageEx license
+    LicenseData license.txt
+    LicenseForceSelection checkbox
+PageExEnd
+```
 
 ## History
 

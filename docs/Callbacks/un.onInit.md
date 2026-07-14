@@ -4,20 +4,24 @@ This callback will be called when the uninstaller is nearly finished initializin
 
 ## Example
 
-    Function un.onInit
-        MessageBox MB_YESNO "This will uninstall. Continue?" IDYES NoAbort
-        Abort ; causes uninstaller to quit.
-        NoAbort:
-    FunctionEnd
+```nsis
+Function un.onInit
+    MessageBox MB_YESNO "This will uninstall. Continue?" IDYES NoAbort
+    Abort ; causes uninstaller to quit.
+    NoAbort:
+FunctionEnd
+```
 
 or:
 
-    Function un.onInit
-        IfFileExists $INSTDIR\myfile.exe found
-        Messagebox MB_OK "Uninstall path incorrect"
-        Abort
-        found:
-    FunctionEnd
+```nsis
+Function un.onInit
+    IfFileExists $INSTDIR\myfile.exe found
+    Messagebox MB_OK "Uninstall path incorrect"
+    Abort
+    found:
+FunctionEnd
+```
 
 [1]: ../Commands/Abort.md
 [2]: ../Variables/INSTDIR.md

@@ -4,12 +4,16 @@ Searches for a window. Behaves like the win32 FindWindowEx(). Searches by window
 
 ## Parameters
 
-    user_var(hwnd output) windowclass [windowtitle] [windowparent] [childafter]
+```
+user_var(hwnd output) windowclass [windowtitle] [windowparent] [childafter]
+```
 
 ## Example
 
-    FindWindow $0 "#32770" "" $HWNDPARENT
-    FindWindow $0 "my window class" "my window title"
+```nsis
+FindWindow $0 "#32770" "" $HWNDPARENT
+FindWindow $0 "my window class" "my window title"
+```
 
 ## History
 

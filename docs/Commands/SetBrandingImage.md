@@ -4,7 +4,9 @@ Sets the current bitmap file displayed as the branding image. If no IMGID is spe
 
 ## Parameters
 
-    [/IMGID=item_id_in_dialog] [/RESIZETOFIT] path_to_bitmap_file.bmp
+```
+[/IMGID=item_id_in_dialog] [/RESIZETOFIT] path_to_bitmap_file.bmp
+```
 
 ## History
 

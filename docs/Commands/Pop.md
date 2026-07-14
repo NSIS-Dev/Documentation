@@ -4,12 +4,16 @@ Pops a string off of the stack into user variable `$var`. If the stack is empty,
 
 ## Parameters
 
-    user_var(out)
+```
+user_var(out)
+```
 
 ## Example
 
-    Push 1
-    Pop $0 # = 1
+```nsis
+Push 1
+Pop $0 # = 1
+```
 
 ## History
 

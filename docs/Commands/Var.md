@@ -4,18 +4,22 @@ Declare a user variable. Allowed characters for variables names: [a-z][A-Z][0-9]
 
 ## Parameters
 
-    [/GLOBAL] var_name
+```
+[/GLOBAL] var_name
+```
 
 ## Example
 
-    Var example
- 
-    Function testVar
-        Var /GLOBAL example2
+```nsis
+Var example
 
-        StrCpy $example "example value"
-        StrCpy $example2 "another example value"
-    FunctionEnd
+Function testVar
+    Var /GLOBAL example2
+
+    StrCpy $example "example value"
+    StrCpy $example2 "another example value"
+FunctionEnd
+```
 
 ## History
 

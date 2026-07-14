@@ -4,7 +4,9 @@ This is similar to [`GetFileTime`][1], only it acts on the system building the i
 
 ## Parameters
 
-    filename user_var(high dword output) user_var(low dword output)
+```
+filename user_var(high dword output) user_var(low dword output)
+```
 
 ## History
 

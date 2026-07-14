@@ -4,7 +4,9 @@ Sets the dictionary size in megabytes (MB) used by the LZMA compressor (default 
 
 ## Parameters
 
-    dict_size_mb
+```
+dict_size_mb
+```
 
 ## History
 

@@ -4,12 +4,16 @@ Removes an item from the global define list. Note that `${SYMBOL}` where SYMBOL 
 
 ## Parameters
 
-    gflag
+```
+gflag
+```
 
 ## Example
 
-    !define SOMETHING
-    !undef SOMETHING
+```nsis
+!define SOMETHING
+!undef SOMETHING
+```
 
 ## History
 

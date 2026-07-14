@@ -4,13 +4,17 @@ This command will issue an error to the script compiler and will stop execution 
 
 ## Parameters
 
-    message
+```
+message
+```
 
 ## Example
 
-    !ifdef VERSION & NOVERSION
-        !error "both VERSION and NOVERSION are defined"
-    !endif
+```nsis
+!ifdef VERSION & NOVERSION
+    !error "both VERSION and NOVERSION are defined"
+!endif
+```
 
 ## History
 

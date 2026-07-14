@@ -4,14 +4,18 @@ Get installer filename (with valid case for Windows 98/Me).
 
 ## Syntax
 
-    ${GetExeName} $var
+```nsis
+${GetExeName} $var
+```
 
 ## Example
 
-    Section
-        ${GetExeName} $R0
-        ; $R0="C:\ftp\program.exe"
-    SectionEnd
+```nsis
+Section
+    ${GetExeName} $R0
+    ; $R0="C:\ftp\program.exe"
+SectionEnd
+```
 
 ## Credits
 

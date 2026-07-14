@@ -4,8 +4,10 @@ Reboots the computer. Be careful with this one. If it fails, [`.onRebootFailed`]
 
 ## Example
 
-    MessageBox MB_YESNO|MB_ICONQUESTION "Do you wish to reboot the system?" IDNO +2
-    Reboot
+```nsis
+MessageBox MB_YESNO|MB_ICONQUESTION "Do you wish to reboot the system?" IDNO +2
+Reboot
+```
 
 ## History
 

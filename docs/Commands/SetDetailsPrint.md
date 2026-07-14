@@ -4,13 +4,17 @@ Sets mode at which commands print their status. None has commands be quiet, list
 
 ## Parameters
 
-    none|listonly|textonly|both|lastused
+```
+none|listonly|textonly|both|lastused
+```
 
 ## Example
 
-    SetDetailsPrint none
-    File "secret file.dat"
-    SetDetailsPrint both
+```nsis
+SetDetailsPrint none
+File "secret file.dat"
+SetDetailsPrint both
+```
 
 ## History
 

@@ -6,7 +6,9 @@ Accepts variables. If variables are used, they must be initialized before the un
 
 ## Parameters
 
-    text [subtext]
+```
+text [subtext]
+```
 
 * text: Text above the controls
 * subtext: Text next to the uninstall location

@@ -6,12 +6,16 @@ Images loaded on individual pages should be destroyed to minimize resource leaks
 
 ## Parameters
 
-    [/EXERESOURCE] [/STRINGID] [/RESIZETOFIT[WIDTH|HEIGHT]] ctrl imagetype lrflags imageid [user_var(imagehandle)]
+```
+[/EXERESOURCE] [/STRINGID] [/RESIZETOFIT[WIDTH|HEIGHT]] ctrl imagetype lrflags imageid [user_var(imagehandle)]
+```
 
 ## Example
 
-    LoadAndSetImage /EXERESOURCE $hIconStatic 1 0 103
-    LoadAndSetImage /STRINGID /RESIZETOFITWIDTH $hBmpStatic 0 0x10 "$PluginsDir\myimg.bmp"
+```nsis
+LoadAndSetImage /EXERESOURCE $hIconStatic 1 0 103
+LoadAndSetImage /STRINGID /RESIZETOFITWIDTH $hBmpStatic 0 0x10 "$PluginsDir\myimg.bmp"
+```
 
 ## History
 

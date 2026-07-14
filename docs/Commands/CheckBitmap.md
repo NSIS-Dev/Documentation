@@ -6,7 +6,9 @@ This bitmap should have a size of 96x16 pixels, no more than 8bpp (256 colors) a
 
 ## Parameters
 
-    bitmap.bmp
+```
+bitmap.bmp
+```
 
 ## History
 

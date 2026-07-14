@@ -14,13 +14,17 @@ Use /TIMEOUT=time\_in\_ms to specify the duration, in milliseconds, of the time-
 
 ## Parameters
 
-    HWND msg wparam lparam [user_var(return value)] [/TIMEOUT=time_in_ms]
+```
+HWND msg wparam lparam [user_var(return value)] [/TIMEOUT=time_in_ms]
+```
 
 ## Example
 
-    !include WinMessages.nsh
-    FindWindow $0 "Winamp v1.x"
-    SendMessage $0 ${WM_CLOSE} 0 0
+```nsis
+!include WinMessages.nsh
+FindWindow $0 "Winamp v1.x"
+SendMessage $0 ${WM_CLOSE} 0 0
+```
 
 ## History
 

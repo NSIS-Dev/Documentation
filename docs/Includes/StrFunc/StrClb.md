@@ -4,20 +4,24 @@ Makes an action with the clipboard depending on value of parameter "Action".  Us
 
 ## Syntax
 
-    ResultVar String Action(|>|<|<>)
+```
+ResultVar String Action(|>|<|<>)
+```
 
 ## Parameters
 
-    String
-    If "Action" = ">" or "<>" - String to put on the clipboard.
+```
+String
+If "Action" = ">" or "<>" - String to put on the clipboard.
 
-    Action
-    Can be one of the following values:
+Action
+Can be one of the following values:
 
-      - "" = Cleans the clipboard.
-      - ">" = Set string to clipboard.
-      - "<" = Get string from clipboard.
-      - "<>" = Swap string with clipboard's.
+  - "" = Cleans the clipboard.
+  - ">" = Set string to clipboard.
+  - "<" = Get string from clipboard.
+  - "<>" = Swap string with clipboard's.
+```
 
 ## Credits
 

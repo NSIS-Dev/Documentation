@@ -4,13 +4,17 @@ Add a call to `${MementoSectionRestore}` to [`.onInit`][1] to restore the state 
 
 ## Syntax
 
-    ${MementoSectionRestore}
+```nsis
+${MementoSectionRestore}
+```
 
 ## Example
 
-    Function .onInit
-        ${MementoSectionRestore}
-    FunctionEnd
+```nsis
+Function .onInit
+    ${MementoSectionRestore}
+FunctionEnd
+```
 
 ## Credits
 

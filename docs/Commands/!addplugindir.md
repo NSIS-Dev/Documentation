@@ -4,12 +4,16 @@ Causes the NSIS compiler to scan the given directory for plug-in DLLs.
 
 ## Parameters
 
-    directory
+```
+directory
+```
 
 ## Example
 
-    !addplugindir myplugin
-    MyPlugin::SomeFunction
+```nsis
+!addplugindir myplugin
+MyPlugin::SomeFunction
+```
 
 ## History
 

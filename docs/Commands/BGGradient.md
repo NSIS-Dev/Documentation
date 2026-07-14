@@ -4,7 +4,9 @@ Specifies whether or not to use a gradient background window. If 'off', the inst
 
 ## Parameters
 
-    [off|(topc botc [textcolor|notext])]
+```
+[off|(topc botc [textcolor|notext])]
+```
 
 ## History
 

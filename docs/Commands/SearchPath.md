@@ -4,7 +4,9 @@ Assign to the user variable $x, the full path of the file named by the second pa
 
 ## Parameters
 
-    user_var(output) filename
+```
+user_var(output) filename
+```
 
 ## History
 

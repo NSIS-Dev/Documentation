@@ -4,11 +4,15 @@ Delete file (which can be a file or wildcard, but should be specified with a ful
 
 ## Parameters
 
-    [/REBOOTOK] file
+```
+[/REBOOTOK] file
+```
 
 ## Example
 
-    Delete $INSTDIR\somefile.dat
+```nsis
+Delete $INSTDIR\somefile.dat
+```
 
 ## History
 

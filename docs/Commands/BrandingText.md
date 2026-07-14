@@ -4,7 +4,9 @@ Sets the text that is shown at the bottom of the install window (by default it i
 
 ## Parameters
 
-    /TRIM(LEFT|RIGHT|CENTER) text
+```
+/TRIM(LEFT|RIGHT|CENTER) text
+```
 
 ## History
 

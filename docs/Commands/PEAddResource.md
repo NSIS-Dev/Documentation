@@ -4,11 +4,15 @@ Adds `file` as a resource to the installer and uninstaller. `restype` specifies 
 
 ## Parameters
 
-    [/OVERWRITE|/REPLACE] file restype resname [reslang]
+```
+[/OVERWRITE|/REPLACE] file restype resname [reslang]
+```
 
 ## Example
 
-    PEAddResource 0x020 0
+```nsis
+PEAddResource 0x020 0
+```
 
 ## History
 

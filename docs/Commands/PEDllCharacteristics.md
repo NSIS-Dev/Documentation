@@ -5,11 +5,15 @@
 
 ## Parameters
 
-    addbits removebits
+```
+addbits removebits
+```
 
 ## Example
 
-    PEDllCharacteristics 0x020 0
+```nsis
+PEDllCharacteristics 0x020 0
+```
 
 ## History
 

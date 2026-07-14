@@ -6,7 +6,9 @@ Accepts variables. If variables are used, they must be initialized in [`un.onIni
 
 ## Parameters
 
-    caption
+```
+caption
+```
 
 ## History
 

@@ -4,17 +4,21 @@ Specifies if the displayed license must be accept explicit or not. This can be d
 
 ## Parameters
 
-    (checkbox [accept_text] | radiobuttons [accept_text] [decline_text] | off)
+```
+(checkbox [accept_text] | radiobuttons [accept_text] [decline_text] | off)
+```
 
 ## Example
 
-    LicenseForceSelection checkbox
-    LicenseForceSelection checkbox "i accept"
-    LicenseForceSelection radiobuttons
-    LicenseForceSelection radiobuttons "i accept"
-    LicenseForceSelection radiobuttons "i accept" "i decline"
-    LicenseForceSelection radiobuttons "" "i decline"
-    LicenseForceSelection off
+```nsis
+LicenseForceSelection checkbox
+LicenseForceSelection checkbox "i accept"
+LicenseForceSelection radiobuttons
+LicenseForceSelection radiobuttons "i accept"
+LicenseForceSelection radiobuttons "i accept" "i decline"
+LicenseForceSelection radiobuttons "" "i decline"
+LicenseForceSelection off
+```
 
 ## History
 

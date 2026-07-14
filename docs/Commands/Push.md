@@ -4,11 +4,15 @@ Pushes a string onto the stack. The string can then be popped off of the stack u
 
 ## Parameters
 
-    string
+```
+string
+```
 
 ## Example
 
-    Push "a string"
+```nsis
+Push "a string"
+```
 
 ## History
 

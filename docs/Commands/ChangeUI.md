@@ -12,11 +12,15 @@ Replaces dialog (IDD\_LICENSE, IDD\_DIR, IDD\_SELCOM, IDD\_INST, IDD\_INSTFILES,
 
 ## Parameters
 
-    dialog ui_file.exe
+```
+dialog ui_file.exe
+```
 
 ## Example
 
-    ChangeUI all "${NSISDIR}\Contrib\UIs\sdbarker_tiny.exe"
+```nsis
+ChangeUI all "${NSISDIR}\Contrib\UIs\sdbarker_tiny.exe"
+```
 
 ## History
 

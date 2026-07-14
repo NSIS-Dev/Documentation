@@ -4,11 +4,15 @@ Gets the Windows version as reported by GetVersionEx. `WinVer.nsh` is the prefer
 
 ## Parameters
 
-    user_var(output) Major|Minor|Build|ServicePack
+```
+user_var(output) Major|Minor|Build|ServicePack
+```
 
 ## Example
 
-    GetWinVer $1 Build
+```nsis
+GetWinVer $1 Build
+```
 
 ## History
 

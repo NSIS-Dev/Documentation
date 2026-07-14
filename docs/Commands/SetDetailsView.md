@@ -4,7 +4,9 @@ Shows or hides the details, depending on which parameter you pass. Overrides the
 
 ## Parameters
 
-    show|hide
+```
+show|hide
+```
 
 ## History
 

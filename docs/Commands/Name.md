@@ -6,15 +6,21 @@ Accepts variables. If variables are used, they must be initialized in [`.onInit`
 
 ## Parameters
 
-    name [name_doubled_ampersands]
+```
+name [name_doubled_ampersands]
+```
 
 ## Example
 
-    Name "Foobar"
+```nsis
+Name "Foobar"
+```
 
 If your product's name is "Foo & Bar", use:
 
-    Name "Foo & Bar" "Foo && Bar"
+```nsis
+Name "Foo & Bar" "Foo && Bar"
+```
 
 If you have ampersands in the name and use a [`LangString`][2] for the name, you will have to create another one with doubled ampersands to use as the second parameter.
 

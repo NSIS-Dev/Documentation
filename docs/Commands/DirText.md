@@ -8,7 +8,9 @@ Accepts variables. If variables are used, they must be initialized before the di
 
 ## Parameters
 
-    [text] [subtext] [browse_button_text] [browse_dlg_text]
+```
+[text] [subtext] [browse_button_text] [browse_dlg_text]
+```
 
 * text: Text above the controls, to the right of the installation icon.
 * subtext: Text on the directory selection frame.
@@ -17,7 +19,9 @@ Accepts variables. If variables are used, they must be initialized before the di
 
 ## Example
 
-    DetailPrint "this message will show on the installation window"
+```nsis
+DetailPrint "this message will show on the installation window"
+```
 
 ## History
 

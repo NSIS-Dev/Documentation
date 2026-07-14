@@ -4,7 +4,9 @@ Loads the specified DLL and calls DllUnregisterServer. The error flag is set if 
 
 ## Parameters
 
-    dllfile
+```
+dllfile
+```
 
 ## History
 

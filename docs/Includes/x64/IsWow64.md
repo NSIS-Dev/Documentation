@@ -4,13 +4,17 @@ Checks if the installer is a 32-bit application running on a 64-bit OS. Requires
 
 ## Syntax
 
-    logic_lib_statement ${IsWow64}
+```
+logic_lib_statement ${IsWow64}
+```
 
 ## Example
 
-    ${If} ${IsWow64}
-        MessageBox MB_OK "running on x64"
-    ${EndIf}
+```nsis
+${If} ${IsWow64}
+    MessageBox MB_OK "running on x64"
+${EndIf}
+```
 
 ## Credits
 

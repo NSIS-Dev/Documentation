@@ -6,13 +6,17 @@ Note: neither "smooth" or "colored" work with [`XPStyle`][2] on when the install
 
 ## Parameters
 
-    [flag [...]]
+```
+[flag [...]]
+```
 
 ## Example
 
-    InstProgressFlags #default old-school windows look
-    InstProgressFlags smooth" #new smooth look
-    InstProgressFlags smooth colored #colored smooth look whee
+```nsis
+InstProgressFlags #default old-school windows look
+InstProgressFlags smooth" #new smooth look
+InstProgressFlags smooth colored #colored smooth look whee
+```
 
 ## History
 

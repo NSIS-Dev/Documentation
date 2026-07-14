@@ -4,7 +4,9 @@ Sets whether or not the details of the install are shown. Can be 'hide' to hide 
 
 ## Parameters
 
-    hide|show|nevershow
+```
+hide|show|nevershow
+```
 
 ## History
 

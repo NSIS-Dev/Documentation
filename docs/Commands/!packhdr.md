@@ -4,11 +4,15 @@ This option makes the compiler use an external EXE packer (such as [Petite][1] o
 
 ## Parameters
 
-    tempfile command
+```
+tempfile command
+```
 
 ## Example
 
-    !packhdr "$%TEMP%\exehead.tmp" '"C:\Program Files\UPX\upx.exe" "$%TEMP%\exehead.tmp"'
+```nsis
+!packhdr "$%TEMP%\exehead.tmp" '"C:\Program Files\UPX\upx.exe" "$%TEMP%\exehead.tmp"'
+```
 
 ## History
 

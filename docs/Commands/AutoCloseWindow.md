@@ -4,7 +4,9 @@ Sets whether or not the install window automatically closes when completed. This
 
 ## Parameters
 
-    true|false
+```
+true|false
+```
 
 ## History
 

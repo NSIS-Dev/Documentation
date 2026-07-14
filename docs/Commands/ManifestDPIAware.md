@@ -6,7 +6,9 @@ See [MSDN][1] for more information about DPI-aware applications.
 
 ## Parameters
 
-    notset|true|false
+```
+notset|true|false
+```
 
 ## History
 

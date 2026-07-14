@@ -5,7 +5,9 @@ Accepts variables. If variables are used, they must be initialized in [`.onInit`
 
 ## Parameters
 
-    [back_button_text [next_button_text] [cancel_button_text] [close_button_text]]
+```
+[back_button_text [next_button_text] [cancel_button_text] [close_button_text]]
+```
 
 ## History
 

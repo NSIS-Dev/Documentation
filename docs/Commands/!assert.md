@@ -4,11 +4,15 @@ This command will stop the compiler if the expression is not true. The expressio
 
 ## Parameters
 
-    value [op value2] message
+```
+value [op value2] message
+```
 
 ## Example
 
-    !assert ${NSIS_CHAR_SIZE} = 2 "Unicode required"
+```nsis
+!assert ${NSIS_CHAR_SIZE} = 2 "Unicode required"
+```
 
 ## History
 

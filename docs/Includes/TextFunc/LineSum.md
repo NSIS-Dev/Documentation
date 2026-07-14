@@ -4,10 +4,14 @@ Get sum of lines in text file.
 
 ## Syntax
 
-    ${LineSum} "[File]" $var
+```nsis
+${LineSum} "[File]" $var
+```
 
-    "[File]"      ; Input file
-    $var          ; Result: Sum of lines
+```
+"[File]"      ; Input file
+$var          ; Result: Sum of lines
+```
 
 Note:
 
@@ -15,10 +19,12 @@ Note:
 
 ## Example
 
-    Section
-        ${LineSum} "C:\a.log" $R0
-        ; $R0="54"
-    SectionEnd
+```nsis
+Section
+    ${LineSum} "C:\a.log" $R0
+    ; $R0="54"
+SectionEnd
+```
 
 ## Credits
 

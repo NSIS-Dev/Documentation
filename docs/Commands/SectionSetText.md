@@ -4,17 +4,21 @@ Sets the description for the section section_index. If the text is set to "" the
 
 ## Parameters
 
-    section_index section_text
+```
+section_index section_text
+```
 
 ## Example
 
-    Section "" test_section_id
-    SectionEnd
+```nsis
+Section "" test_section_id
+SectionEnd
 
-    Function .onInit
-        # change section's name to $WINDIR
-        SectionSetText ${test_section_id} $WINDIR
-    FunctionEnd
+Function .onInit
+    # change section's name to $WINDIR
+    SectionSetText ${test_section_id} $WINDIR
+FunctionEnd
+```
 
 ## History
 

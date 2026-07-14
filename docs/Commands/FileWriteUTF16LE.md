@@ -6,16 +6,20 @@ Writes a Unicode (UTF-16LE) string to a file opened with [`FileOpen`][2]. If an 
 
 ## Parameters
 
-    handle string
+```
+handle string
+```
 
 ## Example
 
-    ClearErrors
-    FileOpen $0 $INSTDIR\file.dat w
-    IfErrors done
-    FileWriteUTF16LE $0 "some text"
-    FileClose $0
-    done:
+```nsis
+ClearErrors
+FileOpen $0 $INSTDIR\file.dat w
+IfErrors done
+FileWriteUTF16LE $0 "some text"
+FileClose $0
+done:
+```
 
 ## History
 

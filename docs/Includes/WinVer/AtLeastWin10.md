@@ -4,13 +4,17 @@ Checks if the installer is running on Windows 10.
 
 ## Syntax
 
-    logic_lib_statement ${AtLeastWin10}
+```
+logic_lib_statement ${AtLeastWin10}
+```
 
 ## Example
 
-    ${If} ${AtLeastWin10}
-        DetailPrint "Windows 10 or higher"
-    ${EndIf}
+```nsis
+${If} ${AtLeastWin10}
+    DetailPrint "Windows 10 or higher"
+${EndIf}
+```
 
 ## Credits
 

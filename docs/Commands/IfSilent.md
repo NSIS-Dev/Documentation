@@ -4,12 +4,16 @@ Checks the silent flag, and jumps to jump\_if\_silent if the installer is silent
 
 ## Parameters
 
-    jump_if_set [jump_if_not_set]
+```
+jump_if_set [jump_if_not_set]
+```
 
 ## Example
 
-    IfSilent +2
-    ExecWait '"$INSTDIR\nonsilentprogram.exe"'
+```nsis
+IfSilent +2
+ExecWait '"$INSTDIR\nonsilentprogram.exe"'
+```
 
 ## History
 

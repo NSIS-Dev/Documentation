@@ -4,13 +4,17 @@ Execute the specified program and wait for the executed process to quit. See [`E
 
 ## Parameters
 
-    command [user_var(exit code)]
+```
+command [user_var(exit code)]
+```
 
 ## Example
 
-    ExecWait '"$INSTDIR\someprogram.exe"'
-    ExecWait '"$INSTDIR\someprogram.exe"' $0
-    DetailPrint "some program returned $0"
+```nsis
+ExecWait '"$INSTDIR\someprogram.exe"'
+ExecWait '"$INSTDIR\someprogram.exe"' $0
+DetailPrint "some program returned $0"
+```
 
 ## History
 

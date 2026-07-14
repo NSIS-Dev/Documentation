@@ -4,19 +4,23 @@ Retrieves the install types flags array of a section. See the explanation about 
 
 ## Parameters
 
-    section_index user_var(output)
+```
+section_index user_var(output)
+```
 
 ## Example
 
-    Section test test_section_id
-    SectionEnd
+```nsis
+Section test test_section_id
+SectionEnd
 
-    Function .onInit
-        # associate section 'test' with installation types 5, on top of its existing associations
-        SectionGetInstTypes ${test_section_id} $0
-        IntOp $0 $0 | 16
-        SectionSetInstTypes ${test_section_id} $0
-    FunctionEnd
+Function .onInit
+    # associate section 'test' with installation types 5, on top of its existing associations
+    SectionGetInstTypes ${test_section_id} $0
+    IntOp $0 $0 | 16
+    SectionSetInstTypes ${test_section_id} $0
+FunctionEnd
+```
 
 ## History
 

@@ -4,13 +4,17 @@ Sets the reboot flag to either true or false. The flag's value can be read using
 
 ## Parameters
 
-    true|false
+```
+true|false
+```
 
 ## Example
 
-    SetRebootFlag true
-    IfRebootFlag 0 +2
-    MessageBox MB_OK "this message box will always show"
+```nsis
+SetRebootFlag true
+IfRebootFlag 0 +2
+MessageBox MB_OK "this message box will always show"
+```
 
 ## History
 

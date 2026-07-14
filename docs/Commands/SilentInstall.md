@@ -6,7 +6,9 @@ Note: see also [`LogSet`][3].
 
 ## Parameters
 
-    normal|silent|silentlog
+```
+normal|silent|silentlog
+```
 
 ## History
 

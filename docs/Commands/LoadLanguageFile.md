@@ -5,7 +5,9 @@ After you have inserted the language file `${LANG_langfile}` will be defined as 
 
 ## Parameters
 
-    language_file.nlf
+```
+language_file.nlf
+```
 
 ## History
 
