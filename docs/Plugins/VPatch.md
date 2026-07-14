@@ -23,7 +23,7 @@ If you have trouble using this command-line utility, you can download a GUI (gra
 Use the VPatch plug-in to update a file using a patch file:
 
 ```nsis
-vpatch::vpatchfile "patch.pat" "oldfile.txt" "temporary_newfile.txt"`
+vpatch::vpatchfile "patch.pat" "oldfile.txt" "temporary_newfile.txt"
 ```
 
 The result of the patch operating will be added to the stack and can be one of the following texts:

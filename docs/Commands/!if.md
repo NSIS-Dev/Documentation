@@ -6,7 +6,7 @@ This command, when paired with an [`!endif`][1] command, will tell the compiler 
 
 ```
 [!] value [op value2]
-````
+```
 
 ## Example
 
