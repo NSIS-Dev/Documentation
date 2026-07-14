@@ -29,5 +29,3 @@ Pop $1 # = 1
 ## History
 
 Added in NSIS v1.58
-
-[1]: WriteRegStr.md

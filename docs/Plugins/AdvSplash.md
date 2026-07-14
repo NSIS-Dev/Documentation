@@ -69,7 +69,6 @@ Written by [Justin Frankel](https://en.wikipedia.org/wiki/Justin_Frankel) and [A
 As part of the NSIS distribution, this plug-in is licensed under [zlib/libpng][5]
 
 [1]: ../Callbacks/onInit.md
-[2]: https://en.wikipedia.org/wiki/Justin_Frankel
 [3]: http://nsis.sourceforge.net/User:Kichik
 [4]: http://nsis.sourceforge.net/User:Brainsucker
 [5]: http://opensource.org/licenses/Zlib

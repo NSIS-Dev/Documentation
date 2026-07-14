@@ -18,5 +18,3 @@ DetailPrint "NSIS is installed at: $0"
 ## History
 
 Added in NSIS v1.2g
-
-[1]: WriteRegStr.md

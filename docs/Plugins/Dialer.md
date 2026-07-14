@@ -121,5 +121,4 @@ Requires Internet Explorer 4 or later
 
 Written by [Amir Szekely][2]. Readme by [Joost Verburg][2]
 
-[1]: http://nsis.sourceforge.net/User:Kichik
 [2]: http://nsis.sourceforge.net/User:Joost

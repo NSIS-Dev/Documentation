@@ -13,5 +13,3 @@ text
 ## History
 
 Added in NSIS v1.60
-
-[1]: WriteUninstaller.md

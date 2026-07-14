@@ -23,5 +23,4 @@ Function un.onInit
 FunctionEnd
 ```
 
-[1]: ../Commands/Abort.md
 [2]: ../Variables/INSTDIR.md

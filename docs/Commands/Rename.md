@@ -21,4 +21,3 @@ Rename $INSTDIR\file.ext $INSTDIR\file.dat
 Added in NSIS v1.2
 
 [1]: SetOutPath.md
-[2]: ../Variables/EXEDIR.md

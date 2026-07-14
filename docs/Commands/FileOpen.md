@@ -22,4 +22,3 @@ FileClose $0
 Added in NSIS v1.60
 
 [1]: SetOutPath.md
-[2]: ../Variables/EXEDIR.md

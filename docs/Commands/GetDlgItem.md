@@ -23,6 +23,3 @@ GetDlgItem $0 $HWNDPARENT 1 # next/install button
 ## History
 
 Added in NSIS v2.0
-
-[1]: Call.md
-[2]: Goto.md

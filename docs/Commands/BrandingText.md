@@ -11,5 +11,3 @@ Sets the text that is shown at the bottom of the install window (by default it i
 ## History
 
 Added in NSIS v1.57
-
-[1]: BGGradient.md

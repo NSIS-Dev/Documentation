@@ -37,7 +37,7 @@ If `nsExec` is unable to execute the process, it will return "error"on the top o
 
 ## Credits
 
-Written by [Robert Rainwater][2]. Thanks to Justin Frankel and [Amir Szekely][3].
+Written by [Robert Rainwater][1]. Thanks to Justin Frankel and [Amir Szekely][2].
 
 [1]: http://nsis.sourceforge.net/User:Rainwater
 [2]: http://nsis.sourceforge.net/User:Kichik

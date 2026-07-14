@@ -17,5 +17,3 @@ ReadRegDWORD $0 HKLM Software\NSIS VersionBuild
 ## History
 
 Added in NSIS v1.50
-
-[1]: WriteRegStr.md
