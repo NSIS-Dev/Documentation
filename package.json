@@ -6,7 +6,7 @@
   "license": "Zlib",
   "type": "module",
   "exports": "./dist/index.js",
-  "types": "./types",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist/",
     "docs/",
